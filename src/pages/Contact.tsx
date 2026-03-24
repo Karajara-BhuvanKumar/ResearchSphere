@@ -1,6 +1,5 @@
 import {
   Briefcase,
-  Users,
   BookOpen,
   CheckCircle,
   GraduationCap,
@@ -14,10 +13,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import PageHero from "@/components/PageHero";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { submitCollaborationRequest } from "@/services/apiClient";
@@ -115,235 +112,278 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-background">
       <Navigation />
 
       <div className="flex-1">
-        <PageHero
-          icon={Users}
-          title="Research Collaboration"
-          description="Interested in joint research, co-authorship, or academic partnerships? Submit your proposal and our research team will be in touch."
-        />
-
-        <div className="container mx-auto px-4 py-10">
-          <div className="grid lg:grid-cols-[1fr_1.6fr] gap-8 items-start">
-            {/* Left column: Lab info */}
-            <div className="space-y-5">
-              {/* Research focus card */}
-              <Card>
-                <CardContent className="p-6">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-9 h-9 rounded-lg border border-border bg-muted flex items-center justify-center flex-shrink-0">
-                      <BookOpen className="h-4 w-4 text-foreground" />
-                    </div>
-                    <div>
-                      <p className="font-semibold text-sm text-foreground">
-                        Research Laboratory
-                      </p>
-                      <p className="text-xs text-muted-foreground">
-                        Computer Science &amp; AI
-                      </p>
-                    </div>
-                  </div>
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                    Our research group advances knowledge at the intersection of
-                    artificial intelligence, data science, and software systems
-                    — publishing in top-tier venues and engaging with
-                    researchers, students, and industry partners worldwide.
-                  </p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {RESEARCH_AREAS.map((area) => (
-                      <Badge key={area} variant="secondary" className="text-xs">
-                        {area}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Collaboration types */}
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">
-                  Collaboration types
+        <div className="container mx-auto max-w-[1380px] px-5 py-8 md:px-6 md:py-10">
+          <section className="rounded-[28px] border border-border bg-card shadow-sm overflow-hidden">
+            <div className="border-b border-border bg-gradient-to-r from-slate-100 via-white to-slate-50 px-6 py-6 md:px-8 md:py-7">
+              <div className="max-w-4xl">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <Badge variant="secondary" className="px-3 py-1 text-xs">
+                    Research Collaboration
+                  </Badge>
+                  <Badge variant="outline" className="px-3 py-1 text-xs">
+                    CS and AI partnerships
+                  </Badge>
+                </div>
+                <h1 className="text-2xl font-semibold tracking-tight text-foreground md:text-3xl">
+                  Collaborate on high-impact research with our CS and AI lab.
+                </h1>
+                <p className="mt-3 text-[15px] leading-7 text-muted-foreground md:text-base">
+                  Share your proposal for co-authorship, funded projects,
+                  mentorship, or applied research. We review each request and
+                  respond with clear next steps.
                 </p>
-                <div className="space-y-3">
-                  {COLLABORATION_TYPES.map(
-                    ({ icon: Icon, title, description }) => (
-                      <div key={title} className="flex items-start gap-3">
-                        <div className="w-7 h-7 rounded-md bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                          <Icon className="h-3.5 w-3.5 text-primary" />
-                        </div>
-                        <div>
-                          <p className="text-sm font-medium text-foreground leading-none mb-0.5">
-                            {title}
-                          </p>
-                          <p className="text-xs text-muted-foreground">
-                            {description}
-                          </p>
-                        </div>
-                      </div>
-                    ),
-                  )}
-                </div>
-              </div>
-
-              <Separator />
-
-              {/* Process timeline */}
-              <div>
-                <div className="flex items-center gap-2 mb-3">
-                  <Clock className="h-3.5 w-3.5 text-muted-foreground" />
-                  <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                    How it works
-                  </p>
-                </div>
-                <ol className="space-y-2.5">
-                  {PROCESS_STEPS.map((step, i) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <span className="w-5 h-5 rounded-full bg-muted border border-border text-xs font-mono font-semibold text-foreground flex items-center justify-center flex-shrink-0 mt-0.5">
-                        {i + 1}
-                      </span>
-                      <span className="text-sm text-muted-foreground leading-snug">
-                        {step}
-                      </span>
-                    </li>
-                  ))}
-                </ol>
               </div>
             </div>
 
-            {/* Right column: Form */}
-            <Card>
-              <CardContent className="p-7">
-                <div className="mb-6">
-                  <h2 className="text-lg font-semibold text-foreground">
-                    Submit a Collaboration Request
-                  </h2>
-                  <p className="text-sm text-muted-foreground mt-1">
-                    Fill in your details below. All fields marked * are
-                    required.
-                  </p>
+            <div className="p-6 md:p-8">
+              <div className="grid items-start gap-6 lg:grid-cols-[1fr_1.45fr]">
+                <div className="space-y-5">
+                  <Card className="rounded-2xl border-border bg-background shadow-none">
+                    <CardContent className="p-5 md:p-6">
+                      <div className="mb-4 flex items-center gap-3">
+                        <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg border border-border bg-muted">
+                          <BookOpen className="h-4 w-4 text-foreground" />
+                        </div>
+                        <div>
+                          <p className="text-sm font-semibold text-foreground">
+                            Research Laboratory
+                          </p>
+                          <p className="text-xs text-muted-foreground">
+                            Computer Science and AI
+                          </p>
+                        </div>
+                      </div>
+
+                      <p className="mb-4 text-sm leading-7 text-muted-foreground">
+                        Our group works at the intersection of artificial
+                        intelligence, data science, and software systems,
+                        combining academic rigor with practical collaboration
+                        across universities and industry.
+                      </p>
+
+                      <div className="flex flex-wrap gap-1.5">
+                        {RESEARCH_AREAS.map((area) => (
+                          <Badge
+                            key={area}
+                            variant="secondary"
+                            className="text-xs font-normal"
+                          >
+                            {area}
+                          </Badge>
+                        ))}
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="rounded-2xl border-border bg-background shadow-none">
+                    <CardContent className="p-5 md:p-6">
+                      <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                        Collaboration types
+                      </p>
+                      <div className="space-y-3.5">
+                        {COLLABORATION_TYPES.map(
+                          ({ icon: Icon, title, description }) => (
+                            <div key={title} className="flex items-start gap-3">
+                              <div className="mt-0.5 flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-md bg-primary/10">
+                                <Icon className="h-3.5 w-3.5 text-primary" />
+                              </div>
+                              <div>
+                                <p className="mb-0.5 text-sm font-medium leading-none text-foreground">
+                                  {title}
+                                </p>
+                                <p className="text-xs text-muted-foreground">
+                                  {description}
+                                </p>
+                              </div>
+                            </div>
+                          ),
+                        )}
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="rounded-2xl border-border bg-background shadow-none">
+                    <CardContent className="p-5 md:p-6">
+                      <div className="mb-3 flex items-center gap-2">
+                        <Clock className="h-3.5 w-3.5 text-muted-foreground" />
+                        <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                          How it works
+                        </p>
+                      </div>
+                      <ol className="space-y-2.5">
+                        {PROCESS_STEPS.map((step, i) => (
+                          <li key={i} className="flex items-start gap-3">
+                            <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border border-border bg-muted font-mono text-xs font-semibold text-foreground">
+                              {i + 1}
+                            </span>
+                            <span className="text-sm leading-snug text-muted-foreground">
+                              {step}
+                            </span>
+                          </li>
+                        ))}
+                      </ol>
+                    </CardContent>
+                  </Card>
                 </div>
 
-                <form onSubmit={handleSubmit} className="space-y-5">
-                  {/* Name + Email */}
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div className="space-y-1.5">
-                      <label
-                        htmlFor="name"
-                        className="text-sm font-medium text-foreground"
-                      >
-                        Full Name *
-                      </label>
-                      <Input
-                        id="name"
-                        name="name"
-                        placeholder="Dr. Jane Smith"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                      />
+                <Card className="rounded-2xl border-border bg-background shadow-none">
+                  <CardContent className="p-5 md:p-6">
+                    <div className="mb-6 rounded-xl border border-border bg-muted/35 px-4 py-3">
+                      <h2 className="text-lg font-semibold text-foreground">
+                        Submit a Collaboration Request
+                      </h2>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        Fill in your details below. Fields marked * are
+                        required.
+                      </p>
                     </div>
-                    <div className="space-y-1.5">
-                      <label
-                        htmlFor="email"
-                        className="text-sm font-medium text-foreground"
-                      >
-                        Email Address *
-                      </label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        placeholder="you@university.edu"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                      />
-                    </div>
-                  </div>
+                    <form onSubmit={handleSubmit} className="space-y-5">
+                      <div className="grid gap-4 sm:grid-cols-2">
+                        <div className="space-y-1.5">
+                          <label
+                            htmlFor="name"
+                            className="text-sm font-medium text-foreground"
+                          >
+                            Full Name *
+                          </label>
+                          <Input
+                            id="name"
+                            name="name"
+                            placeholder="Dr. Jane Smith"
+                            value={formData.name}
+                            onChange={handleChange}
+                            className="h-11"
+                            required
+                          />
+                        </div>
+                        <div className="space-y-1.5">
+                          <label
+                            htmlFor="email"
+                            className="text-sm font-medium text-foreground"
+                          >
+                            Email Address *
+                          </label>
+                          <Input
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="you@university.edu"
+                            value={formData.email}
+                            onChange={handleChange}
+                            className="h-11"
+                            required
+                          />
+                        </div>
+                      </div>
 
-                  {/* Institution */}
-                  <div className="space-y-1.5">
-                    <label
-                      htmlFor="institution"
-                      className="text-sm font-medium text-foreground"
-                    >
-                      Institution / Organization *
-                    </label>
-                    <Input
-                      id="institution"
-                      name="institution"
-                      placeholder="Your University"
-                      value={formData.institution}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
+                      <div className="space-y-1.5">
+                        <label
+                          htmlFor="institution"
+                          className="text-sm font-medium text-foreground"
+                        >
+                          Institution / Organization *
+                        </label>
+                        <Input
+                          id="institution"
+                          name="institution"
+                          placeholder="Your University"
+                          value={formData.institution}
+                          onChange={handleChange}
+                          className="h-11"
+                          required
+                        />
+                      </div>
 
-                  {/* Research Areas */}
-                  <div className="space-y-1.5">
-                    <label
-                      htmlFor="researchAreas"
-                      className="text-sm font-medium text-foreground"
-                    >
-                      Research Areas / Specialization *
-                    </label>
-                    <Input
-                      id="researchAreas"
-                      name="researchAreas"
-                      placeholder="e.g. Machine Learning, Computer Vision, NLP"
-                      value={formData.researchAreas}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
+                      <div className="space-y-1.5">
+                        <label
+                          htmlFor="researchAreas"
+                          className="text-sm font-medium text-foreground"
+                        >
+                          Research Areas / Specialization *
+                        </label>
+                        <Input
+                          id="researchAreas"
+                          name="researchAreas"
+                          placeholder="e.g. Machine Learning, Computer Vision, NLP"
+                          value={formData.researchAreas}
+                          onChange={handleChange}
+                          className="h-11"
+                          required
+                        />
+                      </div>
 
-                  {/* Project Details */}
-                  <div className="space-y-1.5">
-                    <label
-                      htmlFor="projectDetails"
-                      className="text-sm font-medium text-foreground"
-                    >
-                      Project Details / Research Proposal
-                    </label>
-                    <Textarea
-                      id="projectDetails"
-                      name="projectDetails"
-                      placeholder="Describe your research idea, objectives, and how a collaboration could be mutually beneficial..."
-                      rows={5}
-                      value={formData.projectDetails}
-                      onChange={handleChange}
-                    />
-                  </div>
+                      <div className="space-y-1.5">
+                        <label
+                          htmlFor="projectDetails"
+                          className="text-sm font-medium text-foreground"
+                        >
+                          Project Details / Research Proposal
+                        </label>
+                        <Textarea
+                          id="projectDetails"
+                          name="projectDetails"
+                          placeholder="Describe your research idea, objectives, and how a collaboration could be mutually beneficial..."
+                          rows={6}
+                          value={formData.projectDetails}
+                          onChange={handleChange}
+                        />
+                      </div>
 
-                  <Separator />
+                      <div className="border-t border-border pt-4">
+                        <div className="flex flex-col gap-3">
+                          <Button
+                            type="submit"
+                            disabled={isSubmitting}
+                            className="h-11 w-full gap-2 font-semibold"
+                          >
+                            {isSubmitting ? (
+                              "Submitting..."
+                            ) : (
+                              <>
+                                <Send className="h-4 w-4" />
+                                Submit Collaboration Request
+                              </>
+                            )}
+                          </Button>
+                          <p className="flex items-center justify-center gap-1.5 text-center text-xs text-muted-foreground">
+                            <CheckCircle className="h-3.5 w-3.5 text-muted-foreground" />
+                            All requests are reviewed personally within 3-5
+                            business days
+                          </p>
+                        </div>
+                      </div>
+                    </form>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </section>
 
-                  <div className="flex flex-col gap-3">
-                    <Button
-                      type="submit"
-                      disabled={isSubmitting}
-                      className="w-full h-11 font-semibold gap-2"
-                    >
-                      {isSubmitting ? (
-                        "Submitting..."
-                      ) : (
-                        <>
-                          <Send className="h-4 w-4" />
-                          Submit Collaboration Request
-                        </>
-                      )}
-                    </Button>
-                    <p className="text-xs text-muted-foreground text-center flex items-center justify-center gap-1.5">
-                      <CheckCircle className="h-3.5 w-3.5 text-muted-foreground" />
-                      All requests are reviewed personally within 3-5 business
-                      days
-                    </p>
-                  </div>
-                </form>
-              </CardContent>
-            </Card>
-          </div>
+          <section className="mt-8 rounded-[28px] border border-border bg-gradient-to-r from-slate-100 via-white to-slate-50 px-6 py-6 shadow-sm md:px-8 md:py-7">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="text-sm font-medium text-foreground">
+                  Looking for open venues before proposing collaboration?
+                </p>
+                <p className="mt-0.5 text-xs text-muted-foreground">
+                  Explore conferences and journals to align your proposal with
+                  active research directions.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                <Button asChild size="sm" className="h-9">
+                  <a href="/general-finder">Open General Finder</a>
+                </Button>
+                <Button asChild variant="outline" size="sm" className="h-9">
+                  <a href="/journals">Browse Journals</a>
+                </Button>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
 
