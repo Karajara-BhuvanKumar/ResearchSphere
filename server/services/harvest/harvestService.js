@@ -264,9 +264,31 @@ const parsePositiveInt = (value, fallback) => {
 const normalizeSearchText = (value = "") =>
   String(value)
     .toLowerCase()
+    .replace(/\bdeeplearning\b/g, "deep learning")
+    .replace(/\bmachinelearning\b/g, "machine learning")
+    .replace(/\bcomputervision\b/g, "computer vision")
+    .replace(/\bcyber\s*security\b/g, "cybersecurity")
     .replace(/[^a-z0-9\s]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+
+const QUERY_STOPWORDS = new Set([
+  "in",
+  "for",
+  "the",
+  "a",
+  "an",
+  "of",
+  "on",
+  "and",
+  "or",
+  "to",
+  "show",
+  "find",
+  "search",
+  "me",
+  "about",
+]);
 
 const canonicalizeToken = (token) => {
   if (!token) return token;
@@ -286,7 +308,10 @@ const buildQueryTokens = (query = "") => {
 
   const baseTokens = normalized
     .split(" ")
-    .filter(Boolean)
+    .filter(
+      (token) =>
+        token && !QUERY_STOPWORDS.has(token) && !/^20\d{2}$/.test(token),
+    )
     .map(canonicalizeToken);
 
   const expandedTokens = new Set(baseTokens);
@@ -382,7 +407,13 @@ export const searchHarvestData = async (filters = {}) => {
       if (normalizedHaystack.includes(normalizedQuery)) return true;
 
       if (!queryTokens.length) return false;
-      return queryTokens.every((token) => normalizedHaystack.includes(token));
+      const matchedTokenCount = queryTokens.filter((token) =>
+        normalizedHaystack.includes(token),
+      ).length;
+
+      if (matchedTokenCount === 0) return false;
+      if (queryTokens.length <= 2) return matchedTokenCount >= 1;
+      return matchedTokenCount >= 2;
     })
     .map((item) => ({ ...item, score: scoreItem(item, normalizedQuery) }))
     .sort((a, b) => b.score - a.score);

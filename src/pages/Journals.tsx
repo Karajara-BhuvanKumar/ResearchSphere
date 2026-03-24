@@ -21,14 +21,14 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
-import {
-  matchJournals,
-  type JournalMatchItem,
-} from "@/services/apiClient";
+import { matchJournals, type JournalMatchItem } from "@/services/apiClient";
+import { trackSearchInteraction } from "@/lib/personalization";
 
-const DEFAULT_KEYWORD_QUERY = "machine learning";
+const DEFAULT_KEYWORD_QUERY = "";
+const DEFAULT_MIXED_QUERY = "computer science";
 const DEFAULT_ABSTRACT_QUERY =
   "We propose a federated learning framework for edge-cloud environments that reduces communication cost while preserving model accuracy for distributed computer vision workloads.";
+const ALWAYS_VISIBLE_POPULAR_TOPIC = "machine learning";
 
 const Journals = () => {
   const [searchMode, setSearchMode] = useState<"keyword" | "abstract">(
@@ -36,7 +36,7 @@ const Journals = () => {
   );
   const [keywordQuery, setKeywordQuery] = useState(DEFAULT_KEYWORD_QUERY);
   const [abstractQuery, setAbstractQuery] = useState(DEFAULT_ABSTRACT_QUERY);
-  const [submittedQuery, setSubmittedQuery] = useState(DEFAULT_KEYWORD_QUERY);
+  const [submittedQuery, setSubmittedQuery] = useState(DEFAULT_MIXED_QUERY);
   const [providerFilter, setProviderFilter] = useState<
     "all" | "springer" | "elsevier"
   >("all");
@@ -45,20 +45,31 @@ const Journals = () => {
   const itemsPerPage = 10;
 
   const activeQuery = searchMode === "abstract" ? abstractQuery : keywordQuery;
+  const dynamicMatchLimit = useMemo(() => {
+    if (searchMode === "abstract") return 70;
+    if (providerFilter !== "all") return 90;
+    return 120;
+  }, [searchMode, providerFilter]);
 
   useEffect(() => {
-    setSubmittedQuery(activeQuery);
+    setSubmittedQuery(activeQuery.trim() || DEFAULT_MIXED_QUERY);
     setCurrentPage(1);
   }, [searchMode]);
 
   const { data, isLoading, isFetching } = useQuery({
-    queryKey: ["journal-match", submittedQuery, searchMode, providerFilter],
+    queryKey: [
+      "journal-match",
+      submittedQuery,
+      searchMode,
+      providerFilter,
+      dynamicMatchLimit,
+    ],
     queryFn: () =>
       matchJournals({
         query: submittedQuery,
         mode: searchMode,
         provider: providerFilter,
-        limit: 80,
+        limit: dynamicMatchLimit,
       }),
     enabled: Boolean(submittedQuery.trim()),
     staleTime: 1000 * 60 * 5,
@@ -66,6 +77,18 @@ const Journals = () => {
 
   const journals = data?.data ?? [];
   const topics = data?.meta?.topics ?? [];
+  const popularSearchTopics = useMemo(() => {
+    const filtered = topics.filter(
+      (topic) =>
+        !["federated learning", "distributed systems"].includes(
+          topic.toLowerCase(),
+        ),
+    );
+
+    return filtered
+      .filter((topic) => topic.toLowerCase() !== ALWAYS_VISIBLE_POPULAR_TOPIC)
+      .slice(0, 7);
+  }, [topics]);
 
   const processedJournals = useMemo(() => {
     const sorted = [...journals];
@@ -100,7 +123,11 @@ const Journals = () => {
   );
 
   const runSearch = () => {
-    setSubmittedQuery(activeQuery.trim());
+    const normalized = activeQuery.trim() || DEFAULT_MIXED_QUERY;
+    setSubmittedQuery(normalized);
+    if (normalized.length >= 3) {
+      trackSearchInteraction(normalized, "journal");
+    }
     setCurrentPage(1);
   };
 
@@ -110,7 +137,10 @@ const Journals = () => {
   };
 
   const buildPrimaryLink = (journal: JournalMatchItem) =>
-    journal.submissionLink || journal.guideForAuthors || journal.sourceUrl || null;
+    journal.submissionLink ||
+    journal.guideForAuthors ||
+    journal.sourceUrl ||
+    null;
 
   const buildSecondaryLink = (journal: JournalMatchItem) => {
     const primary = buildPrimaryLink(journal);
@@ -193,7 +223,8 @@ const Journals = () => {
                         />
                       </span>
                       <span className="text-base font-medium text-foreground md:text-lg">
-                        Search by keywords, aims &amp; scope, journal title, etc...
+                        Search by keywords, aims &amp; scope, journal title,
+                        etc...
                       </span>
                     </button>
                   </div>
@@ -205,7 +236,9 @@ const Journals = () => {
                         <Input
                           placeholder="Try machine learning, cloud computing, blockchain, cybersecurity..."
                           value={keywordQuery}
-                          onChange={(event) => setKeywordQuery(event.target.value)}
+                          onChange={(event) =>
+                            setKeywordQuery(event.target.value)
+                          }
                           onKeyDown={(event) => {
                             if (event.key === "Enter") runSearch();
                           }}
@@ -217,7 +250,9 @@ const Journals = () => {
                     <div className="space-y-3">
                       <Textarea
                         value={abstractQuery}
-                        onChange={(event) => setAbstractQuery(event.target.value)}
+                        onChange={(event) =>
+                          setAbstractQuery(event.target.value)
+                        }
                         placeholder="Paste your abstract and we’ll rank the journals most aligned with your manuscript."
                         className="min-h-[170px] rounded-xl text-[15px] md:text-base"
                       />
@@ -225,17 +260,16 @@ const Journals = () => {
                   )}
 
                   <div className="grid grid-cols-1 md:grid-cols-[1.1fr_1.1fr_auto] gap-3 mt-4">
-                    <Select
-                      value={sortBy}
-                      onValueChange={setSortBy}
-                    >
+                    <Select value={sortBy} onValueChange={setSortBy}>
                       <SelectTrigger className="h-12 rounded-xl">
                         <SelectValue placeholder="Sort results" />
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="score">Relevance</SelectItem>
                         <SelectItem value="impact">Impact factor</SelectItem>
-                        <SelectItem value="decision">Editorial speed</SelectItem>
+                        <SelectItem value="decision">
+                          Editorial speed
+                        </SelectItem>
                         <SelectItem value="title">Journal name</SelectItem>
                       </SelectContent>
                     </Select>
@@ -266,37 +300,38 @@ const Journals = () => {
                     </Button>
                   </div>
 
-                  {topics.length > 0 && (
-                    <div className="mt-5">
-                      <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground mb-3">
-                        Popular searches
-                      </p>
-                      <div className="flex flex-wrap gap-2.5">
-                        {topics
-                          .filter(
-                            (topic) =>
-                              !["federated learning", "distributed systems"].includes(
-                                topic.toLowerCase(),
-                              ),
-                          )
-                          .slice(0, 10)
-                          .map((topic) => (
-                          <Badge
-                            key={topic}
-                            variant="outline"
-                            className="cursor-pointer rounded-full px-3.5 py-2 text-xs"
-                            onClick={() => {
-                              setSearchMode("keyword");
-                              setKeywordQuery(topic);
-                              setSubmittedQuery(topic);
-                            }}
-                          >
-                            {topic}
-                          </Badge>
-                        ))}
-                      </div>
+                  <div className="mt-5">
+                    <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground mb-3">
+                      Popular searches
+                    </p>
+                    <div className="flex gap-2.5 overflow-x-auto whitespace-nowrap pb-1 pr-1 custom-scrollbar">
+                      <Badge
+                        variant="outline"
+                        className="cursor-pointer rounded-full px-3.5 py-2 text-xs shrink-0"
+                        onClick={() => {
+                          setSearchMode("keyword");
+                          setKeywordQuery(ALWAYS_VISIBLE_POPULAR_TOPIC);
+                          setSubmittedQuery(ALWAYS_VISIBLE_POPULAR_TOPIC);
+                        }}
+                      >
+                        {ALWAYS_VISIBLE_POPULAR_TOPIC}
+                      </Badge>
+                      {popularSearchTopics.map((topic) => (
+                        <Badge
+                          key={topic}
+                          variant="outline"
+                          className="cursor-pointer rounded-full px-3.5 py-2 text-xs shrink-0"
+                          onClick={() => {
+                            setSearchMode("keyword");
+                            setKeywordQuery(topic);
+                            setSubmittedQuery(topic);
+                          }}
+                        >
+                          {topic}
+                        </Badge>
+                      ))}
                     </div>
-                  )}
+                  </div>
                 </div>
               </div>
             </div>
@@ -334,11 +369,11 @@ const Journals = () => {
               <Button
                 onClick={() => {
                   setSearchMode("keyword");
-                  setKeywordQuery(DEFAULT_KEYWORD_QUERY);
-                  setSubmittedQuery(DEFAULT_KEYWORD_QUERY);
+                  setKeywordQuery("");
+                  setSubmittedQuery(DEFAULT_MIXED_QUERY);
                 }}
               >
-                Try "{DEFAULT_KEYWORD_QUERY}"
+                Try "{DEFAULT_MIXED_QUERY}"
               </Button>
             </div>
           ) : (
@@ -363,11 +398,17 @@ const Journals = () => {
                                   {journal.title}
                                 </h3>
                                 <div className="flex flex-wrap items-center gap-2 mt-3">
-                                  <Badge variant="secondary" className="capitalize text-xs">
+                                  <Badge
+                                    variant="secondary"
+                                    className="capitalize text-xs"
+                                  >
                                     {journal.provider}
                                   </Badge>
                                   {journal.openAccessType && (
-                                    <Badge variant="outline" className="text-xs">
+                                    <Badge
+                                      variant="outline"
+                                      className="text-xs"
+                                    >
                                       {journal.openAccessType}
                                     </Badge>
                                   )}
@@ -386,7 +427,9 @@ const Journals = () => {
                                   Publishing model
                                 </div>
                                 <div className="mt-2 text-sm font-medium text-foreground">
-                                  {journal.openAccessType || journal.publishingModel || "N/A"}
+                                  {journal.openAccessType ||
+                                    journal.publishingModel ||
+                                    "N/A"}
                                 </div>
                               </div>
                               <div className="rounded-xl border border-border/70 px-4 py-4">
@@ -450,8 +493,9 @@ const Journals = () => {
                                 </div>
                                 <div>
                                   <p className="text-sm md:text-[15px] leading-7 text-slate-700">
-                                    Review journal details and submission guidance
-                                    before moving forward with your manuscript.
+                                    Review journal details and submission
+                                    guidance before moving forward with your
+                                    manuscript.
                                   </p>
                                 </div>
                               </div>
@@ -500,28 +544,31 @@ const Journals = () => {
                     Previous
                   </Button>
 
-                  {Array.from({ length: Math.min(totalPages, 5) }, (_, index) => {
-                    let page = index + 1;
-                    if (totalPages > 5) {
-                      if (currentPage <= 3) page = index + 1;
-                      else if (currentPage >= totalPages - 2) {
-                        page = totalPages - 4 + index;
-                      } else {
-                        page = currentPage - 2 + index;
+                  {Array.from(
+                    { length: Math.min(totalPages, 5) },
+                    (_, index) => {
+                      let page = index + 1;
+                      if (totalPages > 5) {
+                        if (currentPage <= 3) page = index + 1;
+                        else if (currentPage >= totalPages - 2) {
+                          page = totalPages - 4 + index;
+                        } else {
+                          page = currentPage - 2 + index;
+                        }
                       }
-                    }
 
-                    return (
-                      <Button
-                        key={page}
-                        variant={page === currentPage ? "default" : "outline"}
-                        className="w-10"
-                        onClick={() => setCurrentPage(page)}
-                      >
-                        {page}
-                      </Button>
-                    );
-                  })}
+                      return (
+                        <Button
+                          key={page}
+                          variant={page === currentPage ? "default" : "outline"}
+                          className="w-10"
+                          onClick={() => setCurrentPage(page)}
+                        >
+                          {page}
+                        </Button>
+                      );
+                    },
+                  )}
 
                   <Button
                     variant="outline"

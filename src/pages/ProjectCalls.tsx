@@ -23,13 +23,19 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { trackSearchInteraction } from "@/lib/personalization";
 
-const getCanonicalSourceLabel = (item: Pick<HarvestItem, "sourceName" | "sourceId">) => {
+const getCanonicalSourceLabel = (
+  item: Pick<HarvestItem, "sourceName" | "sourceId">,
+) => {
   const sourceId = (item.sourceId || "").toLowerCase();
   const sourceName = (item.sourceName || "").trim();
   const normalizedName = sourceName.toLowerCase();
 
-  if (sourceId.startsWith("jobsacuk-") || normalizedName.includes("jobs.ac.uk")) {
+  if (
+    sourceId.startsWith("jobsacuk-") ||
+    normalizedName.includes("jobs.ac.uk")
+  ) {
     return "Jobs.ac.uk";
   }
   if (
@@ -42,7 +48,11 @@ const getCanonicalSourceLabel = (item: Pick<HarvestItem, "sourceName" | "sourceI
   if (sourceId.includes("anrf") || normalizedName.includes("anrf")) {
     return "ANRF";
   }
-  if (sourceId.includes("dst") || normalizedName.includes("department of science") || normalizedName.includes("dst")) {
+  if (
+    sourceId.includes("dst") ||
+    normalizedName.includes("department of science") ||
+    normalizedName.includes("dst")
+  ) {
     return "DST";
   }
   if (sourceId.includes("meity") || normalizedName.includes("meity")) {
@@ -146,15 +156,20 @@ const ProjectCalls = () => {
     setCurrentPage(1);
   }, [debouncedQuery, sourceFilter, sortBy]);
 
+  useEffect(() => {
+    const query = debouncedQuery.trim();
+    if (query.length >= 3) {
+      trackSearchInteraction(query, "opportunity");
+    }
+  }, [debouncedQuery]);
+
   const sourceOptions = useMemo(() => {
     const unique = new Set(
       projects.map((item) => getCanonicalSourceLabel(item)).filter(Boolean),
     );
     PRIORITY_PROJECT_CALL_SOURCES.forEach((source) => unique.add(source));
 
-    return Array.from(unique).sort((left, right) =>
-      left.localeCompare(right),
-    );
+    return Array.from(unique).sort((left, right) => left.localeCompare(right));
   }, [projects]);
 
   const processedProjects = useMemo(() => {
@@ -218,9 +233,9 @@ const ProjectCalls = () => {
                   </Badge>
                 </div>
                 <p className="text-[15px] leading-7 text-muted-foreground md:text-base">
-                  Search active project calls, fellowships, and official
-                  funding announcements across major research sources, then
-                  jump straight to the source page for full submission details.
+                  Search active project calls, fellowships, and official funding
+                  announcements across major research sources, then jump
+                  straight to the source page for full submission details.
                 </p>
               </div>
             </div>
@@ -239,7 +254,10 @@ const ProjectCalls = () => {
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-3">
-                    <Select value={sourceFilter} onValueChange={setSourceFilter}>
+                    <Select
+                      value={sourceFilter}
+                      onValueChange={setSourceFilter}
+                    >
                       <SelectTrigger className="h-12 rounded-xl">
                         <SelectValue placeholder="All sources" />
                       </SelectTrigger>
@@ -258,10 +276,16 @@ const ProjectCalls = () => {
                         <SelectValue placeholder="Sort opportunities" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="date-newest">Date: Newest first</SelectItem>
-                        <SelectItem value="date-oldest">Date: Oldest first</SelectItem>
+                        <SelectItem value="date-newest">
+                          Date: Newest first
+                        </SelectItem>
+                        <SelectItem value="date-oldest">
+                          Date: Oldest first
+                        </SelectItem>
                         <SelectItem value="title-asc">Title: A to Z</SelectItem>
-                        <SelectItem value="title-desc">Title: Z to A</SelectItem>
+                        <SelectItem value="title-desc">
+                          Title: Z to A
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -284,7 +308,10 @@ const ProjectCalls = () => {
           {isLoading ? (
             <div className="space-y-4">
               {[1, 2, 3, 4].map((item) => (
-                <Card key={item} className="rounded-[24px] border border-border shadow-sm">
+                <Card
+                  key={item}
+                  className="rounded-[24px] border border-border shadow-sm"
+                >
                   <CardContent className="p-6 md:p-7">
                     <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_260px]">
                       <div className="space-y-4">
@@ -308,7 +335,8 @@ const ProjectCalls = () => {
             </div>
           ) : processedProjects.length === 0 ? (
             <div className="rounded-3xl border border-border bg-card px-6 py-12 text-center text-muted-foreground">
-              No project calls found for "{debouncedQuery || "your current filters"}".
+              No project calls found for "
+              {debouncedQuery || "your current filters"}".
             </div>
           ) : (
             <div className="space-y-4">
@@ -359,7 +387,8 @@ const ProjectCalls = () => {
                           </div>
 
                           <p className="max-w-4xl text-sm leading-7 text-muted-foreground md:text-[15px]">
-                            {project.summary || "Open the official source for full call details and application instructions."}
+                            {project.summary ||
+                              "Open the official source for full call details and application instructions."}
                           </p>
 
                           <div className="grid grid-cols-1 gap-3 md:grid-cols-3">

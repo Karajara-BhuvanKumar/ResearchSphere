@@ -23,6 +23,7 @@ import { searchHarvestedData, type HarvestItem } from "@/services/apiClient";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Skeleton } from "@/components/ui/skeleton";
+import { trackSearchInteraction } from "@/lib/personalization";
 
 const getCountryFromLocation = (location?: string | null) => {
   if (!location) return "Unknown";
@@ -70,6 +71,13 @@ const Conferences = () => {
   useEffect(() => {
     setCurrentPage(1);
   }, [debouncedQuery, locationFilter, sortBy]);
+
+  useEffect(() => {
+    const query = debouncedQuery.trim();
+    if (query.length >= 3) {
+      trackSearchInteraction(query, "conference");
+    }
+  }, [debouncedQuery]);
 
   const locationOptions = useMemo(() => {
     const countryCount = conferences.reduce<Record<string, number>>(
@@ -170,18 +178,21 @@ const Conferences = () => {
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-[1.1fr_1.1fr] gap-3">
-                    <Select
-                      value={sortBy}
-                      onValueChange={setSortBy}
-                    >
+                    <Select value={sortBy} onValueChange={setSortBy}>
                       <SelectTrigger className="h-12 rounded-xl">
                         <SelectValue placeholder="Sort conferences" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="newest">Date: Newest first</SelectItem>
-                        <SelectItem value="oldest">Date: Oldest first</SelectItem>
+                        <SelectItem value="newest">
+                          Date: Newest first
+                        </SelectItem>
+                        <SelectItem value="oldest">
+                          Date: Oldest first
+                        </SelectItem>
                         <SelectItem value="title-asc">Title: A to Z</SelectItem>
-                        <SelectItem value="title-desc">Title: Z to A</SelectItem>
+                        <SelectItem value="title-desc">
+                          Title: Z to A
+                        </SelectItem>
                       </SelectContent>
                     </Select>
 
@@ -363,28 +374,31 @@ const Conferences = () => {
                   >
                     Previous
                   </Button>
-                  {Array.from({ length: Math.min(totalPages, 5) }, (_, index) => {
-                    let page = index + 1;
-                    if (totalPages > 5) {
-                      if (currentPage <= 3) page = index + 1;
-                      else if (currentPage >= totalPages - 2) {
-                        page = totalPages - 4 + index;
-                      } else {
-                        page = currentPage - 2 + index;
+                  {Array.from(
+                    { length: Math.min(totalPages, 5) },
+                    (_, index) => {
+                      let page = index + 1;
+                      if (totalPages > 5) {
+                        if (currentPage <= 3) page = index + 1;
+                        else if (currentPage >= totalPages - 2) {
+                          page = totalPages - 4 + index;
+                        } else {
+                          page = currentPage - 2 + index;
+                        }
                       }
-                    }
 
-                    return (
-                      <Button
-                        key={page}
-                        variant={page === currentPage ? "default" : "outline"}
-                        className="w-10"
-                        onClick={() => setCurrentPage(page)}
-                      >
-                        {page}
-                      </Button>
-                    );
-                  })}
+                      return (
+                        <Button
+                          key={page}
+                          variant={page === currentPage ? "default" : "outline"}
+                          className="w-10"
+                          onClick={() => setCurrentPage(page)}
+                        >
+                          {page}
+                        </Button>
+                      );
+                    },
+                  )}
                   <Button
                     variant="outline"
                     onClick={() =>

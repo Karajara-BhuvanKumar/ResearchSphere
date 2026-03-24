@@ -24,14 +24,21 @@ import {
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 // import AssistantWidget from "@/components/AssistantWidget";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
-import { searchHarvestedData, type HarvestItem } from "@/services/apiClient";
+import {
+  matchJournals,
+  searchHarvestedData,
+  type HarvestItem,
+  type JournalMatchItem,
+} from "@/services/apiClient";
 import {
   getPersonalizedItems,
+  getInteractions,
   getReminders,
   getReminderStatusInfo,
   trackItemInteraction,
+  trackSearchInteraction,
   removeReminderByItemId,
   removeWatchlistItem,
   getUserPreferences,
@@ -66,7 +73,122 @@ const GENERIC_NOISE_TAGS = new Set([
   "ieee",
   "acm",
   "springer",
+  "computer science",
+  "cs",
+  "phd",
+  "postdoc",
+  "internship",
+  "project-call",
+  "project call",
+  "fellowship",
+  "scholarship",
+  "jobs",
+  "job",
+  "call",
+  "proposal",
+  "proposals",
+  "position",
+  "positions",
+  "research opportunity",
+  "opportunity",
+  "opportunities",
+  "india",
+  "global",
 ]);
+
+const CURATED_RESEARCH_TOPICS = [
+  "machine learning",
+  "deep learning",
+  "computer vision",
+  "cybersecurity",
+  "cloud computing",
+  "natural language processing",
+  "data science",
+  "blockchain",
+  "distributed systems",
+  "quantum computing",
+  "reinforcement learning",
+  "human computer interaction",
+];
+
+const TOPIC_ALIASES: Record<string, string[]> = {
+  "machine learning": ["machine learning", "ml"],
+  "deep learning": ["deep learning"],
+  "computer vision": ["computer vision", "vision"],
+  cybersecurity: ["cybersecurity", "cyber security", "security"],
+  "cloud computing": ["cloud", "cloud computing"],
+  "natural language processing": [
+    "natural language processing",
+    "nlp",
+    "language model",
+    "large language model",
+    "llm",
+  ],
+  "data science": ["data science", "data mining", "big data"],
+  blockchain: ["blockchain"],
+  "distributed systems": [
+    "distributed systems",
+    "distributed system",
+    "systems",
+  ],
+  "quantum computing": ["quantum computing", "quantum"],
+  "reinforcement learning": ["reinforcement learning", "rl"],
+  "human computer interaction": ["human computer interaction", "hci"],
+};
+
+const INTEREST_ALIAS_OVERRIDES: Record<string, string[]> = {
+  cybersecurity: ["cybersecurity", "cyber security", "security", "infosec"],
+  cybersecuriyy: ["cybersecurity", "cyber security", "security", "infosec"],
+  "machine learning": ["machine learning", "ml"],
+  machinelearning: ["machine learning", "ml"],
+  deeplearning: ["deep learning"],
+};
+
+const normalizeTopicText = (value: string) =>
+  value
+    .toLowerCase()
+    .replace(/[-_/]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+const extractTopicMatches = (value: string): string[] => {
+  const normalized = ` ${normalizeTopicText(value)} `;
+  const matches: string[] = [];
+
+  Object.entries(TOPIC_ALIASES).forEach(([topic, aliases]) => {
+    if (aliases.some((alias) => normalized.includes(` ${normalizeTopicText(alias)} `))) {
+      matches.push(topic);
+    }
+  });
+
+  return matches;
+};
+
+const buildInterestMatchers = (interests: string[]): string[] => {
+  const matchers = new Set<string>();
+
+  interests.forEach((interest) => {
+    const normalized = normalizeTopicText(interest);
+    if (!normalized) return;
+
+    const overridden = INTEREST_ALIAS_OVERRIDES[normalized] || [normalized];
+    overridden.forEach((alias) => {
+      const compact = normalizeTopicText(alias);
+      if (compact.length >= 2) {
+        matchers.add(compact);
+      }
+    });
+
+    // Also add token-level terms for flexible matching of custom interests.
+    normalized.split(" ").forEach((token) => {
+      if (token.length >= 4) {
+        matchers.add(token);
+      }
+    });
+  });
+
+  return [...matchers];
+};
 
 const Index = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -75,10 +197,14 @@ const Index = () => {
     "watchlist" | "reminders"
   >("watchlist");
   const navigate = useNavigate();
+  const location = useLocation();
   const currentYear = new Date().getFullYear();
   const [preferences, setPreferences] = useState(() => getUserPreferences());
   const [watchlist, setWatchlist] = useState(() => getWatchlist());
   const [reminders, setReminders] = useState(() => getReminders());
+  const [interactionEvents, setInteractionEvents] = useState(() =>
+    getInteractions(),
+  );
   const [quickReminderFilter, setQuickReminderFilter] =
     useState<QuickReminderFilter>("all");
 
@@ -87,6 +213,7 @@ const Index = () => {
       setPreferences(getUserPreferences());
       setWatchlist(getWatchlist());
       setReminders(getReminders());
+      setInteractionEvents(getInteractions());
     };
 
     window.addEventListener("focus", sync);
@@ -97,6 +224,13 @@ const Index = () => {
       window.removeEventListener("storage", sync);
     };
   }, []);
+
+  useEffect(() => {
+    setPreferences(getUserPreferences());
+    setWatchlist(getWatchlist());
+    setReminders(getReminders());
+    setInteractionEvents(getInteractions());
+  }, [location.pathname]);
 
   const { data: featuredConferences = [], isLoading: conferencesLoading } =
     useQuery({
@@ -112,14 +246,40 @@ const Index = () => {
     });
 
   const { data: featuredJournals = [], isLoading: journalsLoading } = useQuery({
-    queryKey: ["home-featured-journals", currentYear],
-    queryFn: () =>
-      searchHarvestedData({
-        kind: "journal",
-        fromYear: currentYear,
+    queryKey: ["home-featured-journals", "machine-learning", "keyword"],
+    queryFn: async () => {
+      const response = await matchJournals({
+        query: "machine learning",
+        mode: "keyword",
+        provider: "all",
         limit: 6,
-      }),
-    staleTime: 1000 * 60 * 10,
+      });
+
+      return response.data;
+    },
+    staleTime: 1000 * 60 * 5,
+  });
+
+  const journalIntentQuery = useMemo(() => {
+    const interest = preferences.interests
+      .map((item) => item.trim())
+      .find(Boolean);
+    return interest || "machine learning";
+  }, [preferences.interests]);
+
+  const { data: matchedPersonalizedJournals = [] } = useQuery({
+    queryKey: ["home-personalized-journals", journalIntentQuery],
+    queryFn: async () => {
+      const response = await matchJournals({
+        query: journalIntentQuery,
+        mode: "keyword",
+        provider: "all",
+        limit: 20,
+      });
+
+      return response.data;
+    },
+    staleTime: 1000 * 60 * 5,
   });
 
   const { data: featuredOpportunities = [], isLoading: opportunitiesLoading } =
@@ -147,32 +307,152 @@ const Index = () => {
   const trendingTopics = useMemo(() => {
     const frequency = new Map<string, number>();
 
+    const addTopicScore = (topic: string, score: number) => {
+      frequency.set(topic, (frequency.get(topic) || 0) + score);
+    };
+
+    interactionEvents.forEach((event) => {
+      const signalText = [event.query || "", event.title || "", ...(event.tags || [])]
+        .join(" ")
+        .trim();
+
+      if (!signalText) return;
+
+      extractTopicMatches(signalText).forEach((topic) => {
+        addTopicScore(topic, event.type === "search" ? 5 : 2);
+      });
+    });
+
     homepageItems.forEach((item: HarvestItem) => {
       (item.tags || []).forEach((tag) => {
-        const normalized = tag.trim().toLowerCase();
+        const normalized = normalizeTopicText(tag);
         if (
           !normalized ||
-          normalized === "global" ||
-          normalized === "india" ||
+          normalized === item.kind?.toLowerCase() ||
+          normalized === (item.subtype || "").toLowerCase() ||
           GENERIC_NOISE_TAGS.has(normalized) ||
           normalized.length < 3
         ) {
           return;
         }
-        frequency.set(normalized, (frequency.get(normalized) || 0) + 1);
+
+        const topicMatches = extractTopicMatches(normalized);
+        if (topicMatches.length > 0) {
+          topicMatches.forEach((topic) => addTopicScore(topic, 3));
+          return;
+        }
+
+        if (
+          normalized.includes("learning") ||
+          normalized.includes("vision") ||
+          normalized.includes("security") ||
+          normalized.includes("cloud") ||
+          normalized.includes("blockchain") ||
+          normalized.includes("computing")
+        ) {
+          addTopicScore(normalized, 1);
+        }
       });
     });
 
-    return [...frequency.entries()]
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 10)
-      .map(([topic]) => topic.replace(/-/g, " "));
-  }, [homepageItems]);
+    CURATED_RESEARCH_TOPICS.forEach((topic) => {
+      addTopicScore(topic, 0.25);
+    });
 
-  const personalizedItems = useMemo(
-    () => getPersonalizedItems(homepageItems, preferences, 4),
-    [homepageItems, preferences],
-  );
+    const ranked = [...frequency.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([topic]) => topic)
+      .slice(0, 10);
+
+    if (ranked.length < 5) {
+      CURATED_RESEARCH_TOPICS.forEach((topic) => {
+        if (!ranked.includes(topic) && ranked.length < 10) {
+          ranked.push(topic);
+        }
+      });
+    }
+
+    return ranked;
+  }, [homepageItems, interactionEvents]);
+
+  const personalizedItems = useMemo(() => {
+    const interestMatchers = buildInterestMatchers(preferences.interests);
+    const interestScopedItems =
+      interestMatchers.length > 0
+        ? homepageItems.filter((item) => {
+            const haystack = normalizeTopicText(
+              [item.title, item.summary || "", ...(item.tags || [])].join(" "),
+            );
+            return interestMatchers.some((matcher) => haystack.includes(matcher));
+          })
+        : homepageItems;
+
+    const candidateItems =
+      interestScopedItems.length >= 3 ? interestScopedItems : homepageItems;
+
+    const matchedJournalItems: HarvestItem[] = matchedPersonalizedJournals.map(
+      (journal, index) => {
+        const provider = (journal.provider || "").trim();
+        const providerLabel = provider
+          ? provider.charAt(0).toUpperCase() + provider.slice(1)
+          : "Journal";
+
+        return {
+          id: `home-personalized-journal-${journal.issn || journal.title}-${index}`,
+          kind: "journal",
+          subtype: "journal",
+          title: journal.title,
+          summary: journal.scopeSnippet || journal.scope || null,
+          organization: providerLabel,
+          sourceName: providerLabel,
+          url:
+            journal.submissionLink ||
+            journal.guideForAuthors ||
+            journal.sourceUrl ||
+            "/journals",
+          tags: journal.subjectAreas || journal.topicSeeds || [],
+          score: journal.score,
+        };
+      },
+    );
+
+    const combinedItems = [
+      ...candidateItems.filter((item) => item.kind !== "journal"),
+      ...matchedJournalItems,
+    ];
+
+    const selected: HarvestItem[] = [];
+    const seen = new Set<string>();
+
+    const pushUnique = (item?: HarvestItem) => {
+      if (!item || seen.has(item.id)) return;
+      selected.push(item);
+      seen.add(item.id);
+    };
+
+    const topJournal = getPersonalizedItems(
+      matchedJournalItems,
+      preferences,
+      1,
+    )[0];
+    const topConference = getPersonalizedItems(
+      combinedItems.filter((item) => item.kind === "conference"),
+      preferences,
+      1,
+    )[0];
+
+    // Ensure baseline mix before filling remaining slots.
+    pushUnique(topJournal);
+    pushUnique(topConference);
+
+    getPersonalizedItems(combinedItems, preferences, 12).forEach(pushUnique);
+
+    if (selected.length < 4) {
+      combinedItems.forEach(pushUnique);
+    }
+
+    return selected.slice(0, 4);
+  }, [homepageItems, preferences, matchedPersonalizedJournals]);
 
   const reminderRows = useMemo(() => {
     return reminders.map((item) => {
@@ -223,8 +503,10 @@ const Index = () => {
   }, [quickReminderFilter, reminderRows]);
 
   const handleSearch = () => {
-    if (searchQuery.trim()) {
-      navigate(`/general-finder?q=${encodeURIComponent(searchQuery)}`);
+    const normalized = searchQuery.trim();
+    if (normalized) {
+      trackSearchInteraction(normalized);
+      navigate(`/general-finder?q=${encodeURIComponent(normalized)}`);
     }
   };
 
@@ -232,6 +514,14 @@ const Index = () => {
     if (e.key === "Enter") {
       handleSearch();
     }
+  };
+
+  const getJournalLink = (journal: JournalMatchItem) =>
+    journal.submissionLink || journal.guideForAuthors || journal.sourceUrl || "/journals";
+
+  const getJournalSource = (journal: JournalMatchItem) => {
+    if (!journal.provider) return "Journal";
+    return journal.provider.charAt(0).toUpperCase() + journal.provider.slice(1);
   };
 
   return (
@@ -278,7 +568,7 @@ const Index = () => {
               </div>
 
               <div className="lg:pt-14">
-                <div className="bg-card border border-border rounded-xl p-5 shadow-sm">
+                <div className="bg-card/95 border border-border rounded-2xl p-5 shadow-sm">
                   <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">
                     Quick Search
                   </p>
@@ -493,9 +783,7 @@ const Index = () => {
         <section className="container mx-auto px-4 py-10">
           <div className="flex items-center justify-between mb-4">
             <div>
-              <h2 className="text-base font-semibold text-foreground">
-                For You
-              </h2>
+              <h2 className="text-base font-semibold text-foreground">For You</h2>
               <p className="text-xs text-muted-foreground mt-0.5">
                 Personalized using your interests and preferred location.
               </p>
@@ -542,7 +830,7 @@ const Index = () => {
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block bg-card border border-border rounded-lg p-4 hover:border-primary/50 hover:shadow-sm transition-all"
+                className="group block bg-card border border-border rounded-xl p-4 hover:border-primary/50 hover:shadow-sm transition-all"
                 onClick={() => trackItemInteraction(item, "open")}
               >
                 <div className="flex items-center justify-between gap-2 mb-2">
@@ -572,7 +860,7 @@ const Index = () => {
         {/* Journals + Opportunities side by side */}
         <section className="container mx-auto px-4 py-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <div>
+            <div className="rounded-2xl border border-border bg-card shadow-sm p-4 md:p-5">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-base font-semibold text-foreground">
                   Latest Journals
@@ -587,42 +875,39 @@ const Index = () => {
                   </Button>
                 </Link>
               </div>
-              <div className="bg-card border border-border rounded-lg divide-y divide-border overflow-hidden">
+              <div className="bg-background border border-border rounded-xl divide-y divide-border overflow-hidden">
                 {journalsLoading
                   ? [...Array(5)].map((_, i) => (
-                      <div key={i} className="px-4 py-3">
+                      <div key={i} className="px-4 py-3.5">
                         <div className="h-4 shimmer rounded w-3/4 mb-1.5" />
                         <div className="h-3 shimmer rounded w-1/3" />
                       </div>
                     ))
-                  : featuredJournals.map((item: HarvestItem) => (
+                  : featuredJournals.map((item: JournalMatchItem, index: number) => (
                       <a
-                        key={item.id}
-                        href={item.url}
+                        key={`${item.title}-${index}`}
+                        href={getJournalLink(item)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group flex items-center justify-between gap-3 px-4 py-3 hover:bg-muted/40 transition-colors"
+                        className="group flex items-center justify-between gap-3 px-4 py-3.5 hover:bg-muted/40 transition-colors"
                       >
                         <div className="min-w-0">
                           <p className="text-sm font-medium text-foreground line-clamp-1 group-hover:text-primary transition-colors">
                             {item.title}
                           </p>
                           <p className="text-xs text-muted-foreground mt-0.5">
-                            {item.sourceName || "Journal"}
+                            {getJournalSource(item)}
                           </p>
                         </div>
-                        <Badge
-                          variant="outline"
-                          className="text-xs flex-shrink-0"
-                        >
-                          {item.subtype || "journal"}
+                        <Badge variant="secondary" className="text-[11px] flex-shrink-0">
+                          journal
                         </Badge>
                       </a>
                     ))}
               </div>
             </div>
 
-            <div>
+            <div className="rounded-2xl border border-border bg-card shadow-sm p-4 md:p-5">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-base font-semibold text-foreground">
                   Latest Opportunities
@@ -637,10 +922,10 @@ const Index = () => {
                   </Button>
                 </Link>
               </div>
-              <div className="bg-card border border-border rounded-lg divide-y divide-border overflow-hidden">
+              <div className="bg-background border border-border rounded-xl divide-y divide-border overflow-hidden">
                 {opportunitiesLoading
                   ? [...Array(5)].map((_, i) => (
-                      <div key={i} className="px-4 py-3">
+                      <div key={i} className="px-4 py-3.5">
                         <div className="h-4 shimmer rounded w-3/4 mb-1.5" />
                         <div className="h-3 shimmer rounded w-1/3" />
                       </div>
@@ -651,7 +936,7 @@ const Index = () => {
                         href={item.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group flex items-center justify-between gap-3 px-4 py-3 hover:bg-muted/40 transition-colors"
+                        className="group flex items-center justify-between gap-3 px-4 py-3.5 hover:bg-muted/40 transition-colors"
                       >
                         <div className="min-w-0">
                           <p className="text-sm font-medium text-foreground line-clamp-1 group-hover:text-primary transition-colors">
@@ -663,10 +948,7 @@ const Index = () => {
                               "Research Opportunity"}
                           </p>
                         </div>
-                        <Badge
-                          variant="outline"
-                          className="text-xs flex-shrink-0"
-                        >
+                        <Badge variant="secondary" className="text-[11px] flex-shrink-0">
                           {item.subtype || "opportunity"}
                         </Badge>
                       </a>
@@ -677,29 +959,29 @@ const Index = () => {
         </section>
 
         {/* CTA */}
-        <section className="border-t border-border py-14">
+        <section className="border-t border-border py-12 md:py-14">
           <div className="container mx-auto px-4">
             <div className="max-w-xl">
-              <h2 className="heading-display text-3xl md:text-4xl text-foreground mb-3">
-                Everything in one place.
-              </h2>
-              <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-                Use General Finder to search across all sources &mdash;
-                conferences, journals, PhD positions, postdoc calls, and more.
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Link to="/general-finder">
-                  <Button className="gap-2 h-10">
-                    Open General Finder
-                    <ArrowRight className="h-4 w-4" />
-                  </Button>
-                </Link>
-                <Link to="/project-calls">
-                  <Button variant="outline" className="h-10">
-                    View Opportunities
-                  </Button>
-                </Link>
-              </div>
+                <h2 className="heading-display text-3xl md:text-4xl text-foreground mb-3">
+                  Everything in one place.
+                </h2>
+                <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                  Use General Finder to search across all sources &mdash;
+                  conferences, journals, PhD positions, postdoc calls, and more.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Link to="/general-finder">
+                    <Button className="gap-2 h-10">
+                      Open General Finder
+                      <ArrowRight className="h-4 w-4" />
+                    </Button>
+                  </Link>
+                  <Link to="/project-calls">
+                    <Button variant="outline" className="h-10">
+                      View Opportunities
+                    </Button>
+                  </Link>
+                </div>
             </div>
           </div>
         </section>
