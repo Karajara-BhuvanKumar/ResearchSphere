@@ -1,0 +1,32 @@
+{
+  "query": "deep learning",
+  "provider": "both",
+  "runDir": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-00-05-232Z-both-deep-learning",
+  "results": [
+    {
+      "provider": "springer",
+      "finalUrl": "https://link.springer.com/journals/journal-finder",
+      "recommendationCount": 19,
+      "networkCaptureCount": 2,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-00-05-232Z-both-deep-learning\\springer-journals.json"
+    },
+    {
+      "provider": "elsevier",
+      "finalUrl": "https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&sortBy=default&sortOrder=desc&query=deep+learning&mode=search&ecrId=&agreementsFilter=all-journals",
+      "recommendationCount": 40,
+      "networkCaptureCount": 1,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-00-05-232Z-both-deep-learning\\elsevier-journals.json"
+    }
+  ],
+  "normalized": {
+    "query": "deep learning",
+    "springerCount": 19,
+    "elsevierCount": 40,
+    "mergedCount": 59,
+    "files": {
+      "springer": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-00-05-232Z-both-deep-learning\\springer-journals.json",
+      "elsevier": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-00-05-232Z-both-deep-learning\\elsevier-journals.json",
+      "merged": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-00-05-232Z-both-deep-learning\\journals-merged.json"
+    }
+  }
+}

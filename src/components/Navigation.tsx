@@ -2,56 +2,130 @@ import { Link, useLocation } from "react-router-dom";
 import { Moon, Sun, User, ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  getUserPreferences,
+  saveUserPreferences,
+  type TargetKind,
+  type UserPreferences,
+} from "@/lib/personalization";
+
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const location = useLocation();
   const { theme, setTheme } = useTheme();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  
+  const [profileOpen, setProfileOpen] = useState(false);
+  const [savedState, setSavedState] = useState<"idle" | "saved">("idle");
+  const [profile, setProfile] = useState<UserPreferences>(getUserPreferences());
+  const [interestsInput, setInterestsInput] = useState("");
+
   const mainNavItems = [
     { name: "Home", path: "/" },
     { name: "Finder", path: "/general-finder" },
+    // { name: "Assistant", path: "/assistant" },
     { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+    { name: "Research Collaboration", path: "/research-collaboration" },
   ];
 
   const discoverItems = [
     { name: "Conferences", path: "/conferences" },
     { name: "Journals", path: "/journals" },
-    { name: "Publications", path: "/publications" },
     { name: "Book Chapters", path: "/book-chapters" },
     { name: "Project Calls", path: "/project-calls" },
-    { name: "Collaborations", path: "/research-collaboration" },
+  ];
+
+  const researchOpportunitiesItems = [
+    { name: "PhD Programs", path: "/phd-programs" },
+    { name: "Postdoc Positions", path: "/postdoc-positions" },
+    { name: "Internships", path: "/internships" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
-  const isDiscoverActive = discoverItems.some(item => location.pathname === item.path);
+  const isDiscoverActive = discoverItems.some(
+    (item) => location.pathname === item.path,
+  );
+  const isResearchOpportunitiesActive = researchOpportunitiesItems.some(
+    (item) => location.pathname === item.path,
+  );
+
+  useEffect(() => {
+    if (!profileOpen) return;
+    const stored = getUserPreferences();
+    setProfile(stored);
+    setInterestsInput(stored.interests.join(", "));
+    setSavedState("idle");
+  }, [profileOpen]);
+
+  const toggleTargetKind = (kind: TargetKind) => {
+    setProfile((prev) => {
+      const nextKinds = prev.targetKinds.includes(kind)
+        ? prev.targetKinds.filter((entry) => entry !== kind)
+        : [...prev.targetKinds, kind];
+      return {
+        ...prev,
+        targetKinds: nextKinds.length ? nextKinds : prev.targetKinds,
+      };
+    });
+  };
+
+  const saveProfile = () => {
+    const cleaned = {
+      ...profile,
+      interests: interestsInput
+        .split(",")
+        .map((interest) => interest.trim())
+        .filter(Boolean),
+    };
+
+    saveUserPreferences(cleaned);
+    setSavedState("saved");
+  };
 
   return (
     <nav className="bg-card border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rotate-45 flex items-center justify-center">
-              <div className="w-4 h-4 bg-card rotate-45"></div>
-            </div>
-            <span className="text-xl font-bold text-foreground">ResearchSphere</span>
+            <img
+              src={logo}
+              alt="ResearchSphere Logo"
+              className="w-12 h-12 object-contain rounded-full"
+            />
+            <span className="text-2xl font-bold text-foreground">
+              ResearchSphere
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden lg:flex items-center gap-2">
             {mainNavItems.slice(0, 2).map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-5 py-2.5 rounded-md text-base font-medium transition-colors ${
                   isActive(item.path)
                     ? "text-primary bg-primary/10"
                     : "text-foreground hover:text-primary hover:bg-muted"
@@ -66,11 +140,11 @@ const Navigation = () => {
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="ghost"
-                  className={`px-4 py-2 text-sm font-medium ${
+                  className={`px-5 py-2.5 text-base font-medium hover:text-primary hover:bg-muted ${
                     isDiscoverActive ? "text-primary bg-primary/10" : ""
                   }`}
                 >
-                  Discover
+                  Call for
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </Button>
               </DropdownMenuTrigger>
@@ -90,11 +164,42 @@ const Navigation = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
+            {/* Research Opportunities Dropdown */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  variant="ghost"
+                  className={`px-5 py-2.5 text-base font-medium hover:text-primary hover:bg-muted ${
+                    isResearchOpportunitiesActive
+                      ? "text-primary bg-primary/10"
+                      : ""
+                  }`}
+                >
+                  Research Opportunities
+                  <ChevronDown className="ml-1 h-4 w-4" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start" className="w-56">
+                {researchOpportunitiesItems.map((item) => (
+                  <DropdownMenuItem key={item.path} asChild>
+                    <Link
+                      to={item.path}
+                      className={`w-full cursor-pointer ${
+                        isActive(item.path) ? "bg-primary/10 text-primary" : ""
+                      }`}
+                    >
+                      {item.name}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+
             {mainNavItems.slice(2).map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-5 py-2.5 rounded-md text-base font-medium transition-colors ${
                   isActive(item.path)
                     ? "text-primary bg-primary/10"
                     : "text-foreground hover:text-primary hover:bg-muted"
@@ -116,7 +221,11 @@ const Navigation = () => {
               <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
               <span className="sr-only">Toggle theme</span>
             </Button>
-            <Button variant="ghost" size="icon">
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setProfileOpen(true)}
+            >
               <User className="h-5 w-5" />
             </Button>
 
@@ -153,11 +262,29 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            
+
             <div className="px-4 py-2 text-sm font-semibold text-muted-foreground">
-              Discover
+              Call for
             </div>
             {discoverItems.map((item) => (
+              <Link
+                key={item.path}
+                to={item.path}
+                onClick={() => setMobileMenuOpen(false)}
+                className={`block px-6 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive(item.path)
+                    ? "text-primary bg-primary/10"
+                    : "text-foreground hover:text-primary hover:bg-muted"
+                }`}
+              >
+                {item.name}
+              </Link>
+            ))}
+
+            <div className="px-4 py-2 text-sm font-semibold text-muted-foreground">
+              Research Opportunities
+            </div>
+            {researchOpportunitiesItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
@@ -174,6 +301,132 @@ const Navigation = () => {
           </div>
         )}
       </div>
+
+      <Dialog open={profileOpen} onOpenChange={setProfileOpen}>
+        <DialogContent className="sm:max-w-lg">
+          <DialogHeader>
+            <DialogTitle>Your research preferences</DialogTitle>
+          </DialogHeader>
+
+          <div className="space-y-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="space-y-1.5">
+                <Label htmlFor="profile-name">Name</Label>
+                <Input
+                  id="profile-name"
+                  value={profile.name}
+                  onChange={(event) =>
+                    setProfile((prev) => ({
+                      ...prev,
+                      name: event.target.value,
+                    }))
+                  }
+                  placeholder="Your name"
+                />
+              </div>
+              <div className="space-y-1.5">
+                <Label>Role</Label>
+                <Select
+                  value={profile.role || "unspecified"}
+                  onValueChange={(value) =>
+                    setProfile((prev) => ({
+                      ...prev,
+                      role: value === "unspecified" ? "" : value,
+                    }))
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select role" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="unspecified">Not specified</SelectItem>
+                    <SelectItem value="student">Student</SelectItem>
+                    <SelectItem value="researcher">Researcher</SelectItem>
+                    <SelectItem value="faculty">Faculty</SelectItem>
+                    <SelectItem value="industry">
+                      Industry professional
+                    </SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+            </div>
+
+            <div className="space-y-1.5">
+              <Label htmlFor="profile-interests">
+                Interests (comma-separated)
+              </Label>
+              <Input
+                id="profile-interests"
+                value={interestsInput}
+                onChange={(event) => setInterestsInput(event.target.value)}
+                placeholder="ai, ml, blockchain"
+              />
+            </div>
+
+            <div className="space-y-1.5">
+              <Label htmlFor="profile-location">Preferred location</Label>
+              <Input
+                id="profile-location"
+                value={profile.location}
+                onChange={(event) =>
+                  setProfile((prev) => ({
+                    ...prev,
+                    location: event.target.value,
+                  }))
+                }
+                placeholder="Hyderabad, India"
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label>Priority content types</Label>
+              <div className="flex gap-2 flex-wrap">
+                {(["conference", "journal", "opportunity"] as TargetKind[]).map(
+                  (kind) => {
+                    const selected = profile.targetKinds.includes(kind);
+                    return (
+                      <Button
+                        key={kind}
+                        type="button"
+                        variant={selected ? "default" : "outline"}
+                        size="sm"
+                        className="capitalize"
+                        onClick={() => toggleTargetKind(kind)}
+                      >
+                        {kind}
+                      </Button>
+                    );
+                  },
+                )}
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <p className="text-xs text-muted-foreground">
+                Used for your personalized recommendations.
+              </p>
+              <div className="flex items-center gap-2">
+                <Link to="/user-hub">
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    onClick={() => setProfileOpen(false)}
+                  >
+                    Open User Hub
+                  </Button>
+                </Link>
+                <Button size="sm" onClick={saveProfile}>
+                  Save preferences
+                </Button>
+              </div>
+            </div>
+
+            {savedState === "saved" && (
+              <p className="text-xs text-primary">Preferences saved.</p>
+            )}
+          </div>
+        </DialogContent>
+      </Dialog>
     </nav>
   );
 };

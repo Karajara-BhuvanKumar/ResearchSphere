@@ -1,0 +1,32 @@
+{
+  "query": "reinforcement learning",
+  "provider": "both",
+  "runDir": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-06-47-799Z-both-reinforcement-learning",
+  "results": [
+    {
+      "provider": "springer",
+      "finalUrl": "https://link.springer.com/journals/journal-finder",
+      "recommendationCount": 18,
+      "networkCaptureCount": 2,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-06-47-799Z-both-reinforcement-learning\\springer-journals.json"
+    },
+    {
+      "provider": "elsevier",
+      "finalUrl": "https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&sortBy=default&sortOrder=desc&query=reinforcement+learning&mode=search&ecrId=&agreementsFilter=all-journals",
+      "recommendationCount": 5,
+      "networkCaptureCount": 1,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-06-47-799Z-both-reinforcement-learning\\elsevier-journals.json"
+    }
+  ],
+  "normalized": {
+    "query": "reinforcement learning",
+    "springerCount": 18,
+    "elsevierCount": 5,
+    "mergedCount": 23,
+    "files": {
+      "springer": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-06-47-799Z-both-reinforcement-learning\\springer-journals.json",
+      "elsevier": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-06-47-799Z-both-reinforcement-learning\\elsevier-journals.json",
+      "merged": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-06-47-799Z-both-reinforcement-learning\\journals-merged.json"
+    }
+  }
+}

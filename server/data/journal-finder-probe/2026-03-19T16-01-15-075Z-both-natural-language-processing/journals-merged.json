@@ -1,0 +1,1031 @@
+[
+  {
+    "provider": "elsevier",
+    "rank": 1,
+    "title": "Natural Language Processing Journal",
+    "sourceUrl": "https://www.sciencedirect.com/journal/natural-language-processing-journal/publish/guide-for-authors",
+    "submissionLink": "https://submit.elsevier.com/NLP",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/natural-language-processing-journal/publish/guide-for-authors",
+    "acronym": "NLP",
+    "issn": "2949-7191",
+    "publishingModel": "FULL",
+    "openAccessType": "FULL",
+    "impactFactor": null,
+    "citeScore": null,
+    "decisionDays": 10,
+    "acceptanceDays": 5,
+    "subjectAreas": [
+      "Artificial Intelligence"
+    ],
+    "articleTypes": [
+      "Full Length Article",
+      "Replication Studies",
+      "Review",
+      "Short Communication"
+    ],
+    "scope": "The Open Access Natural Language Processing Journal aims to advance modern understanding and practice of trustworthy, interpretable, explainable human-centered and hybrid Artificial Intelligence as it relates to all aspects of human language. The NLP journal affords a world-wide platform for academics and practitioners to present their latest theoretical, practical, and methodological research concerning the development and application of trustworthy AI to analyze, process, or model human language across various multimodal contexts, domains, and intelligent systems, including hybrid AI , Human AI interaction and Social systems. The NLP journal welcomes original research papers, review papers, position papers, tutorial and best practice papers. Special Issues proposals on specific current topics are welcomed. To foster trust, transparency, and reproducibility in AI research the NLP journal promotes open and FAIR data and software sharing practices. Furthermore the NLP journal specifically invites researchers to submit scientific replication studies for review and publication.",
+    "editorInChief": "Xiaohui Tao | Haoran Xie",
+    "goldOpenAccessFee": 1830,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29497191.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 2,
+    "title": "Computer Speech and Language",
+    "sourceUrl": "https://www.sciencedirect.com/journal/computer-speech-and-language/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/ycsla/",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/computer-speech-and-language/publish/guide-for-authors",
+    "acronym": "YCSLA",
+    "issn": "0885-2308",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 3.4,
+    "citeScore": 12,
+    "decisionDays": 3,
+    "acceptanceDays": 12,
+    "subjectAreas": [
+      "Signal Processing",
+      "Experimental and Cognitive Psychology",
+      "Linguistics and Language",
+      "Electrical and Electronic Engineering",
+      "Language and Linguistics"
+    ],
+    "articleTypes": [
+      "Research Paper",
+      "Review Article",
+      "VSI: Security and Privacy in Speech Communication",
+      "VSI: Speech Eval & Synthesis"
+    ],
+    "scope": "An official publication of the International Speech Communication Association (ISCA) Computer Speech &amp; Language publishes reports of original research related to the analysis, recognition, understanding, production, synthesis, coding and mining of speech and spoken language, including spoken language dialogue systems and speech-based interaction with ‘intelligent’ artefacts, and their wide-ranging applications. The journal provides a focus for this work, and encourages an interdisciplinary approach to speech and spoken language research and technology. Thus contributions from all of the related fields are welcomed in the form of reports of theoretical or experimental studies, reviews, and pertaining to models and their implementation, or reports of fundamental research leading to the improvement of such models. Research Areas Include Algorithms and models for speech recognition and synthesis Natural language processing for speech understanding and generation Computational models of spoken language discourse and dialogue Speech and spoken-language inclusive multimodal approaches and systems Information retrieval, extraction and summarization of spoken language media Speaker and spoken language recognition Computational models of speech production and perception Signal processing for speech analysis, enhancement and transformation Evaluation of speech-based interactive systems Applications of speech and spoken language technologies Note that we are no longer accepting submissions devoted to pure Natural Language Processing NLP (i.e. all new manuscripts must address some aspect of spoken language processing).",
+    "editorInChief": "Moore",
+    "goldOpenAccessFee": 3600,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/08852308.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 3,
+    "title": "Library & Information Science Research",
+    "sourceUrl": "https://www.sciencedirect.com/journal/library-and-information-science-research/publish/guide-for-authors",
+    "submissionLink": "https://submit.elsevier.com/LIBINF",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/library-and-information-science-research/publish/guide-for-authors",
+    "acronym": "LIBINF",
+    "issn": "0740-8188",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 2.3,
+    "citeScore": 5.3,
+    "decisionDays": 9,
+    "acceptanceDays": 13,
+    "subjectAreas": [
+      "Library and Information Sciences"
+    ],
+    "articleTypes": [
+      "Research Paper",
+      "Review article",
+      "VSI: Difficult Conversations"
+    ],
+    "scope": "Library &amp; Information Science Research , a cross-disciplinary and refereed journal, focuses on the research process in library and information science , especially demonstrations of innovative methods and theoretical frameworks or unusual extensions or applications of well-known methods and tools. Library &amp; Information Science Research publishes research articles primarily from a social science perspective. LISR does not normally publish technical information science studies (e.g., algorithmic methods related to information retrieval or natural language processing) or most bibliometric studies, as these would find greater readership in the many fine journals covering these areas.",
+    "editorInChief": "June Abbas",
+    "goldOpenAccessFee": 3450,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/07408188.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 4,
+    "title": "Pattern Recognition Letters",
+    "sourceUrl": "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors",
+    "submissionLink": "https://submit.elsevier.com/PRLETTERS",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors",
+    "acronym": "PATREC",
+    "issn": "0167-8655",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 3.3,
+    "citeScore": 9.5,
+    "decisionDays": 17,
+    "acceptanceDays": 10,
+    "subjectAreas": [
+      "Computer Vision and Pattern Recognition",
+      "Signal Processing",
+      "Electrical and Electronic Engineering"
+    ],
+    "articleTypes": [
+      "Regular Article",
+      "SS: ICPRS 2025",
+      "SS: SIBGRAPI 2025",
+      "Survey papers by IAPR fellows",
+      "Commentary",
+      "Note",
+      "VSI: PATREC_EMDF-RCP"
+    ],
+    "scope": "An official publication of the International Association for Pattern Recognition Pattern Recognition Letters aims at rapid publication of concise articles of a broad interest in pattern recognition . Subject areas include all the current fields of interest represented by the Technical Committees of the International Association of Pattern Recognition , and other developing themes involving learning and recognition. Examples include: • Statistical, structural, syntactic pattern recognition; • Neural networks, machine learning, data mining; • Discrete geometry, algebraic, graph-based techniques for pattern recognition; • Signal analysis, image coding and processing, shape and texture analysis; • Computer vision, robotics, remote sensing; • Document processing, text and graphics recognition, digital libraries; • Speech recognition, music analysis, multimedia systems; • Natural language analysis, information retrieval; • Biometrics, biomedical pattern analysis and information systems; • Special hardware architectures, software packages for pattern recognition. We invite contributions as research reports or commentaries. Research reports should be concise summaries of methodological inventions and findings, with strong potential of wide applications. Alternatively, they can describe significant and novel applications of an established technique that are of high reference value to the same application area and other similar areas. Commentaries can be lecture notes, subject reviews, reports on a conference, or debates on critical issues that are of wide interests. To serve the interests of a diverse readership, the introduction should provide a concise summary of the background of the work in an accepted terminology in pattern recognition, state the unique contributions, and discuss broader impacts of the work outside the immediate subject area. All contributions are reviewed on the basis of scientific merits and breadth of potential interests.",
+    "editorInChief": "De Marsico | Liu | Lu",
+    "goldOpenAccessFee": 2380,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01678655.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 5,
+    "title": "AI Open",
+    "sourceUrl": "https://www.keaipublishing.com/en/journals/ai-open/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/aiopen/default.aspx",
+    "guideForAuthors": "https://www.keaipublishing.com/en/journals/ai-open/guide-for-authors",
+    "acronym": "AIOPEN",
+    "issn": "2666-6510",
+    "publishingModel": "SUBSIDISED",
+    "openAccessType": "SUBSIDISED",
+    "impactFactor": 14.8,
+    "citeScore": 32.8,
+    "decisionDays": 14,
+    "acceptanceDays": 10,
+    "subjectAreas": [
+      "Software",
+      "Artificial Intelligence",
+      "Computer Science Applications",
+      "Computer Science (General)"
+    ],
+    "articleTypes": [],
+    "scope": "AI Open is a freely accessible platform to share actionable knowledge and forward-thinking perspectives on the theory of artificial intelligence and its applications. The journal welcomes research articles, review papers, perspectives, short communications and technical notes on all aspects of artificial intelligence and its applications. Topics covered include, but are not limited to: Deep learning and representation learning Graph theory and graph mining Constraints, satisfiability, and search Knowledge representation, reasoning, and logic Machine learning and data mining Knowledge graph and applications Agent-based and multi-agent systems Web and knowledge-based information systems Natural language processing Image processing and analysis Uncertainty Brain-based Learning Implicit Cognition and Learning Editorial Board",
+    "editorInChief": null,
+    "goldOpenAccessFee": 900,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26666510.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 6,
+    "title": "Artificial Intelligence",
+    "sourceUrl": "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/artint/default.aspx",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors",
+    "acronym": "ARTINT",
+    "issn": "0004-3702",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 4.6,
+    "citeScore": 15,
+    "decisionDays": 6,
+    "acceptanceDays": 8,
+    "subjectAreas": [
+      "Artificial Intelligence",
+      "Computer Vision and Pattern Recognition",
+      "Engineering (General)",
+      "Computational Theory and Mathematics"
+    ],
+    "articleTypes": [
+      "Awards Track Invited Papers",
+      "Competition Section",
+      "Full Length Article",
+      "Position Paper",
+      "Research Field Review",
+      "Research Note"
+    ],
+    "scope": "The journal of Artificial Intelligence (AIJ) welcomes papers on broad aspects of AI that constitute advances in the overall field including, but not limited to, cognition and AI, automated reasoning and inference, case-based reasoning, commonsense reasoning, computer vision, constraint processing, ethical AI, heuristic search, human interfaces, intelligent robotics, knowledge representation, machine learning, multi-agent systems, natural language processing, planning and action, and reasoning under uncertainty. The journal reports results achieved in addition to proposals for new ways of looking at AI problems, both of which must include demonstrations of value and effectiveness. Papers describing applications of AI are also welcome, but the focus should be on how new and novel AI methods advance performance in application areas, rather than a presentation of yet another application of conventional AI methods. Papers on applications should describe a principled solution, emphasize its novelty, and present an indepth evaluation of the AI techniques being exploited. Apart from regular papers, the journal also accepts Research Notes, Research Field Reviews, Position Papers, and Book Reviews (see details below). The journal will also consider summary papers that describe challenges and competitions from various areas of AI. Such papers should motivate and describe the competition design as well as report and interpret competition results, with an emphasis on insights that are of value beyond the competition (series) itself.",
+    "editorInChief": "Sylvie Thiebaux | Michael Wooldridge",
+    "goldOpenAccessFee": 4050,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00043702.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 7,
+    "title": "International Journal of Cognitive Computing in Engineering",
+    "sourceUrl": "https://www.keaipublishing.com/en/journals/international-journal-of-cognitive-computing-in-engineering/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/ijcce/Default.aspx",
+    "guideForAuthors": "https://www.keaipublishing.com/en/journals/international-journal-of-cognitive-computing-in-engineering/guide-for-authors",
+    "acronym": "IJCCE",
+    "issn": "2666-3074",
+    "publishingModel": "SUBSIDISED",
+    "openAccessType": "SUBSIDISED",
+    "impactFactor": null,
+    "citeScore": 19.8,
+    "decisionDays": 4,
+    "acceptanceDays": 3,
+    "subjectAreas": [
+      "Artificial Intelligence",
+      "Computer Science (General)",
+      "Information Systems"
+    ],
+    "articleTypes": [
+      "Full Length Article",
+      "Review",
+      "Short Communication",
+      "SI: AI for Cognitive Computing",
+      "SI: GCCCEA",
+      "SI: IoT-5G",
+      "SI:CCIMP",
+      "SI:IDMSCEP"
+    ],
+    "scope": "Cognitive computing is the creation of self-learning systems that use data mining, pattern recognition and natural language processing (NLP) to solve complicated problems without constant human oversight. It is a field that is highly transdisciplinary in nature, combining ideas, principles and methods of psychology, computer and internet technologies, linguistics, philosophy, neuroscience, etc. The goal of the International Journal of Cognitive Computing in Engineering is to explore how these data science technologies and new cognitive methods can be integrated to address real world engineering problems and challenges. For example, the journal welcomes submissions that look at the opportunities offered by combining existing data technologies with the knowledge of experts in the field and artificial intelligence. One of the benefits of cognitive computing is that it offers new analytics opportunities: the journal also welcomes designs for cognitive embedded data technologies that can process and analyse the large amount of data generated and aid decision-making. Submissions on a variety of cognitive computing-related topics will be considered. Editorial Board",
+    "editorInChief": null,
+    "goldOpenAccessFee": 700,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26663074.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 8,
+    "title": "Chip",
+    "sourceUrl": "https://submit.elsevier.com/CHIP",
+    "submissionLink": "https://submit.elsevier.com/CHIP",
+    "guideForAuthors": null,
+    "acronym": "CHIP",
+    "issn": "2709-4723",
+    "publishingModel": "FULL",
+    "openAccessType": "FULL",
+    "impactFactor": 7.1,
+    "citeScore": 7,
+    "decisionDays": 3,
+    "acceptanceDays": 7,
+    "subjectAreas": [
+      "Computer Science Applications",
+      "Information Systems"
+    ],
+    "articleTypes": [
+      "Research Article",
+      "Review",
+      "VSI: Het-Integ. Photon Chips - Research Article",
+      "VSI: Het-Integ. Photon Chips - Review"
+    ],
+    "scope": "An official journal of Shanghai Jiao Tong University . Chip is an international journal that publishes innovative research in the emerging field of integrated chips that feature revolutionary information technology. Chip will bridge the boundaries between theory and technology and form the aggregation effect of chip research. It aims to become a competitive top journal with strong international recognition and will serve as a platform for graduate students, professionals, and the engineering industry to jointly boost the cutting-edge information sciences and technologies. The journal focuses on the rapid development and potential application of new-generation information technologies. These include but are not limited to the following fields: •Quantum information: quantum algorithm, quantum machine learning, analog quantum computing, quantum circuits, quantum annealing•New types of Non-von Neumann computing and post-Moore devices: photonic computing, neuromorphic computing, other promising classical (not quantum) computing technologies•Internet of things and edge computing: advanced sensors, wireless signal transmission, low-power computing, energy harvesting, biomedical systems•Big Data and artificial intelligence: innovative hardware and architecture for data mining, information retrieval, machine learning, natural language processing, computer vision, robotics•Interdisciplinary area related to chip issues: new chip materials, new device manufacturing techniques, algorithm and architecture of chips. The Print ISSN of the journal is 2709-4723.",
+    "editorInChief": "Professor Jun-Fa Mao",
+    "goldOpenAccessFee": 2000,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27094723.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 9,
+    "title": "BioSystems",
+    "sourceUrl": "https://www.sciencedirect.com/journal/biosystems/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/BIOSYS",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/biosystems/publish/guide-for-authors",
+    "acronym": "BIO",
+    "issn": "0303-2647",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 1.9,
+    "citeScore": 4,
+    "decisionDays": 1,
+    "acceptanceDays": 3,
+    "subjectAreas": [
+      "Ecology, Evolution, Behavior and Systematics",
+      "Drug Discovery",
+      "Biotechnology",
+      "Modelling and Simulation"
+    ],
+    "articleTypes": [
+      "Full Length Article",
+      "Review Article",
+      "Hypothesis",
+      "Perspectives",
+      "Short communication",
+      "VSI: Design in Nature_Research-Article",
+      "VSI: Neural Coding 2025- Full length article",
+      "VSI: Quantum Biology - Full length article",
+      "VSI: Design in Nature_Review-Article",
+      "VSI: Neural Coding 2025 - Review article",
+      "VSI: Oxford2026Conference",
+      "VSI: Quantum Biology - Review article"
+    ],
+    "scope": "BioSystems encourages theoretical, computational, and experimental articles that link biology , evolutionary concepts , and the information sciences . The journal is dedicated to publishing research on self-organizing information systems—with the goal of obtaining a better understanding of the origins of biochemical, genetic, epigenetic, physiological, cognitive, linguistic, sociocultural, and biological organization and evolution. The scope of the journal encompasses the fundamental nature of biological information and (self)-organization . This includes quantum phenomena in information transfer, natural computing, biological coding systems, biological complexity, theoretical biology, artificial life, computational modeling of complex biological systems, evolutionary models of computation, application of biological principles to the design of novel computing systems, and the use of biomolecular materials to synthesize artificial systems that capture essential principles of natural biological information processing. The journal does not publish purely medical, computational, or ecological research, unless it is clearly linked to the basic and conceptual aspects of biological organization. The editors encourage articles that deal, in particular, with the following topics: Biological computation Molecular recognition Physical foundations of biology Quantum phenomena in biological systems Cellular control Neuromolecular computing Biological coding systems Molecular computing processes Self-organizing and self-replicating systems Origin of the genetic code Origins and evolution of genomes Stochastic evolutionary algorithms Origins and evolution of mind and language Ecological evolutionary developmental biology Reticulate evolution (symbiosis, symbiogenesis, lateral gene transfer) Simulation of genetic and ecological systems Applications (neural nets, machine learning, robotics) History and philosophy of science In addition, the editors encourage the following types of papers for submission: Papers that extract novel biological insights from multidimensional data, using AI-driven language models Biological hypothesis papers producing new insights based on a body of pre-existing empirical research Perspectives papers intended to stimulate scientific discussions and provide guidelines for future directions",
+    "editorInChief": "Abir Igamberdiev",
+    "goldOpenAccessFee": 3050,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03032647.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 10,
+    "title": "Intelligent Systems with Applications",
+    "sourceUrl": "https://www.sciencedirect.com/journal/intelligent-systems-with-applications/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/iswa/default.aspx",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/intelligent-systems-with-applications/publish/guide-for-authors",
+    "acronym": "ISWA",
+    "issn": "2667-3053",
+    "publishingModel": "FULL",
+    "openAccessType": "FULL",
+    "impactFactor": 4.3,
+    "citeScore": 8.3,
+    "decisionDays": 2,
+    "acceptanceDays": 8,
+    "subjectAreas": [
+      "Computer Science Applications",
+      "Computer Networks and Communications",
+      "Artificial Intelligence"
+    ],
+    "articleTypes": [
+      "Discussion",
+      "Full length article",
+      "Review article",
+      "Short communication",
+      "Short review"
+    ],
+    "scope": "Intelligent Systems with Applications (ISWA) is a peer reviewed open-access journal which focuses on the achievements of research and applications related to intelligent systems (IS). IS can be applied to all aspects of human enterprize, such as business &amp; finance, manufacturing &amp; supply chains, agriculture, transportation, engineering, medicine and health, education, entertainment, culture, travel, media, the Internet, etc. ISWA covers a broad spectrum of applications in the community, including industry , government , and academia . The journal aims to publish papers dealing with, but not limited to, the following research fields: Knowledge Representation and Reasoning, Machine Learning (ML) and Neural Computing, Evolutionary Computation, Fuzzy Systems, Intelligent Information Processing, Intelligent Control and Robotics, Multi-agent Systems and Programming. The journal welcomes submissions of IS-applications in various areas: Intelligent Cities, Industries, Consuming, Medical Treatment and Health, Agriculture, Business and Finance, Internet of Things (IoT). Research addressing IS-applications in other fields is also encouraged. Submissions must be novel, technically sound, and clearly presented. ISWA accepts both regular papers and survey articles. Submissions meeting journal criteria will undergo a single-blind review process, utilizing a minimum of two (2) external referees. Our dedicated editorial team, together with active researchers from related fields, will ensure that papers move through the evaluation and review as rapidly as possible without compromising on the quality of the process. The journal audience comprises academia, industry, and practitioners. Authors are strongly encouraged to make their datasets and software publicly accessible via a repository of their choosing. Please see our Guide for Authors for information on article submission. If you require any further information or help, please visit our Support Center . Software Publication We invite you to convert your open source software into an additional journal publication in Software Impacts , a multi-disciplinary open access journal. Software Impacts provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs. For more information contact us at: software.impacts@elsevier.com Focal points include, but are not limited to innovative applications of: Basic Theory Knowledge Representation and Reasoning Machine Learning (ML) and Neural Computing Evolutionary Computation Fuzzy Systems Intelligent Methodology Intelligent Information Processing (Video, Image, Audio, Language and other Multi-modal Information) Data Ming and Knowledge Discovery Pattern Recognition (PR) and Computer Vision (CV) Audio Signal Processing Natural Language Processing (NLP) Intelligent Control and Robotics Multi-agent Systems and Programming Intelligent Applications Intelligent Cities Intelligent Transportation Intelligent Systems for Security and Management Intelligent Systems for Industry Intelligent Supply Chain Unmanned factory and flexible manufacturing Unmanned Warehouse Service Robot Intelligent Systems for Consuming Intelligent Hardware and Smart Wearable Devices Intelligent Furniture New Retails Unmanned Driving and Autonomous Systems Intelligent Systems for Medical Treatment and Health Intelligent Systems for Agriculture Intelligent Systems for Business and Finance Internet of Things and its Applications",
+    "editorInChief": "Hua Xu",
+    "goldOpenAccessFee": 2300,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26673053.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 11,
+    "title": "Machine Learning with Applications",
+    "sourceUrl": "https://www.editorialmanager.com/mlwa/default.aspx",
+    "submissionLink": "https://www.editorialmanager.com/mlwa/default.aspx",
+    "guideForAuthors": null,
+    "acronym": "MLWA",
+    "issn": "2666-8270",
+    "publishingModel": "FULL",
+    "openAccessType": "FULL",
+    "impactFactor": 4.9,
+    "citeScore": null,
+    "decisionDays": 1,
+    "acceptanceDays": 7,
+    "subjectAreas": [
+      "Computer Science Applications",
+      "Management Science and Operations Research",
+      "Artificial Intelligence",
+      "Decision Sciences (General)"
+    ],
+    "articleTypes": [
+      "Research Paper",
+      "Review Article",
+      "Short Communication"
+    ],
+    "scope": "Machine Learning with Applications (MLWA) is a peer reviewed, open access journal focused on research related to machine learning . The journal encompasses all aspects of research and development in ML, including but not limited to data mining, computer vision, natural language processing (NLP), intelligent systems, neural networks, AI-based software engineering, bioinformatics and their applications in the areas of engineering, medicine, biology, education, business and social sciences. It covers a broad spectrum of applications in the community, from industry , government , and academia . The journal publishes research results in addition to new approaches to ML, with a focus on value and effectiveness. Application papers should demonstrate how ML can be used to solve important practical problems. Research methodology papers should demonstrate an improvement to the way in which existing ML research is conducted. Submissions must be novel, technically sound, and clearly presented. MLWA accepts both regular papers and technical notes (technical notes are limited to a maximum of 10 pages). In addition, survey articles and discussion papers on ML are welcome. Submissions meeting journal criteria will undergo a single-blind review process, utilizing a minimum of two (2) external referees. Our dedicated editorial team, together with active researchers from all areas of ML, ensure that papers move through the evaluation and review as fast as possible without compromising on the quality of the process. The journal audience comprises academia, industry, and practitioners. Authors are strongly encouraged to make their datasets publicly accessible via a repository of their choosing. Please see our Guide for Authors for information on article submission. If you require any further information or help, please visit our Support Center . We invite you to convert your open source software into an additional journal publication in Software Impacts , a multi-disciplinary open access journal. Software Impacts provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs. For more information contact us at: software.impacts@elsevier.com",
+    "editorInChief": "Prof. Dr. Binshan Lin",
+    "goldOpenAccessFee": 2460,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26668270.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 12,
+    "title": "World Patent Information",
+    "sourceUrl": "https://submit.elsevier.com/WPI",
+    "submissionLink": "https://submit.elsevier.com/WPI",
+    "guideForAuthors": null,
+    "acronym": "WPI",
+    "issn": "0172-2190",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 1.9,
+    "citeScore": 3.7,
+    "decisionDays": 6,
+    "acceptanceDays": 10,
+    "subjectAreas": [
+      "Law",
+      "Process Chemistry and Technology",
+      "Computer Science Applications",
+      "Bioengineering",
+      "Renewable Energy, Sustainability and the Environment",
+      "Energy Engineering and Power Technology",
+      "Mechanical Engineering",
+      "Industrial and Manufacturing Engineering",
+      "Library and Information Sciences",
+      "Fuel Technology",
+      "Management of Technology and Innovation"
+    ],
+    "articleTypes": [
+      "Research Paper",
+      "Review Article",
+      "Short Communication",
+      "VSI: LLM/GenAI/Agentic AI for IP analytics and strategy",
+      "VSI: AI/ML IP data analytics for innovation",
+      "VSI: GTM 2025's Special Issue"
+    ],
+    "scope": "The journal for intellectual property information and its retrieval, documentation, classification, search, analysis and IP managementWorld Patent Information aims to encompass the world of IP information; and focus the journal towards IPRs for industrially applicable innovations; and their management, analysis; big data analysis; policy; education. IPRs - patents, utility models; copyright, trademarks, registered design; design rights; trade secrets; database rights; traditional knowledge; indigenous knowledge; geographical indications may all be considered. World Patent Information publishes articles regarding best practice in legal and commercial patent search and analysis; articles which focus on particular types of search such as freedom to operate, FTO, clearance, state of the art, invalidity, validity, prior art, technical, landscaping, scouting, forecasting, patentability, decision searching, competitive intelligence using patent information. We are also interested in articles researching into meta data relating to IPRs such as legal status data for IPR; classifications and bibliographic data. We are interested in IP documentation, search, documentation, classification and IP information news from IP Offices. Always welcome are reviews of state of the art in a particular industry, reviews of patent, and other IP and scientific and technical databases, search and analysis for IP purposes. Research and review articles on information related to non- patent IPRs , trademarks, trade names, brands, designs, copyright, trade secrets, traditional knowledge, semiconductor rights, database rights, where these have impact for the technological innovation space. Best practice search and review articles, on sources of data. IP management information issues, inventions harvesting, IP services and intermediates and use of text mining and data mining for IP interests. Information retrieval (IR) relating to all aspects of IP published information not only text but also document specific, e.g. bibliographic, name, geographic; multi-lingual search, image search, tables, other non-text; text mining, Natural Language Processing (NLP); Information Extraction from patents e.g. – mathematical formulae, chemical, biological, plant, related data; Machine Translation, Machine learning, automated intelligence focused towards improving IP search and analysis; System Evaluation and Benchmarking, Data collections for IR experiments; Best practice for IP; IP management of Patents, Trademarks,. designs, know-how, copyright, trade secrets; organization of IP tasks in companies and research institutions; Innovation management -impact of patent and IP management; information management for IP best practice, TRIZ and its implementation for innovation processes; Technology management –characteristics and dynamics of technologies in IP perspective, IP portfolio benchmarking, valuation, geographic, expiries, technological, Advanced analysis –market, corporate, policy level, statistical analysis, Business methods patenting, Standards - standard essential patents – patent pools.",
+    "editorInChief": "Amy Trappey",
+    "goldOpenAccessFee": 2810,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01722190.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 13,
+    "title": "Journal of Biomedical Informatics",
+    "sourceUrl": "https://www.sciencedirect.com/journal/journal-of-biomedical-informatics/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/jbi/default.aspx",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-biomedical-informatics/publish/guide-for-authors",
+    "acronym": "YJBIN",
+    "issn": "1532-0464",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 4.5,
+    "citeScore": 10.2,
+    "decisionDays": 2,
+    "acceptanceDays": 8,
+    "subjectAreas": [
+      "Computer Science Applications",
+      "Health Informatics",
+      "Medicine and Dentistry (General)"
+    ],
+    "articleTypes": [
+      "Original Research",
+      "Methodological Review",
+      "Special Communication"
+    ],
+    "scope": "Endorsed by the American Medical Informatics Association The Journal of Biomedical Informatics (JBI) is the premier methodology journal in the field of biomedical informatics . JBI publishes research on new methodologies and techniques that have general applicability and form the basis for the evolving science of biomedical informatics. Papers should focus on a real-world biomedical or clinical problem, develop a novel approach to address the problem, and evaluate its appropriateness in comparison to the current state-of-the-art (SoA) methods. Involvement of healthcare professionals in motivating the work and evaluation of results is expected. Focus Areas and Topics of Interest JBI seeks to publish papers that make a conceptual contribution to the field, typically by describing an innovation in methodology or technique or by discussing substantive generalizable lessons that have been learned in the context of an informatics project. When a methodological contribution has a theoretical basis, that theory is an appropriate emphasis for papers as well. Research papers may also present a novel &quot;method of methods&quot; explaining how to apply the existing methods to a space of biomedical problems that share unique characteristics influencing the choice of methods. JBI publishes papers on a wide range of informatics topics. However, across these topics, papers must build on deep understanding and utilization of medical domain knowledge and should consider pragmatic translation for clinical care or applications. Topics of interest include (but are not limited to) clinical decision support, patient safety, natural language processing, artificial intelligence and machine learning, knowledge representation for healthcare, translational bioinformatics, clinical research informatics, and clinical informatics. Additional considerations for papers in the areas of translational bioinformatics, machine learning, security and privacy are provided below. Irrespective of the topic, papers must focus on novel informatics methods and its comparison to the current approaches. Manuscripts can be submitted in the following categories: original research, methodological review, commentaries, special communication, letters to the editor, book reviews, and editorials (see additional details on each of these categories below). Given the international readership of JBI, country-specific health systems or approaches will be considered only if they offer generalizable lessons that are relevant to the broader readership, regardless of their country, language, culture, or health system. Specific considerations for manuscripts in certain topical areas have also been provided in recent editorials. If you are considering an article with a focus on translational bioinformatics , please read this editorial . Biologic discoveries based on the use of routine informatics techniques may be important biologic contributions, but are not suitable for JBI. In addition, please note that JBI publishes bioinformatics papers only if they deal with issues in translational (human) science (e.g., translational bioinformatics papers). If you are considering an article describing a new machine learning approach, please read this editorial . Machine learning papers would be considered only if the methods that are introduced demonstrate substantial novelty and advancement beyond the current SoA and their evaluation is sound and includes an assessment of the potential of the method to be used in clinical practice. For example, submissions reporting publishing marginally SoA findings without an in-depth analysis or discussion of how the methods are potentially generalizable (or applicable in a wider setting) would not be considered. Novel and important clinical problems addressed by existing machine learning methods may warrant Special Communication papers if their discussion includes novel insights or lessons learned for future research in such domains. Authors considering an article on biomedical privacy and security , please read this editorial . To be considered, the privacy and security methods that are introduced should demonstrate substantial novelty and advancement beyond the SoA, should be specific to the biomedical informatics domain, and their practical application and/or likely real-world usefulness in the biomedical domain. Please also note that papers related to signal processing, imaging, medical devices, or communication networks are generally considered outside the scope of the journal. To be considered, such papers must introduce novel informatics methods that build on deep understanding and utilization of medical domain knowledge and should be translatable into applications. Papers on such topics should focus on information processing and management or knowledge-based approaches. Please also consult the editorial that explains where to direct Artificial Intelligence in Medicine-related manuscripts for peer review and possible publication, considering the different scope of the three Elsevier medical informatics journals: JBI, Artificial Intelligence in Medicine, and Intelligence-based Medicine.",
+    "editorInChief": "Mor Peleg",
+    "goldOpenAccessFee": 3530,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15320464.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 14,
+    "title": "Artificial Intelligence in Emergency Medicine",
+    "sourceUrl": "https://www.editorialmanager.com/aiemed/Default.aspx",
+    "submissionLink": "https://www.editorialmanager.com/aiemed/Default.aspx",
+    "guideForAuthors": null,
+    "acronym": "AIEMED",
+    "issn": "3051-2883",
+    "publishingModel": "FULL",
+    "openAccessType": "FULL",
+    "impactFactor": null,
+    "citeScore": null,
+    "decisionDays": null,
+    "acceptanceDays": null,
+    "subjectAreas": [
+      "Emergency Medicine",
+      "Artificial Intelligence"
+    ],
+    "articleTypes": [
+      "Research Article",
+      "Protocol",
+      "Scoping Review",
+      "Systematic Review",
+      "Short Communication",
+      "Case Report",
+      "VSI: Generative AI Models in Emergency Medicine- Research article",
+      "VSI: Generative AI Models in Emergency Medicine- Review",
+      "VSI: Generative AI Models in Emergency Medicine- Short communication"
+    ],
+    "scope": "Artificial Intelligence in Emergency Medicine (AIEM) is a gold open access, peer-reviewed journal dedicated to advancing the science, practice, and impact of artificial intelligence (AI) across the entire spectrum of emergency medicine. The journal welcomes high-quality, original research, reviews, technical innovations, perspectives, and case reports from all regions and disciplines. AIEM provides a comprehensive forum for clinicians, researchers, informaticians, engineers, policymakers, and industry leaders to share knowledge, foster collaboration, and accelerate the responsible adoption of AI in emergency medicine and acute care settings globally. It is important to note that any submission to AIEM will only be considered if the work is relevant to both emergency medicine and AI, which we define as follows. Emergency medicine : Emergency Medicine is a primary specialty focused on the prevention, diagnosis, and management of urgent and emergency conditions affecting patients of all ages with diverse and undifferentiated disorders. It involves timely triage, resuscitation, telemedicine, and coordinated care both in and out of hospital settings until patient stabilization or transfer. Artificial intelligence : The development and application of computational systems that emulate aspects of human cognition and decision-making, underpinned by heuristics, statistical modelling, traditional machine learning or deep learning approaches. The journal’s scope includes, but is not limited to, the areas listed below. 1. Clinical Applications and Patient Care AI-powered diagnostics, triage, and risk stratification for all emergency conditions, including trauma, cardiovascular events, neurological emergencies, sepsis, and more. Real-time clinical decision support systems, including imaging, point-of-care, and wearable sensor applications. AI-enabled remote monitoring, telehealth, and prehospital care solutions. Innovations in pediatric, geriatric, and special populations’ emergency care using AI. 2. Operations, Systems, and Resource Management AI-driven workflow optimization, patient flow, and throughput in emergency departments and prehospital settings. Predictive analytics for surge management, disaster response, mass casualty incidents, and public health emergencies. Integration of AI with electronic health records, hospital information systems, and regional/national emergency care networks. 3. Data Science, Informatics, and Computational Methods Big data analytics, natural language processing, and deep learning for emergency medicine. Data sharing, data privacy, interoperability, and multi-center collaborative research using AI. Data curation and annotation, data quality and standardization within the context of acute care environments. Human-in-the-loop workflows, and human-machine collaborative approaches. 4. Education, Training, and Workforce Development AI-enhanced education, simulation, and competency assessment for emergency clinicians, nurses, and allied health professionals. Integration of AI with extended reality (XR) technologies—including virtual, augmented, and mixed reality—to provide immersive training, team-based simulations, and scenario-based learning in emergency medicine. Training curricula and resources on AI literacy for the emergency medicine workforce. Strategies to bridge the gap between AI research and clinical adoption. 5. Policy, Ethics, Equity, and Global Perspectives Legal, ethical, and regulatory issues in the implementation and governance of AI in emergency medicine. Addressing bias, fairness, transparency, and explainability of AI systems. Global health applications, and reducing disparities in emergency care delivery using AI. Potential risks and harms of applying AI in emergency medicine. 6. Technology, Innovation, and Translational Science Emerging AI technologies, sensors, robotics, and novel devices for acute care. Translational research from bench to bedside, including pilot studies, clinical trials, and real-world implementations. Partnerships between academia, industry, and healthcare systems to advance innovation. 7. Case Studies, Quality Improvement, and Implementation Science Reports on successful implementation, challenges, failures, and lessons learned from deploying AI in emergency settings. Impact studies on patient outcomes, safety, quality, and operational efficiency. AIEM seeks to become the premier international open access platform for knowledge exchange at the intersection of AI and emergency medicine. By embracing a broad, interdisciplinary scope, the journal aims to accelerate scientific progress, inform best practices, and shape the future of emergency care worldwide.",
+    "editorInChief": "Koenraad Monsieurs | Riza Theresa Batista-Navarro",
+    "goldOpenAccessFee": 2500,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30512883.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 15,
+    "title": "International Journal of Medical Informatics",
+    "sourceUrl": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/IJMEDI",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/publish/guide-for-authors",
+    "acronym": "IJB",
+    "issn": "1386-5056",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 4.1,
+    "citeScore": 7.9,
+    "decisionDays": 1,
+    "acceptanceDays": 3,
+    "subjectAreas": [
+      "Information Systems",
+      "Computer Science Applications",
+      "Nursing and Health Professions (General)",
+      "Health Informatics"
+    ],
+    "articleTypes": [
+      "Research Paper",
+      "Review Article",
+      "Short Communication"
+    ],
+    "scope": "Official journal of the European Federation for Medical Informatics (EFMI) and IMIA . International Journal of Medical Informatics provides an international medium for dissemination of original results and interpretative reviews concerning the field of medical informatics. The journal emphasizes the development, use, implementation, deployment, and evaluation of information and communication technologies (ICT) in healthcare settings, including consumer health, public health, clinical care, telehealth, education, clinical research, policies, and regulations considering security, privacy, and the ethical use of ICT resources at local, national, and global levels to improve population care delivery. The scope of journal covers: Information systems, including national or international registration systems, hospital information systems, departmental and/or clinician’s office systems, document handling systems, clinical information systems, electronic medical record systems, personal health records, public and population health informatics, consumer health systems, digital health, digital ecosystem, terminologies and standardization, systems integration and interoperability, among other topics on the scenario of delivering patient care through information and communication technology devices. Computer-assisted medical decision support systems that use heuristics, data structures, algorithms, and statistical methods exemplified in decision theory, protocol development, and artificial intelligence, including techniques for discovering new knowledge. Note that studies in AI will be considered if they are integrated into clinical systems or evaluate the impact caused on clinical implementations. Educational information and communication technology-based programs pertaining to medical informatics in general, including organizational, educational framework, curriculum content, economics evaluation, social and clinical impact, ethical and cost-benefit aspects of ICT applications in health care. Patient safety, data privacy, security and confidentiality requirements, legal regulation, policies process, system assessment, maturity models evaluation and governance for ICT. The journal is in the healthcare domain. As an international journal, methodology plays a crucial role in allowing researchers from different countries to acquire knowledge and benefits from the steps followed to obtain results and evidence in using ICT in healthcare delivery. Results are often not transferable, but researchers can pursue and use methods in various scenarios. If the article is on artificial intelligence using machine learning, deep learning, natural language processing, predictive modelling and related topics, authors MUST add relevant information as an appendix to allow better evaluation, transparency, and reproducibility. Many studies currently use models, algorithms, and in silico evaluation. In this case, we recommend a practical clinical application or a test with a different dataset than the one used to design the algorithm or model – an evaluation performed with data from other facilities is recommended. In other words, the dataset must be different (origin and testing). In addition, it would be helpful for authors to highlight the study’s limitations, particularly in cases where the testing is not feasible. Predictive modeling (based on deep learning or machine learning techniques) applied to image analysis can significantly enhance diagnostic accuracy when integrated into hospital electronic health records. IJMEDI&#39;s scope allows the acceptance of primary research articles or reviews on image analysis that have been validated on external datasets (different from those used for development and training) and, possibly, integrated into clinical workflow or that have developed novel approaches using multimodality data. Articles that only focus on methodological approaches, analytical frameworks, or studies reporting algorithm performance in medical image analysis without a clear clinical contribution described above are considered out of scope for IJMEDI. Again, note that IJMEDI is not interested in the model description or the comparison of framework performance with no novelty on the method or deployment. The scope is to focus on the results of ICT in clinical practice. The IJMI is interested in robust evaluation and intervention studies in clinical practice applications. Faced with so many studies using models, algorithms, in silico evaluation, it is demanded a practical clinical application (different dataset for validation) with significant meaning for providers and patients. Studies on models and descriptions must be advanced and show how much the contribution is evident for international readers and researchers. Most studies only evaluated model performance, but no usability and impact evaluation. It is necessary to advance and demonstrate impact on clinical practices. Please also consult the IJMEDI editorials which details the checklist for machine learning checklist ( https://www.sciencedirect.com/science/article/pii/S1386505621001362?via%3Dihub ) and the scope of AI for the IJMEDI journal ( https://www.sciencedirect.com/science/article/pii/S1386505623001685 ). Authors may also consider other journals addressing artificial intelligence in medicine and methods ( Medical Informatics Journals | Elsevier ). The scope does not cover bibliometric or scientometric studies or similar studies using those methods.",
+    "editorInChief": "Prof. Dr. Heimar Marin",
+    "goldOpenAccessFee": 3160,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/13865056.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 16,
+    "title": "Artificial Intelligence in Medicine",
+    "sourceUrl": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/AIIM/default.aspx",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors",
+    "acronym": "ARTMED",
+    "issn": "0933-3657",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 6.2,
+    "citeScore": 12.2,
+    "decisionDays": 12,
+    "acceptanceDays": 7,
+    "subjectAreas": [
+      "Medicine and Dentistry (General)",
+      "Artificial Intelligence"
+    ],
+    "articleTypes": [
+      "Historical perspectives",
+      "Original research contributions",
+      "PhD projects",
+      "Position papers",
+      "Book reviews",
+      "Methodological Reviews/Surveys",
+      "VSI: AIIM for IEEE CBMS 2025 (FLA)",
+      "VSI: TKD from PhysioNet (FLA)",
+      "VSI: TKD from PhysioNet (REV)"
+    ],
+    "scope": "Artificial Intelligence in Medicine publishes original articles from a wide variety of interdisciplinary perspectives concerning the theory and practice of artificial intelligence (AI) in medicine , medically-oriented human biology , and health care . Artificial intelligence in medicine may be characterized as the scientific discipline pertaining to research studies, projects, and applications that aim at supporting decision-based medical tasks through knowledge- and/or data-intensive computer-based solutions that ultimately support and improve the performance of a human care provider. Artificial Intelligence in Medicine considers for publication manuscripts that have both: • Potential high impact in some medical or healthcare domain; • Strong novelty of method and theory related to AI and computer science techniques. Artificial Intelligence in Medicine papers must refer to real-world medical domains, considered and discussed at the proper depth, from both the technical and the medical points of view. The inclusion of a clinical assessment of the usefulness and potential impact of the submitted work is strongly recommended. Artificial Intelligence in Medicine is looking for novelty in the methodological and/or theoretical content of submitted papers. Such kind of novelty has to be mainly acknowledged in the area of AI and Computer Science. Methodological papers deal with the proposal of some strategy and related methods to solve some scientific issues in specific domains. They must show, usually through an experimental evaluation, how the proposed methodology can be applied to medicine, medically-oriented human biology, and health care, respectively. They have also to provide a comparison with other proposals, and explicitly discuss elements of novelty. Theoretical papers focus on more fundamental, general and formal topics of AI and must show the novel expected effects of the proposed solution in some medical or healthcare field. Following the information explosion brought by the diffusion of Internet, social networks, cloud computing, and big-data platforms, Artificial Intelligence in Medicine has broadened its perspective. Particular attention is given to novel research work pertaining to: AI-based clinical decision making; Medical knowledge engineering; Knowledge-based and agent-based systems; Computational intelligence in bio- and clinical medicine; Intelligent and process-aware information systems in healthcare and medicine; Natural language processing in medicine; Data analytics and mining for biomedical decision support; New computational platforms and models for biomedicine; Intelligent exploitation of heterogeneous data sources aimed at supporting decision-based and data-intensive clinical tasks; Intelligent devices and instruments; Automated reasoning and meta-reasoning in medicine; Machine learning in medicine, medically-oriented human biology, and healthcare; AI and data science in medicine, medically-oriented human biology, and healthcare; AI-based modeling and management of healthcare pathways and clinical guidelines; Models and systems for AI-based population health; AI in medical and healthcare education; Methodological, philosophical, ethical, and social issues of AI in healthcare, medically-oriented human biology, and medicine. If you are considering submitting to Artificial Intelligence in Medicine , make sure that your paper meets the quality requirements mentioned above. English exposition must also be clear and revised with due care. Authors are kindly requested to revise their manuscripts with the help of co-authors that are fluent in English or language editing services before submitting their contribution. Papers written in poor English are likely to be rejected. The mere application of well-known or already published algorithms and techniques to medical data is not regarded as original research work of interest for Artificial Intelligence in Medicine , but it may be suitable for other venues. Artificial Intelligence in Medicine features the following kinds of papers: Original research contributions: Theoretical and/or methodological papers about novel approaches; Methodological reviews/surveys: Papers that collect, classify, describe, and critically analyze research designs, methods and procedures; Position papers: Papers that gather, describe, and analyze the scientific challenges of a specific field, founding them on the related literature; Editorials: Editors will occasionally publish editorials; Guest editorials: Editors can invite guest editors of special issues to publish editorials. Unsolicited editorials will not be considered; Letters to the editor: Letters from readers shortly discussing and commenting on a topic of interest, for example based on recently published articles in the journal Artificial Intelligence in Medicine ; Book reviews: A critical review of recently published books; Erratum: Some specific corrections to results previously published in the journal Artificial Intelligence in Medicine ; Historical perspectives: Papers that describe and critically review some specific aspects in the history of scientific contributions and applications; In memoriam: Papers describing the life and the main scientific contributions of scientists passed away, having had an important role in the area of artificial intelligence in medicine; PhD projects: Early publications about more recent research trends, having the goal of allowing PhD candidates to explain their PhD research project and to share it with other scientists interested in the topic. Such type of papers should focus on the overall goals and approaches of PhD research projects, without considering in detail the specific scientific results obtained, which would be the focus of other research articles. Special Issues are regularly published and included among regular issues. Artificial Intelligence in Medicine special issues deal with current theoretical/methodological research or convincing applications related to AI in medicine. Special Issues are managed by one or more guest editors who are outstanding experts on the selected topic.Special Issues of Artificial Intelligence in Medicine are directly proposed to potential guest editors by the Editor in Chief, also according to suggestions from the editorial board members.&quot;External&quot; proposals of Special Issues will no longer be considered. Artificial Intelligence in Medicine does not publish conference volumes or conference papers. However, selected and high-quality research results presented earlier at conferences may be published in Artificial Intelligence in Medicine , in the form of a thoroughly revised (rephrased) and extended (including new research results) original research paper. Information for authors and further details about the editorial process can be found in the Guide for Authors section of the Artificial Intelligence in Medicine web page.",
+    "editorInChief": "Carlo Combi",
+    "goldOpenAccessFee": 3310,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09333657.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "springer",
+    "rank": 1,
+    "title": "Journal of Psycholinguistic Research",
+    "sourceUrl": "https://link.springer.com/journal/10936?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10936/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10936/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.62024,
+    "impactFactorText": "1.6 (2024)",
+    "downloads": 281909,
+    "decisionDays": 182,
+    "decisionTimeText": "182 days",
+    "subjectAreas": [
+      "Behavioral Sciences and Psychology",
+      "Cognitive Psychology",
+      "Psycholinguistics and Cognitive Lingusitics"
+    ],
+    "scope": "Behavioral Sciences and Psychology, Cognitive Psychology, Psycholinguistics and Cognitive Lingusitics",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 2,
+    "title": "Psychonomic Bulletin & Review",
+    "sourceUrl": "https://link.springer.com/journal/13423?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/13423/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/13423/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 3.02024,
+    "impactFactorText": "3.0 (2024)",
+    "downloads": 3067055,
+    "decisionDays": null,
+    "decisionTimeText": "Not available",
+    "subjectAreas": [
+      "Cognitive Psychology"
+    ],
+    "scope": "Cognitive Psychology",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 3,
+    "title": "Language Resources and Evaluation",
+    "sourceUrl": "https://link.springer.com/journal/10579?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10579/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10579/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.82024,
+    "impactFactorText": "1.8 (2024)",
+    "downloads": 389660,
+    "decisionDays": 36,
+    "decisionTimeText": "36 days",
+    "subjectAreas": [
+      "Computational Linguistics",
+      "Computer Science",
+      "Linguistics",
+      "Research Methods in Language and Linguistics"
+    ],
+    "scope": "Computational Linguistics, Computer Science, Linguistics, Research Methods in Language and Linguistics",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 4,
+    "title": "Reading and Writing",
+    "sourceUrl": "https://link.springer.com/journal/11145?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11145/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11145/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.22024,
+    "impactFactorText": "2.2 (2024)",
+    "downloads": 793132,
+    "decisionDays": 3,
+    "decisionTimeText": "3 days",
+    "subjectAreas": [
+      "Language Education",
+      "Educational Psychology",
+      "Psycholinguistics and Cognitive Lingusitics",
+      "Neurology",
+      "Literacy"
+    ],
+    "scope": "Language Education, Educational Psychology, Psycholinguistics and Cognitive Lingusitics, Neurology, Literacy",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 5,
+    "title": "Behavior Research Methods",
+    "sourceUrl": "https://link.springer.com/journal/13428?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/13428/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/13428/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 3.92024,
+    "impactFactorText": "3.9 (2024)",
+    "downloads": 4443719,
+    "decisionDays": null,
+    "decisionTimeText": "Not available",
+    "subjectAreas": [
+      "Cognitive Psychology"
+    ],
+    "scope": "Cognitive Psychology",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 6,
+    "title": "Journal of Autism and Developmental Disorders",
+    "sourceUrl": "https://link.springer.com/journal/10803?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10803/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10803/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.82024,
+    "impactFactorText": "2.8 (2024)",
+    "downloads": 4380563,
+    "decisionDays": 10,
+    "decisionTimeText": "10 days",
+    "subjectAreas": [
+      "School Psychology",
+      "Pediatrics",
+      "Neuroscience",
+      "Public Health"
+    ],
+    "scope": "School Psychology, Pediatrics, Neuroscience, Public Health",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 7,
+    "title": "Journal of Cultural Cognitive Science",
+    "sourceUrl": "https://link.springer.com/journal/41809?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/41809/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/41809/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.52024,
+    "impactFactorText": "1.5 (2024)",
+    "downloads": 95826,
+    "decisionDays": 7,
+    "decisionTimeText": "7 days",
+    "subjectAreas": [
+      "Cognitive Psychology",
+      "Psycholinguistics and Cognitive Lingusitics",
+      "Philosophy of Mind"
+    ],
+    "scope": "Cognitive Psychology, Psycholinguistics and Cognitive Lingusitics, Philosophy of Mind",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 8,
+    "title": "Humanities and Social Sciences Communications",
+    "sourceUrl": "https://link.springer.com/journal/41599?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/41599/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/41599/submission-guidelines",
+    "publishingModel": "Open access",
+    "openAccessType": "Open access",
+    "impactFactor": 3.62024,
+    "impactFactorText": "3.6 (2024)",
+    "downloads": 27432588,
+    "decisionDays": 41,
+    "decisionTimeText": "41 days",
+    "subjectAreas": [
+      "Humanities and Social Sciences",
+      "Behavioral Sciences and Psychology",
+      "Business and Management"
+    ],
+    "scope": "Humanities and Social Sciences, Behavioral Sciences and Psychology, Business and Management",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 9,
+    "title": "Cognitive Processing",
+    "sourceUrl": "https://link.springer.com/journal/10339?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10339/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10339/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.42024,
+    "impactFactorText": "1.4 (2024)",
+    "downloads": 326631,
+    "decisionDays": 13,
+    "decisionTimeText": "13 days",
+    "subjectAreas": [
+      "Neuroscience",
+      "Behavioral Neuroscience",
+      "Artificial Intelligence"
+    ],
+    "scope": "Neuroscience, Behavioral Neuroscience, Artificial Intelligence",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 10,
+    "title": "Natural Language & Linguistic Theory",
+    "sourceUrl": "https://link.springer.com/journal/11049?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11049/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11049/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.12024,
+    "impactFactorText": "1.1 (2024)",
+    "downloads": 252557,
+    "decisionDays": 11,
+    "decisionTimeText": "11 days",
+    "subjectAreas": [
+      "Linguistics",
+      "Natural Language Processing (NLP)",
+      "Philosophy of Language",
+      "Theoretical Linguistics / Grammar"
+    ],
+    "scope": "Linguistics, Natural Language Processing (NLP), Philosophy of Language, Theoretical Linguistics / Grammar",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 11,
+    "title": "Memory & Cognition",
+    "sourceUrl": "https://link.springer.com/journal/13421?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/13421/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/13421/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.12024,
+    "impactFactorText": "2.1 (2024)",
+    "downloads": 2069218,
+    "decisionDays": null,
+    "decisionTimeText": "Not available",
+    "subjectAreas": [
+      "Cognitive Psychology"
+    ],
+    "scope": "Cognitive Psychology",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 12,
+    "title": "Attention, Perception, & Psychophysics",
+    "sourceUrl": "https://link.springer.com/journal/13414?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/13414/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/13414/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.72024,
+    "impactFactorText": "1.7 (2024)",
+    "downloads": 2692221,
+    "decisionDays": null,
+    "decisionTimeText": "Not available",
+    "subjectAreas": [
+      "Cognitive Psychology"
+    ],
+    "scope": "Cognitive Psychology",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 13,
+    "title": "Synthese",
+    "sourceUrl": "https://link.springer.com/journal/11229?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11229/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11229/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.32024,
+    "impactFactorText": "1.3 (2024)",
+    "downloads": 2349297,
+    "decisionDays": 4,
+    "decisionTimeText": "4 days",
+    "subjectAreas": [
+      "Philosophy of Science",
+      "Epistemology",
+      "Logic",
+      "Philosophy of Language",
+      "Metaphysics"
+    ],
+    "scope": "Philosophy of Science, Epistemology, Logic, Philosophy of Language, Metaphysics",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 15,
+    "title": "International Journal of Speech Technology",
+    "sourceUrl": "https://link.springer.com/journal/10772?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10772/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10772/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": null,
+    "impactFactorText": null,
+    "downloads": 104640,
+    "decisionDays": 54,
+    "decisionTimeText": "54 days",
+    "subjectAreas": [
+      "Signal, Speech and Image Processing",
+      "Society",
+      "Artificial Intelligence"
+    ],
+    "scope": "Signal, Speech and Image Processing, Society, Artificial Intelligence",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 16,
+    "title": "Psychological Research",
+    "sourceUrl": "https://link.springer.com/journal/426?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/426/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/426/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.32024,
+    "impactFactorText": "2.3 (2024)",
+    "downloads": 825701,
+    "decisionDays": 5,
+    "decisionTimeText": "5 days",
+    "subjectAreas": [
+      "Behavioral Sciences and Psychology"
+    ],
+    "scope": "Behavioral Sciences and Psychology",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 17,
+    "title": "Linguistics and Philosophy",
+    "sourceUrl": "https://link.springer.com/journal/10988?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10988/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10988/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.32024,
+    "impactFactorText": "1.3 (2024)",
+    "downloads": 131574,
+    "decisionDays": 26,
+    "decisionTimeText": "26 days",
+    "subjectAreas": [
+      "Linguistics",
+      "Philosophy of Language"
+    ],
+    "scope": "Linguistics, Philosophy of Language",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 18,
+    "title": "Topoi",
+    "sourceUrl": "https://link.springer.com/journal/11245?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11245/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11245/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.32024,
+    "impactFactorText": "1.3 (2024)",
+    "downloads": 662591,
+    "decisionDays": 13,
+    "decisionTimeText": "13 days",
+    "subjectAreas": [
+      "Philosophy",
+      "Philosophy of Science",
+      "Philosophy of Technology"
+    ],
+    "scope": "Philosophy, Philosophy of Science, Philosophy of Technology",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 19,
+    "title": "Current Psychology",
+    "sourceUrl": "https://link.springer.com/journal/12144?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/12144/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/12144/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.62024,
+    "impactFactorText": "2.6 (2024)",
+    "downloads": 6317966,
+    "decisionDays": 55,
+    "decisionTimeText": "55 days",
+    "subjectAreas": [
+      "Behavioral Sciences and Psychology",
+      "Society"
+    ],
+    "scope": "Behavioral Sciences and Psychology, Society",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 20,
+    "title": "Review of Philosophy and Psychology",
+    "sourceUrl": "https://link.springer.com/journal/13164?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/13164/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/13164/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.02024,
+    "impactFactorText": "2.0 (2024)",
+    "downloads": 344407,
+    "decisionDays": 50,
+    "decisionTimeText": "50 days",
+    "subjectAreas": [
+      "Philosophy of Mind",
+      "Cognitive Psychology",
+      "Neuroscience",
+      "Epistemology",
+      "Developmental Psychology",
+      "Philosophy of Science"
+    ],
+    "scope": "Philosophy of Mind, Cognitive Psychology, Neuroscience, Epistemology, Developmental Psychology, Philosophy of Science",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  }
+]

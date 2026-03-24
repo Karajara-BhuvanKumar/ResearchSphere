@@ -1,0 +1,32 @@
+{
+  "query": "computer vision",
+  "provider": "both",
+  "runDir": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-47-800Z-both-computer-vision",
+  "results": [
+    {
+      "provider": "springer",
+      "finalUrl": "https://link.springer.com/journals/journal-finder",
+      "recommendationCount": 20,
+      "networkCaptureCount": 2,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-47-800Z-both-computer-vision\\springer-journals.json"
+    },
+    {
+      "provider": "elsevier",
+      "finalUrl": "https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&sortBy=default&sortOrder=desc&query=computer+vision&mode=search&ecrId=&agreementsFilter=all-journals",
+      "recommendationCount": 40,
+      "networkCaptureCount": 1,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-47-800Z-both-computer-vision\\elsevier-journals.json"
+    }
+  ],
+  "normalized": {
+    "query": "computer vision",
+    "springerCount": 20,
+    "elsevierCount": 40,
+    "mergedCount": 60,
+    "files": {
+      "springer": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-47-800Z-both-computer-vision\\springer-journals.json",
+      "elsevier": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-47-800Z-both-computer-vision\\elsevier-journals.json",
+      "merged": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-47-800Z-both-computer-vision\\journals-merged.json"
+    }
+  }
+}

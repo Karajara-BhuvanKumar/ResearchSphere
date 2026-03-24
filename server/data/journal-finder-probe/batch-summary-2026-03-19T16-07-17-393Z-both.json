@@ -1,0 +1,103 @@
+{
+  "provider": "both",
+  "createdAt": "2026-03-19T16:07:17.385Z",
+  "topicCount": 15,
+  "completedCount": 14,
+  "skippedCount": 1,
+  "failedCount": 0,
+  "topics": [
+    "machine learning",
+    "deep learning",
+    "artificial intelligence",
+    "natural language processing",
+    "computer vision",
+    "blockchain",
+    "cybersecurity",
+    "cloud computing",
+    "distributed systems",
+    "data mining",
+    "software engineering",
+    "internet of things",
+    "edge computing",
+    "federated learning",
+    "reinforcement learning"
+  ],
+  "results": [
+    {
+      "topic": "machine learning",
+      "status": "completed",
+      "runName": "2026-03-19T15-59-30-789Z-both-machine-learning"
+    },
+    {
+      "topic": "deep learning",
+      "status": "completed",
+      "runName": "2026-03-19T16-00-05-232Z-both-deep-learning"
+    },
+    {
+      "topic": "artificial intelligence",
+      "status": "completed",
+      "runName": "2026-03-19T16-00-41-022Z-both-artificial-intelligence"
+    },
+    {
+      "topic": "natural language processing",
+      "status": "completed",
+      "runName": "2026-03-19T16-01-15-075Z-both-natural-language-processing"
+    },
+    {
+      "topic": "computer vision",
+      "status": "completed",
+      "runName": "2026-03-19T16-01-47-800Z-both-computer-vision"
+    },
+    {
+      "topic": "blockchain",
+      "status": "completed",
+      "runName": "2026-03-19T16-02-21-456Z-both-blockchain"
+    },
+    {
+      "topic": "cybersecurity",
+      "status": "completed",
+      "runName": "2026-03-19T16-02-51-760Z-both-cybersecurity"
+    },
+    {
+      "topic": "cloud computing",
+      "status": "skipped",
+      "runName": "2026-03-19T15-07-35-371Z-both-cloud-computing",
+      "reason": "Existing run found"
+    },
+    {
+      "topic": "distributed systems",
+      "status": "completed",
+      "runName": "2026-03-19T16-03-24-104Z-both-distributed-systems"
+    },
+    {
+      "topic": "data mining",
+      "status": "completed",
+      "runName": "2026-03-19T16-03-56-461Z-both-data-mining"
+    },
+    {
+      "topic": "software engineering",
+      "status": "completed",
+      "runName": "2026-03-19T16-04-30-474Z-both-software-engineering"
+    },
+    {
+      "topic": "internet of things",
+      "status": "completed",
+      "runName": "2026-03-19T16-05-08-196Z-both-internet-of-things"
+    },
+    {
+      "topic": "edge computing",
+      "status": "completed",
+      "runName": "2026-03-19T16-05-39-379Z-both-edge-computing"
+    },
+    {
+      "topic": "federated learning",
+      "status": "completed",
+      "runName": "2026-03-19T16-06-11-737Z-both-federated-learning"
+    },
+    {
+      "topic": "reinforcement learning",
+      "status": "completed",
+      "runName": "2026-03-19T16-06-47-799Z-both-reinforcement-learning"
+    }
+  ]
+}

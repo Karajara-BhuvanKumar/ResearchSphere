@@ -1,0 +1,12 @@
+{
+  "query": "cloud computing",
+  "provider": "elsevier",
+  "runDir": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T14-58-28-094Z-elsevier-cloud-computing",
+  "results": [
+    {
+      "provider": "elsevier",
+      "finalUrl": "https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&sortBy=default&sortOrder=desc&query=cloud+computing&mode=search&ecrId=&agreementsFilter=all-journals",
+      "networkCaptureCount": 1
+    }
+  ]
+}

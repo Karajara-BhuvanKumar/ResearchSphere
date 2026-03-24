@@ -1,0 +1,102 @@
+[
+  {
+    "provider": "elsevier",
+    "rank": 1,
+    "title": "Risk Sciences",
+    "sourceUrl": "https://www.editorialmanager.com/risks/default2.aspx",
+    "submissionLink": "https://www.editorialmanager.com/risks/default2.aspx",
+    "guideForAuthors": null,
+    "acronym": "RISK",
+    "issn": "2950-6298",
+    "publishingModel": "SUBSIDISED",
+    "openAccessType": "SUBSIDISED",
+    "impactFactor": null,
+    "citeScore": null,
+    "decisionDays": 5,
+    "acceptanceDays": 7,
+    "subjectAreas": [
+      "Economics, Econometrics and Finance (General)",
+      "Business, Management and Accounting (General)",
+      "Statistics, Probability and Uncertainty",
+      "Safety, Risk, Reliability and Quality"
+    ],
+    "articleTypes": [
+      "Full Length Article",
+      "Perspectives",
+      "Review",
+      "VSI: 2026 Frontier Sci-Tech Forum",
+      "VSI: AI Ethics, Governance and Risk Management",
+      "VSI: Building Resilience Against Climate Risks"
+    ],
+    "scope": "Risk Sciences is a general-interest journal that publishes academic research and industry practices on risks and disruptive technologies across all fields including agriculture, economics, engineering, environmental science, finance, health, law, management, natural sciences, and public administration. Risk Sciences encompass all scientific areas that study the identification, quantification, analysis, communication and governance of risks and uncertainties across all walks of life and society. It has become a fast-evolving interdisciplinary domain with the increasing sophistication of human civilization at this day and age. An important aim of this journal is to become a leading platform for coalescing research interests across multiple disciplines and building the synergy for the advancement of Risk Sciences. The journal welcomes all scientific work pertaining to risks and uncertainties in the form of original research papers, review articles, industrial case studies and perspectives. Areas covered within the scope of this journal include but are not limited to: Actuarial Science Economics of Uncertainty and Information Emergency Management Environment, Health and Safety Financial Instruments, Markets and New Technologies Insurance and Social Protection Reliability and Quality Risk Management Laws and Policies Societal Risks and Organizational Crisis Management Statistical Methods and Analysis The journal has particular interests in risk-related topics of significant societal impact including the following: Catastrophe and Climate Change Extreme weather and catastrophe modeling Human environment damages Climate action failure Disaster mitigation Sustainable investments Digitalization and Cybersecurity Risks Digital transition Sharing economy Cybersecurity Crypto finance Big data and privacy Disruptive Technologies Safety &amp; responsible use of AI/ML Quantum computing Robotization Biotechnology Ethics and tech governance failure Economics and Management of Uncertainty Systemic risks Asset bubbles Commodity shocks Financial derivatives and insurance Supply chain risk management Global and Societal Challenges Medical and mental health issues Aging society and changing demographics Pandemics and public health emergencies Geo-economic confrontation Proliferation of illicit economic activities Social network The open access publication fee for this journal is USD 500, plus taxes. All APCs for articles submitted to the journal before 31 December 2027 will be fully waived. Editorial Board",
+    "editorInChief": null,
+    "goldOpenAccessFee": 0,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29506298.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 2,
+    "title": "SoftwareX",
+    "sourceUrl": "https://www.sciencedirect.com/journal/softwarex/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/softx/default.aspx",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/softwarex/publish/guide-for-authors",
+    "acronym": "SOFTX",
+    "issn": "2352-7110",
+    "publishingModel": "FULL",
+    "openAccessType": "FULL",
+    "impactFactor": 2.4,
+    "citeScore": 4.2,
+    "decisionDays": 7,
+    "acceptanceDays": 12,
+    "subjectAreas": [
+      "Biochemistry, Genetics and Molecular Biology (General)",
+      "Software",
+      "Neuroscience (General)",
+      "Physics and Astronomy (General)"
+    ],
+    "articleTypes": [
+      "Original software publication"
+    ],
+    "scope": "SoftwareX aims to acknowledge the impact of software on today&#39;s research practice, and on new scientific discoveries in almost all research domains. SoftwareX also aims to stress the importance of the software developers who are, in part, responsible for this impact. To this end, SoftwareX aims to support publication of research software in such a way that: The software is given a stamp of scientific relevance, and provided with a peer-reviewed recognition of scientific impact; The software developers are given the credits they deserve; The software is citable, allowing traditional metrics of scientific excellence to apply; The academic career paths of software developers are supported rather than hindered; The software is publicly available for inspection, validation, and re-use. Above all, SoftwareX aims to inform researchers about software applications, tools and libraries with a (proven) potential to impact the process of scientific discovery in various domains. The journal is multidisciplinary and accepts submissions from within and across subject domains such as those represented within the broad thematic areas below: Mathematical and Physical Sciences; Environmental Sciences; Medical and Biological Sciences; Humanities, Arts and Social Sciences. Originating from these broad thematic areas, the journal also welcomes submissions of software that works in cross cutting thematic areas, such as citizen science, cybersecurity, digital economy, energy, global resource stewardship, health and wellbeing, etcetera. SoftwareX specifically aims to accept submissions representing domain-independent software that may impact more than one research domain. Domain independent underpinning software tools and technologies have for too long been underrepresented in academic literature. We wish to ensure that these software items get academic recognition and welcome submissions of software tools and services that may otherwise not have a publication home. Examples include mathematical or image processing libraries or methodologies, visualization tools, data management, etcetera. Through the quality of the description and of the (potential) impact of the software deposited we aim that significant reuse will occur both within and without the original developing domain and therefore encourage consideration of this reuse factor when submitting and in the language used within the description. Submissions to SoftwareX consist of two major parts: A short descriptive paper of 3000-word limit; An open-source software distribution with support material. The manuscript you submit must be regarded as an accompanying note for the benefit of readers and potential users of your software. Submissions are accepted only if they follow the journal-specific templates: Word templates (please note that figures must be directly embedded in the .docx file): Original software publication Software update LaTeX templates: Original software publication Software update . For any questions contact us at: softwarex@elsevier.com All software publications published in SoftwareX are hosted on a repository on GitHub. A copy of the &#39;accepted for publication&#39; version of software/code will be copied to the journal&#39;s GitHub repository for archiving purposes. Go to the SoftwareX GitHub repository",
+    "editorInChief": "Alba Amato | Nikolaos Kourkoumelis | Randall Sobie",
+    "goldOpenAccessFee": 1560,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/23527110.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 3,
+    "title": "Power Grid Engineering Science",
+    "sourceUrl": "https://www.editorialmanager.com/pges/default2.aspx",
+    "submissionLink": "https://www.editorialmanager.com/pges/default2.aspx",
+    "guideForAuthors": null,
+    "acronym": "PGES",
+    "issn": "3117-762X",
+    "publishingModel": "SUBSIDISED",
+    "openAccessType": "SUBSIDISED",
+    "impactFactor": null,
+    "citeScore": null,
+    "decisionDays": null,
+    "acceptanceDays": null,
+    "subjectAreas": [
+      "Energy Engineering and Power Technology",
+      "Artificial Intelligence",
+      "Energy (General)",
+      "Control and Systems Engineering"
+    ],
+    "articleTypes": [
+      "Full Length Article",
+      "Review",
+      "Editorial"
+    ],
+    "scope": "PGES is dedicated to promoting the systematic integration and innovative application of multidisciplinary theories in power grid scenarios. The journal aims to address complex challenges in engineering science and technology, construct a comprehensive knowledge system spanning engineering science–engineering technology–engineering practice , and create a premier academic exchange platform that bridges fundamental science with engineering practice. Scope: PGES focuses on publishing interdisciplinary research outcomes that tackle fundamental scientific issues and complex engineering challenges in power systems. The journal features original research articles with clear potential for practical application, comprehensive review papers, and insightful perspectives. Topics of interest include, but are not limited to: Ultra-High Voltage (UHV) and Flexible DC Transmission Promoting theoretical innovation in the coordinated operation of UHV and AC/DC systems; focusing on technical breakthroughs in UHV and AC/DC hybrid transmission systems; and being dedicated to enhancing resource optimization capabilities of large power grids, the efficiency of AC/DC coordinated operation, and the reliability of power distribution systems. UHV transmission Flexible AC transmission systems (FACTS) DC system architecture and control HVDC power conversion High voltage and insulation technology Power-Electronics-Dominated Power Systems (PEDPS) Addressing the evolution of system structures and stability mechanisms caused by the high penetration of power electronic devices, and exploring theories, technologies, and methods for proactive support in the transition toward highly PEDPS. Reliability, planning, and design of modern power systems Static and dynamic stability analysis and simulation Operation and maintenance of PEDPS Security, protection, and control of PEDPS Resilience analysis and enhancement of PEDPS Power electronic devices, packaging, and system integration Grid-following and grid-forming technologies and equipment Renewable Energy and Advanced Energy Storage Focusing on fundamental theories of efficient renewable energy conversion and multi-energy integration; investigating the scientific mechanisms and optimization methods for coordinated source–load–storage interactions; and exploring theories and methods for ensuring the security, stability, reliability, flexibility, and large-scale integration of renewable energy into power systems. Planning and operation of renewable energy and energy storage systems (ESS) Analysis and control of renewable energy and ESS Grid integration testing of renewable energy and ESS Renewable energy and ESS equipment Renewable energy and ESS technologies Safety and application of ESS Holistic Grid Digitalization and Intelligence Dedicated to deeply integrating advanced digital and intelligent technologies across all aspects of power systems, promoting digital transformation, and enhancing intelligent decision-making and operation of future power systems. Advanced artificial intelligence (AI) Power-computing co-design and co-optimization Energy internet of things and digital twins Power big data and intelligent scientific computing Intelligent operation and maintenance of power equipment Intelligent dispatch Intelligent sensing and measurement Power industrial control software &amp; dedicated chips Cybersecurity and blockchain Electricity Markets and Electricity–Carbon Coupling Focusing on fundamental theories regarding the deep decarbonization of power systems, analyzing life-cycle carbon reduction pathways and mechanisms, and exploring theoretical frontiers in low-carbon electricity economics, market design, policy optimization, and system transition. Low-carbon energy and electricity policies Carbon assessment of power systems Coordinated planning and operation of electricity–carbon systems Synergy and optimization of carbon neutrality pathways Electricity–carbon economics and markets",
+    "editorInChief": null,
+    "goldOpenAccessFee": 0,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/3117762X.jpg",
+    "hasAgreements": false
+  }
+]

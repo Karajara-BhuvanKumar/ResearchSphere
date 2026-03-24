@@ -1,0 +1,506 @@
+[
+  {
+    "provider": "springer",
+    "rank": 1,
+    "title": "Journal of Control, Automation and Electrical Systems",
+    "sourceUrl": "https://link.springer.com/journal/40313?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/40313/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/40313/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.32024,
+    "impactFactorText": "1.3 (2024)",
+    "downloads": 90651,
+    "decisionDays": 6,
+    "decisionTimeText": "6 days",
+    "subjectAreas": [
+      "Electrical and Electronic Engineering",
+      "Control, Robotics, Automation",
+      "Control and Systems Theory"
+    ],
+    "scope": "Electrical and Electronic Engineering, Control, Robotics, Automation, Control and Systems Theory",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 2,
+    "title": "International Journal of Control, Automation, and Systems",
+    "sourceUrl": "https://link.springer.com/journal/12555?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/12555/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/12555/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.92024,
+    "impactFactorText": "2.9 (2024)",
+    "downloads": 202941,
+    "decisionDays": 25,
+    "decisionTimeText": "25 days",
+    "subjectAreas": [
+      "Control, Robotics, Automation"
+    ],
+    "scope": "Control, Robotics, Automation",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 3,
+    "title": "International Journal of Fuzzy Systems",
+    "sourceUrl": "https://link.springer.com/journal/40815?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/40815/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/40815/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 3.62024,
+    "impactFactorText": "3.6 (2024)",
+    "downloads": 258184,
+    "decisionDays": 7,
+    "decisionTimeText": "7 days",
+    "subjectAreas": [
+      "Computational Intelligence",
+      "Artificial Intelligence",
+      "Operations Research, Management Science"
+    ],
+    "scope": "Computational Intelligence, Artificial Intelligence, Operations Research, Management Science",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 4,
+    "title": "Science China Information Sciences",
+    "sourceUrl": "https://link.springer.com/journal/11432?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11432/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11432/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 7.62024,
+    "impactFactorText": "7.6 (2024)",
+    "downloads": 425276,
+    "decisionDays": null,
+    "decisionTimeText": "Not available",
+    "subjectAreas": [
+      "Computer Engineering and Networks"
+    ],
+    "scope": "Computer Engineering and Networks",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 5,
+    "title": "International Journal of Dynamics and Control",
+    "sourceUrl": "https://link.springer.com/journal/40435?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/40435/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/40435/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.92024,
+    "impactFactorText": "1.9 (2024)",
+    "downloads": 262238,
+    "decisionDays": 4,
+    "decisionTimeText": "4 days",
+    "subjectAreas": [
+      "Multibody Systems and Mechanical Vibrations",
+      "Control and Systems Theory",
+      "Applied Dynamical Systems"
+    ],
+    "scope": "Multibody Systems and Mechanical Vibrations, Control and Systems Theory, Applied Dynamical Systems",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 6,
+    "title": "Journal of Systems Science and Complexity",
+    "sourceUrl": "https://link.springer.com/journal/11424?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11424/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11424/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.82024,
+    "impactFactorText": "2.8 (2024)",
+    "downloads": 75461,
+    "decisionDays": null,
+    "decisionTimeText": "Not available",
+    "subjectAreas": [
+      "Systems Theory, Control",
+      "Operations Research and Decision Theory",
+      "Mathematics of Computing",
+      "Complex Systems",
+      "Statistics"
+    ],
+    "scope": "Systems Theory, Control, Operations Research and Decision Theory, Mathematics of Computing, Complex Systems, Statistics",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 7,
+    "title": "Electrical Engineering",
+    "sourceUrl": "https://link.springer.com/journal/202?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/202/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/202/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.92024,
+    "impactFactorText": "1.9 (2024)",
+    "downloads": 439195,
+    "decisionDays": 23,
+    "decisionTimeText": "23 days",
+    "subjectAreas": [
+      "Electrical and Electronic Engineering",
+      "Electrical Power Engineering",
+      "Energy Policy, Economics and Management"
+    ],
+    "scope": "Electrical and Electronic Engineering, Electrical Power Engineering, Energy Policy, Economics and Management",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 8,
+    "title": "International Journal of System Assurance Engineering and Management",
+    "sourceUrl": "https://link.springer.com/journal/13198?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/13198/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/13198/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.42024,
+    "impactFactorText": "1.4 (2024)",
+    "downloads": 360514,
+    "decisionDays": 86,
+    "decisionTimeText": "86 days",
+    "subjectAreas": [
+      "Industrial Management"
+    ],
+    "scope": "Industrial Management",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 9,
+    "title": "Soft Computing",
+    "sourceUrl": "https://link.springer.com/journal/500?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/500/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/500/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.52024,
+    "impactFactorText": "2.5 (2024)",
+    "downloads": 1150135,
+    "decisionDays": 275,
+    "decisionTimeText": "275 days",
+    "subjectAreas": [
+      "Computational Intelligence",
+      "Artificial Intelligence",
+      "Mathematical Logic and Foundations",
+      "Control, Robotics, Automation"
+    ],
+    "scope": "Computational Intelligence, Artificial Intelligence, Mathematical Logic and Foundations, Control, Robotics, Automation",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 10,
+    "title": "Cybernetics and Systems Analysis",
+    "sourceUrl": "https://link.springer.com/journal/10559?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10559/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10559/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 0.62024,
+    "impactFactorText": "0.6 (2024)",
+    "downloads": 22273,
+    "decisionDays": null,
+    "decisionTimeText": "Not available",
+    "subjectAreas": [
+      "Systems Theory, Control",
+      "Artificial Intelligence",
+      "Processor Architectures",
+      "Software Engineering"
+    ],
+    "scope": "Systems Theory, Control, Artificial Intelligence, Processor Architectures, Software Engineering",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 11,
+    "title": "Iranian Journal of Science and Technology, Transactions of Electrical Engineering",
+    "sourceUrl": "https://link.springer.com/journal/40998?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/40998/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/40998/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.42024,
+    "impactFactorText": "1.4 (2024)",
+    "downloads": 67707,
+    "decisionDays": 5,
+    "decisionTimeText": "5 days",
+    "subjectAreas": [
+      "Electrical and Electronic Engineering"
+    ],
+    "scope": "Electrical and Electronic Engineering",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 12,
+    "title": "Journal of Ambient Intelligence and Humanized Computing",
+    "sourceUrl": "https://link.springer.com/journal/12652?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/12652/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/12652/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": null,
+    "impactFactorText": null,
+    "downloads": 790156,
+    "decisionDays": 19,
+    "decisionTimeText": "19 days",
+    "subjectAreas": [
+      "Computational Intelligence",
+      "Artificial Intelligence",
+      "Control, Robotics, Automation",
+      "User Interfaces and Human Computer Interaction"
+    ],
+    "scope": "Computational Intelligence, Artificial Intelligence, Control, Robotics, Automation, User Interfaces and Human Computer Interaction",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 13,
+    "title": "Circuits, Systems, and Signal Processing",
+    "sourceUrl": "https://link.springer.com/journal/34?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/34/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/34/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.02024,
+    "impactFactorText": "2.0 (2024)",
+    "downloads": 334137,
+    "decisionDays": 8,
+    "decisionTimeText": "8 days",
+    "subjectAreas": [
+      "Electronic Circuits and Systems",
+      "Electrical and Electronic Engineering",
+      "Signal, Speech and Image Processing",
+      "Electronics and Microelectronics, Instrumentation"
+    ],
+    "scope": "Electronic Circuits and Systems, Electrical and Electronic Engineering, Signal, Speech and Image Processing, Electronics and Microelectronics, Instrumentation",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 14,
+    "title": "Nonlinear Dynamics",
+    "sourceUrl": "https://link.springer.com/journal/11071?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11071/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11071/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 6.02024,
+    "impactFactorText": "6.0 (2024)",
+    "downloads": 2258065,
+    "decisionDays": 6,
+    "decisionTimeText": "6 days",
+    "subjectAreas": [
+      "Multibody Systems and Mechanical Vibrations",
+      "Classical Mechanics",
+      "Mechanical Engineering",
+      "Applied and Technical Physics"
+    ],
+    "scope": "Multibody Systems and Mechanical Vibrations, Classical Mechanics, Mechanical Engineering, Applied and Technical Physics",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 15,
+    "title": "Discrete Event Dynamic Systems",
+    "sourceUrl": "https://link.springer.com/journal/10626?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10626/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10626/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.62024,
+    "impactFactorText": "1.6 (2024)",
+    "downloads": 50122,
+    "decisionDays": 4,
+    "decisionTimeText": "4 days",
+    "subjectAreas": [
+      "Systems Theory, Control",
+      "Operations Research and Decision Theory",
+      "Convex and Discrete Geometry",
+      "Electrical and Electronic Engineering",
+      "Machines, Tools, Processes"
+    ],
+    "scope": "Systems Theory, Control, Operations Research and Decision Theory, Convex and Discrete Geometry, Electrical and Electronic Engineering, Machines, Tools, Processes",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 16,
+    "title": "International Journal of Information Technology",
+    "sourceUrl": "https://link.springer.com/journal/41870?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/41870/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/41870/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": null,
+    "impactFactorText": null,
+    "downloads": 424642,
+    "decisionDays": 21,
+    "decisionTimeText": "21 days",
+    "subjectAreas": [
+      "Computer Science",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision",
+      "Software Engineering",
+      "Computer Imaging, Vision, Pattern Recognition and Graphics"
+    ],
+    "scope": "Computer Science, Artificial Intelligence, Machine Learning, Computer Vision, Software Engineering, Computer Imaging, Vision, Pattern Recognition and Graphics",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 17,
+    "title": "Control Theory and Technology",
+    "sourceUrl": "https://link.springer.com/journal/11768?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11768/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11768/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.52024,
+    "impactFactorText": "1.5 (2024)",
+    "downloads": 88267,
+    "decisionDays": null,
+    "decisionTimeText": "Not available",
+    "subjectAreas": [
+      "Control and Systems Theory",
+      "Systems Theory, Control",
+      "Optimization",
+      "Computational Intelligence",
+      "Applied Dynamical Systems",
+      "Control, Robotics, Automation"
+    ],
+    "scope": "Control and Systems Theory, Systems Theory, Control, Optimization, Computational Intelligence, Applied Dynamical Systems, Control, Robotics, Automation",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 18,
+    "title": "Arabian Journal for Science and Engineering",
+    "sourceUrl": "https://link.springer.com/journal/13369?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/13369/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/13369/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.92024,
+    "impactFactorText": "2.9 (2024)",
+    "downloads": 1404933,
+    "decisionDays": 4,
+    "decisionTimeText": "4 days",
+    "subjectAreas": [
+      "Technology and Engineering",
+      "Humanities and Social Sciences"
+    ],
+    "scope": "Technology and Engineering, Humanities and Social Sciences",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 19,
+    "title": "Journal of The Institution of Engineers (India): Series B",
+    "sourceUrl": "https://link.springer.com/journal/40031?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/40031/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/40031/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": null,
+    "impactFactorText": null,
+    "downloads": 114209,
+    "decisionDays": 76,
+    "decisionTimeText": "76 days",
+    "subjectAreas": [
+      "Communications Engineering, Networks"
+    ],
+    "scope": "Communications Engineering, Networks",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 20,
+    "title": "Annals of Operations Research",
+    "sourceUrl": "https://link.springer.com/journal/10479?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10479/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10479/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 4.52024,
+    "impactFactorText": "4.5 (2024)",
+    "downloads": 2615902,
+    "decisionDays": 26,
+    "decisionTimeText": "26 days",
+    "subjectAreas": [
+      "Operations Research and Decision Theory",
+      "Discrete Mathematics",
+      "Theory of Computation"
+    ],
+    "scope": "Operations Research and Decision Theory, Discrete Mathematics, Theory of Computation",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  }
+]

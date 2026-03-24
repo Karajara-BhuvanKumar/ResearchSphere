@@ -1,0 +1,2934 @@
+[
+  {
+    "url": "https://authorhub.elsevier.com/api/v1/journals/keywords-search",
+    "status": 200,
+    "json": {
+      "results": [
+        {
+          "ranking": 1,
+          "title": "Computational Statistics & Data Analysis",
+          "acronym": "COMSTA",
+          "issn": "0167-9473",
+          "subjectAreas": [
+            "Statistics, Probability and Uncertainty",
+            "Computational Theory and Mathematics",
+            "Electrical and Electronic Engineering",
+            "Numerical Analysis",
+            "Computational Mathematics",
+            "Statistics and Probability"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01679473.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/CSDA",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/computational-statistics-and-data-analysis/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 3.3
+            },
+            "impactFactor": {
+              "value": 1.6
+            },
+            "acceptanceRate": {
+              "value": 8
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 6
+            }
+          },
+          "scope": "<p>The Official Journal of the <a href=\"https://www.cmstatistics.org/\">Network Computational and Methodological Statistics (CMStatistics)</a> and the <a href=\"https://www.iasc-isi.org/\">International Association of Statistical Computing (IASC)</a></p><p><b>Computational Statistics and Data Analysis</b> (CSDA), an Official Publication of the network Computational and Methodological Statistics (CMStatistics) and of the International Association for Statistical Computing (IASC), is an international journal dedicated to the dissemination of methodological research and applications in the areas of <b>computational statistics</b> and <b>data analysis</b>. The journal consists of four refereed sections which are divided into the following subject areas:</p><p><b>I) Computational Statistics</b> - Manuscripts dealing with:</p><ol><li><p>the explicit impact of computers on statistical methodology (e.g., Bayesian computing, bioinformatics, computer graphics, computer intensive inferential methods, data exploration, data mining, expert systems, heuristics, knowledge based systems, machine learning, neural networks, numerical and optimization methods, parallel computing, statistical databases, statistical systems), </p></li><li><p>the development, evaluation and validation of statistical software and algorithms. Software and algorithms can be submitted with manuscripts and will be stored together with the online article.</p></li></ol><p><b>II) Statistical Methodology for Data Analysis</b> - Manuscripts dealing with: </p><ol><li><p>novel and original data analytical strategies and methodologies applied in biostatistics (design and analytic methods for clinical trials, epidemiological studies, statistical genetics, or genetic/environmental interactions), chemometrics, classification, data exploration, density estimation, design of experiments, environmetrics, education, image analysis, marketing, model free data exploration, pattern recognition, psychometrics, statistical physics, image processing, robust procedures. </p></li><li><p><b>Statistical methodology</b> includes, but not limited to: bootstrapping, classification techniques, clinical trials, data exploration, density estimation, design of experiments, pattern recognition/image analysis, parametric and nonparametric methods, statistical genetics, Bayesian modeling, outlier detection, robust procedures, cross-validation, functional data, fuzzy statistical analysis, mixture models, model selection and assessment, nonlinear models, partial least squares, latent variable models, structural equation models, supervised learning, signal extraction and filtering, time-series modelling, longitudinal analysis, multilevel analysis and quality control.</p></li></ol><p><b>III) Special Applications</b> - Manuscripts at the interface of statistics and computing (e.g., comparison of statistical methodologies, computer-assisted instruction for statistics, simulation experiments). Advanced statistical analysis with real applications (social sciences, marketing, psychometrics, chemometrics, signal processing, medical statistics, environmentrics, statistical physics).</p><p><b>IV) Statistical Data Science</b> - The manuscripts concern with well-founded theoretical and applied data-driven research, with a significant computational or statistical methodological component for data analytics. Emphasis is given to comprehensive and reproducible research, including data-driven methodology, algorithms and software. This journal section serves as a complementary component to the network Computational and Methodological Statistics (CMStatistics).</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Ana Maria Colubi | Stephen Lee",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 4
+              },
+              {
+                "name": "STATISTICS & PROBABILITY",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Mathematics",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3360,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 2,
+          "title": "Data Science and Management",
+          "acronym": "DSM",
+          "issn": "2666-7649",
+          "subjectAreas": [],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short communication",
+            "Case Report",
+            "VSI: AI-powered E-Com and Information Management:Full Length Article",
+            "VSI:Implmnt Emrgng Tech to Mgmt: Full Length Article",
+            "VSI: AI-powered E-Com and Information Management:Review",
+            "VSI:Implmnt Emrgng Tech to Mgmt:Review",
+            "VSI: AI-powered E-Com and Information Management:Short Communication",
+            "VSI:Implmnt Emrgng Tech to Mgmt:Short Communication",
+            "VSI: AI-powered E-Com and Information Management:Case Report",
+            "VSI:Implmnt Emrgng Tech to Mgmt:Case Report"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26667649.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/DSM/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 11.9
+            },
+            "acceptanceRate": {
+              "value": 4
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>Data Science and Management (DSM) is a peer-reviewed open access journal for original research articles, review articles and technical reports related to all aspects of data science and its application in the field of business, economics, finance, operations, engineering, healthcare, transportation, agriculture, energy, environment, sports, and social management. DSM was launched in 2021, and published quarterly by Xi&#39;an Jiaotong University.</p><p>Current areas of interest include, but are not limited to:</p><ul><li><p>Machine learning and intelligent management</p></li><li><p>Data mining and business analytics</p></li><li><p>Data statistics and decision making</p></li><li><p>Intelligent computing and algorithms</p></li><li><p>Data-driven management decisions</p></li><li><p>Data-based policy evaluation</p></li><li><p>Business intelligence</p></li><li><p>Business data science</p></li><li><p>Digital economy</p></li><li><p>Data quality and data privacy</p></li><li><p>Data and knowledge management</p></li><li><p>Enterprise digital management</p></li><li><p>Cyberspace management</p></li><li><p>Data security management</p></li><li><p>Smart city management</p></li><li><p>Smart society management</p></li><li><p>Digital engineering management</p></li><li><p>Data visualization</p></li><li><p>Data-driven intelligent system management</p></li><li><p>Data science applications</p></li></ul><p>About the Journal: The journal has a distinguished editorial board with extensive academic qualifications, ensuring that the journal maintains high scientific standards and has a broad coverage. DSM seeks to publish original, high quality, peer-reviewed papers including original research articles and reviews as well as technical reports. Submission would be encouraged on all aspects of data science and its application in the field of business, economics, finance, operations, engineering, healthcare, transportation, agriculture, energy, environment, sports, and social management. The aim of this journal is to become a highly respected and trusted resource of leading knowledge in this field and to promote worldwide academic exchange. DSM is going to be an interdisciplinary forum opened to all professionals in the world.</p><p><a href=\"https://www.keaipublishing.com/en/journals/data-science-and-management/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 3,
+          "title": "Journal of Computational Mathematics and Data Science",
+          "acronym": "JCMDS",
+          "issn": "2772-4158",
+          "subjectAreas": [
+            "Computational Mathematics"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "Short Survey",
+            "Data in Brief",
+            "Micro article",
+            "VSI:JCMDS_Modern Statistics and Optimization"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27724158.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/jcmds/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-computational-mathematics-and-data-science/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 5.3
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p><i>Journal of Computational Mathematics and Data Science</i> (JCMDS) is a gold open access journal offering authors the opportunity to publish in all areas of computational mathematics and data science.</p><p><i>Journal of Computational Mathematics and Data Science</i> publishes high-quality papers (original, reviews, or letters) in all areas of modern computational mathematics. More specifically it publishes papers on the development of numerical methods, their theoretical analysis (convergence, complexity, accuracy, and stability), and their applications in sciences and engineering. The journal publishes also review (survey) papers. For survey papers a prior acceptance from the editor-in-chief is necessary. The emphasis of a review paper must be the presentation of new insights into a topic and not only a presentation of known results.</p><p>Topics like Algorithmic game theory, Algorithmic information theory, Computational algebraic geometry, Computational complexity, Computational finance, Computational fluid dynamics, Computational Fractal Geometry, Computational linguistics, Computational number theory, Computational optimization, Computational science, Computational statistics, Computational topology, Computer algebra, and computer algebra systems, Computer simulation, Computing in biology and medicine, Control systems, Cryptography, Image processing, Machine learning and data mining, Mathematical economics, Numerical linear algebra, Numerical methods for PDEs, Operations research, Symbolic computing, and computer algebra are covered by the journal.</p><p><i>Journal of Computational Mathematics and Data Science welcomes two types of papers:</i></p><p>A) Full research papers</p><p>B) Microarticles: short papers, no more than 6 pages. They may consist of a single, but well-presented piece of information, such as:</p><ol><li><p>Data and/or a plot plus a description</p></li><li><p>Description of a new numerical/computational method or instrumentation</p></li><li><p>Concept or design study</p></li></ol><p>This article type will allow the Computational Mathematics community to publish&nbsp;&nbsp;snippets of research that have not matured into a complete study and that have not found a publication home yet.</p><p>All submitted manuscripts are fully peer-reviewed and after acceptance, a publication fee is charged to cover all editorial, production, and archiving costs. </p><p>Accepted papers are freely accessible to anyone.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Prof. Dr. Theodore Simos",
+          "goldOpenAccessFee": {
+            "value": 1370,
+            "currency": "USD",
+            "discountedValue": 685,
+            "discountExpiryDate": "2025-12-31"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 4,
+          "title": "World Patent Information",
+          "acronym": "WPI",
+          "issn": "0172-2190",
+          "subjectAreas": [
+            "Law",
+            "Process Chemistry and Technology",
+            "Computer Science Applications",
+            "Bioengineering",
+            "Renewable Energy, Sustainability and the Environment",
+            "Energy Engineering and Power Technology",
+            "Mechanical Engineering",
+            "Industrial and Manufacturing Engineering",
+            "Library and Information Sciences",
+            "Fuel Technology",
+            "Management of Technology and Innovation"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication",
+            "VSI: LLM/GenAI/Agentic AI for IP analytics and strategy",
+            "VSI: AI/ML IP data analytics for innovation",
+            "VSI: GTM 2025's Special Issue"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01722190.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/WPI",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 3.7
+            },
+            "impactFactor": {
+              "value": 1.9
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p>The journal for intellectual property information and its retrieval, documentation, classification, search, analysis and IP managementWorld Patent Information aims to encompass the world of IP information; and focus the journal towards IPRs for industrially applicable innovations; and their management, analysis; big data analysis; policy; education. IPRs - patents, utility models; copyright, trademarks, registered design; design rights; trade secrets; database rights; traditional knowledge; indigenous knowledge; geographical indications may all be considered.</p><p>World Patent Information publishes articles regarding best practice in legal and commercial patent search and analysis; articles which focus on particular types of search such as freedom to operate, FTO, clearance, state of the art, invalidity, validity, prior art, technical, landscaping, scouting, forecasting, patentability, decision searching, competitive intelligence using patent information. We are also interested in articles researching into meta data relating to IPRs such as legal status data for IPR; classifications and bibliographic data. We are interested in IP documentation, search, documentation, classification and IP information news from IP Offices.</p><p>Always welcome are reviews of state of the art in a particular industry, reviews of patent, and other IP and scientific and technical databases, search and analysis for IP purposes.</p><p>Research and review articles on information related to non- patent IPRs , trademarks, trade names, brands, designs, copyright, trade secrets, traditional knowledge, semiconductor rights, database rights, where these have impact for the technological innovation space. Best practice search and review articles, on sources of data. IP management information issues, inventions harvesting, IP services and intermediates and use of text mining and data mining for IP interests. Information retrieval (IR) relating to all aspects of IP published information not only text but also document specific, e.g. bibliographic, name, geographic; multi-lingual search, image search, tables, other non-text; text mining, Natural Language Processing (NLP); Information Extraction from patents e.g. – mathematical formulae, chemical, biological, plant, related data; Machine Translation, Machine learning, automated intelligence focused towards improving IP search and analysis; System Evaluation and Benchmarking, Data collections for IR experiments; Best practice for IP; IP management of Patents, Trademarks,. designs, know-how, copyright, trade secrets; organization of IP tasks in companies and research institutions; Innovation management -impact of patent and IP management; information management for IP best practice, TRIZ and its implementation for innovation processes; Technology management –characteristics and dynamics of technologies in IP perspective, IP portfolio benchmarking, valuation, geographic, expiries, technological, Advanced analysis –market, corporate, policy level, statistical analysis, Business methods patenting, Standards - standard essential patents – patent pools.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Amy Trappey",
+          "goldOpenAccessFee": {
+            "value": 2810,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 5,
+          "title": "Electronic Commerce Research and Applications",
+          "acronym": "ELERAP",
+          "issn": "1567-4223",
+          "subjectAreas": [
+            "Management Science and Operations Research",
+            "Marketing",
+            "Computer Science Applications",
+            "Information Systems and Management",
+            "Artificial Intelligence",
+            "Computer Networks and Communications",
+            "Management of Technology and Innovation"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "VSI: Emerging Technology and Innovation in Q-Commerce"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15674223.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ECRA/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/electronic-commerce-research-and-applications/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.9
+            },
+            "impactFactor": {
+              "value": 6.3
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i>Electronic Commerce Research and Applications</i> aims to create and disseminate enduring knowledge for the fast-changing <b>e-commerce</b> environment. A major dilemma in e-commerce research is how to achieve a balance between the currency and the life span of knowledge.</p><p><i>Electronic Commerce Research and Applications</i> will contribute to the establishment of a research community to create the knowledge, technology, theory, and applications for the development of <b>electronic commerce</b>. This is targeted at the intersection of technological potential and business aims.</p><p>E-commerce is a multi-disciplinary area, which should be developed in co-operation with existing fields such as Information Systems and Technology; Computing and Informatics; Marketing, Finance and Supply Chain Management; Business Strategy and Management; Artificial Intelligence/Machine Learning; Data Science and Business Data Analytics; Public Policy; and Legal Studies. We will solicit papers on current technologies from these areas, as well as publish papers on completely new topics. We also seek proposals for special issues on new topics in e-commerce that will create new directions for research.</p><p>Electronic Commerce Research and Applications is inviting submission of articles, including but not limited to the following topics:Agent-based commerce; electronic auctions; e-business models; B2C and B2B EC; consumer behavior; customer relationship management and data mining; recommender systems; Internet search engines and Web mining; big data analytics; social media and commerce analytics; responsible and trustworthy artificial intelligence; pricing and marketing; digital economy and digital transformation; e-government, public policy and digital divide issues; electronic payment systems; sharing economy; (IT and e-services; exchanges and electronic marketplaces;) e-commerce in supply chain and inventory management; legal issues in e-commerce; (industry studies and case analysis;) economic and management science modeling; organizational and theory-building research; empirical studies of e-commerce problems; behavioral studies of e-commerce issues; protocols, technology and process standards for e-commerce; (transformation of industries;) security and trust; credit card and smart card applications; mobile-commerce and ubiquitous computing; inter-organizational systems in e-commerce; emerging technologies and technological innovation.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Christopher Yang",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "BUSINESS",
+                "tier": 3
+              },
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Management Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3440,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 6,
+          "title": "AI Open",
+          "acronym": "AIOPEN",
+          "issn": "2666-6510",
+          "subjectAreas": [
+            "Software",
+            "Artificial Intelligence",
+            "Computer Science Applications",
+            "Computer Science (General)"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26666510.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/aiopen/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/ai-open/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 32.8
+            },
+            "impactFactor": {
+              "value": 14.8
+            },
+            "timeToFirstDecision": {
+              "value": 14
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p><i>AI Open</i> is a freely accessible platform to share actionable knowledge and forward-thinking perspectives on the theory of artificial intelligence and its applications. The journal welcomes research articles, review papers, perspectives, short communications and technical notes on all aspects of artificial intelligence and its applications.</p><p>Topics covered include, but are not limited to:</p><ul><li><p>Deep learning and representation learning</p></li><li><p>Graph theory and graph mining</p></li><li><p>Constraints, satisfiability, and search</p></li><li><p>Knowledge representation, reasoning, and logic</p></li><li><p>Machine learning and data mining</p></li><li><p>Knowledge graph and applications</p></li><li><p>Agent-based and multi-agent systems</p></li><li><p>Web and knowledge-based information systems</p></li><li><p>Natural language processing</p></li><li><p>Image processing and analysis</p></li><li><p>Uncertainty</p></li><li><p>Brain-based Learning</p></li><li><p>Implicit Cognition and Learning</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/ai-open/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 900,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 7,
+          "title": "Intelligent Pharmacy",
+          "acronym": "IPHA",
+          "issn": "2949-866X",
+          "subjectAreas": [
+            "Pharmacology, Toxicology and Pharmaceutics (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/2949866X.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ipha/default2.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/intelligent-pharmacy/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 2.7
+            },
+            "acceptanceRate": {
+              "value": 11
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p><i>Intelligent Pharmacy</i> is a peer-reviewed, fully open access journal. It is dedicated to publishing high-quality papers that describe the most significant and cutting-edge research in all areas of pharmacy, with a particular focus on artificial intelligence, big data and information technology.</p><p><i>Intelligent Pharmacy</i> publishes original research papers, reviews, short communications and perspective papers. We welcome manuscripts across disciplines on topics such as:</p><ul><li><p>Novel drug research &amp; development</p></li><li><p>Clinical pharmacy</p></li><li><p>Drug design</p></li><li><p>Drug screening</p></li><li><p>Data mining</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/intelligent-pharmacy/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 1200,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 8,
+          "title": "Chemometrics and Intelligent Laboratory Systems",
+          "acronym": "CHEMOM",
+          "issn": "0169-7439",
+          "subjectAreas": [
+            "Analytical Chemistry",
+            "Spectroscopy",
+            "Statistics and Probability"
+          ],
+          "articleTypes": [
+            "Preface",
+            "Research paper",
+            "Review Article",
+            "Short Communication",
+            "Technical Note",
+            "Original software publication",
+            "VSI: BR School of Chemometrics - Research Article",
+            "VSI: CCM2025 - Research Paper",
+            "VSI: VII Workshop Spanish Chemom - Research Paper",
+            "VSI: BR School of Chemometrics - Review Article",
+            "VSI: CCM2025 - Review Paper",
+            "VSI: VII Workshop Spanish Chemom - Review Paper"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01697439.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/CHEMOLAB",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/chemometrics-and-intelligent-laboratory-systems/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7.4
+            },
+            "impactFactor": {
+              "value": 3.8
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>An International Journal Sponsored by the Chemometrics Society</p><p><i>Chemometrics and Intelligent Laboratory Systems</i> publishes original research papers, short communications, reviews, tutorials and Original Software Publications reporting on development of novel <b>statistical, mathematical, or computer techniques in Chemistry</b> and related disciplines.</p><p><b>Chemometrics</b> is the chemical discipline that uses mathematical and statistical methods to design or select optimal procedures and experiments, and to provide maximum chemical information by analysing chemical data.</p><p>The journal deals with the following topics:</p><p><b>1)</b> Development of new statistical, mathematical and chemometrical methods for Chemistry and related fields (Environmental Chemistry, Biochemistry, Toxicology, System Biology, -Omics, etc.)</p><p><b>2)</b> Novel applications of chemometrics to all branches of Chemistry and related fields (typical domains of interest are: process data analysis, experimental design, data mining, signal processing, supervised modelling, decision making, robust statistics, mixture analysis, multivariate calibration etc.) Routine applications of established chemometrical techniques will not be considered.</p><p><b>3)</b> Development of new software that provides novel tools or truly advances the use of chemometrical methods.</p><p><b>4)</b> Well characterized data sets to test performance for the new methods and software.</p><p>The journal complies with International Committee of Medical Journal Editors&#39; Uniform requirements for manuscripts.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Federico Marini",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "AUTOMATION & CONTROL SYSTEMS",
+                "tier": 3
+              },
+              {
+                "name": "CHEMISTRY, ANALYTICAL",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              },
+              {
+                "name": "INSTRUMENTS & INSTRUMENTATION",
+                "tier": 3
+              },
+              {
+                "name": "MATHEMATICS, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              },
+              {
+                "name": "STATISTICS & PROBABILITY",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Chemistry",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3840,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 9,
+          "title": "International Journal of Cognitive Computing in Engineering",
+          "acronym": "IJCCE",
+          "issn": "2666-3074",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Computer Science (General)",
+            "Information Systems"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "SI: AI for Cognitive Computing",
+            "SI: GCCCEA",
+            "SI: IoT-5G",
+            "SI:CCIMP",
+            "SI:IDMSCEP"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26663074.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ijcce/Default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/international-journal-of-cognitive-computing-in-engineering/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 19.8
+            },
+            "acceptanceRate": {
+              "value": 14
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>Cognitive computing is the creation of self-learning systems that use data mining, pattern recognition and natural language processing (NLP) to solve complicated problems without constant human oversight. It is a field that is highly transdisciplinary in nature, combining ideas, principles and methods of psychology, computer and internet technologies, linguistics, philosophy, neuroscience, etc.</p><p>The goal of the <i>International Journal of Cognitive Computing in Engineering</i> is to explore how these data science technologies and new cognitive methods can be integrated to address real world engineering problems and challenges. For example, the journal welcomes submissions that look at the opportunities offered by combining existing data technologies with the knowledge of experts in the field and artificial intelligence. One of the benefits of cognitive computing is that it offers new analytics opportunities: the journal also welcomes designs for cognitive embedded data technologies that can process and analyse the large amount of data generated and aid decision-making.</p><p>Submissions on a variety of cognitive computing-related topics will be considered.</p><p><a href=\"https://www.keaipublishing.com/en/journals/international-journal-of-cognitive-computing-in-engineering/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 10,
+          "title": "The American Journal of Pathology",
+          "acronym": "AJPA",
+          "issn": "0002-9440",
+          "subjectAreas": [
+            "Cardiology and Cardiovascular Medicine",
+            "Pathology and Medical Technology",
+            "Oncology"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00029440.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ajpa",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/the-american-journal-of-pathology/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9
+            },
+            "impactFactor": {
+              "value": 3.6
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i>The American Journal of Pathology</i> (AJP), the official journal of the <a href=\"http://www.asip.org/\">American Society for Investigative Pathology</a> (ASIP), seeks high-quality original research reports, reviews, and commentaries related to the molecular and cellular basis of disease. The editors will consider basic, translational, and clinical investigations that directly address mechanisms of pathogenesis or provide a foundation for future mechanistic inquiries. Examples of such foundational investigations include data mining, identification of biomarkers, molecular pathology, and discovery research. Foundational studies that incorporate deep learning and artificial intelligence are also welcome. High priority is given to studies of human disease and relevant experimental models using molecular, cellular, and organismal approaches. Case reports typically do not meet the criteria for inclusion.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Martha Furie",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "PATHOLOGY",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Medicine",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3500,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 11,
+          "title": "Supply Chain Analytics",
+          "acronym": "SCA",
+          "issn": "2949-8635",
+          "subjectAreas": [
+            "Applied Mathematics"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "VSI: AI-Driven and Human-Centric Supply Chain Analytics_Regular Paper",
+            "VSI: AI-Powered Analytics in Emerging Markets_Regular Article",
+            "VSI: Analytics for smart manufacturing and supply chains_Regular Paper",
+            "VSI: Data-Driven Supply Chains for a Sustainable Future_Regular Article",
+            "VSI: Data-driven simulation and Analytics_Regular Paper",
+            "VSI: Net-Zero Transitions in Supply Chains_Regular Article",
+            "VSI: AI-Driven and Human-Centric Supply Chain Analytics_Review Article",
+            "VSI: AI-Powered Analytics in Emerging Markets_Review Article",
+            "VSI: Analytics for smart manufacturing and supply chains_Review Article",
+            "VSI: Data-Driven Supply Chains for a Sustainable Future_Review Article",
+            "VSI: Data-driven simulation and Analytics_Review Article",
+            "VSI: Net-Zero Transitions in Supply Chains_Review Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29498635.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/sca/default2.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/supply-chain-analytics/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.1
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 5
+            }
+          },
+          "scope": "<p>Firms from all industries operate within complex global supply chains since today&#39;s business activities are fragmented among many dispersed partners. These supply chains are fragile and exposed to various risks and threats, requiring advanced risk management and resilience competencies. Data is the lifeblood of a supply chain. Digitization and analytics are vital in monitoring real-time data, predicting future patterns, and quickly responding to unforeseen events. Supply chain analytics can help companies adapt in real-time to shifting customer demand caused by disruptions. Analytics can drive significant operational efficiencies by providing visibility into supply chains. Supply chain analytics collects, analyzes, and synthesizes data to provide insights into supply chain performance. Supply chain managers must use data and analytics to transform their supply chain into a robust and resilient supply chain and create more opportunities to remain competitive and diversified. Future supply chain managers should be digitally savvy. They will be storytellers with the skills to dig into the countless layers of supply chain data to transform data into insight and make informed decisions. The principal objective of <i>Supply Chain Analytics</i> is to provide state-of-the-art information for academic researchers, policymakers, and practitioners concerned with developing new methodologies and technologies to formulate and solve supply chain problems. </p><p>Supply chain organizations can vary based on their functions, structures, and industries. They work together to move products from raw materials to finished goods in the hands of consumers. Each supply chain organization plays a distinct role, but they all contribute to the larger goal of meeting customer demand in a timely and cost-effective manner. Supply chain organizations include Manufacturers, Suppliers, Distributors or Wholesalers, Retailers, Logistics Providers, Freight Forwarders, Transportation Carriers, Fourth-Party Logistics, E-Commerce Platforms, Customs Brokers, Procurement Organizations, and Reverse Logistics Providers.</p><p>Supply chains are used in every industry where goods or services are produced, sold, or consumed. These industries include but are not limited to Manufacturing, Retail, Pharmaceutical and Healthcare, Food and Beverage, Aerospace and Defense, Construction, Energy, Technology and Electronics, Apparel and Fashion, Automotive, Chemical, Telecommunications, Mining and Metals, Logistics and Transportation, Hospitality and Tourism, Entertainment, Agriculture and Farming, Textile, Financial Services, and Education and Publishing.</p><p>Supply chain activities encompass all the processes involved in the flow of goods and services, from the initial procurement of raw materials to the final delivery of products to consumers. These activities ensure that materials, information, and finances move efficiently through the supply chain. The main supply chain activities include Procurement, Manufacturing or Production, Inventory Management, Warehousing, Transportation and Logistics, Order Fulfillment, Demand Planning and Forecasting, Supplier Relationship Management, Customer Service and Returns Management, and Sustainability and Compliance, among others.</p><p><i>Supply Chain Analytics</i> is a source of information for theoretical, empirical, and analytical research, real-world applications, and case studies in supply chain management and analytics. The journal covers:</p><ul><li><p>Descriptive supply chain analytics by applying statistical models to understand a supply chain&#39;s past and current data and display it with charts and graphs to answer questions about the current health of a supply chain. Descriptive analytics can show what has happened and what is happening by analyzing supply chain data for trends and patterns.</p></li><li><p>Diagnostic supply chain analytics by providing supply chain managers with the tools and technologies to discover problems in supply chains. It uses in-depth data mining and correlation analysis to answer why something happens. Diagnostic analytics can be used to understand data anomalies and explain deviations from expectations and norms when paired with powerful visualization tools and technologies.</p></li><li><p>Predictive supply chain analytics by focusing on the future. It applies complex forward-looking mathematical models such as artificial intelligence and machine learning to large amounts of historical data collected through descriptive analytics to help supply chain managers predict what will happen in the future.</p></li><li><p>Prescriptive supply chain analytics by building on descriptive, predictive, and diagnostic analytics to compare scenarios, provide insight, and suggest alternative courses of action to supply chain managers. It uses sophisticated machine learning, optimization, and simulation methods and typically requires more data to anticipate various outcomes effectively and efficiently.</p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Prof. Dr. Madjid Tavana",
+          "goldOpenAccessFee": {
+            "value": 2230,
+            "currency": "USD",
+            "discountedValue": 1115,
+            "discountExpiryDate": "2026-06-30"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 12,
+          "title": "Online Social Networks and Media",
+          "acronym": "OSNEM",
+          "issn": "2468-6964",
+          "subjectAreas": [
+            "Computer Networks and Communications",
+            "Engineering (General)",
+            "Computer Science Applications"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/24686964.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/OSNEM",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/online-social-networks-and-media/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 14
+            },
+            "impactFactor": {
+              "value": 2.9
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 18
+            }
+          },
+          "scope": "<p><i>Online Social Networks and Media</i> (OSNEM) are one of the most disruptive communication platforms of the last 15 years with high socio-economic value. Nowadays, OSNEM are regularly used by billions of users to interact, and they are key platforms for (among others) content and opinion dissemination, social and professional networking, recommendations, scouting, alerting, and political campaigns. The use of social technologies has become a sweeping cultural, social and economic phenomenon. Social platforms can exploit the &quot;cognitive surplus&quot; of our society for creating content and support collaboration.</p><p>Moreover, the widespread diffusion of mobile personal devices (smartphones and tablets) is boosting the pervasive use of OSNEM services, as well as fostering the design of novel social networking services where users&#39; mobility is one of the key features. OSNEM, thus, represent a challenging environment for computer scientists working in academia and industry, to develop innovative ideas, fostering the design of the new generation of communication platforms and their services. The pervasive penetration of OSNEM in our lives is having very significant impacts also on the type of OSNEM services and, more in general, on societal services. The digital footprints that people leaves in OSNEM provide a unique source to investigate and understand (by exploiting data mining and machine learning techniques) people&#39;s behavior (e.g., mobility patterns, opinions and interests spreading), and human relationships in the society. OSNEM can thus become a (social) microscope for understanding the human behavior both in the cyber and in the physical world and hence can be a powerful tool for investigating societal phenomena (the epidemics spreading, the terrorist networks, the diffusion of opinions, the pulse of a city, etc.) and develop innovative services.</p><p>OSNEM is a peer-reviewed international journal that publishes high-quality scientific articles (both theoretical and experimental) and survey papers covering all aspects of OSNEM: from OSNEM protocols and applications to the use of data mined from OSNEM for modeling and understanding the human behavior in the cyber-physical world. It is a multidisciplinary journal for the wide community of computer and network scientists working on developing OSNEM platforms and services and using OSNEM as a big data source to mine, learn and model the (online) human behavior. The journal also welcomes contributions applying a wide range of (computer- and network-science) techniques and tools to OSNEM for investigating how social relationships affect other scientific fields, e.g., social and political sciences, economic and financial sciences, medical sciences.</p><p>Topics include, but are not limited to:</p><ul><li><p>OSNEM platforms, protocols and applications;</p></li><li><p>Decentralized, mobile and location-based OSNEM;</p></li><li><p>Trust, reputation, privacy and security in OSNEM;</p></li><li><p>Dynamics of trends, information and opinion diffusion in OSNEM;</p></li><li><p>Recommendations and advertising in OSNEM;</p></li><li><p>Measurement, analysis and modeling of popular online social networks (Facebook, Twitter, Instagram, Flickr, etc.);</p></li><li><p>Data mining, and machine learning in OSNEM systems;</p></li><li><p>Social media analysis and social analytics;</p></li><li><p>Information extraction and search in OSNEM;</p></li><li><p>Complex-network analysis of OSNEM;</p></li><li><p>Measurement, analysis and modeling of social behavior through OSNEM data;</p></li><li><p>Analysis of the use of OSNEM in the urban context;</p></li><li><p>Crowdsourcing and online social networks;</p></li><li><p>Multidisciplinary applications of OSNEM (economics, medicine, society, politics, homeland security, etc.).</p></li></ul>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Marco Conti",
+          "goldOpenAccessFee": {
+            "value": 4010,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 13,
+          "title": "Geodata and AI",
+          "acronym": "GEOAI",
+          "issn": "3050-483X",
+          "subjectAreas": [
+            "Geotechnical Engineering and Engineering Geology"
+          ],
+          "articleTypes": [
+            "Original research papers",
+            "Perspectives (invited opinion pieces by industry/academic leaders)",
+            "Review/foresight papers",
+            "GEOAI benchmark examples (please follow template, requires database)",
+            "Geo-databases",
+            "Industry communication (short papers describing databases, algorithms, pr",
+            "Short communication (within 2000 words, 4 graphs)",
+            "VSI: AI in Soil Mechanics and Geotechnical Engineering_Research paper",
+            "VSI: AI-Enhanced Offshore Geotechnics",
+            "VSI: Ethics and Intelligences for a Geotechnical Renaissance_Research Paper",
+            "VSI: Geological Hazard _ Research Paper",
+            "VSI: Geospatial Big Data_Research Paper",
+            "VSI: AI in Soil Mechanics and Geotechnical Engineering_Review Paper",
+            "VSI: Ethics and Intelligences for a Geotechnical Renaissance_Review Paper",
+            "VSI: Geological Hazard_Review Paper",
+            "VSI: Geospatial Big Data_Perspectives",
+            "VSI: Geospatial Big Data_Review Paper",
+            "VSI: Geological Hazard _ Short Communication",
+            "VSI: Geospatial Big Data_Industry Communications",
+            "VSI: Geospatial Big Data_Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/3050483X.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/GEOAI",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p>Indexed by Ei Compendex and Engineering Village - GEOBASE</p><p>Geodata and AI is an international journal that is focused on the development of machine learning and artificial intelligence for scientific discovery in <b>geo-disciplines</b> (research) and creation of novel digital service over the life cycle of <b>natural or engineered geo-systems</b> (practice). Geo-disciplines include soil science, geotechnical engineering, rock engineering, earthquake engineering, geoenvironmental engineering, engineering geology, mining, geo-hazard, geophysics and others. Geodata can be broadly defined as data produced by the characterization of the constituent ground and observation of the processes emerging from these disciplines. The heterogeneous spatial/temporal features and complex sampling characteristics (multi-source, multi-modal, uncertain, sparse, incomplete, potentially corrupted) of geodata are common in these disciplines with potential for data fusion. They are pivotal to the training of machine learning and artificial intelligence that are transformative business drivers when combined with other digital technologies.</p><p>The objectives of this international journal are to advance geodata science to address the challenges posed by geodata intrinsic and sampled features, to promote the compilation and sharing of geo-databases, to develop novel machine learning and artificial intelligence methods that are of significant value or even indispensable to actual projects, to establish benchmarks for competitive evaluation of algorithms, and to solve complex challenges such as risk and resilience related to geo-disciplines. All aspects of a geodata-centric agenda that can transform research and/or practice are of interest:</p><p>Geodata science<br/>Geo-databases<br/>Data fusion<br/>Physics-informed machine learning<br/>Trustworthy/explainable/interpretable AI<br/>Human-machine teaming<br/>Benchmarking<br/>Data-driven site characterization<br/>Machine learning guided observational method<br/>Autonomous construction<br/>Smart infrastructure<br/>Data-informed risk and resilience<br/>Building Information Modelling/Digital twin<br/>Privacy enhancing technologies</p><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Kok-Kwang Phoon",
+          "goldOpenAccessFee": {
+            "value": 2100,
+            "currency": "USD",
+            "discountedValue": 0,
+            "discountExpiryDate": "2026-08-31"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 14,
+          "title": "International Journal of Approximate Reasoning",
+          "acronym": "IJA",
+          "issn": "0888-613X",
+          "subjectAreas": [
+            "Statistics, Probability and Uncertainty",
+            "Computer Science Applications",
+            "Statistics and Probability",
+            "Information Systems and Management",
+            "Artificial Intelligence",
+            "Electrical and Electronic Engineering",
+            "Information Systems"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "VSI: CONCEPTS 2026",
+            "VSI: ECSQARU 2025",
+            "VSI: ISIPTA 2025",
+            "VSI: selected papers from SCAN"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/0888613X.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/IJA",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/international-journal-of-approximate-reasoning/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.2
+            },
+            "impactFactor": {
+              "value": 3
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 6
+            }
+          },
+          "scope": "<p>Uncertainty in Intelligent Systems</p><p>The <i>International Journal of Approximate Reasoning</i> is intended to serve as a forum for the treatment of <b>imprecision</b> and <b>uncertainty</b> in <b>Artificial</b> and <b>Computational Intelligence</b>, covering both the foundations of uncertainty theories, and the design of intelligent systems for scientific and engineering applications. It publishes high-quality research papers describing theoretical developments or innovative applications, as well as review articles on topics of general interest.</p><p>Relevant topics include, but are not limited to, probabilistic <b>reasoning</b> and Bayesian networks, imprecise probabilities, random sets, belief functions (Dempster-Shafer theory), possibility theory, fuzzy sets, rough sets, decision theory, non-additive measures and integrals, qualitative reasoning about uncertainty, comparative probability orderings, game-theoretic probability, default reasoning, nonstandard logics, argumentation systems, inconsistency tolerant reasoning, elicitation techniques, philosophical foundations and psychological models of uncertain reasoning.</p><p>Domains of application for <b>uncertain reasoning systems</b> include risk analysis and assessment, information retrieval and database design, information fusion, machine learning, data and web mining, computer vision, image and signal processing, intelligent data analysis, statistics, multi-agent systems, etc.</p><p>The journal is affiliated with the <a href=\"http://www.sipta.org/\">Society for Imprecise Probability: Theories and Applications (SIPTA)</a>, and <a href=\"http://www.bfasociety.org/\">Beliefs functions and Applications Society (BFAS)</a>.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Thierry Denoeux",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3190,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 15,
+          "title": "Journal of Safety Science and Resilience",
+          "acronym": "JNLSSR",
+          "issn": "2666-4496",
+          "subjectAreas": [
+            "Management Science and Operations Research",
+            "Safety Research",
+            "Safety, Risk, Reliability and Quality"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "Technical Note",
+            "Case Report",
+            "VSI: AI-driven Chemical engineering safety and personnel protection"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26664496.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/JNLSSR/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/journal-of-safety-science-and-resilience/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7.5
+            },
+            "impactFactor": {
+              "value": 3.4
+            },
+            "acceptanceRate": {
+              "value": 18
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 57
+            }
+          },
+          "scope": "<p>The <i>Journal of Safety Science and Resilience (JSSR)</i> is a scholarly journal that publishes scientific research on the practice of safety science and resilience as well as latest improvements in the field. This area emphasizes science and technology in natural disasters and man-made and environmental hazards, including 1) monitoring based on sensor networks, video technology, and information and communication systems; 2) early warning based on experiments, modeling, and simulation; 3) resilience analysis to improve the resilience of critical infrastructure systems and communities; 4) data analysis and the evaluation of emergent events in social networks; and 5) optimization analysis of responses to accidents and disasters.</p><p>The journal focuses primarily on original research papers, but also welcomes state-of-the-art review papers and first-hand case histories on accidents and disasters that are of special significance. The journal also aims to be a reference and a powerful tool for all those who are professionally active and/or interested in the methods and applications of safety science and resilience. Submitted papers will be peer-reviewed and must significantly contribute to safety and resilience in general or to specific application areas.</p><p>Topics of interest include, but are not limited to the following:</p><ul><li><p>Emergency-related theory, methodology, science and technology</p></li><li><p>Experimental and engineering practice for safety science</p></li><li><p>Experiments and simulations for safety science and resilience</p></li><li><p>Information and communication technology systems including computer systems, networks, real-time and embedded systems, and mobile and intelligent agents</p></li><li><p>AI for emergency management</p></li><li><p>Data mining, crowd sensing, event detection, opinion mining and sentiment analysis for safety and resilience</p></li><li><p>Prediction and decision for safety science and resilience</p></li><li><p>Emergency resource planning and scheduling</p></li><li><p>Emergency preparedness and emergency recovery</p></li><li><p>Community and urban resilience</p></li><li><p>Emergency management for public health</p></li><li><p>Video surveillance and security science</p></li><li><p>Human psychology, emotion, cognition, behavior and decision-making for emergency management</p></li><li><p>Safety management in work place</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/journal-of-safety-science-and-resilience/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 1200,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 16,
+          "title": "Resources Policy",
+          "acronym": "JRPO",
+          "issn": "0301-4207",
+          "subjectAreas": [
+            "Economics and Econometrics",
+            "Management, Monitoring, Policy and Law",
+            "Economic Geology",
+            "Law",
+            "Sociology and Political Science",
+            "Geography, Planning and Development",
+            "Renewable Energy, Sustainability and the Environment"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "VSI: Promoting Sustainable and Resilient Supply Chains",
+            "VSI: REEs in Energy Transition_Research article",
+            "VSI: REEs in Energy Transition_Review article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03014207.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/jrpo/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/resources-policy/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 17
+            },
+            "timeToFirstDecision": {
+              "value": 11
+            },
+            "timeToAcceptance": {
+              "value": 9
+            }
+          },
+          "scope": "<p>The International Journal of Minerals Policy and Economics</p><p><i>Resources Policy</i> is an international journal devoted to the <b>economics</b> and <b>policy issues related to mineral and fossil fuel extraction, production and use. The journal content is</b> aimed at individuals in academia, government, and industry. Submissions of original research are invited that analyze issues of public policy, economics, social science, geography and finance in the areas of mining, non-fuel minerals, energy minerals, fossil fuels and metals.</p><p>Examples of topics covered in the broad discipline of <b>mineral economics</b> include mineral market and price analysis, project evaluation, mining and sustainable development, mineral resource rents and the resource curse, mineral wealth and corruption, mineral taxation and regulation, strategic minerals and their supply, and the impact of mineral development on local communities and/or indigenous populations.</p><p>Submissions are also invited on related natural resource topics of interest and importance to the minerals and fossil fuel community, such as sustainability, topics from environmental economics related to mineral production and use, and socio-economic impacts of mineral production and use.</p><p><i>The journal DOES NOT publish papers whose primary focus is on agriculture, forestry or fisheries.</i></p><p>We aim to publish robust scientific work, so methods should be carefully described and data properly cited. Literature reviews are accepted as long as they provide meaningful insights and a clear contribution to the literature. Case studies are also accepted as long as they contribute to the debate and comprehension of issues of broader significance. Discussion and debate-focused articles without a significant research component are generally not accepted, but they could be considered at the discretion of the Editors.</p><p><b>Original research articles</b> (generally 6,000–10,000 words, including references) published in <i>Resources Policy</i> are expected to make a clear and original scholarly contribution to debates in mineral economics, natural resource governance, and resource-related public policy. Such articles should be structured around a clearly articulated research question or analytical puzzle and demonstrate methodological transparency and rigour, whether drawing on qualitative interviews, document and policy analysis, case studies, or quantitative data. Contributions may advance or refine conceptual or theoretical frameworks, introduce new empirical insights, or offer systematic comparative analysis, but they should move beyond descriptive accounts to provide analytically grounded and policy-relevant findings.</p><p><b>Perspectives</b> (generally 4,000–6,000 words, including references) offer shorter, more interpretive contributions that engage directly with contemporary issues shaping resource policy and mineral governance. These papers are intended to be agenda-setting rather than exhaustive, and may critically examine emerging concepts, dominant narratives, policy shifts, geopolitical developments, or market disruptions relevant to the resources sector. While Perspectives are afforded greater flexibility in scope, method, and tone than full research articles, arguments should remain analytically grounded, clearly structured, and situated within relevant literatures, with the aim of stimulating informed debate among scholars, policymakers, and practitioners.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Yalin Lei | Vlado Vivoda",
+          "goldOpenAccessFee": {
+            "value": 3990,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 17,
+          "title": "Journal of Geomechanics and Measurements",
+          "acronym": "JGM",
+          "issn": "3117-843X",
+          "subjectAreas": [
+            "Geology",
+            "Energy (General)",
+            "Geotechnical Engineering and Engineering Geology",
+            "Civil and Structural Engineering"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Data Article",
+            "Protocol",
+            "Review Article",
+            "Practice Guidelines",
+            "Short Communication",
+            "Case Report"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/3117843X.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/jgm/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p><i>Journal of Geomechanics and Measurements</i> aims to promote scientific research in geomechanics with a focus on measurements for rock, soil, concrete, geotextiles, and other geological materials, encompassing theories, methods, technologies, equipment, procedures, and applications. It covers laboratory tests, field detection, geological investigation, engineering monitoring, and geophysical prospecting, emphasizing on the subsequent processes of data analysis, result interpretation, and performance evaluation, using mathematical statistics, machine learning, and artificial intelligence.</p><p>This journal contains six sections:</p><p>Section A (Experiments): Laboratory and field physicomechanical property tests, as well as physical simulation experiments, on geotechnical materials such as rock, soil, and concrete. It includes relevant experimental theories, methods, technologies, equipment, procedures, and applications, along with data analysis, result interpretation, and performance evaluation based on experimental data.</p><p>Section B (Monitoring): Engineering monitoring for all projects involving geomechanics, such as water conservancy and hydropower engineering, transportation engineering, oil and gas engineering, mining engineering, municipal engineering, and energy storage engineering, as well as engineering evaluation based on monitoring data.</p><p>Section C (Measurements): Engineering measurements involving geomechanics, such as geodetic surveying, remote sensing measurement, photogrammetry, inertial measurement, acoustic emission, laser measurement, and magnetic measurement; as well as engineering evaluation based on measurement data.</p><p>Section D (Inspection): Research and inspection of new geotechnical materials, including rock bolts, anchor cables, grouting slurries, sealants, buffer layers, geotextiles, and modifiers.</p><p>Section E (Testing Instruments and New Technologies): Testing instruments and new technologies related to geomechanics, such as true/ordinary triaxial test equipment, complex stress path test equipment, complex shear test equipment, multi-field coupling test equipment, large-scale physical simulation test equipment, and in situ test equipment.</p><p>Section F (New Analytical Methods for Test Data): Data analysis, result interpretation, and performance evaluation using new analytical methods, such as mathematical statistics, big data, deep learning, machine learning, and artificial intelligence, based on test data.</p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 18,
+          "title": "Ore and Energy Resource Geology",
+          "acronym": "OREOA",
+          "issn": "2666-2612",
+          "subjectAreas": [
+            "Earth and Planetary Sciences (General)",
+            "Economic Geology"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Short communications",
+            "Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26662612.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/OREOA",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>Affiliated with Chengdu University of Technology<b>The Official Journal of the Chengdu University of Technology.</b></p><p><b><i>Ore &amp; Energy Resource Geology</i></b> publishes in English high quality original research articles, timely reviews and case-studies. <b><i>Ore &amp; Energy Resource Geology</i></b> covers topics related to <b>ore and energy resource geology</b> in its broadest sense. Energy resource specifics such as the following: Marine geology; basin analysis and evaluation; reserve/resource estimation; seismic stratigraphy; thermal models of basin evolution; sedimentary geology; continental margins; geophysical interpretation; structural geology/tectonics land-based and oceanic and pollution studies related to exploration and mining. The following exemplifies the range of subject matter that can be described and discussed in the journal:</p><ul><li><p>Metalliferous and non-metalliferous (industrial mineral) ore geology of all types</p></li><li><p>Energy resource deposits, including oil/petroleum, natural gas, coal, uranium</p></li><li><p>Land-based and oceanic studies</p></li><li><p>Economic geology</p></li><li><p>Mineral economics</p></li><li><p>Pollution studies related to exploration and mining</p></li><li><p>Ore and gangue mineralogy</p></li><li><p>Petrography, petrology, petrogenesis</p></li><li><p>Host-rock studies</p></li><li><p>Metallogeny and minerogenesis (e.g. metallotectonics)</p></li><li><p>Specific deposits, districts, and belts</p></li><li><p>Local to regional, detailed to general or reconnaissance studies, on any scale</p></li><li><p>Pure and applied studies, i.e. theoretical and practical data</p></li><li><p>Methodology of any kind</p></li><li><p>Laboratory-based and field-oriented</p></li><li><p>Geological (including stratigraphic, structural, remote-sensing)</p></li><li><p>Mathematical (e.g. computer geology)</p></li><li><p>Geochemical, geophysical and philosophical</p></li><li><p>Research and exploration techniques</p></li></ul>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Hao Zou",
+          "goldOpenAccessFee": {
+            "value": 1700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 19,
+          "title": "Expert Systems with Applications",
+          "acronym": "ESWA",
+          "issn": "0957-4174",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Control and Systems Engineering",
+            "Management Science and Operations Research",
+            "Management of Technology and Innovation",
+            "Management Information Systems",
+            "Computer Science Applications"
+          ],
+          "articleTypes": [
+            "Full length article",
+            "Review article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09574174.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/eswa/Default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/expert-systems-with-applications/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 15
+            },
+            "impactFactor": {
+              "value": 7.5
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p><i>Expert Systems With Applications</i> is a refereed international journal whose focus is on exchanging information relating to <b>expert</b> and <b>intelligent systems</b> applied in <b>industry</b>, <b>government</b>, and <b>universities</b> worldwide. The thrust of the journal is to publish <b>original</b> papers dealing with the design, development, testing, implementation, and/or management of expert and intelligent systems, and also to provide practical guidelines in the development and management of these systems. The journal will publish papers in expert and intelligent systems <b>technology</b> and application in the areas of, but not limited to: finance, accounting, engineering, marketing, auditing, law, procurement and contracting, project management, risk assessment, information management, information retrieval, crisis management, stock trading, strategic management, network management, telecommunications, space education, intelligent front ends, intelligent database management systems, medicine, chemistry, human resources management, human capital, business, production management, archaeology, economics and energy. Papers in multi-agent systems, knowledge management, neural networks, knowledge discovery, data and text mining, multimedia mining, and genetic algorithms will also be published in the journal. The journal no longer considers papers that contain applications to military/defense systems.</p><p>Papers detailing algorithms which repurpose existing concepts within the framework of metaphors inspired by various systems and processes, such as natural, technical, or social ones are discouraged as this can hinder effective algorithm comparisons and scientific advancement. Submissions from this field are required to convincingly demonstrate their contribution to the field in order to be considered for further evaluation. Authors are urged to present their methods with clarity, employing standard optimization terminology, and to provide compelling explanations for how their components are adapted to specific problem-solving contexts. The emphasis is on genuine innovation rather than the renaming of existing concepts.</p><p>Natural metaphor articles - new nature-inspired proposals detailed in papers must provide formal, mathematically grounded explanations for how they differ from established methods and the use of metaphors as superficial embellishments is discouraged.</p><p><b>Software Publication</b></p><p>We invite you to convert your open source software into an additional journal publication in <a href=\"https://www.journals.elsevier.com/software-impacts\"><i>Software Impacts</i></a>, a multi-disciplinary open access journal. <i>Software Impacts</i> provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor Ling Wang",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+                "tier": 2
+              },
+              {
+                "name": "OPERATIONS RESEARCH & MANAGEMENT SCIENCE",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3490,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 20,
+          "title": "Control Engineering Practice",
+          "acronym": "CONPRA",
+          "issn": "0967-0661",
+          "subjectAreas": [
+            "Aerospace Engineering",
+            "Control and Systems Engineering",
+            "Automotive Engineering",
+            "Electrical and Electronic Engineering",
+            "Industrial and Manufacturing Engineering"
+          ],
+          "articleTypes": [
+            "Regular article",
+            "VSI: Robotics in the Wild"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09670661.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/CONENGPRAC",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/control-engineering-practice/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.7
+            },
+            "impactFactor": {
+              "value": 4.6
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 15
+            }
+          },
+          "scope": "<p>A journal of IFAC, The <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ifac-control.org%2F&data=05%7C02%7CA.Maas%40elsevier.com%7Ce38d3b3ca3514283e17408ddea330507%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638924227049935470%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=EDRo0JkR%2BrGheH3GcP1JyzF8MDFtpbEAcgWKMv%2BRQwg%3D&reserved=0\">International Federation of Automatic Control</a>. </p><p><i>Control Engineering Practice</i> strives to meet the needs of industrial practitioners and industrially related academics and researchers. It publishes papers which illustrate the direct application of <b>control theory</b> and its supporting tools in all possible areas of <b>automation</b>. As a result, the journal only contains papers which can be considered to have made significant contributions to the application of advanced <b>control techniques</b>. It is normally expected that practical results should be included, but where simulation only studies are available, it is necessary to demonstrate that the simulation model is representative of a genuine application. Strictly theoretical papers will find a more appropriate home in <i>Control Engineering Practice&#39;s</i> sister publication, <i>Automatica</i>. It is also expected that papers are innovative with respect to the state of the art and are sufficiently detailed for a reader to be able to duplicate the main results of the paper (supplementary material, including datasets, tables, code and any relevant interactive material can be made available and downloaded from the website). The benefits of the presented methods must be made very clear and the new techniques must be compared and contrasted with results obtained using existing methods. Moreover, a thorough analysis of failures that may happen in the design process and implementation can also be part of the paper.</p><p>The scope of <i>Control Engineering Practice</i> matches the activities of IFAC.</p><p>Papers demonstrating the contribution of automation and control in <b>improving </b>the <b>performance</b>, <b>quality</b>, <b>productivity</b>, <b>sustainability</b>, <b>resource and energy efficiency</b>, and the <b>manageability</b> of systems and processes for the benefit of mankind and are relevant to <b>industrial practitioners</b> are most welcome.</p><p><b><i>Fields of applications in control and automation:</i></b> •Automotive Systems •Aerospace Applications •Marine Systems •Intelligent Transportation Systems and Traffic Control •Autonomous Vehicles •Robotics •Human Machine Systems •Mechatronic Systems •Scientific Instrumentation •Micro- and Nanosystems •Fluid Power Systems •Gas Turbines and Fluid Machinery •Machine Tools •Manufacturing Technology and Production Engineering •Logistics •Power Electronics •Electrical Drives •Internet of Things •Communication Systems •Power and Energy Systems •Biomedical Engineering and Medical Applications •Biosystems and Bioprocesses •Biotechnology •Chemical Engineering •Pulp and Paper Processing •Mining, Mineral and Metal Processing •Water/Gas/Oil Reticulation Systems •Environmental Engineering •Agricultural Systems •Food Engineering •Other Emerging Control Applications</p><p><b><i>Applicable methods, theories and technologies:</i></b> •Modeling, Simulation and Experimental Model Validation •System Identification and Parameter Estimation •Observer Design and State Estimation •Soft Sensing •Sensor Fusion •Optimization •Adaptive and Robust Control •Learning Control •Nonlinear Control •Control of Distributed-Parameter Systems •Model-based Control Techniques •Optimal Control and Model Predictive Control •Controller Tuning •PID Control •Feedforward Control and Trajectory Planning •Networked Control •Stochastic Systems •Fault Detection and Isolation •Diagnosis and Supervision •Actuator and Sensor Design •Measurement Technology in Control •Software Engineering Techniques •Real-time and Distributed Computing •Intelligent Components and Instruments •Architectures and Algorithms for Control •Real-time Algorithms •Computer-aided Systems Analysis and Design •Implementation of Automation Systems •Machine Learning •Artificial Intelligence Techniques •Discrete Event and Hybrid Systems •Production Planning and Scheduling •Automation •Data Mining •Data Analytic •Performance Monitoring •Experimental Design •Other Emerging Control Theories and Related Technologies</p><p>For more details on the International Federation of Automatic Control (IFAC), visit their <a href=\"https://nam11.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.ifac-control.org%2F&data=05%7C02%7CA.Maas%40elsevier.com%7Ce38d3b3ca3514283e17408ddea330507%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638924227049970519%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=R01JkRVl44c2zPapWas0YO3gJtPjt5QExZKHnxhDFCI%3D&reserved=0\">home page</a>.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor Knut Graichen",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "AUTOMATION & CONTROL SYSTEMS",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2950,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 21,
+          "title": "Decision Analytics Journal",
+          "acronym": "DAJOUR",
+          "issn": "2772-6622",
+          "subjectAreas": [
+            "Management Science and Operations Research"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "Short Survey",
+            "Micro Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27726622.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/dajour/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/decision-analytics-journal/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.9
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i>Decision Analytics Journal</i> is a forum for the exchange of research findings, analysis, information, and knowledge in organizations on areas that include but are not limited to:</p><ul><li><p>Predictive Modelling - Decision Analytics encourages research endeavors that identify organizational risks and opportunities by exploiting historical and transactional data patterns.</p></li><li><p>Simulation Modelling - Decision Analytics promotes the application of simulation in organizational contexts to examine and compare options and scenarios before implementation.</p></li><li><p>Optimization Modelling - Decision Analytics promotes research that can help decision-makers make the best choice using various optimization models.</p></li><li><p>Prescriptive Methods - Decision Analytics invites research that supports the joint application of predictive models and optimization technology to create better solutions for decision-makers.</p></li><li><p>Business Intelligence - Decision Analytics invites research utilizing the latest artificial intelligence, machine learning, data mining, and performance management techniques to help decision-makers gain and sustain a competitive edge.</p></li></ul><p>The journal views an organization as a group of people who come together to achieve a common goal or purpose. It typically has a structured framework, defining roles, responsibilities, and authority to guide the collective effort toward its objectives. Organizations can take various forms, including businesses (profit-driven entities like corporations), nonprofits (charitable entities like social service agencies), government (public service agencies), societies (groups with shared interests), educational institutions (schools and universities), and healthcare (hospitals, clinics, pharmacies, health insurance providers) among others. Decision Analytics Journal is comprised of four Departments:</p><ul><li><p>The Descriptive Analytics Department handles manuscripts and studies that answer what happened by analyzing historical data and extracting hindsight about the past without explaining why.</p></li><li><p>The Diagnostic Analytics Department handles manuscripts and studies that answer why something happened by measuring historical data against other data (i.e., benchmarks) and extracting insight into the present.</p></li><li><p>The Predictive Analytics Department handles manuscripts and studies that answer what will happen using descriptive and diagnostic analytics findings to provide foresight for the future.</p></li><li><p>The Prescriptive Analytics Department handles manuscripts and studies that answer what to do using descriptive, diagnostic, and predictive analytics findings and prescribe for the future to eliminate a problem or take advantage of a promising trend.</p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Prof. Dr. Madjid Tavana",
+          "goldOpenAccessFee": {
+            "value": 2190,
+            "currency": "USD",
+            "discountedValue": 1095,
+            "discountExpiryDate": "2025-12-31"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 22,
+          "title": "International Journal of Fatigue",
+          "acronym": "JIJF",
+          "issn": "0142-1123",
+          "subjectAreas": [
+            "Mechanics of Materials",
+            "Mechanical Engineering"
+          ],
+          "articleTypes": [
+            "Original Research Paper",
+            "Review Article",
+            "Short Communication",
+            "VSI: ICMFF14"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01421123.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/IJFATIGUE",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 12
+            },
+            "impactFactor": {
+              "value": 6.8
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 2
+            }
+          },
+          "scope": "<p>Published in Affiliation with the <a href=\"https://www.esis.site/\">European Structural Integrity Society</a>The <i>International Journal of Fatigue</i> aims to publish high quality, original papers that provide new insights into the mechanisms governing fatigue of materials and structures. The emphasis during the evaluation process will be on potential impact of the work, in terms of new scientific findings and substantial advancements to the field.</p><p>The following aspects of existing engineering materials and structures, as well as newly emerging materials and structures, are of particular interest:</p><ul><li><p>Microstructural sensitive aspects of fatigue crack initiation and growth, including ties to manufacturing processing and defect structures;</p></li><li><p>New, empirically motivated descriptive models or rigorous validation and uncertainty quantification of existing models and codes of practice, in both cases these should be based on large datasets, considering multiple materials and loading configurations;</p></li><li><p>Understanding the influence of ?additive? manufacturing and processing route on fatigue performance, and embedding this understanding in more predictive schemes for mitigation and design against fatigue;</p></li><li><p>New experimental findings, which either challenge existing models or are aligned with an extension of their application limits and the associated data pool;</p></li><li><p>Fatigue analysis of materials and structures based on data science, including data mining, data fusion, and machine learning; and</p></li><li><p>Combined and coupled behaviors that affect thermo-chemical-mechanical degradation processes under cyclic loading conditions, including environmental degradation, are also included in the scope of the journal.</p></li></ul><p>The <i>International Journal of Fatigue</i> encourages papers that identify new mechanisms that enhance the scientific understanding and associate predictions of fatigue, which may include novel fatigue testing and characterization methods, as well as advanced modeling. Papers that openly provide companion algorithms, models, tools, databases, range, and limits of validation are sought. Papers with insufficient novelty, providing test data without new scientific findings or performing routine case studies or finite element analyses, are discouraged.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor Guozheng Kang | Professor Michael D. Sangid | Prof. Dr. Michael Vormwald",
+          "goldOpenAccessFee": {
+            "value": 3750,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 23,
+          "title": "Astronomy and Computing",
+          "acronym": "ASCOM",
+          "issn": "2213-1337",
+          "subjectAreas": [
+            "Astronomy and Astrophysics",
+            "Computer Science Applications",
+            "Software"
+          ],
+          "articleTypes": [
+            "Data Release Paper",
+            "Full Length Paper",
+            "Notes on Practice",
+            "Target Article",
+            "White Paper",
+            "Review Paper",
+            "Short Communication",
+            "Software Paper"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22131337.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/ASCOM",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 3.8
+            },
+            "impactFactor": {
+              "value": 1.8
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 9
+            }
+          },
+          "scope": "<p><i>Astronomy and Computing</i> is a peer-reviewed journal that focuses on the broad area between astronomy, computer science, software development and information technology. The journal aims to publish the work of scientists and (software) engineers in all aspects of astronomical computing, including the collection, analysis, reduction, visualisation, preservation and dissemination of data, and the development of astronomical software and simulations. The journal covers applications of computer science techniques to astronomy, as well as novel applications of information technologies within astronomy.</p><p>The journal is open to a broad range of contributions about the use of computing in astronomy. It encourages unsolicited submissions of regular scientific articles, of manuscripts on new software releases and data releases of astronomical surveys, and of &quot;reports on practice&quot; which describe the outcomes (positive and negative) of the practical application of informatics techniques within astronomy research and operations. Authors wishing instead to submit review articles, white papers and target articles, as well as ideas for special issues of the journal are expected to first contact members of the Editorial Board.</p><p>Submissions are expected to cover research topics dealing with computer applications dedicated to astronomy and astrophysics. E.g. manuscripts describing purely computer science or engineering research, or theoretical manuscripts with no connection to computational astrophysics will not be considered for publication.</p><p>In general, manuscripts should make a valuable contribution to the field and should display an appropriate familiarity with previous work in the area and alternative approaches to the same problem. Providing a sustainable link to data or source code is strongly encouraged (and is required in the case of manuscripts on data or software releases, respectively). All manuscripts are subject to peer-review. The journal welcomes contributions on a variety of topics including: <br/></p><ul><li><p>Astroinformatics and analytics</p></li><li><p>Astrophysical simulations</p></li><li><p>Astrostatistics and machine learning</p></li><li><p>Computational infrastructure</p></li><li><p>Data analysis and statistics</p></li><li><p>Data curation and preservation</p></li><li><p>Data management, archives, and virtual observatory</p></li><li><p>Data mining</p></li><li><p>Data processing pipelines and automated systems</p></li><li><p>General computational techniques used for astronomy</p></li><li><p>Scientific software engineering</p></li><li><p>Semantics</p></li><li><p>Visualization</p></li></ul><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Fabio Pasian",
+          "goldOpenAccessFee": {
+            "value": 2220,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 24,
+          "title": "Chip",
+          "acronym": "CHIP",
+          "issn": "2709-4723",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Information Systems"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Review",
+            "VSI: Het-Integ. Photon Chips - Research Article",
+            "VSI: Het-Integ. Photon Chips - Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27094723.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/CHIP",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7
+            },
+            "impactFactor": {
+              "value": 7.1
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p>An official journal of <a href=\"https://en.sjtu.edu.cn/\">Shanghai Jiao Tong University</a>.</p><p><b><i>Chip</i></b> is an international journal that publishes innovative research in the emerging field of integrated chips that feature revolutionary information technology.</p><p><b><i>Chip</i></b> will bridge the boundaries between theory and technology and form the aggregation effect of chip research. It aims to become a competitive top journal with strong international recognition and will serve as a platform for graduate students, professionals, and the engineering industry to jointly boost the cutting-edge information sciences and technologies.</p><p>The journal focuses on the rapid development and potential application of new-generation information technologies. These include but are not limited to the following fields:</p><p>•Quantum information: quantum algorithm, quantum machine learning, analog quantum computing, quantum circuits, quantum annealing•New types of Non-von Neumann computing and post-Moore devices: photonic computing, neuromorphic computing, other promising classical (not quantum) computing technologies•Internet of things and edge computing: advanced sensors, wireless signal transmission, low-power computing, energy harvesting, biomedical systems•Big Data and artificial intelligence: innovative hardware and architecture for data mining, information retrieval, machine learning, natural language processing, computer vision, robotics•Interdisciplinary area related to chip issues: new chip materials, new device manufacturing techniques, algorithm and architecture of chips.</p><p>The Print ISSN of the journal is 2709-4723.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Jun-Fa Mao",
+          "goldOpenAccessFee": {
+            "value": 2000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 25,
+          "title": "Information Systems",
+          "acronym": "IS",
+          "issn": "0306-4379",
+          "subjectAreas": [
+            "Information Systems",
+            "Management Information Systems",
+            "Management of Technology and Innovation",
+            "Hardware and Architecture",
+            "Information Systems and Management",
+            "Software",
+            "Computer Science Applications",
+            "Computational Theory and Mathematics",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Research paper",
+            "Review article",
+            "Replication study (RPL)",
+            "VSI: CAiSE 2024 Best Papers",
+            "VSI: CoMinDS",
+            "VSI: EDOC 2025",
+            "VSI: Information Systems 50th anniversary",
+            "VSI: Process M. & Visual A",
+            "VSI: SISAP 2025"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03064379.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/INFOSYS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/information-systems/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.8
+            },
+            "impactFactor": {
+              "value": 3.4
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 11
+            }
+          },
+          "scope": "<p>Databases: Their Creation, Management and Utilization</p><p><b>Information systems</b> are the software and hardware systems that support data-intensive applications. The journal Information Systems publishes articles concerning the design and implementation of languages, data models, process models, algorithms, software and hardware for information systems.</p><p>Subject areas include <b>data management</b> issues as presented in the principal international database conferences (e.g., ACM SIGMOD/PODS, VLDB, ICDE and ICDT/EDBT) as well as data-related issues from the fields of data mining/machine learning, information retrieval coordinated with structured data, internet and cloud data management, business process management, web semantics, visual and audio information systems, scientific computing, and data science. We welcome systems papers that focus on implementation considerations in massively parallel data management, fault tolerance, and special purpose hardware for data-intensive systems; theoretical papers that either break significant new ground or unify and extend existing algorithms for data-intensive applications; and manuscripts from application domains, such as urban informatics, social and natural science, and Internet of Things, which present innovative, high-performance, and scalable solutions to data management problems for those domains.</p><p>All papers should motivate the problems they address with compelling examples from real or potential applications. Systems papers must be serious about experimentation either on real systems or simulations based on traces from real systems. Papers from industrial organizations are welcome. Theoretical papers should have a clear motivation from applications and clearly state which ideas have potentially wide applicability.</p><p>Authors of selected articles that have been accepted for publication in Information Systems are invited by the EiCs to submit the experiment described in their papers for reproducibility validation. The resulting additional reproducibility paper is co-authored by the reproducibility reviewers and the authors of the original publication.</p><p>As part of its commitment to reproducible science, Information Systems also welcomes experimental reproducible survey papers. Such submissions must: <br/> (i) apply a substantial portion of the different surveyed techniques to at least one existing benchmark and perhaps one or more new benchmarks, and <br/> (ii) be reproducible (the validation of reproducibility will result in a separate paper following the guidelines of our Reproducibility Editor).</p><p>In addition to publishing submitted articles, the Editors-in-Chief will invite retrospective articles that describe significant projects by the principal architects of those projects. Authors of such articles should write in the first person, tracing the social as well as technical history of their projects, describing the evolution of ideas, mistakes made, and reality tests. <br/> We will make every effort to allow authors the right to republish papers appearing in Information Systems in their own books and monographs.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Stefanie Rinderle-Ma | Dennis Shasha | Matthias Weidlich",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3240,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 26,
+          "title": "International Journal of Coal Geology",
+          "acronym": "COGEL",
+          "issn": "0166-5162",
+          "subjectAreas": [
+            "Economic Geology",
+            "Stratigraphy",
+            "Fuel Technology",
+            "Geology"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication",
+            "Short review",
+            "VSI: 76th ICCP Meeting",
+            "VSI: TSOP2025",
+            "VSI: 76th ICCP Meeting_Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01665162.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/cogel/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.4
+            },
+            "impactFactor": {
+              "value": 5.7
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 2
+            }
+          },
+          "scope": "<p>The <i>International Journal of Coal Geology</i> deals with fundamental and applied aspects of the geology, petrology, geochemistry and mineralogy of coal, oil/gas source rocks, and organic matter-rich shales. The journal aims to advance the environmentally sustainable exploration and utilization of these resources, as well as advancement of geologically-related engineering and technology for effective resource management towards net-zero carbon goals.</p><p>The scope of the journal encompasses basic research, computational and laboratory studies, technology development, and field studies in:</p><ul><li><p><b>Geology, geochemistry, mineralogy, and petrology</b>\t</p><ul><li><p>formation of coal and coal seams, including studies of coal-forming processes and environments</p></li><li><p>metamorphosis of coal and dispersed organic matter in source rocks</p></li><li><p>geologic aspects of coal measures, oil- and gas-source rocks</p></li><li><p>petrology, mineralogy, geochemistry, and petrophysics of coal, coal seams, and organic matter-rich shales.</p></li></ul></li><li><p><b>Exploration and development of coal and unconventional resources</b></p><ul><li><p>formation, transport and storage of carbon related to coal geology; energy gases in coals and shales including coal bed methane, coal mine methane, abandoned mine methane</p></li><li><p>unconventional petroleum systems mainly focusing on studies of shale gas and oil shales</p></li><li><p>Geology, exploration, and resource identification of critical minerals and critical materials in coal, coal-bearing sequences, acid-mine drainage, and other fossil fuel materials; modes of occurrence and recovery of critical minerals and critical materials from coal-based resources.</p></li></ul></li><li><p><b>Environmental aspects of coal and unconventional resources</b></p><ul><li><p>geologically-related impacts of coal mining, acid-mine drainage, and exploitation of unconventional resources</p></li><li><p>coal utilization related to geology and constituents of coal</p></li><li><p>engineering and technology for carbon emission reduction, capture, storage, and utilization</p></li><li><p>geological and environmental aspects of coal fires and underground coal gasification.</p></li></ul></li><li><p><b>Application of computational methods for geology and engineering of coal and unconventional resource management</b></p><ul><li><p>Application of big data and artificial intelligence (AI) including, but not limited to, machine learning, automated reasoning and inference, case-based reasoning, computer vision, knowledge representation, remote sensing, spatial statistics and uncertainty evaluation for the topics covered within the scope of the journal</p></li><li><p>Development and application of analytical methods for geochemistry, mineralogy, petrology and pore space of coal and unconventional energy systems</p></li><li><p>Application of numerical modeling methods, preferably validated by experimental or field data, in support of technology development and environmental management of resources covered by the journal.</p></li></ul></li></ul><p>Types of contributions published are: research papers describing original theoretical (with potential for application) and applied research, proceedings of symposia, review papers in a particular topic, short contributions, surveys, book reviews, and letters to the editor. Research papers that combine theory and experiments and/or field studies are especially welcome. Review papers are only an invitation basis; if the authors are not invited but would like to contribute a review paper, please write to the editors first for advice. Note that topics including coal mining technology and engineering, mining safety, rock mechanics, and chemical engineering are not within the journal scope unless they are closely related to coal geology. </p><p><b>This journal welcomes contributions that support and advance the UN&#39;s </b><a href=\"https://sdgresources.relx.com/\"><b>sustainable development goals</b></a><b>, in particular SDG 7 (Affordable and clean energy)</b></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor Shifeng Dai",
+          "goldOpenAccessFee": {
+            "value": 3890,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 27,
+          "title": "Information Processing in Agriculture",
+          "acronym": "INPA",
+          "issn": "2214-3173",
+          "subjectAreas": [
+            "Forestry",
+            "Agricultural and Biological Sciences (General)",
+            "Animal Science and Zoology"
+          ],
+          "articleTypes": [
+            "Full length article",
+            "Review article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22143173.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ipa/",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/information-processing-in-agriculture/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 20.4
+            },
+            "impactFactor": {
+              "value": 7.4
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>The Journal of the China Agricultural University</p><p><i>Information Processing in Agriculture (IPA)</i> was established in 2013 to encourage the development of science and technology related to information processing in agriculture, through the following aims: <br/> • Promote the use of knowledge and methods from information processing technologies in agriculture; <br/> • Report on experiences and publications of institutes, universities, and government, as well as profitable technologies for agriculture; <br/> • Provide a platform and opportunities for exchanging knowledge, strategies, and experiences among information processing researchers worldwide; <br/> • Promote and encourage interactions among agriculture scientists, meteorologists, biologists (pathologists/entomologists), information technology professionals, and other stakeholders to develop and implement methods, techniques, and tools related to information processing technology in agriculture; <br/> • Create and promote expert groups for the development of agro-meteorological databases, crop and livestock modeling, and applications for the development of crop performance-based decision support systems.</p><p><b>Topics of interest include, but are not limited to, the following aspects:</b> <br/> • Smart sensors, biosensors and bioelectronics, material and molecular innovations for chemical and biological sensing, sensors, and automation and control systems for agriculture; <br/> • Wireless sensor networks, 4G, NB-IOT, and 5G applications in agriculture; <br/> • Remote sensing and discrete element modeling (DEM) applications in agriculture; <br/> • Simulation, optimization, modeling, and automated control; <br/> • Decision support systems, intelligent systems, and artificial intelligence; <br/> • Machine vision, computer vision, image processing and automation, and imaging technologies for high-throughput phenotyping <br/> • Advances in spectroscopy and hyperspectral properties of biological products; <br/> • Advanced computational approaches for solving agricultural and biological engineering problems; <br/> • Computational fluid dynamics (CFD) applications in agriculture; <br/> • Inspection and traceability for food quality; <br/> • Precision agriculture, intelligent instruments, robotics, and co-robotics for agriculture; <br/> • Internet of things, cloud computing, and precision farming; <br/> • Big data, data mining, and data analysis for agricultural applications; <br/> • Unmanned aerial vehicles (UAVs) for sensing, imaging, and agricultural aquacultural applications.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Daoliang Li",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "AGRICULTURE, MULTIDISCIPLINARY",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Agricultural and Forestry Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 28,
+          "title": "Journal of Information and Intelligence",
+          "acronym": "JIIXD",
+          "issn": "2949-7159",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Signal Processing",
+            "Artificial Intelligence",
+            "Information Systems",
+            "Computer Networks and Communications",
+            "Electrical and Electronic Engineering",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "Short Survey",
+            "VSI: AI-NTN",
+            "VSI: AI-RAN",
+            "VSI: AI-generated Content",
+            "VSI: FA for 6G",
+            "VSI: I-CSC (Special Issue - Full Length Article)",
+            "VSI: Physical AI",
+            "VSI: S&PinAI (Special Issue - Full Length Article)",
+            "VSI: SAGIN",
+            "VSI: I-CSC (Special Issue - Review)"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29497159.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/intecom/default1.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-information-and-intelligence/publish/guide-for-authors"
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 10
+            },
+            "timeToAcceptance": {
+              "value": 13
+            }
+          },
+          "scope": "<p>The <i>Journal of Information and Intelligence </i>is committed to publishing rigorously peer-reviewed, high-quality original research papers, review articles, and perspective articles in the fields of information and intelligence. The journal welcomes contributions on both fundamental and applied research, and particularly encourages interdisciplinary work that bridges the two aspects. It aims to provide a unique platform that promotes scholarly development and academic exchange, serving researchers across academia, industry, and government worldwide.</p><p>Topics of interest encompass all areas of information and intelligence, including but not limited to: </p><ul><li><p>Artificial Intelligence</p></li><li><p>Big Data Technologies and Applications</p></li><li><p>Coding and Information Theory</p></li><li><p>Collaborative Intelligent Systems and Agent Models</p></li><li><p>Communications and Networking</p></li><li><p>Computer Networks</p></li><li><p>Computer Vision, Image Processing, Object Detection, and Pattern Recognition</p></li><li><p>Computing Paradigms and Systems</p></li><li><p>Cryptography, Security, Trust, Privacy, and Blockchain</p></li><li><p>Digital Twin and Cyber-Physical Systems</p></li><li><p>Hardware and Integrated Circuits</p></li><li><p>Human-Computer Interaction</p></li><li><p>Information Graph Theory</p></li><li><p>Information Metasurfaces and Reconfigurable Intelligent Surfaces</p></li><li><p>Information in Social Networks</p></li><li><p>Information Sensing and Signal Processing</p></li><li><p>Integration of Communication, Sensing, and Computing</p></li><li><p>Internet of Things</p></li><li><p>Machine Learning Theories, Technologies, and Applications</p></li><li><p>Mobile Data Analytics and Data Mining</p></li><li><p>Neural Networks and Large AI Models</p></li><li><p>Quantum Communications, Computing, and Networking</p></li><li><p>Semantic Communications</p></li><li><p>Specific Applications of Information and Intelligence System such as in Healthcare, Logistics, Transportation, Industrial 4.0, and Education</p></li><li><p>Wireless and Mobile Networks, Wireless Technologies</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/journal-of-information-and-intelligence/editorial-board/\">Editorial Board</a> </p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 1000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 29,
+          "title": "Applied and Computational Harmonic Analysis",
+          "acronym": "YACHA",
+          "issn": "1063-5203",
+          "subjectAreas": [
+            "Applied Mathematics",
+            "Analysis"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Case study",
+            "VSI: ACHA_Multiscale_HAML"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/10635203.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/ACHA",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/applied-and-computational-harmonic-analysis/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.4
+            },
+            "impactFactor": {
+              "value": 3.2
+            },
+            "timeToFirstDecision": {
+              "value": 11
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p><i>Applied and Computational Harmonic Analysis</i> (ACHA) is an interdisciplinary journal that publishes high-quality papers in all areas of <b>mathematical sciences</b> related to the applied and computational aspects of <b>harmonic analysis</b>, with special emphasis on innovative theoretical development, methods, and algorithms, for information processing, manipulation, understanding, and so forth. The objectives of the journal are to chronicle the important publications in the rapidly growing field of <b>data representation</b> and <b>analysis</b>, to stimulate research in relevant interdisciplinary areas, and to provide a common link among mathematical, physical, and life scientists, as well as engineers. Applied and computational harmonic analysis covers, in the broadest sense, topics that include but not limited to:</p><p><b>I Signal and Function Representations</b> </p><ul><li><p>continuous and discrete wavelet transform </p></li><li><p>wavelet frames </p></li><li><p>wavelet algorithms </p></li><li><p>local time-frequency and time-scale basis functions </p></li><li><p>multi-scale and multi-level methods </p></li><li><p>refinable functions</p></li></ul><p><b>II Representation of Abstract and High-dimensional Objects</b> </p><ul><li><p>diffusion wavelets and geometry</p></li><li><p>harmonic analysis on graphs and trees </p></li><li><p>sparse data representation</p></li><li><p>compressive sampling</p></li><li><p>compressed sensing</p></li><li><p>matrix completion</p></li><li><p>random matrices and projections</p></li><li><p>data dimensionality reduction</p></li><li><p>high-dimensional integration</p></li></ul><p><b>III Application Areas</b> </p><ul><li><p>data compression</p></li><li><p>signal and image processing</p></li><li><p>learning theory and algorithms</p></li><li><p>computer-aided geometric design</p></li><li><p>extra large data analysis and understanding</p></li><li><p>data recovery and image inpainting</p></li><li><p>data mining</p></li><li><p>hyperspectral imaging</p></li><li><p>novel sensors and systems</p></li></ul><p>This journal has an <a href=\"https://www.elsevier.com/physical-sciences/mathematics/free-access-to-archived-articles-of-primary-mathematics-journals\">Open Archive</a>. All published items, including research articles, have unrestricted access and will remain permanently free to read and download 48 months after publication. All papers in the Archive are subject to <a href=\"https://www.elsevier.com/about/our-business/policies/open-access-licenses/elsevier-user-license\">Elsevier&#39;s user license</a>.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Radu Balan | Ronald R. Coifman | David Donoho",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "MATHEMATICS, APPLIED",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Mathematics",
+              "tier": 2,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3620,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 30,
+          "title": "Computers and Geotechnics",
+          "acronym": "COGE",
+          "issn": "0266-352X",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Geotechnical Engineering and Engineering Geology",
+            "Civil and Structural Engineering"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/0266352X.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/COMGE",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/computers-and-geotechnics/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9
+            },
+            "impactFactor": {
+              "value": 6.2
+            },
+            "acceptanceRate": {
+              "value": 16
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 9
+            }
+          },
+          "scope": "<p>The use of computers is firmly established in geotechnical engineering and continues to grow rapidly in both engineering practice and academe. The development of advanced numerical techniques and constitutive modeling, in conjunction with rapid developments in computer hardware, enables problems to be tackled that were unthinkable even a few years ago. <i>Computers and Geotechnics</i> provides an up-to-date reference for engineers and researchers engaged in computer aided analysis and research in geotechnical engineering. The journal is intended for an expeditious dissemination of advanced computer applications across a broad range of geotechnical topics. Contributions on advances in numerical algorithms, computer implementation of new constitutive models and probabilistic methods are especially encouraged. The application of newly proposed numerical methods and techniques to complex geotechnical engineering problems or to well-documented case studies are of interest. However, submissions that predominantly report results from proprietary codes, describe computer modelling of laboratory tests, field monitoring, or case histories, or develop new design approaches are only welcome if they demonstrate novel user-implemented computational methods. Mining, petroleum, or transportation engineering topics are usually discouraged as they align more closely with other journals. Since the journal is willing to accept longer papers if justified, authors are asked to avoid two-part submissions.</p><p>Original contributions in the emerging areas of Machine Learning and Data Science are now welcome. Submissions should have a focus on geotechnical engineering problems and should provide either i) advances in foundational algorithms and computational frameworks or ii) innovative applications of physics-informed AI/ML techniques. Research results are sought that leverage the integration of observational data, fundamental physical laws and our domain knowledge in geomechanics and geotechnical engineering to offer new physical insights, uncover hidden intrinsic physical laws, and create new knowledge for both geotechnical researchers and practitioners.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor Ha H. Bui | Assoc. Professor Stavroula Kontoe | Professor John. S McCartney (Co-Editor-in-Chief) | Professor Jidong Zhao (Co-Editor-in-Chief)",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, GEOLOGICAL",
+                "tier": 2
+              },
+              {
+                "name": "GEOSCIENCES, MULTIDISCIPLINARY",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Engineering",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3460,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 31,
+          "title": "Cognitive Robotics",
+          "acronym": "COGR",
+          "issn": "2667-2413",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Engineering (General)",
+            "Computer Science (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review",
+            "Short Communication",
+            "SI: CCNCR",
+            "SI: CSR",
+            "SI: Deep Learning for High-Density Critical Environments",
+            "SI: ECER",
+            "SI: EHR",
+            "SI: HCI",
+            "SI: HMI",
+            "SI: HRC",
+            "SI: Intelligent Techniques for Cognitive Robotics",
+            "SI: NCSA"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26672413.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/cogrob",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 18.9
+            },
+            "acceptanceRate": {
+              "value": 15
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>The increasing computational power of computers has significantly expanded the possibility of using artificial intelligence (AI) in various fields. There has been a transformation in the industry motivated by the natural ease of interface between humans and computers, and the promise of spectacular improvements in human capabilities. In the past two decades, a large number of AI systems have been developed in areas like speech recognition, image processing, computer vision, data mining, machine learning, software development, and robotics. In particular, there has been a significant surge in the application of AI in robotics. </p><p>The growing need to automate daily tasks combined with new robotic technologies are driving the development of human-friendly robots. Intelligent robots with human-like intelligence and cognitive capabilities perform tasks in environments such as homes, public facilities and industrial plants. Robots are being used in tasks that are difficult for humans, like retrieving items from underground caves, retrieving bodies from destroyed buildings, and rescuing people in hazardous situations.</p><p>Journal of Cognitive Robotics (COGR) provides rapid publication of topical research on implementations of AI techniques in all areas related to robotics. Please submit your article at: <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.keaipublishing.com%2Fjournals%2Fcognitive-robotics&data=05%7C02%7Cyuki.yu%40elsevier.com%7C8b1ba1ecaac949c6747908dda3324b9d%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638846158596934415%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ttw1OKrNndOG59stmMOIr%2Bpa%2BVxptvlTbCO0D9K8C1M%3D&reserved=0\">Cognitive Robotics (keaipublishing.com)</a></p><p>The journal also publishes special sections covering specific related topics. Proposals for special sections should be emailed to editor-in-chief: </p><p>Dr. Huimin Lu (<a href=\"mailto:dr.huimin.lu@ieee.org\">dr.huimin.lu@ieee.org</a>)</p><p><a href=\"https://www.keaipublishing.com/en/journals/cognitive-robotics/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 32,
+          "title": "Energy",
+          "acronym": "EGY",
+          "issn": "0360-5442",
+          "subjectAreas": [
+            "Renewable Energy, Sustainability and the Environment",
+            "Nuclear Energy and Engineering",
+            "Fuel Technology",
+            "Energy Engineering and Power Technology",
+            "Energy (General)"
+          ],
+          "articleTypes": [
+            "Full length article",
+            "Invited Papers (Invited by Editor in Chief)",
+            "Perspective Papers",
+            "Review article (Invited by Review Editor)",
+            "VSI: EGY_AESMT'25 - Invitation Only",
+            "VSI: GCEEC2025 – Invitation Only",
+            "VSI: ICEE2025 - Invitation Only",
+            "VSI: ICLCA25 - Invitation Only",
+            "VSI: ICP2025 - Invitation Only",
+            "VSI: ICTSE2026 - Invitation Only",
+            "VSI: IGEC2025",
+            "VSI: ISEC2026 - Invitation Only",
+            "VSI: PRES’25+SPIL’25+COS’2025 – Invitation Only"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03605442.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/egy",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/energy/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 16.5
+            },
+            "impactFactor": {
+              "value": 9.4
+            },
+            "timeToFirstDecision": {
+              "value": 8
+            },
+            "timeToAcceptance": {
+              "value": 2
+            }
+          },
+          "scope": "<p><i>Energy</i> is an international, multi-disciplinary journal in <b>energy engineering</b> and research, and a flagship journal in the Energy area. The journal aims to be a leading peer-reviewed platform and an authoritative source of information for analyses, reviews and evaluations related to <b>energy</b>. </p><p>The journal covers research in mechanical engineering and thermal sciences, with a strong focus on <b>thermal energy</b> and <b>integrated energy systems</b>, energy planning and energy management. The journal also welcomes papers on related topics such as energy conservation, energy efficiency, biomass and bioenergy, renewable energy, energy storage, energy in buildings, and on economic and policy issues, provided such topics are within the context of the broader multi-disciplinary scope of <i>Energy</i>. However, any pure transfer or process level energy research may not be suitable for the scope of this journal, such as combustion, fuels, heat transfer, fluid flow, wind turbine, hydro pump, and energy resources mining etc.</p><p>- We give priority to thermal energy papers and not papers with a strong focus on combustion, fuels, heat transfer, fluid flow and the like. The papers on specific fossil fuel mining techniques and methods, fuels characterization and fuels chemical treatment are not within the scope of <i>Energy</i>. <br/>- We give priority to integrated energy systems, energy planning and energy management and not papers with a strong focus on single technologies such as wind turbines, PV materials, solar thermal coatings, biomass chemical reactions and their related heat and mass transfer process etc. Especially for wind energy, we refer to <a href=\"https://www.sciencedirect.com/journal/wind-energy-and-engineering-research\"><i>Wind Energy and Engineering Research</i></a><i> </i>- the sister journal of <i>Energy.</i> <br/>- We give priority to sustainable energy related to green transition, we request papers based on thermal engineering, particularly fossil or decarbonized fuel-related technologies, and discuss how these technologies fit into the green transformation. Papers on mining, new designs and retrofits of fuel-fired power plants are not in the scope of the Journal.<br/>- We give priority to integrated cross-sectoral smart energy systems and not to single-sector systems with a sole focus on the electricity sector. However, electrified heating and cooling systems and heat pumps are in the scope of <i>Energy</i>. For papers on pure electric energy, we give priority to <a href=\"https://www.sciencedirect.com/journal/smart-energy\"><i>Smart Energy</i></a><i> </i>- the sister journal of <i>Energy</i>. <br/>- We give priority to thermal management technology for electronic devices, electric batteries, photovoltaics, data centers, and even electric power plants, not a pure heat transfer for cooling. These topics are in the scope of specialized heat transfer and refrigeration journals, and not in the scope of <i>Energy</i>. <br/>- We give priority to energy storage systems, especially those that can be applied at energy system level, such as electric battery and thermal battery, not to materials level research or heat exchanger level research. We are interested in energy and AI research.</p><p>This journal welcomes contributions that support and advance the UN&#39;s <a href=\"https://sdgresources.relx.com/\">sustainable development goals</a>, in particular SDG 7 (Affordable and clean energy). <i>Energy</i> welcomes research on clean energy transition and renewable energy systems, and also energy-food-water nexus.</p><p><u><b>Journal Sections</b></u></p><ol><li><p>Heat Transfer and Heat Pumps</p></li><li><p>Energy Conversion and Efficiency </p></li><li><p>District Heating and Cooling and CAES </p></li><li><p>Energy in Buildings </p></li><li><p>Solar Energy - Thermal and photovoltaics</p></li><li><p>Geothermal and Organic Rankine Cycle </p></li><li><p>Thermodynamics </p></li><li><p>Fuels in the Green Transition </p></li><li><p>Biofuels and biomass in engines and turbines </p></li><li><p>Biomass and waste incineration, gasification and conversion </p></li><li><p>Energy input in crop/biofuel production</p></li><li><p>Hydrogen, Fuel Cells, Energy Carriers and Storage </p></li><li><p>Electricity Demand, Smart Grid and Smart Energy Systems </p></li><li><p>Wind Power (Prof. Huang Diangui)</p></li><li><p>Hydro Energy - Wave, Tidal and Hydro Power</p></li><li><p>Energy and Transportation </p></li><li><p>Integrated Heating, Cooling and Electricity Systems </p></li><li><p>National Energy Systems</p></li><li><p>Energy and Environment</p></li><li><p>Energy Planning Tools </p></li><li><p>Energy Policy</p></li><li><p>Energy and Economy </p></li><li><p>Carbon Capture </p></li><li><p>Nuclear </p></li></ol><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Prof. Dr. Ruzhu Wang",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "ENERGY & FUELS",
+                "tier": 2
+              },
+              {
+                "name": "THERMODYNAMICS",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Engineering",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 4050,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 33,
+          "title": "Information Fusion",
+          "acronym": "INFFUS",
+          "issn": "1566-2535",
+          "subjectAreas": [
+            "Engineering (General)",
+            "Signal Processing",
+            "Information Systems",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "articleTypes": [
+            "Editors own manuscript",
+            "Opinion paper",
+            "Research paper",
+            "Survey",
+            "VSI: Low-quality Data: Foundation Models"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15662535.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/INFFUS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/information-fusion/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 24.1
+            },
+            "impactFactor": {
+              "value": 15.5
+            }
+          },
+          "scope": "<p>An International Journal on Multi-Sensor, Multi-Source Information Fusion</p><p>The journal is intended to present within a single forum all of the developments in the field of <b>multi-sensor</b>, <b>multi-source</b>, <b>multi-process information fusion</b> and thereby promote the synergism among the many disciplines that are contributing to its growth. The journal is the premier vehicle for disseminating information on all aspects of research and development in the field of information fusion. Articles are expected to emphasize one or more of the three facets: <b>architectures</b>, <b>algorithms</b>, and <b>applications</b>. Papers dealing with fundamental theoretical analyses as well as those demonstrating their application to real-world problems will be welcome. The journal publishes original papers, letters to the <a href=\"https://www.journals.elsevier.com/information-fusion/editorial-board/\">Editors</a> and from time to time invited review articles, in all areas related to the information fusion arena including, but not limited to, the following suggested topics:</p><ul><li><p>Data/Image, Feature, Decision, and Multilevel Fusion </p></li><li><p>Multi-classifier/Decision Systems </p></li><li><p>Multi-Look Temporal Fusion </p></li><li><p>Multi-Sensor, Multi-Source Fusion System Architectures </p></li><li><p>Distributed and Wireless Sensor Networks </p></li><li><p>Higher Level Fusion Topics Including Situation Awareness And Management </p></li><li><p>Multi-Sensor Management and Real-Time Applications</p></li><li><p>Adaptive And Self-Improving Fusion System Architectures </p></li><li><p>Active, Passive, And Mixed Sensor Suites </p></li><li><p>Multi-Sensor And Distributed Sensor System Design </p></li><li><p>Fusion Learning In Imperfect, Imprecise And Incomplete Environments</p></li><li><p>Intelligent Techniques For Fusion Processing </p></li><li><p>Fusion System Design And Algorithmic Issues </p></li><li><p>Fusion System Computational Resources and Demands Optimization </p></li><li><p>Special Purpose Hardware Dedicated To Fusion Applications </p></li><li><p>Mining Remotely Sensed Multi-Spectral/Hyper-Spectral Image Data Bases </p></li><li><p>Information Fusion Applications in Intrusion Detection, Network Security, Information Security and Assurance arena </p></li><li><p>Applications such as Robotics, Space, Bio-medical, Transportation, Economics, and Financial Information Systems </p></li><li><p>Real-World Issues such as Computational Demands, Real-Time Constraints in the context of Fusion systems.</p></li></ul><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Salvador García-Lopez | Jiayi Ma",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 1
+              },
+              {
+                "name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 4500,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 34,
+          "title": "EURO Journal on Decision Processes",
+          "acronym": "EJDP",
+          "issn": "2193-9438",
+          "subjectAreas": [
+            "Decision Sciences (General)",
+            "Statistics, Probability and Uncertainty",
+            "Management Science and Operations Research"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/21939438.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/EJDECP",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 4.7
+            },
+            "impactFactor": {
+              "value": 2.1
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>The official journal of the <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.euro-online.org%2Fweb%2Fpages%2F1%2Fhome&data=05%7C02%7CA.Basualdo%40elsevier.com%7C0706e9fbcc79444b78dc08ddc9c75c72%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638888580264841015%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=mub%2BVDC0a4eXAHKZPa0AW%2FiivvvJeHiCggc%2BbvVd0Ws%3D&reserved=0\">Association of European Operational Research Societies (EURO)</a>.</p><p>The open access Article Publishing Charge (APC) fee will be covered by EURO for articles submitted by 31st December 2026. Only applicable to articles where the authors institution does not provide open access support. Please contact the Journal Manager for more information. </p><p>Published in collaboration with the <a href=\"https://www.euro-online.org/web/pages/1/home\">Association of European Operational Research Societies (EURO)</a></p><p>The <i>EURO Journal on Decision Processes</i> (EJDP) promotes and publishes scientific knowledge on the theoretical, methodological, behavioural and organizational topics that contribute to the understanding and appropriate use of operational research in supporting different phases of decision making processes. Methodologically, EDJP covers both qualitative and quantitative approaches to the scoping, modelling and solution of decision problems.</p><p>The scope of EJDP is focussed on the connections between operational research and decision processes. Thus, for instance, EJDP welcomes submissions which (i) present relevant advances in problem structuring, decision analysis and multi-criteria decision aiding, (ii) address questions of process design, model validity and communication in connection with techniques like data mining, forecasting, optimization, simulation, and performance measurement or (iii) provide reflective accounts of decision processes that exemplify uses of operational research in application domains such as energy, engineering, environment, finance, health care and operations management. EJDP primarily publishes original research articles, but surveys and tutorials can be considered as well.</p><ul><li><p>Disseminates original research on the contribution of operational research to improved decision making processes</p></li><li><p>Contains reflective analyses of applications where operational research has an impact on decision processes</p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Jutta Geldermann",
+          "goldOpenAccessFee": {
+            "value": 1400,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 35,
+          "title": "Ore Geology Reviews",
+          "acronym": "OREGEO",
+          "issn": "0169-1368",
+          "subjectAreas": [
+            "Geochemistry and Petrology",
+            "Economic Geology"
+          ],
+          "articleTypes": [
+            "Feature article",
+            "Research paper",
+            "Invited Review Article",
+            "Review",
+            "Short communication",
+            "VSI: Cu-Au in SE China",
+            "VSI: Industrial mineral deposits",
+            "VSI: Lithium mineralization",
+            "VSI: Ore-controlling structure",
+            "VSI: Orogenic gold deposits",
+            "VSI: Strategic non-metallic resources",
+            "VSI: Cu-Au in SE China - Review",
+            "VSI: Industrial mineral deposits - Review",
+            "VSI: Lithium mineralization - Review",
+            "VSI: Ore-controlling structure - Review",
+            "VSI: Orogenic gold deposits - Review",
+            "VSI: Strategic non-metallic resources - Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01691368.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/ORGEO",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/ore-geology-reviews/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7.1
+            },
+            "impactFactor": {
+              "value": 3.6
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>Journal for Comprehensive Studies of Ore Genesis and Ore Exploration <br/>Affiliated with the <a href=\"http://www.iagod.org/\">International Association on the Genesis of Ore Deposits (IAGOD)</a>.</p><p><i>Ore Geology Reviews</i> is a fully Open Access journal which aims to familiarize all earth scientists with recent advances in a number of interconnected disciplines related to the study of, and search for, <b>ore deposits</b>. The reviews range from brief to longer contributions, but the journal preferentially publishes manuscripts that fill the niche between the commonly shorter journal articles and the comprehensive book coverages, and thus has a special appeal to many authors and readers.</p><p><i>Ore Geology Reviews</i> covers topics related to <b>ore geology</b> in its broadest sense. The following exemplifies the range of subject matter that can be described and discussed in the journal:</p><p>Metalliferous and non-metalliferous (industrial mineral) ore geology of all types land-based and oceanic studies; <b>economic geology</b> <i>per se</i>; mineral economics; <b>pollution studies</b> related to <b>exploration</b> and <b>mining</b>; ore and gangue <b>mineralogy</b>, <b>petrography</b>, <b>petrology</b>, <b>petrogenesis</b>; host-rock studies; metallogeny and <b>minerogenesis</b> (e.g. metallotectonics); specific deposits, districts, and belts; local to regional, detailed to general or reconnaissance studies, on any scale; pure and applied studies, i.e. theoretical and practical data; methodology of any kind: laboratory-based and field-oriented; geological (including stratigraphic, structural, remote-sensing); mathematical (e.g. computer geology); geochemical, geophysical and philosophical; research and exploration techniques.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Huayong Chen",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "GEOLOGY",
+                "tier": 1
+              },
+              {
+                "name": "MINERALOGY",
+                "tier": 2
+              },
+              {
+                "name": "MINING & MINERAL PROCESSING",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "GeoSciences",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3320,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 36,
+          "title": "Water Resources and Industry",
+          "acronym": "WRI",
+          "issn": "2212-3717",
+          "subjectAreas": [
+            "Aquatic Science",
+            "Environmental Engineering",
+            "Water Science and Technology"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review Article",
+            "Short Communication",
+            "VSI: Separation in Water Resources and Industry: Research Article",
+            "VSI: Separation in Water Resources and Industry: Review Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22123717.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/WRIN",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.6
+            },
+            "impactFactor": {
+              "value": 7.5
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 2
+            }
+          },
+          "scope": "<p>In association with the <a href=\"https://www.iwapublishing.com/\">International Water Association</a></p><p><b><i>Water Resources and Industry</i></b> is an open-access journal that moves research to innovation by focusing on the challenges water-intensive industries are facing in the utilisation, management and treatment of water resources.</p><p>Industries, such as the mining, manufacturing and energy sectors, use a portfolio of water resources in their production processes, while they generate, treat and dispose a wide variety of used water qualities. Depending on the location of the production facilities, the impact on the local water resources will vary and needs to be considered in catchment-scale water management.</p><p>The aims and scope of the journal include:</p><ul><li><p>Industrial water footprint assessment - tools, methodologies and applications</p></li><li><p>Strengthening good corporate water stewardship including stakeholder collaboration and engagement</p></li><li><p>Evaluation of water-related risks in terms of quantity and quality related challenges (e.g. impacts of climate on water availability and relevance of emerging pollutants)</p></li><li><p>New technologies for treatment, monitoring and control enabling companies to better manage water resources</p></li><li><p>New digital solutions for data management in industrial water systems</p></li><li><p>Advancing the water-energy nexus in industrial operations</p></li><li><p>Industrial wastewater treatment and discharge as well as impact on natural water resources</p></li></ul><p>In association with International Water Association (IWA) <a href=\"http://www.iwapublishing.com/\">www.iwapublishing.com</a></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Yongjun Zhang",
+          "goldOpenAccessFee": {
+            "value": 2990,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 37,
+          "title": "Pattern Recognition Letters",
+          "acronym": "PATREC",
+          "issn": "0167-8655",
+          "subjectAreas": [
+            "Computer Vision and Pattern Recognition",
+            "Signal Processing",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Regular Article",
+            "SS: ICPRS 2025",
+            "SS: SIBGRAPI 2025",
+            "Survey papers by IAPR fellows",
+            "Commentary",
+            "Note",
+            "VSI: PATREC_EMDF-RCP"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01678655.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/PRLETTERS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.5
+            },
+            "impactFactor": {
+              "value": 3.3
+            },
+            "timeToFirstDecision": {
+              "value": 17
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p>An official publication of the <a href=\"http://www.iapr.org/\">International Association for Pattern Recognition</a></p><p><i>Pattern Recognition Letters</i> aims at rapid publication of concise articles of a broad interest in <b>pattern recognition</b>. <br/> Subject areas include all the current fields of interest represented by the Technical Committees of the <a href=\"http://www.iapr.org/\">International Association of Pattern Recognition</a>, and other developing themes involving learning and recognition. Examples include:</p><p>• Statistical, structural, syntactic pattern recognition; <br/> • Neural networks, machine learning, data mining; <br/> • Discrete geometry, algebraic, graph-based techniques for pattern recognition; <br/> • Signal analysis, image coding and processing, shape and texture analysis; <br/> • Computer vision, robotics, remote sensing; <br/> • Document processing, text and graphics recognition, digital libraries; <br/> • Speech recognition, music analysis, multimedia systems; <br/> • Natural language analysis, information retrieval; <br/> • Biometrics, biomedical pattern analysis and information systems; <br/> • Special hardware architectures, software packages for pattern recognition.</p><p>We invite contributions as research reports or commentaries.</p><p>Research reports should be concise summaries of methodological inventions and findings, with strong potential of wide applications. <br/> Alternatively, they can describe significant and novel applications of an established technique that are of high reference value to the same application area and other similar areas.</p><p>Commentaries can be lecture notes, subject reviews, reports on a conference, or debates on critical issues that are of wide interests.</p><p>To serve the interests of a diverse readership, the introduction should provide a concise summary of the background of the work in an accepted terminology in pattern recognition, state the unique contributions, and discuss broader impacts of the work outside the immediate subject area. All contributions are reviewed on the basis of scientific merits and breadth of potential interests.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "De Marsico | Liu | Lu",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2380,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 38,
+          "title": "Deep-Sea Research Part I: Oceanographic Research Papers",
+          "acronym": "DSRI",
+          "issn": "0967-0637",
+          "subjectAreas": [
+            "Geology",
+            "Oceanography",
+            "Aquatic Science"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication",
+            "VSI: Negative Results",
+            "VSI: OD-Deep Sea DSRI"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09670637.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/DSR1",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/deep-sea-research-part-i-oceanographic-research-papers/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 4.3
+            },
+            "impactFactor": {
+              "value": 2.1
+            },
+            "timeToFirstDecision": {
+              "value": 8
+            },
+            "timeToAcceptance": {
+              "value": 2
+            }
+          },
+          "scope": "<p>The journal is concerned with fundamental oceanography of the deep sea in the broadest sense. This includes, ocean physics including circulation, waves, turbulence, thermodynamics, optics, acoustics, mixing, or other process studies, atmosphere ocean coupling, primary production, organic carbon fluxes, chemistry, palaeoceanography, geophysics, sedimentology, all aspects of biology from microbes to marine mammals, physiology, ecology, biogeography, evolution, behaviour and anthropological impacts.</p><p>The deep sea is interpreted to be the ocean beyond the continental shelf. Papers dealing exclusively with areas inshore of the shelf break are in general more appropriate to our companion journal Continental Shelf Research.</p><p><i>Instruments and Methods</i> papers can describe novel hardware, vehicles, research vessels, instrumentation, sensors (physical, chemical or biological), survey methods, analysis and calibration methods as well as software and novel data-analysis techniques but with the caveat of evidence of successful use in oceanography. We do not accept applied science/technology papers on deep-sea mining, drilling, bio-prospecting or management of fish stocks in which the aim is not oceanographic research. In biological papers, we welcome descriptions of new species but these should be in the context of advancing knowledge of ecology, evolution and biogeography in the deep sea; purely taxonomic papers should be submitted to a specialist journal.</p><p><i>Deep-Sea Research Part I: Oceanographic Research Papers</i>, considers four types of paper: Research Papers: These should report results of original scientific research, including theoretical work of evident <b>oceanographic</b> applicability. To encourage full reporting of complex studies there is no formal length limit on research papers but editors and reviewers will discourage excessive verbosity and repetition.</p><p><i>Instruments and Methods</i>: These should report novel solutions of instrumental or methodological problems with evidence of successful use. There is no length limit.</p><p><i>Short Communication</i>: These can be reports of novel research or instruments and methods and should not contain more than 4,000 words and no more than 3 figures and 1 table.</p><p><i>Reviews</i>: The journal welcomes suggestions for reviews synthesising knowledge of any aspect of the deep sea. These reviews should be approximately 12,000 words in length and suggestions should be discussed with the Editors-in-Chief.</p><p><i>Special Collections of papers</i>: Proposals for special topic issues should be directed to our sister journal: Deep-Sea Research Part II: Topical Studies in Oceanography. However, this journal can publish collections of up to 5 papers that address a special topic that are insufficient to fill a whole journal volume. Proposals for special collections should be discussed with an Editor-in-Chief. <br/> The proponent of a special collection may be appointed as a Special Section Guest Editor. Papers can be submitted in any order and at any time and will be handled in the normal way by the guest editor or established editors. Each paper will be published on-line as soon as it is accepted. When the final paper in the collection is accepted then the entire collection will be assigned to a volume and authors may suggest a cover image. Papers in a collection should be numbered consecutively with a short main title and more extensive subtitle. E.g. Ocean carbon fluxes 1: xxxxxxx, Ocean fluxes 2: yyyyyyyyyy. Each paper in the collection should be a self-standing and can be a <i>Research Paper, Instruments and methods paper, Short Communication or Review</i>. Guest editors may add an editorial introducing the section.</p><p>For all papers, supplemental matter, such as extensive data tables or graphs and multimedia content, may be published as electronic appendices. <i>Deposition of data, gene sequences and type specimens</i>:</p><p>This journal encourages sharing of data (see section on research data below) and recommends that data be placed in appropriate repositories or included in the supplemental matter submitted with the paper. New gene sequences should be deposited in the DDBJ/EMBL/GenBank database. Type specimens should be deposited in the appropriate national or international public museum or collection. Accession numbers of gene sequences and type specimens must be included in the final version of the manuscript and cannot be added at the proof stage.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Fang | Hofmann",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "OCEANOGRAPHY",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "GeoSciences",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3350,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 39,
+          "title": "Agriculture Communications",
+          "acronym": "AGRCOM",
+          "issn": "2949-7981",
+          "subjectAreas": [
+            "Agricultural and Biological Sciences (General)",
+            "Agronomy and Crop Science"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review Article",
+            "Short Communication",
+            "VSI: Achieving Triple Carbon Goals in Agriculture-Research paper",
+            "VSI: AgriFood Waste-Original research article",
+            "VSI: Plant functional genomics - Research paper",
+            "VSI:Development and Implementation of Artificial Soil-Research article",
+            "VSI: Achieving Triple Carbon Goals in Agriculture-Review article",
+            "VSI: AgriFood Waste- Review article",
+            "VSI: Plant functional genomics - Review article",
+            "VSI:Development and Implementation of Artificial Soil-Review",
+            "VSI: AgriFood Waste- Perspectives"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29497981.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/agrcom/default2.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/agriculture-communications/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 2.2
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i>Agriculture Communications</i> is an open access journal that covers all basic and applied research dealing with agriculture science. The journal also considers research integrating various disciplines and issues within the broad fields of Crop science, Horticultural science, Plant protection, Animal science and veterinary medicine, Smart agriculture, Food science and technology, Agricultural resources and environment, Agricultural economics and development, and Aquaculture and fisheries science. Papers on important methodological developments relevant for agriculture will be considered as well. The aim of the journal is to widely disseminate emerging scientific findings to researchers in various agricultural disciplines.</p><p>The journal is fully dedicated to fair, rigorous, independent peer review. The journal will publish full length articles, reviews, short communications and editorials in first years of activity. As the journal evolves, other article types will be included.</p><p>The areas of the journal include but are not limited to:</p><p><b>Crop science</b> </p><ul><li><p>Crop breeding</p></li><li><p>Crop growth and development, and key characters and mechanisms linked to crop resistance to biotic and abiotic stresses</p></li></ul><p><b>Horticultural science</b> </p><ul><li><p>Horticultural plant breeding</p></li><li><p>Horticultural plant growth and development, and key characters and mechanisms linked to horticultural plant resistance to biotic and abiotic stresses</p></li></ul><p><b>Plant protection</b> </p><ul><li><p>Agricultural entomology</p></li><li><p>Phytopathology</p></li><li><p>Weed science</p></li><li><p>Pesticide science</p></li></ul><p><b>Animal science and veterinary medicine</b> </p><ul><li><p>Animal breeding and nutrition</p></li><li><p>Forage science</p></li><li><p>Veterinary</p></li></ul><p><b>Smart agriculture</b> </p><ul><li><p>Sensor technology and application</p></li><li><p>Agricultural robotics</p></li><li><p>Internet of things</p></li><li><p>Precision agriculture</p></li><li><p>Machine/deep learning and artificial intelligence in sensing and imaging</p></li><li><p>Big data, data mining, and data analysis for agricultural applications</p></li></ul><p><b>Food science and technology</b> </p><ul><li><p>Food processing and production</p></li><li><p>Food storage</p></li><li><p>Food microbiology</p></li><li><p>Food safety and quality</p></li><li><p>Food nutrition</p></li></ul><p><b>Agricultural resources and environment</b> </p><ul><li><p>Plant nutrition and fertilizer</p></li><li><p>Soil microbiology</p></li><li><p>Irrigation and water use efficiency</p></li><li><p>Agroecology</p></li></ul><p><b>Agricultural economics and development</b> </p><ul><li><p>Agricultural economics</p></li><li><p>Agricultural policy</p></li><li><p>Rural development</p></li></ul><p><b>Aquaculture and fisheries science</b> </p><ul><li><p>Aquatic animal breeding and nutrition</p></li><li><p>Disease control of aquatic animals</p></li><li><p>Aquatic ecology</p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Chenggui Li | Professor Kong-Ming Wu",
+          "goldOpenAccessFee": {
+            "value": 1600,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 40,
+          "title": "Marine Geotechnics",
+          "acronym": "MAGETH",
+          "issn": "3117-8189",
+          "subjectAreas": [
+            "Renewable Energy, Sustainability and the Environment",
+            "Ocean Engineering",
+            "Geotechnical Engineering and Engineering Geology",
+            "Civil and Structural Engineering"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Review Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31178189.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/mageth/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p><i>Marine Geotechnics</i> is an international, open access, peer-reviewed journal that publishes high-quality research on the geotechnical aspects of coastal and offshore systems. The journal serves as a forum for advancing the fundamental understanding and engineering application of soil mechanics and geotechnical engineering in the marine environment. It aims to disseminate cutting-edge research on the design, analysis, and performance of foundations, anchors, pipelines, underwater tunnels and other seabed infrastructure, with emphasis on safety, sustainability, and reliability. While a key focus is on applications supporting the safe and sustainable development of marine energy systems, the journal also welcomes high-quality research on other areas, including deep-sea resource extraction, subsea infrastructure, and coastal resilience. By serving as a crucial conduit between fundamental research and practical engineering solutions, <i>Marine Geotechnics</i> is committed to solving the complex challenges inherent in engineering on and within the coastal ground or seabed.<i> </i></p><p><b>Topics included but not limited to:</b><i> </i></p><p>· Marine site characterization and marine geomaterials behavior: advanced in-situ and laboratory testing, innovative geophysical methods, and constitutive modeling of geomaterials under complex loading conditions.<i> </i></p><p>· Offshore and subsea foundations: analysis, design, and performance of shallow and deep foundations (e.g., piles, caissons, gravity bases) for all types of marine structures, including energy, industrial, and scientific platforms.<i> </i></p><p>· Anchoring and mooring systems: geotechnical design and analysis of anchoring systems (e.g., drag, plate, pile anchors) for floating structures such as FPSOs, floating cities, renewable energy platforms, and aquaculture farms.<i> </i></p><p>· Geotechnics of subsea linear infrastructure: design, installation, and stability of submarine pipelines, risers, and power/data cables, including cable-seabed interaction, trenching, and burial.<i> </i></p><p>· Coastal and nearshore geotechnical engineering: analysis of coastal processes, land reclamation, port and harbor infrastructure, breakwaters, and foundations.<i> </i></p><p>· Geotechnics for subsea resources and storage: geotechnical solutions for deep-sea mining, methane hydrate exploitation, offshore geothermal energy, subsea hydrogen storage, and carbon capture and storage (CCS).<i> </i></p><p>· Geotechnics of cross-sea passages: geotechnical challenges related to the design and construction of immersed tunnels, sea-crossing bridges, and artificial islands.<i> </i></p><p>· Submerged floating tunnels (SFTs): geotechnical aspects of foundation and anchoring systems for submerged floating tunnels, including soil-structure interaction under hydrodynamic and seismic loads.<i> </i></p><p>· Marine geo-hazards and environmental geotechnics: assessment, forecasting, and mitigation of marine geo-hazards (e.g., submarine landslides, tsunamis, seismic risks, scour), and the environmental impact of marine geotechnical activities.<i> </i></p><p>· Novel ocean space utilization: geotechnical challenges associated with emerging infrastructure such as subsea data centers, underwater habitats, and deep-sea observatories.<i> </i></p><p>· Advanced modeling and data-driven methods: high-fidelity simulation of coupled soil-fluid-structure interaction, and the application of AI, digital twins, and data analytics in marine geotechnical engineering.<i> </i></p><p>· Lifecycle, risk, and resilience: reliability-based design, innovative construction and monitoring, and sustainable lifecycle strategies (including decommissioning) for all types of coastal and offshore projects.</p><p><a href=\"https://www.keaipublishing.com/en/journals/marine-geotechnics/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        }
+      ],
+      "filterHistograms": {
+        "impactFactor": [
+          0,
+          3,
+          3,
+          10,
+          5,
+          4,
+          5,
+          4,
+          0,
+          1,
+          2
+        ],
+        "citeScore": [
+          0,
+          0,
+          2,
+          3,
+          2,
+          2,
+          4,
+          6,
+          2,
+          7,
+          17
+        ],
+        "publicationTime": [
+          0,
+          6,
+          11,
+          5,
+          1,
+          2,
+          6,
+          2,
+          6,
+          3,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "timeToFirstDecision": [
+          5,
+          4,
+          4,
+          9,
+          6,
+          8,
+          0,
+          3,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "totalResults": 52,
+      "institute": {
+        "name": null,
+        "hasAgreements": false
+      }
+    }
+  }
+]

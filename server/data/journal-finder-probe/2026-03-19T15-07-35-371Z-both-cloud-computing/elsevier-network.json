@@ -1,0 +1,2064 @@
+[
+  {
+    "url": "https://authorhub.elsevier.com/api/v1/journals/keywords-search",
+    "status": 200,
+    "json": {
+      "results": [
+        {
+          "ranking": 1,
+          "title": "Pervasive and Mobile Computing",
+          "acronym": "PMCJ",
+          "issn": "1574-1192",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Computer Networks and Communications",
+            "Computer Science Applications",
+            "Hardware and Architecture"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15741192.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/PMC",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 8.1
+            },
+            "impactFactor": {
+              "value": 3.5
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 9
+            }
+          },
+          "scope": "<p><b>Special Issue Proposal Note</b> <br/> PMCJ exclusively reviews <a href=\"https://www.elsevier.com/__data/promis_misc/Special-Issue-Proposal-Form.pdf\">Special Issue proposal forms</a> submitted <a href=\"https://www.editorialmanager.com/cssi-procs/default2.aspx\">here</a> through the designated submission system. <br/> Proposals submitted via any other means will not be considered for review. <br/> For more information on how to prepare and submit a SI proposal please check <a href=\"https://www.elsevier.com/physical-sciences-and-engineering/computer-science/journals/how-to-prepare-a-special-issue-proposal\">https://www.elsevier.com/physical-sciences-and-engineering/computer-science/journals/how-to-prepare-a-special-issue-proposal</a>.</p><p><b>Aims and Scope</b> <br/> As envisioned by Mark Weiser as early as 1991, pervasive computing systems and services have truly become integral to our daily lives. Tremendous advancements in a multitude of technologies ranging from personalized and embedded smart devices (e.g., smartphones, sensors, wearables, IoT) to ubiquitous connectivity through wireless mobile communications and cognitive networking infrastructures, to advanced computing techniques (including mobile edge/fog/cloud, data analytics and machine learning) and user-friendly middleware services and platforms have significantly contributed to the unprecedented advances in pervasive and mobile computing.</p><p>Such cutting-edge pervasive technologies and paradigms have led to the convergence of cyber-physical-human systems with applications to smart environments (e.g., smart homes and cities, smart grid, smart transportation, smart health, smart agriculture) with the goal to improve human experience and quality of life without explicit awareness of the underlying communications and computing technologies. Additionally, the huge amount of (real-time) data collected via pervasive devices coupled with advanced data analytic, machine learning and AI (Artificial Intelligence) techniques for reliable prediction and decision-making are making breakthrough research in pervasive computing and applications, such as self-driving cars, predictive maintenance in the industry 4.0 environments, mobile recommendation systems, etc.</p><p>The <i>Pervasive and Mobile Computing Journal</i> (PMC) is a high-impact, peer-reviewed technical journal that publishes high-quality scientific articles spanning theory and practice, and covering all aspects of pervasive and mobile computing and systems. Topics include, but not limited to: <br/></p><ul><li><p>Pervasive Computing and Communications Architectures and Protocols</p></li><li><p>Pervasive, Mobile and Wearable Computing Systems and Services</p></li><li><p>Cyber-Physical Systems and Cyber-Physical-Human Systems</p></li><li><p>Smart Systems and Applications (smart homes, smart cities, smart manufacturing, smart transportation, smart grid, smart health, smart agriculture, etc.)</p></li><li><p>Human-centric Intelligent Systems</p></li><li><p>Cognitive Computing</p></li><li><p>Trustworthy AI in Pervasive Systems</p></li><li><p>Machine Learning and Deep Learning in Pervasive and Mobile Computing</p></li><li><p>Federated, Distributed and Embedded learning, Learning at-the-edge in Pervasive Systems</p></li><li><p>Learning on Streaming Data and Continual Learning in Pervasive and Mobile Systems</p></li><li><p>Big Data and Data Analytics in Pervasive Computing Systems</p></li><li><p>Internet of Things and Social Internet of Things</p></li><li><p>Internet of People and Internet of Vehicles</p></li><li><p>Edge, Fog, Mobile Cloud and Opportunistic Computing in Pervasive and Mobile Systems</p></li><li><p>Enabling Pervasive Communication Technologies (e.g., wireless LANs, cellular, hybrid, ad hoc and cognitive networks)</p></li><li><p>Wireless Sensors Networks and RFID Technologies</p></li><li><p>Urban Sensing and Mobile Crowdsensing</p></li><li><p>Participatory and Social Sensing</p></li><li><p>Machine-to-Machine and Device-to-Device Communications</p></li><li><p>Positioning, Localization and Tracking Technologies</p></li><li><p>Activity Recognition and Tracking</p></li><li><p>Context-aware Computing</p></li><li><p>Location-based Services and Applications</p></li><li><p>Pervasive Service Creation, Composition, Discovery, Management, and Delivery</p></li><li><p>Human User Interfaces and Interaction Models</p></li><li><p>Trust, Reliability, Security, and Privacy in Pervasive and Mobile Computing Systems</p></li><li><p>Performance Evaluation of Pervasive and Mobile Computing Systems</p></li></ul>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Sajal K. Das",
+          "goldOpenAccessFee": {
+            "value": 2620,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 2,
+          "title": "Journal of Parallel and Distributed Computing",
+          "acronym": "YJPDC",
+          "issn": "0743-7315",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Computational Theory and Mathematics",
+            "Software",
+            "Hardware and Architecture",
+            "Control and Systems Engineering",
+            "Computer Networks and Communications"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Survey Paper",
+            "Research note",
+            "VSI:DynResHPC",
+            "VSI:Irregular Applications",
+            "VSI:SBAC-PAD 24/25"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/07437315.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/JPDC",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.8
+            },
+            "impactFactor": {
+              "value": 4
+            },
+            "timeToFirstDecision": {
+              "value": 25
+            },
+            "timeToAcceptance": {
+              "value": 6
+            }
+          },
+          "scope": "<p>This international journal is directed to researchers, engineers, educators, managers, programmers, and users of computers who have particular interests in <b>parallel processing</b> and/or <b>distributed computing</b>.</p><p>The <i>Journal of Parallel and Distributed Computing</i> publishes original research papers and timely review articles on the theory, design, evaluation, and use of parallel and/or distributed computing systems. The journal also features special issues on these topics; again covering the full range from the design to the use of our targeted systems.</p><p>Research Areas Include:</p><p>• Theory of parallel and distributed computing <br/> • Parallel algorithms and their implementation <br/> • Innovative computer architectures <br/> • Parallel programming <br/> • Applications, algorithms and platforms for accelerators <br/> • Cloud, edge and fog computing <br/> • Data-intensive platforms and applications <br/> • Parallel processing of graph and irregular applications <br/> • Parallel and distributed programming models <br/> • Software tools and environments for distributed systems <br/> • Algorithms and systems for Internet of Things <br/> • Performance analysis of parallel applications <br/> • Architecture for emerging technologies e.g., novel memory technologies, quantum computing <br/> • Application-specific architectures e.g., accelerator-based and reconfigurable architecture <br/> • Interconnection network, router and network interface architecture</p><p>Researchers interested in submitting a special issue proposal should adhere to the <a href=\"https://www.elsevier.com/subject/computer-science/special-issue-proposal\">submission guidelines.</a></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Ananth Kalyanaraman",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3090,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 3,
+          "title": "Journal of Network and Computer Applications",
+          "acronym": "YJNCA",
+          "issn": "1084-8045",
+          "subjectAreas": [
+            "Electrical and Electronic Engineering",
+            "Computer Networks and Communications"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/10848045.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/JNCA/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-network-and-computer-applications/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 20.3
+            },
+            "impactFactor": {
+              "value": 8
+            },
+            "timeToFirstDecision": {
+              "value": 11
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p><i>The Journal of Network and Computer Applications</i> welcomes research contributions, surveys and notes in all areas relating to computer networks and applications thereof. The following list of sample-topics is by no means to be understood as restricting contributions to the topics mentioned:</p><ul><li><p>new design techniques, interesting or novel applications, components or standards</p></li><li><p>computer networks with tools such as WWW</p></li><li><p>emerging standards for internet protocols</p></li><li><p>Wireless networks</p></li><li><p>Mobile Computing</p></li><li><p>computing models such as cloud computing, grid computing</p></li><li><p>network protocols such as sensor networks, delay tolerant networks, Internet of things</p></li><li><p>applications of networked systems for remote collaboration and telemedicine</p></li><li><p>applications of an educational, transactional and cooperational nature</p></li><li><p>applications of security in computer and networks</p></li></ul><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Mohammed Atiquzzaman",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "tier": 1
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3420,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 4,
+          "title": "Digital Communications and Networks",
+          "acronym": "DCAN",
+          "issn": "2352-8648",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Proposal",
+            "Review Article",
+            "Short Communication",
+            "VSI: Advanced AI in Comms/Nets",
+            "VSI: Advancing Comms AI"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/23528648.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/dcan/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/digital-communications-and-networks/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 12.5
+            },
+            "impactFactor": {
+              "value": 7.5
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 6
+            }
+          },
+          "scope": "<p><i>Digital Communications and Networks</i> publishes rigorously peer-reviewed, high quality original articles and authoritative reviews that focus on communication systems and networks. All articles are published fully Open Access on ScienceDirect. The journal is indexed by Science Citation Index Expanded (SCIE) and Scopus.</p><p>Conference papers may be accepted if they have been substantially extended. Special issues of the journal that focus on a particular aspect of the field are also occasionally published.</p><p>Special areas of interest include but are not limited to:</p><ul><li><p>AI-Driven Communications and Networks</p></li><li><p>Big Data Networking and Applications</p></li><li><p>Blockchain and Distributed Ledger Technologies</p></li><li><p>Cellular Communications and Networks</p></li><li><p>Coding and Information Theory</p></li><li><p>Communications and Networking Standards</p></li><li><p>Consumer Communications and Networking</p></li><li><p>Cyber-Physical Systems</p></li><li><p>Edge, Fog, and Cloud Computing and Networks</p></li><li><p>Future Internet Architecture, Protocols, and Applications</p></li><li><p>Green Communications</p></li><li><p>Industrial Internet and Industry 4.0</p></li><li><p>Internet of Things</p></li><li><p>Intelligent Communications and Networking Systems</p></li><li><p>Network, Service, and Applications Management</p></li><li><p>Optical Communications and Networking</p></li><li><p>Pervasive Computing and Networking</p></li><li><p>Quantum Computing, Communications, and Information</p></li><li><p>Satellite Communications and Networking in Space</p></li><li><p>Trust, Security, and Privacy Protocols</p></li><li><p>Unified Communications, Computing, and Control</p></li><li><p>Vehicular Communications and Networks</p></li><li><p>Wireless Communications and Networking</p></li><li><p>Wireless Sensor Networks</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/digital-communications-and-networks/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 800,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 5,
+          "title": "Internet of Things and Cyber-Physical Systems",
+          "acronym": "IOTCPS",
+          "issn": "2667-3452",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Computer Networks and Communications",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Perspectives",
+            "Short Communication",
+            "Technical Notes",
+            "VSI: AI-WSN",
+            "VSI: CBD2024",
+            "VSI: DL-IoTCPS",
+            "VSI: Soft Computing for IoT and CPS",
+            "VSI: Trust Explain AI IoT"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26673452.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/IOTCPS",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 37.8
+            },
+            "timeToFirstDecision": {
+              "value": 8
+            },
+            "timeToAcceptance": {
+              "value": 12
+            }
+          },
+          "scope": "<p>Internet of Things and Cyber-Physical Systems publishes rigorously peer-reviewed, high quality original articles and authoritative reviews that focus on Internet of Things and Cyber-Physical Systems. All articles are published fully Open Access on ScienceDirect.</p><p>The journal welcomes research articles, review papers, perspectives, short communications and technical notes on all aspects of artificial intelligence and its applications. Conference papers may be accepted if they have been substantially extended. Special issues of the journal that focus on a particular aspect of the field are also occasionally published. Special areas of interest include but are not limited to:</p><ul><li><p>Artificial Intelligence for IoT and CPS</p></li><li><p>Big Data Analytics and Applications</p></li><li><p>Blockchain and Web3 Technologies and Applications</p></li><li><p>Communications and Networking for IoT and CPS</p></li><li><p>Computer Vision and Image Processing Based on Vision Sensors</p></li><li><p>Cyber-Physical Systems</p></li><li><p>Digital Twins, Cyber Twins, Web Twins</p></li><li><p>Edge Computing and Cloud Computing</p></li><li><p>Emerging Technologies Based on IoT and CPS</p></li><li><p>Industrial Information</p></li><li><p>Industrial Internet and Industry 4.0</p></li><li><p>Internet of Things and Internet of Vehicles</p></li><li><p>Intelligent Transportation Systems and Vehicular Networks</p></li><li><p>Machine to Machine</p></li><li><p>Multimedia and Imaging in Industry</p></li><li><p>Pervasive and Ubiquitous Computing</p></li><li><p>Trust, Security and Privacy Mechanism for IoT and CPS</p></li><li><p>Services, Applications and Standards for IoT and CPS</p></li><li><p>Sensors and Devices for IoT and CPS</p></li><li><p>Virtual Reality, Augmented Reality and Mixed Reality in Industry</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/internet-of-things-and-cyber-physical-systems/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 6,
+          "title": "Simulation Modelling Practice and Theory",
+          "acronym": "SIMPAT",
+          "issn": "1569-190X",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Information Systems and Management",
+            "Applied Mathematics",
+            "Control and Optimization",
+            "Computer Science (General)",
+            "Modelling and Simulation"
+          ],
+          "articleTypes": [
+            "Regular Article",
+            "Review Article",
+            "Addendum",
+            "VSI: SIMPAT_ Security and Privacy"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/1569190X.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/SIMPAT/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.8
+            },
+            "impactFactor": {
+              "value": 4.6
+            },
+            "acceptanceRate": {
+              "value": 7
+            },
+            "timeToFirstDecision": {
+              "value": 19
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>The <i>journal Simulation Modelling Practice and Theory</i> provides a forum for original, high-quality papers dealing with any aspect of <b>systems simulation</b> and <b>modelling</b>.</p><p>The journal aims at being a reference and a powerful tool to all those professionally active and/or interested in the methods and applications of simulation. Submitted papers will be peer reviewed and must significantly contribute to modelling and simulation in general or use modelling and simulation in application areas.</p><p><a href=\"https://www.editorialmanager.com/SIMPAT/default.aspx\">Paper submission</a> is solicited on:</p><p>• theoretical aspects of modelling and simulation including formal modelling, model-checking, random number generators, sensitivity analysis, variance reduction techniques, experimental design, meta-modelling, methods and algorithms for validation and verification, selection and comparison procedures etc.;</p><p>• methodology and application of modelling and simulation in any area, including computer systems, networks, real-time and embedded systems, mobile and intelligent agents, manufacturing and transportation systems, management, engineering, biomedical engineering, blockchains, artificial intelligence (AI), internet of things (IoT), education, transaction handling, etc.;</p><p>• simulation languages and environments including those, specific to distributed computing, cloud, fog and edge computing, high performance computers or computer networks, etc.;</p><p>• distributed and real-time simulation, simulation interoperability;</p><p>• tools for high performance computing simulation, including dedicated architectures and parallel computing.</p><p>Papers covering applications should be presented in such a way that the separate steps in the process, such as model development, computer implementation of the derived model, mathematical and scalability problems encountered and validation/verification with real data become transparent to all readers.</p><p>Theory may play an important role in a paper, but it should be presented in the context of its applicability to the work being described. For application-oriented readers it is essential that theoretical papers should cover the following aspects: why the theory is relevant and how it can be applied, what is the novelty of the approach and what are the benefits and objectives of a new theory, method or algorithm; what experience has been obtained in applying the approach and what innovations did result.</p><p>(Variations from these prototypes, such as comprehensive surveys of active research areas, critical reviews of existing work, and book reviews, will be considered provided they make a clear contribution to the field.)</p><p>Special issues on specific topics will be published from time to time; proposals for such issues are invited.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Angelo Furfaro",
+          "goldOpenAccessFee": {
+            "value": 3110,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 7,
+          "title": "Smart Civil Infrastructures",
+          "acronym": "SCI",
+          "issn": "3117-5260",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Civil and Structural Engineering"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review Article",
+            "Short Communication",
+            "Case Report",
+            "Data"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31175260.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/sci/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p>This journal is dedicated to advancing the digitalization, informationization, and smartization of civil engineering. It focuses on innovations and breakthroughs in the implementation of emerging technologies, such as smart sensing, the Internet of Things, big data, cloud computing, and artificial intelligence, in major infrastructure projects including long-span bridges, high-rise buildings, large-scale stadiums, deep and long tunnels, major energy facilities, and complex lifeline systems. The journal welcomes submissions of various types, including reviews, research articles, technical notes, data papers, and engineering case studies.</p><p>This journal welcomes manuscripts with potential topics including, but not limited to:</p><ul><li><p>Smart Materials and Equipment</p></li><li><p>Smart Survey and Design</p></li><li><p>Smart Construction and Monitoring</p></li><li><p>Smart Operation and Maintenance</p></li><li><p>Smart Demolition and Recycling</p></li><li><p>Smart Applications in Civil Engineering</p></li></ul><p></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 8,
+          "title": "Sensors International",
+          "acronym": "SINTL",
+          "issn": "2666-3511",
+          "subjectAreas": [
+            "Electrochemistry",
+            "Chemistry (General)",
+            "Bioengineering"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "VSI: Machine Learning Applications",
+            "VSI: Sensor-Integrated IoT"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26663511.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/SINTL/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/sensors-international/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 24.6
+            },
+            "acceptanceRate": {
+              "value": 16
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 2
+            }
+          },
+          "scope": "<p><i>Sensors International</i> (indexed by Scopus and Ei Compendex) is a peer-reviewed open access journal that serves as a platform for the dissemination of original and cutting-edge research related to sensors. The journal aims to advance the fundamental understanding of sensors and their applications in various fields, including sensor science and technology, sensor materials, processing and fabrication, as well as sensing system and applications.</p><p>Topics covered include but are not limited to:</p><p><b>i. Sensor science and technology</b> <br/> MEMS/NEMS sensors <br/> Physical sensors: temperature, mechanical, magnetic, thermal, optical, and others <br/> Chemical and gas sensors <br/> Microfluidics and biosensors <br/> Medical sensors <br/> Bionic sensors <br/> Acoustic and ultrasound sensors <br/> New sensing mechanism sensors: triboelectric, photoacoustic, nanophotonics, quantum, metasurface <br/> CMOS and IR image sensors <br/> Radio frequency, terahertz and infrared sensors</p><p><b>ii. Sensor materials, processing and fabrication</b> <br/> 2D or low-dimensional materials for sensors <br/> Shape memory alloy for sensing applications <br/> Flexible materials for wearable sensors <br/> Implantable sensors, neural interfaces and electroceuticals <br/> Biocompatible and biodegradable materials for sensors</p><p><b>iii. Sensing system and applications</b> <br/> Self-powered sensors, modules and systems <br/> Sensor signal processing for high precision and stability <br/> Sensors for intelligent robots <br/> Sensors for drones and unmanned vehicles <br/> Sensors for harsh environment (EMC, radiation, humidity, temperature) <br/> Sensors in industrial practice <br/> Internet of things (IoT) and sensor networks <br/> Energy harvesting for IoT sensors <br/> Sensors for artificial intelligence of things (AIoT) <br/> Remote sensors, data acquisition and processing <br/> Integration of actuators with sensors for smart systems <br/> Sensor data processing (soft computing with sensor data, e.g., pattern recognition, machine learning, evolutionary computation; sensor data fusion, processing of wave e.g., electromagnetic and acoustic; and non-wave, e.g., chemical, gravity, particle, thermal, radiative and non-radiative sensor data, detection, estimation and classification based on sensor data; neuromorphic computing; edge computing; cloud computing)</p><p><a href=\"https://www.keaipublishing.com/en/journals/sensors-international/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 840,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 9,
+          "title": "Journal of Infrastructure Intelligence and Resilience",
+          "acronym": "IINTEL",
+          "issn": "2772-9915",
+          "subjectAreas": [
+            "Civil and Structural Engineering",
+            "Engineering (General)",
+            "Safety, Risk, Reliability and Quality"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27729915.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/jiir/default1.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-infrastructure-intelligence-and-resilience/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 4.9
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i>Journal of Infrastructure Intelligence and Resilience</i> is an International journal aiming to provide a major publication channel for researchers on the latest global research results regarding &quot;Infrastructure Intelligence and Resilience&quot; and to establish an international academic platform to integrate the emerging smart and artificial intelligence (AI) technologies to the civil infrastructural systems for the enhancement of their safety, functionality, resilience, and sustainability against natural and men-made hazard and disaster; as well as ensuring the designed infrastructure that is economically, socially, environmentally, and institutionally sustainable.</p><p><b>Main contents and key topics:</b></p><ol><li><p>Smart Structure Technology: smart construction materials, smart sensors, structural health monitoring, smart NDT, diagnosis and prognosis, structural control, smart retrofit, smart control devices and systems, and design of smart structural systems.</p></li><li><p>Artificial Intelligence: deep learning, big data, smart diagnosis, computer vision, cloud computing, internet of things, virtual reality, robotics, drone, construction automation, intelligent building, smart city, and intelligent civil infrastructural systems.</p></li><li><p>Resilience and Sustainability: safety and reliability, functionality, structural and community resilience, sustainability, civil infrastructural systems, life-cycle assessment, socio-economic and environmental impacts, natural and men-made hazards, disaster mitigation, risk management, policy making, and mega city projects.</p></li></ol>",
+          "openAccessType": "FULL",
+          "editorInChief": "Yaozhi Luo",
+          "goldOpenAccessFee": {
+            "value": 1600,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 10,
+          "title": "Medicine Plus",
+          "acronym": "MEDP",
+          "issn": "2950-3477",
+          "subjectAreas": [
+            "Public Health and Health Policy",
+            "Medicine and Dentistry (General)",
+            "Pathology and Medical Technology",
+            "Oncology"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29503477.jpg",
+          "links": {
+            "submission": "https://www2.cloud.editorialmanager.com/medp/default2.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/medicine-plus/guide-for-authors"
+          },
+          "insights": {
+            "acceptanceRate": {
+              "value": 34
+            },
+            "timeToFirstDecision": {
+              "value": 9
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p><i>Medicine Plus</i> is an open-access, peer-reviewed general medical journal. We publish innovative, forward-looking, and influential research results, authoritative reviews, expert consensuses, and insightful perspectives and commentaries in broad medical science and technology fields.</p><p><i>Medicine Plus</i> aims to build a global communication platform for researchers, clinicians, policymakers, and other stakeholders in the field of health promotion. We are committed to disseminating pioneering discoveries, facilitating the collaborative development and integration of medical-related disciplines, and bridging the gap between research and application, to better empower global medical innovation and enhance human health and well-being.</p><p>Areas of interest include, but are not limited to: <br/></p><ol><li><p>Basic research in all biomedical specialties</p></li><li><p>Bio-medical materials and engineering</p></li><li><p>Clinical research and trials</p></li><li><p>Drug discovery/delivery</p></li><li><p>Medical equipment/devices and technology</p></li><li><p>Public health/epidemiology/health policies</p></li><li><p>Transitional/precision medicine</p></li><li><p>Emerging interdisciplinary fields in medicine (e.g., medicine+artificial intelligence/mobile Internet/cloud computing/big data)</p></li></ol><p><a href=\"https://www.keaipublishing.com/en/journals/medicine-plus/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 11,
+          "title": "Nexus",
+          "acronym": "YNEXUS",
+          "issn": "2950-1601",
+          "subjectAreas": [
+            "Engineering (General)"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29501601.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/nexus-journal",
+            "guideForAuthors": "https://www.cell.com/nexus/author-resources"
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 1
+            }
+          },
+          "scope": "<p>Nexus covers all subjects in the areas of applied sciences, engineering, technologies, and inter- and multi-disciplinary fields. It is an international journal that publishes high-impact papers including peer-reviewed original research articles, review articles, reports, perspectives, commentaries, and letters with open access, helping to end poverty; protect the planet; and improve the lives, health and well-being, and prospects of everyone, everywhere, via technological sciences and innovations.</p><p>The main areas of interest include but are not limited to:</p><ul><li><p>Advanced connectivity</p></li><li><p>Applied AI</p></li><li><p>Bioengineering</p></li><li><p>Clean and renewable energy</p></li><li><p>Climate change and carbon neutrality</p></li><li><p>Cloud and edge computing</p></li><li><p>Data sciences</p></li><li><p>Environment and ecology</p></li><li><p>Immersive reality technologies</p></li><li><p>Industrialized machine learning</p></li><li><p>Mobility</p></li><li><p>Next-generation software development</p></li><li><p>Quantum technologies</p></li><li><p>Space technologies</p></li><li><p>Sustainability and environmental science and engineering</p></li><li><p>Trust architectures and digital identity</p></li><li><p>Smart urban planning and city resilience</p></li><li><p>Web3/blockchain</p></li></ul>",
+          "openAccessType": "FULL",
+          "goldOpenAccessFee": {
+            "value": 5000,
+            "currency": "USD",
+            "discountedValue": 0,
+            "discountExpiryDate": "2026-06-30"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 12,
+          "title": "Cyber Security and Applications",
+          "acronym": "CSA",
+          "issn": "2772-9184",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Algebra and Number Theory",
+            "Computer Networks and Communications"
+          ],
+          "articleTypes": [
+            "Research paper",
+            "Review Article",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27729184.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/CSA",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/cyber-security-and-applications/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 12.1
+            },
+            "acceptanceRate": {
+              "value": 4
+            },
+            "timeToFirstDecision": {
+              "value": 10
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>To defend against various cyber-attacks, the companies and organizations should have right policies and procedures in place. Moreover, it is essential to develop new quantum-safe encryption algorithms and modern tools which can withstand from quantum computer-based attacks. This Cyber Security and Applications (CSA) journal focuses on cyber breaches, cyber-attacks, quantum computing based encryption and decryption techniques and cyber defense tools for improving level of cyber security.</p><p>In addition to this, CSA also welcomes the researchers to submit the papers related to advance methods and tools for improving the cyber security in the field of Information and Communication Technology (ICT). Therefore, the CSA journal seeks innovative papers in the field of cyber security. CSA also accepts the substantially extended version of the conference papers in the field of cyber security.</p><p>Topics of interest include, but are not limited to the following:</p><ul><li><p>Cyber attacks</p></li><li><p>Software and Hardware Security</p></li><li><p>Security issues in Intelligent Transportation Systems (ITS)</p></li><li><p>Machine learning mechanisms for cyber security</p></li><li><p>Key generation and key distribution schemes</p></li><li><p>Modern tools for improving cyber security</p></li><li><p>Emerging trends in cyber security</p></li><li><p>Authenticated Key Agreement Protocols</p></li><li><p>Cyber security in Internet of Things (IoT)</p></li><li><p>Cyber security in Cloud</p></li><li><p>Quantum-safe encryption algorithms</p></li><li><p>Quantum-safe digital signature schemes</p></li><li><p>Quantum-safe key management mechanisms</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/cyber-security-and-applications/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 13,
+          "title": "Computer Communications",
+          "acronym": "COMCOM",
+          "issn": "0140-3664",
+          "subjectAreas": [
+            "Computer Networks and Communications",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Research Papers",
+            "Review Articles",
+            "VSI: Intelligent Orchestration in Next-Generation Networks",
+            "VSI: Intent-Based Agentic AI for Next-Generation Networking",
+            "VSI: MSWiM 2025 Special Issue"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01403664.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/COMCOM/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 11.5
+            },
+            "impactFactor": {
+              "value": 4.3
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p>The International Journal for the Computer and Telecommunications Industry</p><p><b>Computer</b> and <b>Communications networks</b> are key infrastructures of the information society with high socio-economic value as they contribute to the correct operations of many critical services (from healthcare to finance and transportation). <b>Internet</b> is the core of today&#39;s <b>computer-communication infrastructures</b>. This has transformed the Internet, from a robust network for data transfer between computers, to a global, content-rich, communication and information system where contents are increasingly generated by the users, and distributed according to human social relations. Next-generation network technologies, architectures and protocols are therefore required to overcome the limitations of the legacy Internet and add new capabilities and services. The future Internet should be ubiquitous, secure, resilient, and closer to human communication paradigms.</p><p><i>Computer Communications</i> is a peer-reviewed international journal that publishes high-quality scientific articles (both theory and practice) and survey papers covering all aspects of future computer communication networks (on all layers, except the physical layer), with a special attention to the evolution of the Internet architecture, protocols, services, and applications. Topics include, but are not limited to:</p><ul><li><p>Internet of Things</p></li><li><p>Edge/cloud computing</p></li><li><p>Green networking</p></li><li><p>Mobile and ubiquitous networks</p></li><li><p>Terrestrial and Non-terrestrial networks</p></li><li><p>Mobile network services and applications</p></li><li><p>Experimental test-beds and research platforms</p></li><li><p>Algorithmic aspects of communication networks</p></li><li><p>Emerging technologies for next generation network</p></li><li><p>Future Internet architecture, protocols and services</p></li><li><p>Modeling, measurement, and simulation of computer communication networks </p></li></ul><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Damla Turgut",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 3
+              },
+              {
+                "name": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+                "tier": 3
+              },
+              {
+                "name": "TELECOMMUNICATIONS",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2490,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 14,
+          "title": "Data Science and Informetrics",
+          "acronym": "DSIM",
+          "issn": "2694-6106",
+          "subjectAreas": [
+            "Information Systems",
+            "Library and Information Sciences",
+            "Information Systems and Management"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26946106.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/dsim/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p>The contents of Volume 1 to Volume 3 can be found here ( <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdsi.hdu.edu.cn%2Fissues.aspx%3FClassID%3D3&data=05%7C02%7Cy.ji%40elsevier.com%7C95ec8cc156d6415f8d7008dd78a038a9%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638799351757723903%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=AYJ5FPi7R5w3qg%2B%2B4%2BnFbGSwJvvlcWjssU4mm92W4hI%3D&reserved=0\">https://dsi.hdu.edu.cn/issues.aspx?ClassID=3</a>)<br/><i>Data Science and Informetrics</i> (<i>DSI</i>) covers the trends, scientific foundations, techniques and applications of the field. The journal publishes research papers, technical reports subject reviews, short comments and book reviews, providing a platform for data scientists, computer scientists, industry practitioners, and potential users of data science and analytics.</p><p>Topics covered include but are not limited to:</p><p>• Theory and mathematical foundations for data science and informetrics.</p><p>• Data analytics, knowledge discovery, machine learning, and deep learning, and intelligent processing of various data (including text, image, video, graph and network).</p><p>• Big data architecture, infrastructure, computing, matching, indexing, query processing, mapping, search, retrieval, interopera­bility, exchange and recommendation.</p><p>• Data science applications, intelligent services in scientific, business, governmental, cultural, behavioral, social and economic, health and medical, human, natural and artificial (including online/Web, cloud, IoT, mobile and social media) domains.</p><p>• Ethics, quality, privacy, safety and security, trust and risk on data science and big data.</p><p>• The convergence of bibliometrics, scientometrics, webometrics, altmetrics, informetrics and data science.</p><p>• Informetric problems using methods from other quantitative fields, such as mathematics, statistics, computer science, network science and data science.</p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 15,
+          "title": "Artificial Intelligence in Geosciences",
+          "acronym": "AIIG",
+          "issn": "2666-5441",
+          "subjectAreas": [
+            "Computers in Earth Sciences",
+            "Artificial Intelligence",
+            "Computer Science Applications"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26665441.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AIIG/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/artificial-intelligence-in-geosciences/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.2
+            },
+            "impactFactor": {
+              "value": 4.2
+            },
+            "acceptanceRate": {
+              "value": 22
+            },
+            "timeToFirstDecision": {
+              "value": 13
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>Artificial intelligence (AI) is one of the fastest growing disciplines in electronic information technology. Along with diversified data, AI-enabled technologies such as image processing, smart sensors, and intelligent inversion, are being tested by researchers in a wide variety of geosciences domains. These technologies have the potential to help geosciences move from qualitative to quantitative analysis. We believe that taking an interdisciplinary approach will deliver benefits to both geosciences and AI.</p><p><i>Artificial Intelligence in Geosciences</i> is an open access journal providing an interdisciplinary forum where ideas and solutions related to artificial intelligence and its applications in geosciences can be shared and discussed. To support this discussion, we encourage authors to open source their code, data, and the labels used in AI.</p><p>We welcome both fundamental science and applied research describing the practical applications of AI methods in the fields of geology, rock physics, seismicity, hydrology, ecology, marine geosciences, planetary science, environment, volcanology, oceanography, remote sensing and GIS, and related areas.</p><p>Submissions to <i>Artificial Intelligence in Geosciences</i> may take the form of original research articles, review articles, perspective papers, or short communications, and a variety of topics will be considered. These include, but are not limited to:</p><ul><li><p>AI-based decision support systems</p></li><li><p>AI-based precision geosciences</p></li><li><p>Smart sensors and the Internet of Things</p></li><li><p>Geosciences robotics and automation equipment</p></li><li><p>Geosciences knowledge-based systems</p></li><li><p>Computational intelligence in geosciences</p></li><li><p>AI in geosciences optimization management</p></li><li><p>Intelligent interfaces and human-machine interaction</p></li><li><p>Machine vision and image/signal processing</p></li><li><p>Machine learning and pattern recognition</p></li><li><p>Neural networks, fuzzy systems, neuro-fuzzy systems</p></li><li><p>Systems modeling and analysis</p></li><li><p>Expert systems in geosciences</p></li><li><p>Big data and cloud computing in geosciences</p></li><li><p>Automatic navigation and self-driving technology</p></li><li><p>High Performance Computing in the context of Machine Learning</p></li></ul><p><i>Artificial Intelligence in Geosciences</i> also welcomes suggestions and proposals for special issues.</p><p><a href=\"https://www.keaipublishing.com/en/journals/artificial-intelligence-in-geosciences/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "Geosciences, Multidisciplinary",
+                "tier": 4
+              }
+            ],
+            "majorRanking": {
+              "name": "GeoSciences",
+              "tier": 4,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 16,
+          "title": "Digital Business",
+          "acronym": "DIGBUS",
+          "issn": "2666-9544",
+          "subjectAreas": [
+            "Business, Management and Accounting (General)",
+            "Business and International Management"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "VSI: Web 3.0 Platforms"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26669544.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/DIGBUS/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/digital-business/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 12.4
+            },
+            "impactFactor": {
+              "value": 7.2
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p><i><b>Digital Business</b></i> is an Open Access journal which aims to publish original research articles, reviews, and short communications on the digitalization of business, how digital technologies impact business models, and what this means for the future of work. The journal will specifically encourage submissions from diverse fields and areas of practice, from business, economics, marketing, sociology, and potentially computer science and information technology management.</p><p>The journal accepts theoretical, empirical, critical, comparative and case study research using qualitative and/or quantitative, or mixed methods that offer contributions to the following topics:</p><ul><li><p>Digital platforms</p></li><li><p>Digital ecosystems</p></li><li><p>Digital labor platforms</p></li><li><p>Digital technology and innovation</p></li><li><p>Digital transformation</p></li><li><p>Digital strategy and leadership</p></li><li><p>Data-centric business models and data monetization</p></li><li><p>Big data-driven business models</p></li><li><p>Blockchain driven business models</p></li><li><p>Social network-driven business models (crowdsourcing, crowdfunding)</p></li><li><p>Platform-based business models</p></li><li><p>Digital intelligent business models</p></li><li><p>IoT driven business models</p></li><li><p>Business model innovation</p></li><li><p>Business model ontology</p></li><li><p>Digital business models applications</p></li><li><p>Digital business model valuation</p></li><li><p>Digital business model change and dynamics</p></li><li><p>Digital green business model</p></li><li><p>Digital business model and share economy</p></li><li><p>Interoperable and collaborative digital business models</p></li><li><p>Holistic business models</p></li><li><p>Open digital business models</p></li><li><p>Digital business model design and development</p></li><li><p>Mobile business models</p></li><li><p>Digital business performance</p></li><li><p>Digital transformation and digital business strategy</p></li><li><p>Start-ups, lean concepts, and agile development</p></li><li><p>Digital innovation platforms</p></li><li><p>Digital entrepreneurship</p></li><li><p>Blockchain and financial technologies</p></li><li><p>Impact of Industry 4.0 Technologies on business and ecosystem (which include cyber-physical systems (CPS), Internet of Things (IoT), Industrial Internet of Things (IIOT), Cloud Computing, Cognitive Computing, Machine-learning (ML), and Artificial Intelligence (AI)</p></li><li><p>Fostering a culture of transformation</p></li><li><p>Human resource qualifications in digital transformation</p></li><li><p>Drivers of digital transformation</p></li><li><p>Digital transformation and social impact</p></li><li><p>Sustainable value proposition</p></li><li><p>Digital service design</p></li></ul>",
+          "openAccessType": "FULL",
+          "editorInChief": "Payam Hanafizadeh | Seongcheol Kim",
+          "goldOpenAccessFee": {
+            "value": 2080,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 17,
+          "title": "Information Processing in Agriculture",
+          "acronym": "INPA",
+          "issn": "2214-3173",
+          "subjectAreas": [
+            "Forestry",
+            "Agricultural and Biological Sciences (General)",
+            "Animal Science and Zoology"
+          ],
+          "articleTypes": [
+            "Full length article",
+            "Review article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22143173.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ipa/",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/information-processing-in-agriculture/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 20.4
+            },
+            "impactFactor": {
+              "value": 7.4
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>The Journal of the China Agricultural University</p><p><i>Information Processing in Agriculture (IPA)</i> was established in 2013 to encourage the development of science and technology related to information processing in agriculture, through the following aims: <br/> • Promote the use of knowledge and methods from information processing technologies in agriculture; <br/> • Report on experiences and publications of institutes, universities, and government, as well as profitable technologies for agriculture; <br/> • Provide a platform and opportunities for exchanging knowledge, strategies, and experiences among information processing researchers worldwide; <br/> • Promote and encourage interactions among agriculture scientists, meteorologists, biologists (pathologists/entomologists), information technology professionals, and other stakeholders to develop and implement methods, techniques, and tools related to information processing technology in agriculture; <br/> • Create and promote expert groups for the development of agro-meteorological databases, crop and livestock modeling, and applications for the development of crop performance-based decision support systems.</p><p><b>Topics of interest include, but are not limited to, the following aspects:</b> <br/> • Smart sensors, biosensors and bioelectronics, material and molecular innovations for chemical and biological sensing, sensors, and automation and control systems for agriculture; <br/> • Wireless sensor networks, 4G, NB-IOT, and 5G applications in agriculture; <br/> • Remote sensing and discrete element modeling (DEM) applications in agriculture; <br/> • Simulation, optimization, modeling, and automated control; <br/> • Decision support systems, intelligent systems, and artificial intelligence; <br/> • Machine vision, computer vision, image processing and automation, and imaging technologies for high-throughput phenotyping <br/> • Advances in spectroscopy and hyperspectral properties of biological products; <br/> • Advanced computational approaches for solving agricultural and biological engineering problems; <br/> • Computational fluid dynamics (CFD) applications in agriculture; <br/> • Inspection and traceability for food quality; <br/> • Precision agriculture, intelligent instruments, robotics, and co-robotics for agriculture; <br/> • Internet of things, cloud computing, and precision farming; <br/> • Big data, data mining, and data analysis for agricultural applications; <br/> • Unmanned aerial vehicles (UAVs) for sensing, imaging, and agricultural aquacultural applications.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Daoliang Li",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "AGRICULTURE, MULTIDISCIPLINARY",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Agricultural and Forestry Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 18,
+          "title": "Performance Evaluation",
+          "acronym": "PEVA",
+          "issn": "0166-5316",
+          "subjectAreas": [
+            "Management Science and Operations Research",
+            "Computer Networks and Communications",
+            "Software",
+            "Hardware and Architecture",
+            "Modelling and Simulation",
+            "Statistics and Probability"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "VSI:AI for PRE of SW",
+            "VSI:MASCOTS 2025",
+            "VSI:NETGCOOP 2025",
+            "VSI:Performance in the Edge-to-Cloud Continuum"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01665316.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/peva/default.aspx?pg=mainpage.html",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/performance-evaluation/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 3
+            },
+            "impactFactor": {
+              "value": 0.8
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 11
+            }
+          },
+          "scope": "<p><i>Performance Evaluation</i> is a leading journal in the area of modeling, measurement, and evaluation of performance aspects of computing and communication systems. As such, it aims to present a balanced and complete view of the entire field of performance evaluation. The journal audience encompasses academics, industrial researchers, and professional figures such as performance engineers, network managers, and computer system designers.</p><p>The journal solicits from its audience papers that focus on one or more of the following dimensions: </p><ul><li><p>Define new performance evaluation tools, including measurement and monitoring tools as well as modeling and analytic techniques</p></li><li><p>Provide new insights into the performance of computing and communication systems</p></li><li><p>Present novel control and learning methods for performance management</p></li><li><p>Introduce new application areas where performance evaluation tools and methods can play an important role</p></li></ul><p> Contributions to the journal often focus on theoretical, methodological, or applied aspects of:</p><ul><li><p>Resource allocation (e.g., routing and flow control, bandwidth allocation, load-balancing, deployment,...</p></li><li><p>System tuning, sizing and optimal configuration</p></li><li><p>System reliability and dependability</p></li><li><p>Energy efficiency and energy harvesting</p></li><li><p>System architecture design and implementation</p></li></ul><p> Application areas of interest include, but are not limited to, the following:</p><ul><li><p>Computer and communication networks (e.g., software-defined, wireless, cognitive radio, ad-hoc, quantum,...</p></li><li><p>Data centers</p></li><li><p>Cloud, IoT, edge, and cyber-physical systems</p></li><li><p>Social networks, social media, metaverse</p></li><li><p>AI-based services</p></li><li><p>Big data and storage systems</p></li><li><p>Blockchain and distributed ledgers</p></li><li><p>Autonomous and self-organizing systems</p></li><li><p>Embedded systems</p></li></ul><p> Commonly featured performance evaluation methods and techniques include:</p><ul><li><p>Stochastic models (e.g., queueing theory, mean-field models, stochastic geometry,...</p></li><li><p>Data-driven methods (e.g., AI/machine learning, inference, statistical analysis, ...)</p></li><li><p>Scheduling and load balancing theory</p></li><li><p>Simulation methods</p></li><li><p>Game theory and pricing</p></li><li><p>Measurement techniques (e.g. software and hardware monitors) and workload characterization</p></li></ul><p>Note that the above lists are not all inclusive or restrictive and submissions with creative applications of performance evaluation tools outside of those above and/or applications outside of those above are also welcome.</p><p>A variety of types of submissions are possible, primarily original work, tutorials &amp; surveys. All submissions are expected to position their contributions against relevant prior work in the field, including articles published in recent years by the journal. A complete list of PEVA articles may be found <a href=\"https://dblp.org/search/publ?q=streamid%3Ajournals%2Fpe%3A\">here</a>.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Casale",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "tier": 4
+              },
+              {
+                "name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "tier": 4
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 4,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 19,
+          "title": "Artificial Intelligence in Agriculture",
+          "acronym": "AIIA",
+          "issn": "2589-7217",
+          "subjectAreas": [
+            "Computer Vision and Pattern Recognition",
+            "Artificial Intelligence",
+            "Agricultural and Biological Sciences (General)"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication",
+            "Technical Note",
+            "VSI: ST-BIGDATA"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/25897217.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AIA/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 23
+            },
+            "impactFactor": {
+              "value": 12.4
+            },
+            "timeToFirstDecision": {
+              "value": 12
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>Artificial Intelligence (AI) techniques are widely used to solve a variety of problems and to optimize the production and operation processes in the fields of agriculture, food and bio-system engineering.</p><p><i>Artificial Intelligence in Agriculture</i> is an Open Access journal, publishing original research, reviews and perspectives on the theory and practice of artificial intelligence (AI) in agriculture, food and bio-system engineering and related areas. <i>Artificial Intelligence in Agriculture</i> serves as an interdisciplinary forum to share ideas and solutions related to artificial intelligence and applications in agriculture. The journal welcomes both fundamental science and applied research describing the practical applications of AI methods in the fields of agriculture, food - and bio-system engineering and related areas.</p><p>Topics of interest to the journal include, but are not limited to:</p><ul><li><p>AI-based decision support systems</p></li><li><p>AI-based precision agriculture</p></li><li><p>Smart sensors and Internet of Things</p></li><li><p>Agricultural robotics and automation equipment</p></li><li><p>Agricultural knowledge-based systems</p></li><li><p>Computational intelligence in agriculture, food and bio-systems</p></li><li><p>AI in agricultural optimization management</p></li><li><p>Intelligent interfaces and human-machine interaction</p></li><li><p>Machine vision and image/signal processing</p></li><li><p>Machine learning and pattern recognition</p></li><li><p>Neural networks, fuzzy systems, neuro-fuzzy systems</p></li><li><p>Systems modeling and analysis</p></li><li><p>Intelligent systems for animal feeding</p></li><li><p>Expert systems in agriculture</p></li><li><p>Crop Phenotyping and analysis</p></li><li><p>Remote sensing in agriculture</p></li><li><p>AI technology in aquiculture</p></li><li><p>AI in food engineering and cold chain logistics</p></li><li><p>Big Data and Cloud Computing</p></li><li><p>Automatic navigation and self-driving technology</p></li><li><p>Precision agricultural aviation</p></li><li><p>Distributed ledger technology (Blockchain)</p></li></ul><p>The journal welcomes original research articles, review articles, perspective papers and short communications. The journal&#39;s editorial leadership welcome suggestions and proposals for special issues.</p><p><a href=\"https://www.keaipublishing.com/en/journals/artificial-intelligence-in-agriculture/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 1100,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 20,
+          "title": "Information Systems",
+          "acronym": "IS",
+          "issn": "0306-4379",
+          "subjectAreas": [
+            "Information Systems",
+            "Management Information Systems",
+            "Management of Technology and Innovation",
+            "Hardware and Architecture",
+            "Information Systems and Management",
+            "Software",
+            "Computer Science Applications",
+            "Computational Theory and Mathematics",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Research paper",
+            "Review article",
+            "Replication study (RPL)",
+            "VSI: CAiSE 2024 Best Papers",
+            "VSI: CoMinDS",
+            "VSI: EDOC 2025",
+            "VSI: Information Systems 50th anniversary",
+            "VSI: Process M. & Visual A",
+            "VSI: SISAP 2025"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03064379.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/INFOSYS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/information-systems/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.8
+            },
+            "impactFactor": {
+              "value": 3.4
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 11
+            }
+          },
+          "scope": "<p>Databases: Their Creation, Management and Utilization</p><p><b>Information systems</b> are the software and hardware systems that support data-intensive applications. The journal Information Systems publishes articles concerning the design and implementation of languages, data models, process models, algorithms, software and hardware for information systems.</p><p>Subject areas include <b>data management</b> issues as presented in the principal international database conferences (e.g., ACM SIGMOD/PODS, VLDB, ICDE and ICDT/EDBT) as well as data-related issues from the fields of data mining/machine learning, information retrieval coordinated with structured data, internet and cloud data management, business process management, web semantics, visual and audio information systems, scientific computing, and data science. We welcome systems papers that focus on implementation considerations in massively parallel data management, fault tolerance, and special purpose hardware for data-intensive systems; theoretical papers that either break significant new ground or unify and extend existing algorithms for data-intensive applications; and manuscripts from application domains, such as urban informatics, social and natural science, and Internet of Things, which present innovative, high-performance, and scalable solutions to data management problems for those domains.</p><p>All papers should motivate the problems they address with compelling examples from real or potential applications. Systems papers must be serious about experimentation either on real systems or simulations based on traces from real systems. Papers from industrial organizations are welcome. Theoretical papers should have a clear motivation from applications and clearly state which ideas have potentially wide applicability.</p><p>Authors of selected articles that have been accepted for publication in Information Systems are invited by the EiCs to submit the experiment described in their papers for reproducibility validation. The resulting additional reproducibility paper is co-authored by the reproducibility reviewers and the authors of the original publication.</p><p>As part of its commitment to reproducible science, Information Systems also welcomes experimental reproducible survey papers. Such submissions must: <br/> (i) apply a substantial portion of the different surveyed techniques to at least one existing benchmark and perhaps one or more new benchmarks, and <br/> (ii) be reproducible (the validation of reproducibility will result in a separate paper following the guidelines of our Reproducibility Editor).</p><p>In addition to publishing submitted articles, the Editors-in-Chief will invite retrospective articles that describe significant projects by the principal architects of those projects. Authors of such articles should write in the first person, tracing the social as well as technical history of their projects, describing the evolution of ideas, mistakes made, and reality tests. <br/> We will make every effort to allow authors the right to republish papers appearing in Information Systems in their own books and monographs.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Stefanie Rinderle-Ma | Dennis Shasha | Matthias Weidlich",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3240,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 21,
+          "title": "Internet of Things",
+          "acronym": "IOT",
+          "issn": "2542-6605",
+          "subjectAreas": [
+            "Engineering (General)",
+            "Energy (General)",
+            "Management of Technology and Innovation",
+            "Computer Science (General)"
+          ],
+          "articleTypes": [
+            "Data source",
+            "Full Length Article",
+            "Software",
+            "Tutorial Article",
+            "White Paper",
+            "Review Article",
+            "Software Update",
+            "VSI: ISC2-2025",
+            "VSI: Medical Sensor Networks",
+            "VSI: Semantic-Driven Inte. IoE",
+            "VSI: Smart Agriculture - Full Length Article",
+            "VSI: Smart Agriculture - Review Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/25426605.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/IOT",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/internet-of-things/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 12.4
+            },
+            "impactFactor": {
+              "value": 7.6
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p><b><i>Internet of Things; Engineering Cyber Physical Human Systems</i></b> is a comprehensive journal encouraging cross collaboration between researchers, engineers and practitioners in the field of IoT &amp; Cyber Physical Human Systems. The journal offers a unique platform to exchange scientific information on the entire breadth of technology, science, and societal applications of the IoT.</p><p>The journal will place a high priority on timely publication, and provide a home for high quality:</p><ul><li><p>Full Research papers</p></li><li><p>Survey Papers</p></li><li><p>Open Software and Data</p></li><li><p>Tutorials and best practices</p></li><li><p>Case studies</p></li><li><p>Whitepapers</p></li></ul><p>Furthermore, IOT is interested in publishing topical Special Issues on any aspect of IOT. Please submit your SI proposal for IOT through the Elsevier CSSI Portal. Detailed instructions could be found at: <a href=\"https://www.elsevier.com/physical-sciences-and-engineering/computer-science/journals/how-to-prepare-a-special-issue-proposal\">https://www.elsevier.com/physical-sciences-and-engineering/computer-science/journals/how-to-prepare-a-special-issue-proposal</a></p><p>The scope of IoT comprises four main blocks to cover the entire spectrum of the field. From Research to Technology, from Applications to their Consequences for life and society.</p><p><b>Theory and fundamental research</b> <br/>Research that addresses the core underlying scientific principles dealing with the analysis and algorithmics of &quot;IoT ecosystem&quot; as a multicomponent system with complex and dynamic dependences at large-scale, such as:</p><ul><li><p>New formal methods research to create abstractions, formalisms and semantics at IoT layer.</p></li><li><p>Artificial Intelligence of Things (AIoT), Explainable Machine Learning for IoT, Intelligent Edge.</p></li><li><p>Research on the unique IoT challenges in security, reliability and privacy.</p></li><li><p>High-level policy languages for specifying permissible communication patterns.</p></li></ul><p><b>Software development, technology and engineering</b> <br/>Key enabling IoT technologies related to sensors, actuators and machine intelligence. Development and deployment IoT tools and platforms to ensure security, reliability and efficiency, such as:</p><ul><li><p>Device software development, such as minimal operating systems.</p></li><li><p>IoT in Cloud-to-thing-Continuum. Secure communication of IoT with other software layers from edge computing to the Cloud.</p></li><li><p>IoT software designs, including addressing security at design phase.</p></li><li><p>Best practices for IoT (software) development, test beds and quality assurance. Sensors and actuators; Remote Operations and Control; IoT and Digital Twins.</p></li></ul><p><b>Applications of IoT</b> <br/>New Applications of connected products and/or connected business processes to create new business value and business models. We are looking for contributions, and lessons learned, from researchers applying IoT in various domains including but not limited to:</p><ul><li><p>Energy (smart grids, meters &amp; appliances, renewable energy).</p></li><li><p>Transportation and Critical Infrastructures (infrastructures, logistics, road and rail, shipping, aerospace, autonomous vehicles).</p></li><li><p>Manufacturing &amp; industry (smart design &amp; smart manufacturing, advanced robotics; Robotic Process Automation).</p></li><li><p>Business, marketing &amp; finance (e-commerce, finance, advertising &amp; media).</p></li><li><p>Urban life (smart/cyber-cities, home automation, smart buildings).</p></li><li><p>Behavioral Sciences, Well-being Society, Sustainable Digital Transformation.</p></li><li><p>eLearning, Technology-Enhanced Learning, CSCL, Virtual Campuses, Education and Technology.</p></li><li><p>Ecology (precision agriculture, dairy, fishing, wildlife management, water, climate &amp; ecology).</p></li><li><p>Medicine &amp; healthcare (delivery &amp; care systems, decision support, wearables).</p></li><li><p>Nano IoT (personalized precision medicine, Biological IoT, Chemical IoT).</p></li></ul><p><b>Societal aspects of IoT</b> <br/>Keeping humans in the loop is vital. Research in cyber-human systems that reflect human understanding and interaction with the physical world and (semi) autonomous systems.</p><ul><li><p>Societal, political and social impacts of the IoT.</p></li><li><p>Ethics &amp; (proposed) laws &amp; regulations.</p></li><li><p>IoT Governance.</p></li><li><p>IoT Solutions for Pandemics, Disaster Management and Public Safety.</p></li><li><p>Human Technology Interaction - at scale.</p></li><li><p>Emerging standards and technology in human life.</p></li><li><p>And, of course, hot issues, such as auditing, liability and social vulnerabilities.</p></li></ul><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor Xhafa",
+          "goldOpenAccessFee": {
+            "value": 3020,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 22,
+          "title": "Green Technologies and Sustainability",
+          "acronym": "GRETS",
+          "issn": "2949-7361",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Renewable Energy, Sustainability and the Environment",
+            "Environmental Science (General)",
+            "Environmental Engineering"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29497361.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/grets/default1.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/green-technologies-and-sustainability/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.7
+            },
+            "acceptanceRate": {
+              "value": 12
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>&quot;Green technologies&quot; (greentech) is a term used to describe highly interdisciplinary, environmentally friendly and sustainable approaches and systems. As such, it&#39;s a field that greatly benefits from a multi-disciplinary research approach.</p><p><i>Green Technologies and Sustainability</i> encourages and promotes interdisciplinary research and development to important technological and theoretical developments in greentech and sustainability issues. The journal explores the field&#39;s relevance to multiple disciplines, including environmental science, environmental engineering, civil engineering, electrical and computer engineering, green chemistry, green energy, sustainable infrastructure, and so on. We also consider greentech&#39;s importance for monitoring, modelling and conserving the natural environment and resources, reducing carbon emissions and energy consumption, mitigating air, water and soil pollution and reducing waste, recover energy and resources, and supporting environmental and socioeconomic sustainability. Greentech include technologies and systems that use less energy and resources, draw on renewable resources, produce clean energy and help reduce and repair environmental harm. Despite the fact that many topics in green technologies are still in their infancy, they have attracted many research interests as people become more aware of the effects of climate change and the degradation of the environments.</p><p>Topics covered by the journal include but not limited to:</p><ul><li><p>Concept, theory, fundamental, metric, analysis:</p><ul><li><p>Green and sustainable systems analysis</p></li><li><p>Green metrics </p></li><li><p>Green and sustainable environments </p></li><li><p>Novel green and sustainability concepts</p></li><li><p>Carbon neutrality </p></li><li><p>Energy efficiency and resource efficiency</p></li><li><p>Mathematical models for green and sustainable technologies </p></li><li><p>Life cycle analysis, assessment, and approaches</p></li><li><p>Green and sustainable engineering</p></li><li><p>Modeling and theory for green and sustainable management</p></li><li><p>Circular economy</p></li><li><p>Green and sustainable complex, dynamic environmental/economic/social systems</p></li><li><p>Issues for sustainable development goals</p></li></ul></li><li><p>Architecture, designs, algorithms, approaches</p><ul><li><p>Green and sustainable architecture, strategies, algorithms, protocols, scheduling, and/or designs</p></li><li><p>Measurement and profiling of green issues</p></li><li><p>Low cost and energy-efficient designs</p></li><li><p>Performance characterization, evaluation, optimization and design Trade-Offs</p></li><li><p>Use of cognitive principles to achieve green objectives</p></li><li><p>Relevant experimental test-beds and results</p></li><li><p>Relevant standardization, policy, and regulation</p></li><li><p>Pollution control technologies</p></li><li><p>Recycling and reuse</p></li><li><p>Strategic management for sustainability</p></li><li><p>Approaches to achieve sustainable development goals</p></li></ul></li><li><p>Domain technologies</p><ul><li><p>Environmental engineering</p><ul><li><p>Air and water pollution and control, including sustainable wastewater treatment</p></li><li><p>Green and sustainable waste generation, separation, processing, and disposal</p></li><li><p>Sustainable waste management technologies promoting the reuse and recycling of waste</p></li><li><p>Green and sustainable manufacturing</p></li><li><p>Green and sustainable chemical engineering</p></li><li><p>Sustainable transportation and logistics</p></li><li><p>Environmental management and decision making for sustainability</p></li><li><p>Carbon neutralization technologies</p></li><li><p>Noise pollution detection, assessment, and control</p></li><li><p>Ocean and coastal pollution and mitigation</p></li><li><p>Green and sustainable supply chain management</p></li><li><p>Green electronics, devices, and systems</p></li></ul></li><li><p>Environmental science</p><ul><li><p>Green chemistry</p></li><li><p>Soil, land pollution and remediation</p></li><li><p>Environmental modelling</p></li><li><p>Life cycle impact assessment and sustainability assessment</p></li><li><p>Green and sustainable water processing</p></li></ul></li><li><p>Green energy technologies</p><ul><li><p>Renewable and sustainable energy, including solar, wind, hydropower, geothermal, biomass and ocean energy, and renewable hydrogen and energy systems </p></li><li><p>Green and sustainable energy for transportation, including biofuels, electric vehicles and hydrogen-powered vehicles solution</p></li><li><p>Green, clean, and sustainable power generation and transmission</p></li><li><p>Energy storage and battery technologies</p></li><li><p>High-performance sustainable energy systems</p></li><li><p>Smart grids and smart grid networks</p></li><li><p>Advanced metering infrastructure and smart meter technologies</p></li><li><p>Energy harvesting, recycling, and wireless power transfer</p></li></ul></li><li><p>Green digital and information technologies</p><ul><li><p>Environmental monitoring</p></li><li><p>Environmental informatics</p></li><li><p>Green and sustainable communications, computing, and systems</p></li><li><p>Big data and artificial intelligence meet green challenges</p></li><li><p>Artificial intelligence aided environmental image or data analysis and decision making</p></li><li><p>Information and communications technologies for sustainable development goals</p></li><li><p>Electromagnetic pollution mitigation</p></li><li><p>Sustainable security and privacy </p></li><li><p>Security and privacy Issues for green and sustainable technologies </p></li><li><p>Green and sustainable intelligent transportation systems</p></li><li><p>Green data centers and cloud computing</p></li></ul></li><li><p>Green finance and economics</p></li><li><p>Green and sustainable materials </p></li><li><p>Green and sustainable civil engineering and building</p></li><li><p>Green and sustainable cities</p></li></ul></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/green-technologies-and-sustainability/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 400,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 23,
+          "title": "International Journal of Information Management",
+          "acronym": "JJIM",
+          "issn": "0268-4012",
+          "subjectAreas": [
+            "Organizational Behavior and Human Resource Management",
+            "Management Information Systems",
+            "Library and Information Sciences"
+          ],
+          "articleTypes": [
+            "Research Articles",
+            "Research Methods Articles",
+            "Research Notes",
+            "Theory and Review Articles"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/02684012.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/JJIM",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/international-journal-of-information-management/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 54.9
+            },
+            "impactFactor": {
+              "value": 27
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 9
+            }
+          },
+          "scope": "<p>The International Journal of Information Management (IJIM) is a leading outlet for high-impact research in the information systems (IS) field. It embraces an inclusive range of topics, levels of analysis, and perspectives, reflecting all facets of information systems globally.</p><p>The journal focuses on:</p><ul><li><p>Design, development, implementation, and management of information technologies and systems in organizational and societal contexts;</p></li><li><p>Strategic integration of IT in business, including IT strategy, governance, and organizational change management;</p></li><li><p>Digital innovation and emerging technologies–for example, research on social media, mobile and cloud computing, digital platforms and ecosystems, big data analytics, artificial intelligence, the Internet of Things, blockchains, and other cutting-edge technologies and their convergence;</p></li><li><p>Organizational initiatives that enhance decision-making and business intelligence;</p></li><li><p>Use, impact, and value of information systems on individuals, organizations, and society, including studies of how IS influences organizational performance and processes, user behavior and experience, economics of IT, and public or institutional policy;</p></li><li><p>Organizationally contextualized ethical, social, and policy issues that are arising in the digital era (for instance, research on data privacy, security and resilience of IT infrastructures, sustainability, digital inclusion, and the societal implications of information technology).</p></li></ul><p>By covering this broad spectrum of topics, IJIM provides a comprehensive forum for both theoretical advances and practical insights into contemporary information systems in business contexts.</p><p><b>Theoretical and Methodological Rigor </b></p><p>IJIM is committed to the highest standards of academic rigor and scholarly contribution, publishing only work that is innovative, insightful, and rigorously developed. Specifically:</p><ul><li><p>We seek papers that make strong academic contributions, whether by building new theory or significantly extending existing frameworks. The journal values research that develops a scholarly understanding based on empirical evidence while also offering novel theoretical insights. Papers that do not advance theory or design in a significant way will be desk rejected. Each paper is expected to have a clear theoretical or design science grounding and to articulate its contribution to the broader IS literature, whether it be by challenging existing assumptions, integrating streams of research, unveiling new relationships and constructs, or designing new artifacts.</p></li><li><p>We welcome diverse research methodologies and encourage authors to employ the approach best suited to their research question. Submissions may be quantitative (e.g. large-scale surveys, experiments, analytics), qualitative (e.g. case studies, ethnographies, interviews), design science (artifacts and solutions demonstrating IT innovation), or analytical/modeling studies.</p></li><li><p>While we welcome research that draws on perspectives from computer science, management, economics, psychology, sociology, organization science, and other related disciplines, our focus is on information systems and information management. Any papers narrowly focused (e.g., marketing or agriculture) will be desk rejected. </p></li><li><p>Novel combinations of theories or methods that address complex IS phenomena are welcomed. Regardless of approach, all submissions must demonstrate methodological rigor, sound analysis, and validity of results. </p></li></ul><p>The journal ensures a rich methodological plurality that advances the IS field’s knowledge base.</p><p><b>We welcome submissions of the article types below –</b></p><p>Research Articles</p><p>Full-length, theoretically grounded manuscripts that advance knowledge in information and management through rigorous conceptual development and empirical validation. Submissions should clearly align with the journal’s scope and mission.</p><p>Research Methods Articles</p><p>These articles focus on advancing the practice of doing research. This includes papers that introduce or refine methodologies (quantitative, qualitative, or computational, including AI-enabled methods), discuss innovations in data collection or analysis, or reflect on research design, theory building, and scholarly inquiry.</p><p>Theory and Review Articles</p><p>These submissions offer integrative reviews of existing literature and develop frameworks that organize knowledge and guide future research. Authors are encouraged to identify gaps, evaluate theoretical contributions, and propose novel directions or conceptual models that shape the evolution of the field.</p><p>Research Notes</p><p>Short-form articles that provide timely and focused contributions, such as replication studies, critical re-evaluations of past findings, or exploratory research that challenges prevailing assumptions. This category welcomes contrarian perspectives and constructive critique that fosters healthy academic debate.</p><p><b>A Leading Outlet for Cutting-Edge Scholarship </b></p><p>As a premier journal in information systems and information management, IJIM aspires to publish only the highest quality scholarship in the discipline. We are dedicated to maintaining a rigorous peer-review process and upholding ethical publication standards to ensure excellence and integrity in the research we disseminate. The journal seeks out groundbreaking and forward-looking studies that push the boundaries of current knowledge and explore emerging frontiers in information systems research. Our goal is to remain at the forefront of the field, by attracting influential research that will set scholarly agendas and guide future inquiry. In line with this goal, IJIM promotes innovative and theory-driven research that is also relevant and insightful for global audiences of scholars. Through its broad scope and unwavering commitment to rigor, IJIM positions itself as a premier venue for cutting-edge IS research. We invite authors to submit their best work to IJIM, confident that our journal provides an authoritative platform to advance the state of knowledge and practice in information systems and to shape the future direction of the field. </p><p><b>Open Data Policy</b></p><p><i>International Journal of Information Management</i> is committed to research transparency and reproducibility through its Open Data policy. Authors are required to:</p><p>Deposit their research data in a relevant data repository</p><p>Include appropriate citations and links to these datasets in their article</p><p>Provide a Research Data Availability Statement</p><p>If data sharing is not possible due to ethical, legal, or proprietary constraints, authors must include a detailed statement explaining why the research data cannot be shared.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Michael Chau",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "INFORMATION SCIENCE & LIBRARY SCIENCE",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Management Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3990,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 24,
+          "title": "Journal of Systems and Software",
+          "acronym": "JSS",
+          "issn": "0164-1212",
+          "subjectAreas": [
+            "Computer Networks and Communications",
+            "Software",
+            "Computer Science Applications",
+            "Information Systems"
+          ],
+          "articleTypes": [
+            "In Practice",
+            "Research Paper",
+            "Trends - Long Article",
+            "Review Article",
+            "Trends - Short Article",
+            "VSI: Agile Reloaded",
+            "VSI:AI for SA",
+            "VSI:AI4MSS",
+            "VSI:Impactful-Software-Architecture",
+            "VSI:SEAA25",
+            "VSI:Software engineering teaching cases"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01641212.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/JSSOFTWARE/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-systems-and-software/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.4
+            },
+            "impactFactor": {
+              "value": 4.1
+            },
+            "acceptanceRate": {
+              "value": 15
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 12
+            }
+          },
+          "scope": "<p>For JSS&#39;s full CfP including information on Special Issues, Industry, Trends, and Journal First tracks please continue to read for further details.</p><p>The <i>Journal of Systems and Software</i> publishes papers covering all aspects of software engineering. All articles should provide evidence to support their claims, e.g. through empirical studies, simulation, formal proofs or other types of validation. Topics of interest include, but are not limited to: <br/></p><ul><li><p>Methods and tools for software requirements, design, architecture, verification and validation, testing, maintenance and evolution</p></li><li><p>Agile, model-driven, service-oriented, open source and global software development</p></li><li><p>Human/social aspects in software engineering and developer<br/>experience</p></li><li><p>Artificial Intelligence, data analytics and big data applied in software engineering</p></li><li><p>Metrics and evaluation of software development resources</p></li><li><p>DevOps, continuous integration, build and test automation</p></li><li><p>Software Engineering education</p></li><li><p>Ethical/societal aspects of Software Engineering</p></li><li><p>Software Engineering for AI systems</p></li><li><p>Software Engineering for Sustainability</p></li><li><p>Methods and tools for empirical software engineering research</p></li></ul><p><br/> The journal welcomes reports of practical experience for all of these topics, as well as replication studies and studies with negative results. The journal appreciates the submission of systematic literature reviews, mapping studies and meta-analyses. However, these should report interesting and important results, rather than merely providing statistics on publication year, venue etc.</p><p>Open Science:<br/>JSS supports Open Science and reproducible research through the JSS Open Science Initiative. For papers where authors indicate participation, the manuscript is automatically forwarded to the JSS Open Science Board, chaired by <a href=\"ctreude@smu.edu.sg\">Christoph Treude</a>, after acceptance. Following successful review of availability and usability (which does not affect acceptance of the paper), the publisher will add a statement acknowledging validation of the Open Science material and include the paper in JSS’s <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fspecial-issue%2F10XMGH48FFT&data=05%7C02%7Ca.nevedatr%40elsevier.com%7C0d8bef08cd0b455b3d9008ddffa909fa%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638947823666548500%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=UJALKiyPtr7Qb%2BoTtWMbFJ2FM3jfyyNUr0%2BBj1yVaAg%3D&reserved=0\">Open Science collection</a>. If material cannot be shared (e.g., due to NDAs), authors should state this explicitly. Depending on the study, Open Science material may include study protocols, (anonymized) data, analysis scripts, source code, tools, or codebooks.</p><p>In addition to regular papers, JSS features two special tracks (In Practice, New Ideas and Trends Papers), as well as special issues.</p><p><i>In Practice</i> is exclusively focused on work that increases knowledge transfer from industry to research. It accepts: (1) Applied Research Reports where we invite submissions that report results (positive or negative) concerning the experience of applying/evaluating systems and software technologies (methods, techniques and tools) in real industrial settings. These comprise empirical studies conducted in industry (e.g., action research, case studies) or experience reports that may help understanding situations in which technologies really work and their impact. Submissions should include information on the industrial setting, provide motivation, explain the events leading to the outcomes, including the challenges faced, summarize the outcomes, and conclude with lessons learned, take-away messages, and practical advice based on the described experience. Contributing authors from industry are encouraged but not mandatory. (2) Practitioner Insights where we invite experience reports showing what actually happens in practical settings, illustrating the challenges (and pain) that practitioners face, and presenting lessons learned. Problem descriptions with significant details on the context, underlying causes and symptoms, and technical and organizational impact are also welcome. Practitioner insights papers may also comprise invited opinionated views on the evolution of chosen topic areas in practice. In contrast to applied research reports, practitioner insights are limited to four pages and the first author must be from industry. Finally, submissions to this track should be within scope of the journal&#39;s above topics of interest and they will be evaluated through industry-appropriate criteria for their merit in reporting useful industrial experience rather than in terms of academic novelty of research results.</p><p><i>New Ideas and Trends Papers</i> <br/> New ideas, especially those related to new research trends, emerge quickly. To accommodate timely dissemination thereof, JSS introduces the New Ideas and Trends Paper (NITP). NITPs should focus on the systems/software engineering aspects of new emerging areas, including: the internet of things, big data, cloud computing, software ecosystems, cyber-physical systems, green/sustainable systems, continuous software engineering, crowdsourcing, and the like. We distinguish two types of NITPs:</p><ul><li><p>A short paper that discusses a single contribution to a specific new trend or a new idea.</p></li><li><p>A long paper that provides a survey of a specific trend, as well as a (possibly speculative) outline of a solution.</p></li></ul><p>NITPs are not required to be fully validated, but preliminary results that endorse the merit of the proposed ideas are welcomed.</p><p>We anticipate revisiting specific new trends periodically, for instance through reflection or progress reports. <br/> New Ideas and Trend Papers warrant speedy publication.</p><p>Special Issue proposals <br/> To submit a proposal for a special issue please submit your proposal <a href=\"https://www.editorialmanager.com/cssi-procs/default.aspx\">here</a> to Special Issues Editors <a href=\"https://www.journals.elsevier.com/journal-of-systems-and-software/editorial-board/r-mirandola#email-r-mirandola\">Prof. Raffaela Mirandola</a> and <a href=\"https://www.journals.elsevier.com/journal-of-systems-and-software/editorial-board/l-duchien-phd#email-l-duchien-phd\">Prof. Laurence Duchien</a>. Please visit the <a href=\"https://www.elsevier.com/physical-sciences-and-engineering/computer-science/journals/how-to-prepare-a-special-issue-proposal\">special issue guidelines</a> page first to review the proposal guidelines and to download the proposal template required when submitting a proposal.</p><p><i>Journal First Initiative</i> <br/> Authors of JSS accepted papers have the opportunity to present their work in those conferences that offer a Journal First track. Using this track, researchers may take the best from two worlds: ensuring high quality in the JSS publication (thorough, multi-phase review process of a long manuscript), while getting feedback from a community of experts and fostering possible collaborations during a scientific event.</p><p>Details may vary from conference to conference, but generally speaking, JSS papers to be presented in a Journal First track must report completely new research results or present novel contributions that significantly extend previous work. The ultimate decision to include a paper in the conference program is up to the conference chairs, not JSS. A JSS paper may be presented only once through a Journal First track.</p><p>As of today, the list of conferences with which JSS is collaborating, or has collaborated, through a Journal First track, is: ASE, ICSME, SANER, RE, ESEM, PROFES, and APSEC.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Avgeriou | Shepherd",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3670,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 25,
+          "title": "Artificial Intelligence in Medicine",
+          "acronym": "ARTMED",
+          "issn": "0933-3657",
+          "subjectAreas": [
+            "Medicine and Dentistry (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Historical perspectives",
+            "Original research contributions",
+            "PhD projects",
+            "Position papers",
+            "Book reviews",
+            "Methodological Reviews/Surveys",
+            "VSI: AIIM for IEEE CBMS 2025 (FLA)",
+            "VSI: TKD from PhysioNet (FLA)",
+            "VSI: TKD from PhysioNet (REV)"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09333657.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AIIM/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 12.2
+            },
+            "impactFactor": {
+              "value": 6.2
+            },
+            "timeToFirstDecision": {
+              "value": 12
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p><i>Artificial Intelligence in Medicine</i> publishes original articles from a wide variety of interdisciplinary perspectives concerning the theory and practice of <b>artificial intelligence</b> (AI) in <b>medicine</b>, <b>medically-oriented human biology</b>, and <b>health care</b>.</p><p><b>Artificial intelligence in medicine</b> may be characterized as the scientific discipline pertaining to research studies, projects, and applications that aim at supporting decision-based medical tasks through knowledge- and/or data-intensive computer-based solutions that ultimately support and improve the performance of a human care provider.</p><p><i>Artificial Intelligence in Medicine</i> considers for publication manuscripts that have both:</p><p>• <b>Potential high impact in some medical or healthcare domain;</b> <br/> • <b>Strong novelty of method and theory related to AI and computer science techniques.</b></p><p><i>Artificial Intelligence in Medicine</i> papers must refer to real-world medical domains, considered and discussed at the proper depth, from both the technical and the medical points of view. <b>The inclusion of a clinical assessment</b> of the usefulness and potential impact of the submitted work <b>is strongly recommended.</b></p><p><i>Artificial Intelligence in Medicine</i> is looking for novelty in the methodological and/or theoretical content of submitted papers. Such kind of novelty has to be mainly acknowledged in the area of AI and Computer Science. <b>Methodological papers</b> deal with the proposal of some strategy and related methods to solve some scientific issues in specific domains. They must show, usually through an experimental evaluation, how the proposed methodology can be applied to medicine, medically-oriented human biology, and health care, respectively. They have also to provide a comparison with other proposals, and explicitly discuss elements of novelty. <b>Theoretical papers</b> focus on more fundamental, general and formal topics of AI and must show the novel expected effects of the proposed solution in some medical or healthcare field.</p><p>Following the information explosion brought by the diffusion of Internet, social networks, cloud computing, and big-data platforms, Artificial Intelligence in Medicine has broadened its perspective. Particular attention is given to novel research work pertaining to:</p><ul><li><p>AI-based clinical decision making;</p></li><li><p>Medical knowledge engineering;</p></li><li><p>Knowledge-based and agent-based systems;</p></li><li><p>Computational intelligence in bio- and clinical medicine;</p></li><li><p>Intelligent and process-aware information systems in healthcare and medicine;</p></li><li><p>Natural language processing in medicine;</p></li><li><p>Data analytics and mining for biomedical decision support;</p></li><li><p>New computational platforms and models for biomedicine;</p></li><li><p>Intelligent exploitation of heterogeneous data sources aimed at supporting decision-based and data-intensive clinical tasks;</p></li><li><p>Intelligent devices and instruments;</p></li><li><p>Automated reasoning and meta-reasoning in medicine;</p></li><li><p>Machine learning in medicine, medically-oriented human biology, and healthcare;</p></li><li><p>AI and data science in medicine, medically-oriented human biology, and healthcare;</p></li><li><p>AI-based modeling and management of healthcare pathways and clinical guidelines;</p></li><li><p>Models and systems for AI-based population health;</p></li><li><p>AI in medical and healthcare education;</p></li><li><p>Methodological, philosophical, ethical, and social issues of AI in healthcare, medically-oriented human biology, and medicine.</p></li></ul><p>If you are considering submitting to <i>Artificial Intelligence in Medicine</i>, make sure that your paper meets the quality requirements mentioned above. English exposition must also be clear and revised with due care. Authors are kindly requested to revise their manuscripts with the help of co-authors that are fluent in English or language editing services before submitting their contribution. Papers written in poor English are likely to be rejected.</p><p>The mere application of well-known or already published algorithms and techniques to medical data is not regarded as original research work of interest for <i>Artificial Intelligence in Medicine</i>, but it may be suitable for other venues.</p><p><i>Artificial Intelligence in Medicine</i> features the following kinds of papers:</p><ul><li><p><b>Original research contributions:</b> Theoretical and/or methodological papers about novel approaches;</p></li><li><p><b>Methodological reviews/surveys:</b> Papers that collect, classify, describe, and critically analyze research designs, methods and procedures;</p></li><li><p><b>Position papers:</b> Papers that gather, describe, and analyze the scientific challenges of a specific field, founding them on the related literature;</p></li><li><p><b>Editorials:</b> Editors will occasionally publish editorials;</p></li><li><p><b>Guest editorials:</b> Editors can invite guest editors of special issues to publish editorials. Unsolicited editorials will not be considered;</p></li><li><p><b>Letters to the editor:</b> Letters from readers shortly discussing and commenting on a topic of interest, for example based on recently published articles in the journal <i>Artificial Intelligence in Medicine</i>;</p></li><li><p><b>Book reviews:</b> A critical review of recently published books;</p></li><li><p><b>Erratum:</b> Some specific corrections to results previously published in the journal <i>Artificial Intelligence in Medicine</i>;</p></li><li><p><b>Historical perspectives:</b> Papers that describe and critically review some specific aspects in the history of scientific contributions and applications;</p></li><li><p><b>In memoriam:</b> Papers describing the life and the main scientific contributions of scientists passed away, having had an important role in the area of artificial intelligence in medicine;</p></li><li><p><b>PhD projects:</b> Early publications about more recent research trends, having the goal of allowing PhD candidates to explain their PhD research project and to share it with other scientists interested in the topic. Such type of papers should focus on the overall goals and approaches of PhD research projects, without considering in detail the specific scientific results obtained, which would be the focus of other research articles.</p></li></ul><p><b>Special Issues</b> are regularly published and included among regular issues. <i>Artificial Intelligence in Medicine</i> special issues deal with current theoretical/methodological research or convincing applications related to AI in medicine. Special Issues are managed by one or more guest editors who are outstanding experts on the selected topic.Special Issues of <i>Artificial Intelligence in Medicine</i> are directly proposed to potential guest editors by the Editor in Chief, also according to suggestions from the editorial board members.&quot;External&quot; proposals of Special Issues will no longer be considered.</p><p><i>Artificial Intelligence in Medicine</i> does not publish conference volumes or conference papers. However, selected and high-quality research results presented earlier at conferences may be published in <i>Artificial Intelligence in Medicine</i>, in the form of a thoroughly revised (rephrased) and extended (including new research results) original research paper.</p><p>Information for authors and further details about the editorial process can be found in the <i>Guide for Authors</i> section of the <i>Artificial Intelligence in Medicine</i> web page.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Carlo Combi",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, BIOMEDICAL",
+                "tier": 2
+              },
+              {
+                "name": "MEDICAL INFORMATICS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Medicine",
+              "tier": 2,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3310,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        }
+      ],
+      "filterHistograms": {
+        "impactFactor": [
+          1,
+          0,
+          0,
+          2,
+          5,
+          0,
+          1,
+          4,
+          1,
+          0,
+          2
+        ],
+        "citeScore": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          5,
+          12
+        ],
+        "publicationTime": [
+          0,
+          1,
+          2,
+          8,
+          0,
+          2,
+          1,
+          0,
+          2,
+          3,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "timeToFirstDecision": [
+          3,
+          2,
+          1,
+          3,
+          3,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "totalResults": 25,
+      "institute": {
+        "name": null,
+        "hasAgreements": false
+      }
+    }
+  }
+]

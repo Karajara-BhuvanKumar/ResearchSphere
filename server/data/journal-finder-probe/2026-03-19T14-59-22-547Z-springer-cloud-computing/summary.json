@@ -1,0 +1,13 @@
+{
+  "query": "cloud computing",
+  "provider": "springer",
+  "runDir": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T14-59-22-547Z-springer-cloud-computing",
+  "results": [
+    {
+      "provider": "springer",
+      "finalUrl": "https://link.springer.com/journals/journal-finder",
+      "recommendationCount": 20,
+      "networkCaptureCount": 2
+    }
+  ]
+}

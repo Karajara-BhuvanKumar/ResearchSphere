@@ -1,0 +1,70 @@
+[
+  {
+    "provider": "elsevier",
+    "rank": 1,
+    "title": "Computers & Security",
+    "sourceUrl": "https://www.sciencedirect.com/journal/computers-and-security/publish/guide-for-authors",
+    "submissionLink": "https://submit.elsevier.com/COSE",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/computers-and-security/publish/guide-for-authors",
+    "acronym": "COSE",
+    "issn": "0167-4048",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 5.4,
+    "citeScore": 13.3,
+    "decisionDays": 2,
+    "acceptanceDays": 9,
+    "subjectAreas": [
+      "Computer Networks and Communications",
+      "Computer Science Applications",
+      "Information Systems"
+    ],
+    "articleTypes": [
+      "Full Length Article",
+      "TC 11 Briefing Papers",
+      "Technical Note",
+      "Review Article",
+      "Short Communication",
+      "VSI:IFIP SEC 2025",
+      "VSI:IFIP TC11 WG Papers 2025"
+    ],
+    "scope": "The International Source of Innovation for the Information Security and IT Audit Professional Computers &amp; Security is one of the most respected journals in IT security, being recognized worldwide as THE primary source of reference for IT security research and applications expertise. Computers &amp; Security provides the IT security community with a unique blend of leading edge research and sound practical management advice. It is aimed at the professional involved with computer security, audit, control and data integrity in all sectors - industry, commerce and academia - helping the community build and operate fully secure systems and organisations. With its high-profile editorial board and informative regular features and columns, the journal is essential reading for IT security professionals around the world. Our cutting edge research will help you secure and maintain your systems We accept only the highest quality of papers ensuring that you receive the relevant and practical advice you need We don&#39;t only highlight the threats, we give you the solutions Cryptology: The journal&#39;s editorial scope has explicitly excluded cryptology since 2006. Therefore, submissions with some aspect of cryptology (including blockchains, watermarking, and steganography) as a principal component will not be considered for review. AI and ML: As of early 2024, we have instituted a moratorium on consideration of submissions that feature AI or ML as significant components. Thus, submissions about applying an AI/ML technique to system security and privacy topics will not be considered. Also, items directed to the security of AI/ML systems themselves (such as LLM and federated learning) are out of scope of the journal and should be submitted to a venue primarily about AI/ML.",
+    "editorInChief": "Steven Furnell",
+    "goldOpenAccessFee": 3190,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01674048.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 2,
+    "title": "Pervasive and Mobile Computing",
+    "sourceUrl": "https://submit.elsevier.com/PMC",
+    "submissionLink": "https://submit.elsevier.com/PMC",
+    "guideForAuthors": null,
+    "acronym": "PMCJ",
+    "issn": "1574-1192",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 3.5,
+    "citeScore": 8.1,
+    "decisionDays": 4,
+    "acceptanceDays": 9,
+    "subjectAreas": [
+      "Control and Systems Engineering",
+      "Computer Networks and Communications",
+      "Computer Science Applications",
+      "Hardware and Architecture"
+    ],
+    "articleTypes": [
+      "Research Paper",
+      "Review Article"
+    ],
+    "scope": "Special Issue Proposal Note PMCJ exclusively reviews Special Issue proposal forms submitted here through the designated submission system. Proposals submitted via any other means will not be considered for review. For more information on how to prepare and submit a SI proposal please check https://www.elsevier.com/physical-sciences-and-engineering/computer-science/journals/how-to-prepare-a-special-issue-proposal . Aims and Scope As envisioned by Mark Weiser as early as 1991, pervasive computing systems and services have truly become integral to our daily lives. Tremendous advancements in a multitude of technologies ranging from personalized and embedded smart devices (e.g., smartphones, sensors, wearables, IoT) to ubiquitous connectivity through wireless mobile communications and cognitive networking infrastructures, to advanced computing techniques (including mobile edge/fog/cloud, data analytics and machine learning) and user-friendly middleware services and platforms have significantly contributed to the unprecedented advances in pervasive and mobile computing. Such cutting-edge pervasive technologies and paradigms have led to the convergence of cyber-physical-human systems with applications to smart environments (e.g., smart homes and cities, smart grid, smart transportation, smart health, smart agriculture) with the goal to improve human experience and quality of life without explicit awareness of the underlying communications and computing technologies. Additionally, the huge amount of (real-time) data collected via pervasive devices coupled with advanced data analytic, machine learning and AI (Artificial Intelligence) techniques for reliable prediction and decision-making are making breakthrough research in pervasive computing and applications, such as self-driving cars, predictive maintenance in the industry 4.0 environments, mobile recommendation systems, etc. The Pervasive and Mobile Computing Journal (PMC) is a high-impact, peer-reviewed technical journal that publishes high-quality scientific articles spanning theory and practice, and covering all aspects of pervasive and mobile computing and systems. Topics include, but not limited to: Pervasive Computing and Communications Architectures and Protocols Pervasive, Mobile and Wearable Computing Systems and Services Cyber-Physical Systems and Cyber-Physical-Human Systems Smart Systems and Applications (smart homes, smart cities, smart manufacturing, smart transportation, smart grid, smart health, smart agriculture, etc.) Human-centric Intelligent Systems Cognitive Computing Trustworthy AI in Pervasive Systems Machine Learning and Deep Learning in Pervasive and Mobile Computing Federated, Distributed and Embedded learning, Learning at-the-edge in Pervasive Systems Learning on Streaming Data and Continual Learning in Pervasive and Mobile Systems Big Data and Data Analytics in Pervasive Computing Systems Internet of Things and Social Internet of Things Internet of People and Internet of Vehicles Edge, Fog, Mobile Cloud and Opportunistic Computing in Pervasive and Mobile Systems Enabling Pervasive Communication Technologies (e.g., wireless LANs, cellular, hybrid, ad hoc and cognitive networks) Wireless Sensors Networks and RFID Technologies Urban Sensing and Mobile Crowdsensing Participatory and Social Sensing Machine-to-Machine and Device-to-Device Communications Positioning, Localization and Tracking Technologies Activity Recognition and Tracking Context-aware Computing Location-based Services and Applications Pervasive Service Creation, Composition, Discovery, Management, and Delivery Human User Interfaces and Interaction Models Trust, Reliability, Security, and Privacy in Pervasive and Mobile Computing Systems Performance Evaluation of Pervasive and Mobile Computing Systems",
+    "editorInChief": "Sajal K. Das",
+    "goldOpenAccessFee": 2620,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15741192.jpg",
+    "hasAgreements": false
+  }
+]

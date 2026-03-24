@@ -1,0 +1,32 @@
+{
+  "query": "cloud computing",
+  "provider": "both",
+  "runDir": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-07-35-371Z-both-cloud-computing",
+  "results": [
+    {
+      "provider": "springer",
+      "finalUrl": "https://link.springer.com/journals/journal-finder",
+      "recommendationCount": 20,
+      "networkCaptureCount": 2,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-07-35-371Z-both-cloud-computing\\springer-journals.json"
+    },
+    {
+      "provider": "elsevier",
+      "finalUrl": "https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&sortBy=default&sortOrder=desc&query=cloud+computing&mode=search&ecrId=&agreementsFilter=all-journals",
+      "recommendationCount": 25,
+      "networkCaptureCount": 1,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-07-35-371Z-both-cloud-computing\\elsevier-journals.json"
+    }
+  ],
+  "normalized": {
+    "query": "cloud computing",
+    "springerCount": 20,
+    "elsevierCount": 25,
+    "mergedCount": 45,
+    "files": {
+      "springer": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-07-35-371Z-both-cloud-computing\\springer-journals.json",
+      "elsevier": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-07-35-371Z-both-cloud-computing\\elsevier-journals.json",
+      "merged": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-07-35-371Z-both-cloud-computing\\journals-merged.json"
+    }
+  }
+}

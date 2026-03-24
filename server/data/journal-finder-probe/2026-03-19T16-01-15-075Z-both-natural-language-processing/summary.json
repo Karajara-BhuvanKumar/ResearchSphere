@@ -1,0 +1,32 @@
+{
+  "query": "natural language processing",
+  "provider": "both",
+  "runDir": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-15-075Z-both-natural-language-processing",
+  "results": [
+    {
+      "provider": "springer",
+      "finalUrl": "https://link.springer.com/journals/journal-finder",
+      "recommendationCount": 19,
+      "networkCaptureCount": 2,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-15-075Z-both-natural-language-processing\\springer-journals.json"
+    },
+    {
+      "provider": "elsevier",
+      "finalUrl": "https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&sortBy=default&sortOrder=desc&query=natural+language+processing&mode=search&ecrId=&agreementsFilter=all-journals",
+      "recommendationCount": 16,
+      "networkCaptureCount": 1,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-15-075Z-both-natural-language-processing\\elsevier-journals.json"
+    }
+  ],
+  "normalized": {
+    "query": "natural language processing",
+    "springerCount": 19,
+    "elsevierCount": 16,
+    "mergedCount": 35,
+    "files": {
+      "springer": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-15-075Z-both-natural-language-processing\\springer-journals.json",
+      "elsevier": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-15-075Z-both-natural-language-processing\\elsevier-journals.json",
+      "merged": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-01-15-075Z-both-natural-language-processing\\journals-merged.json"
+    }
+  }
+}
