@@ -149,23 +149,26 @@ const Journals = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className="min-h-screen flex flex-col bg-background/50">
       <Navigation />
 
-      <div className="flex-1">
-        <div className="container mx-auto max-w-[1380px] px-5 py-8 md:px-6 md:py-10">
-          <section className="rounded-[28px] border border-border bg-card shadow-sm overflow-hidden">
-            <div className="border-b border-border bg-gradient-to-r from-slate-100 via-white to-slate-50 px-6 py-6 md:px-8 md:py-7">
-              <div className="max-w-4xl">
-                <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <Badge variant="secondary" className="px-3 py-1 text-xs">
+      <main className="flex-1">
+        <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+          <section className="rounded-3xl border border-border bg-card shadow-xl shadow-primary/5 overflow-hidden mb-12">
+            <div className="border-b border-border bg-gradient-to-br from-primary/5 via-card to-background px-8 py-10 md:px-12 md:py-12">
+              <div className="max-w-3xl space-y-6">
+                <div className="flex flex-wrap items-center gap-3">
+                  <Badge variant="secondary" className="px-4 py-1.5 text-xs font-semibold rounded-full bg-primary/10 text-primary border-none">
                     Computer Science Journals
                   </Badge>
-                  <Badge variant="outline" className="px-3 py-1 text-xs">
+                  <Badge variant="outline" className="px-4 py-1.5 text-xs font-medium rounded-full border-primary/20">
                     Refined recommendations
                   </Badge>
                 </div>
-                <p className="text-[15px] leading-7 text-muted-foreground md:text-base">
+                <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">
+                  Find Your Perfect Journal
+                </h1>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Search by keyword for quick discovery, or paste an abstract to
                   surface journals with strong topical alignment, editorial fit,
                   and submission-ready details.
@@ -173,31 +176,29 @@ const Journals = () => {
               </div>
             </div>
 
-            <div className="p-6 md:p-8">
-              <div className="rounded-2xl border border-border bg-background p-4 md:p-5">
-                <div className="flex flex-col gap-3 md:gap-4">
-                  <div className="flex flex-col md:flex-row md:flex-wrap md:items-center gap-4 md:gap-8">
+            <div className="p-8 md:p-10 bg-card/50">
+              <div className="rounded-2xl border border-border bg-background/80 backdrop-blur-sm p-6 md:p-8 shadow-inner">
+                <div className="flex flex-col gap-6">
+                  <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
                     <button
                       type="button"
                       onClick={() => setSearchMode("abstract")}
-                      className="inline-flex items-center gap-3 text-left py-1"
+                      className="inline-flex items-center gap-4 text-left group transition-all"
                     >
                       <span
-                        className={`flex h-7 w-7 items-center justify-center rounded-full border-2 transition-colors ${
+                        className={`flex h-6 w-6 items-center justify-center rounded-full border-2 transition-all ${
                           searchMode === "abstract"
-                            ? "border-primary text-primary"
-                            : "border-slate-400 text-transparent"
+                            ? "border-primary bg-primary shadow-lg shadow-primary/20"
+                            : "border-muted-foreground/30 group-hover:border-primary/50"
                         }`}
                       >
-                        <span
-                          className={`h-3.5 w-3.5 rounded-full ${
-                            searchMode === "abstract"
-                              ? "bg-primary"
-                              : "bg-transparent"
-                          }`}
-                        />
+                        {searchMode === "abstract" && (
+                          <span className="h-2.5 w-2.5 rounded-full bg-white" />
+                        )}
                       </span>
-                      <span className="text-base font-medium text-foreground md:text-lg">
+                      <span className={`text-base font-semibold transition-colors ${
+                        searchMode === "abstract" ? "text-foreground" : "text-muted-foreground group-hover:text-foreground/80"
+                      }`}>
                         Match my abstract
                       </span>
                     </button>
@@ -205,34 +206,31 @@ const Journals = () => {
                     <button
                       type="button"
                       onClick={() => setSearchMode("keyword")}
-                      className="inline-flex items-center gap-3 text-left py-1"
+                      className="inline-flex items-center gap-4 text-left group transition-all"
                     >
                       <span
-                        className={`flex h-7 w-7 items-center justify-center rounded-full border-2 transition-colors ${
+                        className={`flex h-6 w-6 items-center justify-center rounded-full border-2 transition-all ${
                           searchMode === "keyword"
-                            ? "border-primary text-primary"
-                            : "border-slate-400 text-transparent"
+                            ? "border-primary bg-primary shadow-lg shadow-primary/20"
+                            : "border-muted-foreground/30 group-hover:border-primary/50"
                         }`}
                       >
-                        <span
-                          className={`h-3.5 w-3.5 rounded-full ${
-                            searchMode === "keyword"
-                              ? "bg-primary"
-                              : "bg-transparent"
-                          }`}
-                        />
+                        {searchMode === "keyword" && (
+                          <span className="h-2.5 w-2.5 rounded-full bg-white" />
+                        )}
                       </span>
-                      <span className="text-base font-medium text-foreground md:text-lg">
-                        Search by keywords, aims &amp; scope, journal title,
-                        etc...
+                      <span className={`text-base font-semibold transition-colors ${
+                        searchMode === "keyword" ? "text-foreground" : "text-muted-foreground group-hover:text-foreground/80"
+                      }`}>
+                        Search by keywords
                       </span>
                     </button>
                   </div>
 
                   {searchMode === "keyword" ? (
-                    <div className="space-y-3">
-                      <div className="relative">
-                        <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+                    <div className="space-y-4">
+                      <div className="relative group">
+                        <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground group-focus-within:text-primary transition-colors" />
                         <Input
                           placeholder="Try machine learning, cloud computing, blockchain, cybersecurity..."
                           value={keywordQuery}
@@ -242,12 +240,12 @@ const Journals = () => {
                           onKeyDown={(event) => {
                             if (event.key === "Enter") runSearch();
                           }}
-                          className="h-14 rounded-xl pl-12 text-[15px] md:text-base"
+                          className="h-14 rounded-xl pl-12 text-base border-muted-foreground/20 focus:border-primary transition-all shadow-sm"
                         />
                       </div>
                     </div>
                   ) : (
-                    <div className="space-y-3">
+                    <div className="space-y-4">
                       <Textarea
                         value={abstractQuery}
                         onChange={(event) =>

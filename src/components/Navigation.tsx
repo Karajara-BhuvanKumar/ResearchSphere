@@ -69,7 +69,7 @@ const Navigation = () => {
     { name: "Add paper", path: "/add-paper" },
     // { name: "Assistant", path: "/assistant" },
     { name: "About", path: "/about" },
-    { name: "Research Collaboration", path: "/research-collaboration" },
+    { name: "Collaboration", path: "/research-collaboration" },
   ];
 
   const discoverItems = [
@@ -142,12 +142,12 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-1 xl:gap-2">
+          <div className="hidden lg:flex items-center gap-2 xl:gap-4">
             {mainNavItems.slice(0, 2).map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap ${
                   isActive(item.path)
                     ? "text-primary bg-primary/10"
                     : "text-foreground hover:text-primary hover:bg-muted"
@@ -162,7 +162,7 @@ const Navigation = () => {
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="ghost"
-                  className={`px-3 py-2 h-auto text-sm font-medium hover:text-primary hover:bg-muted ${
+                  className={`px-3 py-2 h-auto text-sm font-medium hover:text-primary hover:bg-muted whitespace-nowrap ${
                     isDiscoverActive ? "text-primary bg-primary/10" : ""
                   }`}
                 >
@@ -191,7 +191,7 @@ const Navigation = () => {
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="ghost"
-                  className={`px-3 py-2 h-auto text-sm font-medium hover:text-primary hover:bg-muted ${
+                  className={`px-3 py-2 h-auto text-sm font-medium hover:text-primary hover:bg-muted whitespace-nowrap ${
                     isResearchOpportunitiesActive
                       ? "text-primary bg-primary/10"
                       : ""
@@ -221,10 +221,10 @@ const Navigation = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap ${
                   isActive(item.path)
                     ? "text-primary bg-primary/10"
-                    : "text-foreground hover:text-primary hover:bg-muted whitespace-nowrap"
+                    : "text-foreground hover:text-primary hover:bg-muted"
                 }`}
               >
                 {item.name}

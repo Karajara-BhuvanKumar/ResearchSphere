@@ -528,31 +528,33 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <Navigation />
 
-      <div className="flex-1">
+      <main className="flex-1">
         {/* Hero */}
         <section className="gradient-hero border-b border-border">
-          <div className="container mx-auto px-4 py-12 md:py-20">
-            <div className="grid lg:grid-cols-[1.3fr_0.7fr] gap-12 items-start">
-              <div className="space-y-6">
-                <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                  ResearchSphere &mdash; {currentYear}
-                </p>
-                <h1 className="heading-display text-5xl md:text-6xl lg:text-[5rem] text-foreground leading-[1.08]">
-                  Find conferences,
-                  <br className="hidden md:block" />
-                  journals &amp;
-                  <br className="hidden md:block" />
-                  research opportunities.
-                </h1>
-                <p className="text-base text-muted-foreground max-w-lg leading-relaxed">
+          <div className="container mx-auto px-4 py-16 md:py-24">
+            <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-12 items-center">
+              <div className="space-y-8">
+                <div className="space-y-2">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-primary">
+                    ResearchSphere &mdash; {currentYear}
+                  </p>
+                  <h1 className="heading-display text-5xl md:text-6xl lg:text-7xl text-foreground leading-[1.1] tracking-tight">
+                    Find conferences,
+                    <br className="hidden md:block" />
+                    journals &amp;
+                    <br className="hidden md:block" />
+                    research opportunities.
+                  </h1>
+                </div>
+                <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
                   A centralized research discovery platform for CS professionals
                   &mdash; covering conferences, journals, PhD and postdoc calls.
                 </p>
-                <div className="flex flex-wrap gap-3">
+                <div className="flex flex-wrap gap-4">
                   <Button
                     size="lg"
                     onClick={() => navigate("/general-finder")}
-                    className="h-11 px-6"
+                    className="h-12 px-8 rounded-full text-base font-medium"
                   >
                     Open General Finder
                   </Button>
@@ -560,19 +562,20 @@ const Index = () => {
                     size="lg"
                     variant="outline"
                     onClick={() => navigate("/conferences")}
-                    className="h-11 px-6"
+                    className="h-12 px-8 rounded-full text-base font-medium"
                   >
                     Browse Conferences
                   </Button>
                 </div>
               </div>
 
-              <div className="lg:pt-14">
-                <div className="bg-card/95 border border-border rounded-2xl p-5 shadow-sm">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">
+              <div className="relative">
+                <div className="absolute -inset-4 bg-primary/5 rounded-3xl blur-2xl -z-10" />
+                <div className="bg-card border border-border rounded-2xl p-6 shadow-xl shadow-primary/5">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4">
                     Quick Search
                   </p>
-                  <div className="flex flex-col gap-2.5">
+                  <div className="flex flex-col gap-3">
                     <div className="relative">
                       <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                       <Input
@@ -580,18 +583,18 @@ const Index = () => {
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         onKeyPress={handleKeyPress}
-                        className="pl-9 h-10"
+                        className="pl-9 h-12 rounded-xl border-muted-foreground/20 focus:border-primary transition-all"
                       />
                     </div>
-                    <Button onClick={handleSearch} className="h-10 w-full">
+                    <Button onClick={handleSearch} className="h-12 w-full rounded-xl font-medium">
                       Search
                     </Button>
                   </div>
-                  <div className="mt-4 pt-4 border-t border-border/60">
-                    <p className="text-xs text-muted-foreground mb-2">
+                  <div className="mt-6 pt-6 border-t border-border/60">
+                    <p className="text-xs font-medium text-muted-foreground mb-3">
                       Common searches
                     </p>
-                    <div className="flex flex-wrap gap-1.5">
+                    <div className="flex flex-wrap gap-2">
                       {[
                         "machine learning",
                         "phd 2026",
@@ -606,7 +609,7 @@ const Index = () => {
                               `/general-finder?q=${encodeURIComponent(topic)}`,
                             )
                           }
-                          className="text-xs px-2.5 py-1 rounded-md bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                          className="text-xs px-3 py-1.5 rounded-lg bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-200"
                         >
                           {topic}
                         </button>
@@ -620,75 +623,75 @@ const Index = () => {
         </section>
 
         {/* Quick navigation strip */}
-        <section className="border-b border-border">
+        <section className="border-b border-border bg-card/50">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-border">
               <Link
                 to="/conferences"
-                className="group flex items-center gap-3 px-4 py-5 hover:bg-muted/40 transition-colors first:pl-0"
+                className="group flex items-center gap-4 px-6 py-8 hover:bg-primary/[0.02] transition-colors first:pl-0"
               >
-                <div className="p-2 rounded-lg bg-primary/10 text-primary flex-shrink-0">
-                  <Users className="h-4 w-4" />
+                <div className="p-3 rounded-xl bg-primary/10 text-primary group-hover:scale-110 transition-transform">
+                  <Users className="h-5 w-5" />
                 </div>
                 <div className="min-w-0">
-                  <p className="font-medium text-sm text-foreground">
+                  <p className="font-semibold text-sm text-foreground group-hover:text-primary transition-colors">
                     Conferences
                   </p>
                   <p className="text-xs text-muted-foreground">
                     {currentYear} venues &amp; CFPs
                   </p>
                 </div>
-                <ArrowRight className="h-4 w-4 ml-auto text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                <ArrowRight className="h-4 w-4 ml-auto text-muted-foreground opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
               </Link>
               <Link
                 to="/journals"
-                className="group flex items-center gap-3 px-4 py-5 hover:bg-muted/40 transition-colors"
+                className="group flex items-center gap-4 px-6 py-8 hover:bg-primary/[0.02] transition-colors"
               >
-                <div className="p-2 rounded-lg bg-primary/10 text-primary flex-shrink-0">
-                  <BookOpen className="h-4 w-4" />
+                <div className="p-3 rounded-xl bg-primary/10 text-primary group-hover:scale-110 transition-transform">
+                  <BookOpen className="h-5 w-5" />
                 </div>
                 <div className="min-w-0">
-                  <p className="font-medium text-sm text-foreground">
+                  <p className="font-semibold text-sm text-foreground group-hover:text-primary transition-colors">
                     Journals &amp; Preprints
                   </p>
                   <p className="text-xs text-muted-foreground">
                     Latest research streams
                   </p>
                 </div>
-                <ArrowRight className="h-4 w-4 ml-auto text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                <ArrowRight className="h-4 w-4 ml-auto text-muted-foreground opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
               </Link>
               <Link
                 to="/project-calls"
-                className="group flex items-center gap-3 px-4 py-5 hover:bg-muted/40 transition-colors last:pr-0"
+                className="group flex items-center gap-4 px-6 py-8 hover:bg-primary/[0.02] transition-colors last:pr-0"
               >
-                <div className="p-2 rounded-lg bg-primary/10 text-primary flex-shrink-0">
-                  <GraduationCap className="h-4 w-4" />
+                <div className="p-3 rounded-xl bg-primary/10 text-primary group-hover:scale-110 transition-transform">
+                  <GraduationCap className="h-5 w-5" />
                 </div>
                 <div className="min-w-0">
-                  <p className="font-medium text-sm text-foreground">
+                  <p className="font-semibold text-sm text-foreground group-hover:text-primary transition-colors">
                     Research Opportunities
                   </p>
                   <p className="text-xs text-muted-foreground">
                     PhD, postdoc, internships
                   </p>
                 </div>
-                <ArrowRight className="h-4 w-4 ml-auto text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                <ArrowRight className="h-4 w-4 ml-auto text-muted-foreground opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
               </Link>
             </div>
           </div>
         </section>
 
         {/* Trending topics */}
-        <section className="container mx-auto px-4 py-10">
-          <div className="flex items-baseline gap-3 mb-5">
-            <h2 className="text-base font-semibold text-foreground">
+        <section className="container mx-auto px-4 py-16 md:py-20">
+          <div className="flex items-baseline gap-3 mb-8">
+            <h2 className="text-xl font-bold tracking-tight text-foreground">
               Trending Research Areas
             </h2>
-            <span className="text-xs text-muted-foreground">
+            <span className="text-sm text-muted-foreground">
               Based on recent activity
             </span>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-3">
             {(trendingTopics.length > 0
               ? trendingTopics
               : [
@@ -707,12 +710,12 @@ const Index = () => {
               <button
                 key={topic}
                 type="button"
-                className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-border bg-background text-sm text-foreground hover:border-primary hover:text-primary transition-colors"
+                className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-border bg-card text-sm font-medium text-foreground hover:border-primary hover:text-primary hover:shadow-lg hover:shadow-primary/5 transition-all"
                 onClick={() =>
                   navigate(`/general-finder?q=${encodeURIComponent(topic)}`)
                 }
               >
-                <span className="text-[10px] font-mono text-muted-foreground">
+                <span className="text-[10px] font-bold font-mono text-primary/60">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <span className="capitalize">{topic}</span>

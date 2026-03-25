@@ -140,23 +140,26 @@ const Conferences = () => {
   );
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className="min-h-screen flex flex-col bg-background/50">
       <Navigation />
 
-      <div className="flex-1">
-        <div className="container mx-auto max-w-[1380px] px-5 py-8 md:px-6 md:py-10">
-          <section className="rounded-[28px] border border-border bg-card shadow-sm overflow-hidden">
-            <div className="border-b border-border bg-gradient-to-r from-slate-100 via-white to-slate-50 px-6 py-6 md:px-8 md:py-7">
-              <div className="max-w-4xl">
-                <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <Badge variant="secondary" className="px-3 py-1 text-xs">
+      <main className="flex-1">
+        <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+          <section className="rounded-3xl border border-border bg-card shadow-xl shadow-primary/5 overflow-hidden mb-12">
+            <div className="border-b border-border bg-gradient-to-br from-primary/5 via-card to-background px-8 py-10 md:px-12 md:py-12">
+              <div className="max-w-3xl space-y-6">
+                <div className="flex flex-wrap items-center gap-3">
+                  <Badge variant="secondary" className="px-4 py-1.5 text-xs font-semibold rounded-full bg-primary/10 text-primary border-none">
                     Computer Science Conferences
                   </Badge>
-                  <Badge variant="outline" className="px-3 py-1 text-xs">
+                  <Badge variant="outline" className="px-4 py-1.5 text-xs font-medium rounded-full border-primary/20">
                     Upcoming venues and deadlines
                   </Badge>
                 </div>
-                <p className="text-[15px] leading-7 text-muted-foreground md:text-base">
+                <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">
+                  Discover Premier Conferences
+                </h1>
+                <p className="text-lg leading-relaxed text-muted-foreground">
                   Search upcoming conference venues, review dates and locations,
                   and jump directly to official conference pages and submission
                   information.
@@ -164,69 +167,79 @@ const Conferences = () => {
               </div>
             </div>
 
-            <div className="p-6 md:p-8">
-              <div className="rounded-2xl border border-border bg-background p-4 md:p-5">
-                <div className="space-y-4">
-                  <div className="relative">
-                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+            <div className="p-8 md:p-10 bg-card/50">
+              <div className="rounded-2xl border border-border bg-background/80 backdrop-blur-sm p-6 md:p-8 shadow-inner">
+                <div className="space-y-6">
+                  <div className="relative group">
+                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground group-focus-within:text-primary transition-colors" />
                     <Input
                       placeholder="Try CVPR, NeurIPS, ICML, computer vision, systems..."
                       value={searchQuery}
                       onChange={(event) => setSearchQuery(event.target.value)}
-                      className="h-14 rounded-xl pl-12 text-[15px] md:text-base"
+                      className="h-14 rounded-xl pl-12 text-base border-muted-foreground/20 focus:border-primary transition-all shadow-sm"
                     />
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-[1.1fr_1.1fr] gap-3">
-                    <Select value={sortBy} onValueChange={setSortBy}>
-                      <SelectTrigger className="h-12 rounded-xl">
-                        <SelectValue placeholder="Sort conferences" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="newest">
-                          Date: Newest first
-                        </SelectItem>
-                        <SelectItem value="oldest">
-                          Date: Oldest first
-                        </SelectItem>
-                        <SelectItem value="title-asc">Title: A to Z</SelectItem>
-                        <SelectItem value="title-desc">
-                          Title: Z to A
-                        </SelectItem>
-                      </SelectContent>
-                    </Select>
-
-                    <Select
-                      value={locationFilter}
-                      onValueChange={setLocationFilter}
-                    >
-                      <SelectTrigger className="h-12 rounded-xl">
-                        <SelectValue placeholder="All locations" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="all">All locations</SelectItem>
-                        {locationOptions.map((location) => (
-                          <SelectItem key={location} value={location}>
-                            {location}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="space-y-2">
+                      <label className="text-xs font-semibold uppercase tracking-wider text-muted-foreground ml-1">
+                        Sort By
+                      </label>
+                      <Select value={sortBy} onValueChange={setSortBy}>
+                        <SelectTrigger className="h-12 rounded-xl border-muted-foreground/20">
+                          <SelectValue placeholder="Sort conferences" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="newest">
+                            Date: Newest first
                           </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
+                          <SelectItem value="oldest">
+                            Date: Oldest first
+                          </SelectItem>
+                          <SelectItem value="title-asc">Title: A to Z</SelectItem>
+                          <SelectItem value="title-desc">
+                            Title: Z to A
+                          </SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    <div className="space-y-2">
+                      <label className="text-xs font-semibold uppercase tracking-wider text-muted-foreground ml-1">
+                        Location
+                      </label>
+                      <Select
+                        value={locationFilter}
+                        onValueChange={setLocationFilter}
+                      >
+                        <SelectTrigger className="h-12 rounded-xl border-muted-foreground/20">
+                          <SelectValue placeholder="All locations" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="all">All locations</SelectItem>
+                          {locationOptions.map((location) => (
+                            <SelectItem key={location} value={location}>
+                              {location}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          <div className="mt-8 mb-5 flex items-center justify-between gap-4 border-b border-border pb-4">
-            <div className="text-2xl font-semibold tracking-tight text-foreground">
+          <div className="flex items-center justify-between gap-4 border-b border-border pb-6 mb-8">
+            <h2 className="text-2xl font-bold tracking-tight text-foreground">
               {isLoading
                 ? "Finding conferences..."
                 : `Showing ${startIndex + 1}-${Math.min(
                     startIndex + currentConferences.length,
                     processedConferences.length,
                   )} of ${processedConferences.length} results`}
-            </div>
+            </h2>
           </div>
 
           {isLoading ? (
