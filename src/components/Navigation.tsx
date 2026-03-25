@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Moon, Sun, User, ChevronDown, Menu, X } from "lucide-react";
+import { Moon, Sun, User, ChevronDown, Menu, X, LogOut, LogIn } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
@@ -30,21 +30,43 @@ import {
   type TargetKind,
   type UserPreferences,
 } from "@/lib/personalization";
+import { useAuth } from "@/hooks/use-auth";
+import { useToast } from "@/hooks/use-toast";
 
 import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const location = useLocation();
   const { theme, setTheme } = useTheme();
+  const { user, signOut } = useAuth();
+  const { toast } = useToast();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
   const [savedState, setSavedState] = useState<"idle" | "saved">("idle");
   const [profile, setProfile] = useState<UserPreferences>(getUserPreferences());
   const [interestsInput, setInterestsInput] = useState("");
 
+  const handleLogout = async () => {
+    const { error } = await signOut();
+    if (error) {
+      toast({
+        title: "Error",
+        description: "Failed to sign out",
+        variant: "destructive",
+      });
+    } else {
+      toast({
+        title: "Signed out",
+        description: "You have been signed out successfully",
+      });
+    }
+  };
+
   const mainNavItems = [
     { name: "Home", path: "/" },
     { name: "Finder", path: "/general-finder" },
+    { name: "Research feed", path: "/research-feed" },
+    { name: "Add paper", path: "/add-paper" },
     // { name: "Assistant", path: "/assistant" },
     { name: "About", path: "/about" },
     { name: "Research Collaboration", path: "/research-collaboration" },
@@ -221,13 +243,37 @@ const Navigation = () => {
               <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
               <span className="sr-only">Toggle theme</span>
             </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setProfileOpen(true)}
-            >
-              <User className="h-5 w-5" />
-            </Button>
+
+            {user ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" size="icon">
+                    <User className="h-5 w-5" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem onClick={() => setProfileOpen(true)}>
+                    Profile Settings
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={handleLogout}>
+                    <LogOut className="mr-2 h-4 w-4" />
+                    Sign Out
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <div className="flex items-center gap-2">
+                <Link to="/login">
+                  <Button variant="ghost" size="sm">
+                    <LogIn className="mr-2 h-4 w-4" />
+                    Sign In
+                  </Button>
+                </Link>
+                <Link to="/signup">
+                  <Button size="sm">Sign Up</Button>
+                </Link>
+              </div>
+            )}
 
             {/* Mobile menu button */}
             <Button
@@ -305,8 +351,22 @@ const Navigation = () => {
       <Dialog open={profileOpen} onOpenChange={setProfileOpen}>
         <DialogContent className="sm:max-w-lg">
           <DialogHeader>
-            <DialogTitle>Your research preferences</DialogTitle>
+            <DialogTitle>
+              {user ? "Your Account & Preferences" : "Your research preferences"}
+            </DialogTitle>
           </DialogHeader>
+
+          {user && (
+            <div className="mb-4 p-4 bg-muted rounded-lg">
+              <h3 className="font-medium mb-2">Account Information</h3>
+              <p className="text-sm text-muted-foreground">
+                Email: {user.email}
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Joined: {new Date(user.created_at).toLocaleDateString()}
+              </p>
+            </div>
+          )}
 
           <div className="space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

@@ -242,9 +242,9 @@ export const fetchOpenAlexSources = async (
   type = null,
   limit = 20,
 ) => {
-  const params = { query, limit };
+  const params: Record<string, any> = { query, limit };
   if (type) params.type = type;
-  return apiCall("/conferences", params);
+  return apiCall("/sources", params);
 };
 
 // ============= BOOKS =============
