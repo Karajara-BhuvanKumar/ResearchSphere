@@ -10,7 +10,7 @@ const router = express.Router();
 router.get("/search", async (req, res, next) => {
   try {
     const {
-      query,
+      query = "",
       kind,
       subtype,
       sourceId,
@@ -18,30 +18,76 @@ router.get("/search", async (req, res, next) => {
       year,
       fromYear,
       includePast,
-      limit,
+      limit = "20",
       page,
     } = req.query;
-    const result = await searchHarvestData({
-      query,
-      kind,
-      subtype,
-      sourceId,
-      location,
-      year,
-      fromYear,
-      includePast,
-      limit,
-      page,
+    
+    // 1. Fetch from local scraped data
+    const localResult = await searchHarvestData({
+      query, kind, subtype, sourceId, location, year, fromYear, includePast, limit, page,
     });
+    
+    let combinedResults = [...localResult.results];
+    const limitNum = parseInt(limit, 10) || 20;
+
+    // 2. Fetch from existing APIs (OpenAlex)
+    try {
+      const axios = await import("axios").then(m => m.default);
+      let openAlexUrl = "";
+      
+      if (kind === "journal" || kind === "conference") {
+        // Fetch Sources
+        openAlexUrl = `https://api.openalex.org/sources?per-page=${limitNum}`;
+        if (query) openAlexUrl += `&search=${encodeURIComponent(query)}`;
+        openAlexUrl += `&filter=type:${kind}`;
+        
+        const response = await axios.get(openAlexUrl);
+        const apiItems = (response.data.results || []).map(source => ({
+          id: source.id,
+          kind: kind,
+          title: source.display_name || "Unknown Title",
+          summary: source.summary_stats ? `Works count: ${source.summary_stats.works_count}` : null,
+          location: source.country_code,
+          organization: source.host_organization_name,
+          url: source.homepage_url || source.id,
+          sourceId: "openalex",
+          sourceName: "OpenAlex",
+          score: source.cited_by_count || 1,
+        }));
+        combinedResults = [...combinedResults, ...apiItems].slice(0, limitNum);
+      } else {
+        // Fetch Works
+        openAlexUrl = `https://api.openalex.org/works?per-page=${limitNum}`;
+        if (query) openAlexUrl += `&search=${encodeURIComponent(query)}`;
+        if (year) openAlexUrl += `&filter=publication_year:${year}`;
+        
+        const response = await axios.get(openAlexUrl);
+        const apiItems = (response.data.results || []).map(work => ({
+          id: work.id,
+          kind: 'opportunity',
+          title: work.title || "Untitled Work",
+          summary: 'Research publication',
+          location: work.primary_location?.source?.country_code,
+          organization: work.primary_location?.source?.host_organization_name,
+          url: work.doi || work.id,
+          sourceId: "openalex",
+          sourceName: "OpenAlex",
+          score: work.cited_by_count || 1,
+        }));
+        combinedResults = [...combinedResults, ...apiItems].slice(0, limitNum);
+      }
+    } catch (apiErr) {
+      console.error("OpenAlex harvest fetch error:", apiErr.message);
+    }
 
     res.json({
       success: true,
-      data: result.results,
+      data: combinedResults,
       meta: {
-        total: result.total,
-        page: result.page,
-        limit: result.limit,
-        updatedAt: result.updatedAt,
+        total: combinedResults.length,
+        page: parseInt(page, 10) || 1,
+        limit: limitNum,
+        updatedAt: new Date().toISOString(),
       },
     });
   } catch (error) {

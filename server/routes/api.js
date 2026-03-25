@@ -135,10 +135,46 @@ router.get("/journals/match", async (req, res, next) => {
       provider = "all",
     } = req.query;
 
+    const limitNum = Number.parseInt(limit, 10) || 20;
+    
+    // Attempt to fetch from CrossRef Journal API
+    try {
+      const axios = await import("axios").then(m => m.default);
+      const crossRefUrl = `https://api.crossref.org/journals?query=${encodeURIComponent(query)}&rows=${limitNum}`;
+      const response = await axios.get(crossRefUrl);
+      
+      const items = (response.data?.message?.items || []).map((journal, i) => ({
+         provider: journal.publisher || 'crossref',
+         title: journal.title || "Unknown Journal",
+         sourceUrl: journal.URL || `https://www.crossref.org/search/journals?q=${encodeURIComponent(journal.title)}`,
+         issn: journal.ISSN?.[0] || null,
+         impactFactor: null,
+         subjectAreas: journal.subjects || [],
+         openAccessType: null,
+         score: 1.0 - (i * 0.01), // mock score decreasing slightly
+         matchPercent: 90 - i, 
+         matchReasons: ["Matched via CrossRef API search"]
+      }));
+
+      return res.json({
+        success: true,
+        data: items,
+        meta: {
+          topics: [query],
+          totalCorpus: response.data?.message?.['total-results'] || items.length,
+          mode: mode,
+        },
+        count: items.length,
+      });
+    } catch (apiErr) {
+       console.error("CrossRef journal fetch failed, falling back to local matcher:", apiErr.message);
+    }
+
+    // Fall back to local search if CrossRef fails
     const result = await journalMatcherService.searchJournalCorpus({
       query: String(query),
       mode: mode === "abstract" ? "abstract" : "keyword",
-      limit: Number.parseInt(limit, 10) || 20,
+      limit: limitNum,
       provider: provider === "springer" || provider === "elsevier" ? provider : "all",
     });
 
