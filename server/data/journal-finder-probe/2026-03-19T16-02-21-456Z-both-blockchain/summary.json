@@ -1,0 +1,32 @@
+{
+  "query": "blockchain",
+  "provider": "both",
+  "runDir": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-02-21-456Z-both-blockchain",
+  "results": [
+    {
+      "provider": "springer",
+      "finalUrl": "https://link.springer.com/journals/journal-finder",
+      "recommendationCount": 20,
+      "networkCaptureCount": 0,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-02-21-456Z-both-blockchain\\springer-journals.json"
+    },
+    {
+      "provider": "elsevier",
+      "finalUrl": "https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&sortBy=default&sortOrder=desc&query=blockchain&mode=search&ecrId=&agreementsFilter=all-journals",
+      "recommendationCount": 23,
+      "networkCaptureCount": 1,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-02-21-456Z-both-blockchain\\elsevier-journals.json"
+    }
+  ],
+  "normalized": {
+    "query": "blockchain",
+    "springerCount": 20,
+    "elsevierCount": 23,
+    "mergedCount": 43,
+    "files": {
+      "springer": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-02-21-456Z-both-blockchain\\springer-journals.json",
+      "elsevier": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-02-21-456Z-both-blockchain\\elsevier-journals.json",
+      "merged": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T16-02-21-456Z-both-blockchain\\journals-merged.json"
+    }
+  }
+}

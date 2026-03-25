@@ -1,0 +1,67 @@
+Springer cloud computing scrape proof
+Source: https://link.springer.com/search?query=cloud+computing
+
+Result 1
+Article: Secured trust and reputation management framework for cloud service in cloud computing
+Journal: Computing
+Journal URL: https://link.springer.com/journal/607
+Published: 20 August 2025
+Snippet: Cloud computing has become a popular paradigm for computing and IT services. The relentless expansion of cloud computing has transformed the way we...
+
+Result 2
+Article: Cloud-based control systems: towards the control architecture in cloud computing era
+Journal: Science China Information Sciences
+Journal URL: https://link.springer.com/journal/11432
+Published: 24 September 2024
+Snippet: In the era of cloud computing, CCSs emerge as an effective control solution to meet the demands of complex systems. Leveraging services such as big...
+
+Result 3
+Article: Cloud Computing
+Published: 2025
+
+Result 4
+Article: The impact of cloud computing technology on cloud accounting adoption and financial management of businesses
+Journal: Humanities and Social Sciences Communications
+Journal URL: https://link.springer.com/journal/41599
+Published: 18 June 2025
+Snippet: This study examines how cloud computing technologies affect the adoption of cloud accounting and the resulting impact on corporate financial...
+
+Result 5
+Article: Integrated protocol for verifiable confidential cloud computing and data integrity auditing
+Journal: Journal of King Saud University Computer and Information Sciences
+Journal URL: https://link.springer.com/journal/44443
+Published: 05 November 2025
+Snippet: When using cloud storage and cloud computing services, users expect to verify whether the data stored in the cloud has been tampered with or damaged,...
+
+Result 6
+Article: Efficient soft computing approach for task scheduling in cloud computing
+Journal: Computing
+Journal URL: https://link.springer.com/journal/607
+Published: 30 August 2025
+Snippet: Cloud computing provides flexible, on-demand access to a shared pool of computing resources, making task scheduling critical for optimal resource...
+
+Result 7
+Article: Cloud Computing
+Published: 2025
+
+Result 8
+Article: Machine learning based cloud computing network security promotes sustainable macroeconomic policies
+Journal: International Journal of System Assurance Engineering and Management
+Journal URL: https://link.springer.com/journal/13198
+Published: 17 December 2025
+Snippet: With the acceleration of global industrialization, energy consumption has risen sharply. In particular, the extensive use of fossil fuels has led to...
+
+Result 9
+Article: Seamless optical cloud computing across edge-metro network for generative AI
+Journal: Nature Communications
+Journal URL: https://link.springer.com/journal/41467
+Published: 02 July 2025
+Snippet: The rapid advancement of generative artificial intelligence (AI) in recent years has profoundly reshaped modern lifestyles, necessitating a...
+
+Result 10
+Article: Survey on Hypergraph Algorithms: Foundations, Advances, and Applications in Cloud Computing
+Journal: Journal of Computer Science and Technology
+Journal URL: https://link.springer.com/journal/11390
+Published: 21 January 2026
+Snippet: As a generalization of traditional graph structures, hypergraphs provide a powerful mathematical framework for modeling complex, high-order, and...
+

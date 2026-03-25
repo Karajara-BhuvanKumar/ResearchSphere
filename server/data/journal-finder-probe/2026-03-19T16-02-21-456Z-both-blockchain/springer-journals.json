@@ -1,0 +1,518 @@
+[
+  {
+    "provider": "springer",
+    "rank": 1,
+    "title": "Peer-to-Peer Networking and Applications",
+    "sourceUrl": "https://link.springer.com/journal/12083?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/12083/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/12083/submission-guidelines",
+    "publishingModel": "Open access",
+    "openAccessType": "Open access",
+    "impactFactor": 2.62024,
+    "impactFactorText": "2.6 (2024)",
+    "downloads": 245549,
+    "decisionDays": 121,
+    "decisionTimeText": "121 days",
+    "subjectAreas": [
+      "Communications Engineering, Networks",
+      "Computer Engineering and Networks",
+      "Computer Communication Networks",
+      "Signal, Speech and Image Processing"
+    ],
+    "scope": "Communications Engineering, Networks, Computer Engineering and Networks, Computer Communication Networks, Signal, Speech and Image Processing",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 2,
+    "title": "Cluster Computing",
+    "sourceUrl": "https://link.springer.com/journal/10586?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10586/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10586/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 4.12024,
+    "impactFactorText": "4.1 (2024)",
+    "downloads": 979293,
+    "decisionDays": 25,
+    "decisionTimeText": "25 days",
+    "subjectAreas": [
+      "Processor Architectures",
+      "Operating Systems",
+      "Computer Communication Networks"
+    ],
+    "scope": "Processor Architectures, Operating Systems, Computer Communication Networks",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 3,
+    "title": "International Journal of Information Security",
+    "sourceUrl": "https://link.springer.com/journal/10207?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10207/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10207/submission-guidelines",
+    "publishingModel": "Open access",
+    "openAccessType": "Open access",
+    "impactFactor": 3.22024,
+    "impactFactorText": "3.2 (2024)",
+    "downloads": 750551,
+    "decisionDays": 9,
+    "decisionTimeText": "9 days",
+    "subjectAreas": [
+      "Cryptology",
+      "Computer Communication Networks",
+      "Operating Systems",
+      "Coding and Information Theory",
+      "IT Operations",
+      "Communications Engineering, Networks"
+    ],
+    "scope": "Cryptology, Computer Communication Networks, Operating Systems, Coding and Information Theory, IT Operations, Communications Engineering, Networks",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 4,
+    "title": "International Journal of Information Technology",
+    "sourceUrl": "https://link.springer.com/journal/41870?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/41870/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/41870/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": null,
+    "impactFactorText": null,
+    "downloads": 424642,
+    "decisionDays": 21,
+    "decisionTimeText": "21 days",
+    "subjectAreas": [
+      "Computer Science",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision",
+      "Software Engineering",
+      "Computer Imaging, Vision, Pattern Recognition and Graphics"
+    ],
+    "scope": "Computer Science, Artificial Intelligence, Machine Learning, Computer Vision, Software Engineering, Computer Imaging, Vision, Pattern Recognition and Graphics",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 5,
+    "title": "The Journal of Supercomputing",
+    "sourceUrl": "https://link.springer.com/journal/11227?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11227/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11227/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.72024,
+    "impactFactorText": "2.7 (2024)",
+    "downloads": 1311828,
+    "decisionDays": 38,
+    "decisionTimeText": "38 days",
+    "subjectAreas": [
+      "Compilers and Interpreters",
+      "Processor Architectures",
+      "Computer Science"
+    ],
+    "scope": "Compilers and Interpreters, Processor Architectures, Computer Science",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 6,
+    "title": "SN Computer Science",
+    "sourceUrl": "https://link.springer.com/journal/42979?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/42979/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/42979/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": null,
+    "impactFactorText": null,
+    "downloads": 1696119,
+    "decisionDays": 96,
+    "decisionTimeText": "96 days",
+    "subjectAreas": [
+      "Computer Science",
+      "Computer Engineering and Networks",
+      "Software Engineering",
+      "Data Structures and Information Theory",
+      "Computer Imaging, Vision, Pattern Recognition and Graphics"
+    ],
+    "scope": "Computer Science, Computer Engineering and Networks, Software Engineering, Data Structures and Information Theory, Computer Imaging, Vision, Pattern Recognition and Graphics",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 7,
+    "title": "Multimedia Tools and Applications",
+    "sourceUrl": "https://link.springer.com/journal/11042?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11042/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11042/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": null,
+    "impactFactorText": null,
+    "downloads": 3529016,
+    "decisionDays": 34,
+    "decisionTimeText": "34 days",
+    "subjectAreas": [
+      "Multimedia Information Systems",
+      "Computer Communication Networks",
+      "Data Structures and Information Theory",
+      "Special Purpose and Application-Based Systems"
+    ],
+    "scope": "Multimedia Information Systems, Computer Communication Networks, Data Structures and Information Theory, Special Purpose and Application-Based Systems",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 8,
+    "title": "Journal of Ambient Intelligence and Humanized Computing",
+    "sourceUrl": "https://link.springer.com/journal/12652?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/12652/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/12652/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": null,
+    "impactFactorText": null,
+    "downloads": 790156,
+    "decisionDays": 19,
+    "decisionTimeText": "19 days",
+    "subjectAreas": [
+      "Computational Intelligence",
+      "Artificial Intelligence",
+      "Control, Robotics, Automation",
+      "User Interfaces and Human Computer Interaction"
+    ],
+    "scope": "Computational Intelligence, Artificial Intelligence, Control, Robotics, Automation, User Interfaces and Human Computer Interaction",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 9,
+    "title": "Journal of Cloud Computing",
+    "sourceUrl": "https://link.springer.com/journal/13677?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/13677/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/13677/submission-guidelines",
+    "publishingModel": "Open access",
+    "openAccessType": "Open access",
+    "impactFactor": 4.32024,
+    "impactFactorText": "4.3 (2024)",
+    "downloads": 1097831,
+    "decisionDays": 40,
+    "decisionTimeText": "40 days",
+    "subjectAreas": [
+      "Computer Communication Networks",
+      "Special Purpose and Application-Based Systems",
+      "Computer and Information Systems Applications",
+      "Computer Engineering and Networks",
+      "Computer System Implementation",
+      "Software Engineering"
+    ],
+    "scope": "Computer Communication Networks, Special Purpose and Application-Based Systems, Computer and Information Systems Applications, Computer Engineering and Networks, Computer System Implementation, Software Engineering",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 10,
+    "title": "Wireless Personal Communications",
+    "sourceUrl": "https://link.springer.com/journal/11277?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11277/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11277/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.22024,
+    "impactFactorText": "2.2 (2024)",
+    "downloads": 667064,
+    "decisionDays": 14,
+    "decisionTimeText": "14 days",
+    "subjectAreas": [
+      "Communications Engineering, Networks",
+      "Signal, Speech and Image Processing",
+      "Computer Communication Networks"
+    ],
+    "scope": "Communications Engineering, Networks, Signal, Speech and Image Processing, Computer Communication Networks",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 11,
+    "title": "Computing",
+    "sourceUrl": "https://link.springer.com/journal/607?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/607/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/607/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.82024,
+    "impactFactorText": "2.8 (2024)",
+    "downloads": 352365,
+    "decisionDays": 6,
+    "decisionTimeText": "6 days",
+    "subjectAreas": [
+      "Computer Science",
+      "Computer and Information Systems Applications",
+      "Computer Communication Networks",
+      "Software Engineering",
+      "Artificial Intelligence",
+      "Computer Application in Administrative Data Processing"
+    ],
+    "scope": "Computer Science, Computer and Information Systems Applications, Computer Communication Networks, Software Engineering, Artificial Intelligence, Computer Application in Administrative Data Processing",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 12,
+    "title": "Soft Computing",
+    "sourceUrl": "https://link.springer.com/journal/500?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/500/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/500/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.52024,
+    "impactFactorText": "2.5 (2024)",
+    "downloads": 1150135,
+    "decisionDays": 275,
+    "decisionTimeText": "275 days",
+    "subjectAreas": [
+      "Computational Intelligence",
+      "Artificial Intelligence",
+      "Mathematical Logic and Foundations",
+      "Control, Robotics, Automation"
+    ],
+    "scope": "Computational Intelligence, Artificial Intelligence, Mathematical Logic and Foundations, Control, Robotics, Automation",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 13,
+    "title": "International Journal of System Assurance Engineering and Management",
+    "sourceUrl": "https://link.springer.com/journal/13198?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/13198/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/13198/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 1.42024,
+    "impactFactorText": "1.4 (2024)",
+    "downloads": 360514,
+    "decisionDays": 86,
+    "decisionTimeText": "86 days",
+    "subjectAreas": [
+      "Industrial Management"
+    ],
+    "scope": "Industrial Management",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 14,
+    "title": "Journal of Medical Systems",
+    "sourceUrl": "https://link.springer.com/journal/10916?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10916/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10916/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 5.72024,
+    "impactFactorText": "5.7 (2024)",
+    "downloads": 1008012,
+    "decisionDays": 8,
+    "decisionTimeText": "8 days",
+    "subjectAreas": [
+      "Health Informatics",
+      "Biostatistics"
+    ],
+    "scope": "Health Informatics, Biostatistics",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 15,
+    "title": "Mobile Networks and Applications",
+    "sourceUrl": "https://link.springer.com/journal/11036?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11036/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11036/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.02024,
+    "impactFactorText": "2.0 (2024)",
+    "downloads": 309048,
+    "decisionDays": 17,
+    "decisionTimeText": "17 days",
+    "subjectAreas": [
+      "Communications Engineering, Networks",
+      "Computer Communication Networks",
+      "Electrical and Electronic Engineering",
+      "IT in Business"
+    ],
+    "scope": "Communications Engineering, Networks, Computer Communication Networks, Electrical and Electronic Engineering, IT in Business",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 16,
+    "title": "International Journal of Computational Intelligence Systems",
+    "sourceUrl": "https://link.springer.com/journal/44196?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/44196/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/44196/submission-guidelines",
+    "publishingModel": "Open access",
+    "openAccessType": "Open access",
+    "impactFactor": 3.02024,
+    "impactFactorText": "3.0 (2024)",
+    "downloads": 1134401,
+    "decisionDays": 13,
+    "decisionTimeText": "13 days",
+    "subjectAreas": [
+      "Computational Intelligence",
+      "Artificial Intelligence",
+      "Mathematical Logic and Foundations",
+      "Control, Robotics, Automation"
+    ],
+    "scope": "Computational Intelligence, Artificial Intelligence, Mathematical Logic and Foundations, Control, Robotics, Automation",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 17,
+    "title": "Wireless Networks",
+    "sourceUrl": "https://link.springer.com/journal/11276?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/11276/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/11276/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 2.12024,
+    "impactFactorText": "2.1 (2024)",
+    "downloads": 355721,
+    "decisionDays": 14,
+    "decisionTimeText": "14 days",
+    "subjectAreas": [
+      "Communications Engineering, Networks",
+      "Computer Communication Networks",
+      "Electrical and Electronic Engineering",
+      "IT in Business"
+    ],
+    "scope": "Communications Engineering, Networks, Computer Communication Networks, Electrical and Electronic Engineering, IT in Business",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 18,
+    "title": "Information Systems Frontiers",
+    "sourceUrl": "https://link.springer.com/journal/10796?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10796/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10796/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 8.32024,
+    "impactFactorText": "8.3 (2024)",
+    "downloads": 1701624,
+    "decisionDays": 34,
+    "decisionTimeText": "34 days",
+    "subjectAreas": [
+      "IT in Business",
+      "IT Operations",
+      "Systems Theory, Control",
+      "Operations Research and Decision Theory"
+    ],
+    "scope": "IT in Business, IT Operations, Systems Theory, Control, Operations Research and Decision Theory",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 19,
+    "title": "Journal of Network and Systems Management",
+    "sourceUrl": "https://link.springer.com/journal/10922?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/10922/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/10922/submission-guidelines",
+    "publishingModel": "Hybrid",
+    "openAccessType": "Hybrid",
+    "impactFactor": 3.92024,
+    "impactFactorText": "3.9 (2024)",
+    "downloads": 205992,
+    "decisionDays": 31,
+    "decisionTimeText": "31 days",
+    "subjectAreas": [
+      "Computer Communication Networks",
+      "Computer Engineering and Networks",
+      "Communications Engineering, Networks",
+      "Operations Research and Decision Theory"
+    ],
+    "scope": "Computer Communication Networks, Computer Engineering and Networks, Communications Engineering, Networks, Operations Research and Decision Theory",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution",
+      "Subscription publishing is also available"
+    ]
+  },
+  {
+    "provider": "springer",
+    "rank": 20,
+    "title": "Discover Internet of Things",
+    "sourceUrl": "https://link.springer.com/journal/43926?utm_source=slink&utm_medium=journal_finder",
+    "submissionLink": "https://www.springer.com/journal/43926/submission-guidelines",
+    "guideForAuthors": "https://www.springer.com/journal/43926/submission-guidelines",
+    "publishingModel": "Open access",
+    "openAccessType": "Open access",
+    "impactFactor": null,
+    "impactFactorText": null,
+    "downloads": 463940,
+    "decisionDays": 17,
+    "decisionTimeText": "17 days",
+    "subjectAreas": [
+      "Computer and Information Systems Applications",
+      "Computer Science",
+      "Electrical and Electronic Engineering",
+      "Cyber-Physical Systems"
+    ],
+    "scope": "Computer and Information Systems Applications, Computer Science, Electrical and Electronic Engineering, Cyber-Physical Systems",
+    "fundingNotes": [
+      "For open access publishing costs and funding options select your institution"
+    ]
+  }
+]

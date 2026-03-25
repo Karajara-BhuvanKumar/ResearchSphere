@@ -1,0 +1,166 @@
+[
+  {
+    "provider": "elsevier",
+    "rank": 1,
+    "title": "Artificial Intelligence for Transportation",
+    "sourceUrl": "https://submit.elsevier.com/AIT",
+    "submissionLink": "https://submit.elsevier.com/AIT",
+    "guideForAuthors": null,
+    "acronym": "AIT",
+    "issn": "3050-8606",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": null,
+    "citeScore": null,
+    "decisionDays": null,
+    "acceptanceDays": null,
+    "subjectAreas": [
+      "Transportation"
+    ],
+    "articleTypes": [
+      "Full Length Article",
+      "Review"
+    ],
+    "scope": "Artificial Intelligence for Transportation is a peer-reviewed journal dedicated to advancing the integration of machine learning (ML) and artificial intelligence (AI) into the field of transportation. The journal focuses on innovative research that leverages AI and ML to address critical challenges in understanding, designing, planning, operating, and managing sustainable, safe, and efficient multimodal transportation systems. Emphasizing the development of AI-empowered solutions, the journal seeks contributions that enhance transportation system performance in terms of safety, efficiency, reliability, equity, accessibility, and environmental sustainability. Interdisciplinary research is highly encouraged, particularly work that integrates cutting-edge AI technologies, such as deep learning, reinforcement learning, large language models, with conventional methodologies, e.g. operations research, probabilistic modeling, etc., to tackle complex transportation challenges. Artificial Intelligence for Transportation strongly supports open science initiatives, promoting the publication of reproducible research and the sharing of large-scale datasets through online repositories. The journal places special emphasis on studies demonstrating the scalability and transferability of AI-empowered solutions across diverse transportation contexts and geographies.",
+    "editorInChief": "Yinhai Wang | Hai Yang | Yafeng Yin",
+    "goldOpenAccessFee": 3000,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30508606.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 2,
+    "title": "Results in Control and Optimization",
+    "sourceUrl": "https://www.sciencedirect.com/journal/results-in-control-and-optimization/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/RICO/default.aspx",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/results-in-control-and-optimization/publish/guide-for-authors",
+    "acronym": "RICO",
+    "issn": "2666-7207",
+    "publishingModel": "FULL",
+    "openAccessType": "FULL",
+    "impactFactor": 3.2,
+    "citeScore": 5.1,
+    "decisionDays": 11,
+    "acceptanceDays": 10,
+    "subjectAreas": [
+      "Control and Optimization"
+    ],
+    "articleTypes": [
+      "Full Length Article",
+      "Microarticle"
+    ],
+    "scope": "Results in Control and Optimization (RICO) is a gold open access journal offering authors the opportunity to publish in all fundamental and interdisciplinary areas of control and optimization enabling a safe and sustainable interconnected human society in a rapid way. Results in Control and Optimization accepts papers that are scientifically sound, technically correct and provide valuable new knowledge to both mathematics and engineering community. Theoretical work, experimental work or case studies are all welcome. The journal also publishes survey papers. However, survey papers will be considered only with prior approval from the editor-in-chief and should provide additional insights into the topic surveyed rather than a mere compilation of known results. Topics on well-studied classical control and optimization methods such as pole assignment and linear programming are not within the scope of the journal. Furthermore topics such as Artificial Intelligence (AI) and Reinforcement Learning (RL) are welcome. Re-publication of a paper from another language to English is acceptable, provided that there is full and prominent disclosure of its original source at the time of submission.",
+    "editorInChief": "Professor Qianchuan Zhao",
+    "goldOpenAccessFee": 1880,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26667207.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 3,
+    "title": "Graphical Models",
+    "sourceUrl": "https://www.sciencedirect.com/journal/graphical-models/publish/guide-for-authors",
+    "submissionLink": "https://www.editorialmanager.com/GMOD/default.aspx",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/graphical-models/publish/guide-for-authors",
+    "acronym": "YGMOD",
+    "issn": "1524-0703",
+    "publishingModel": "FULL",
+    "openAccessType": "FULL",
+    "impactFactor": 2.2,
+    "citeScore": 4.1,
+    "decisionDays": 3,
+    "acceptanceDays": 18,
+    "subjectAreas": [
+      "Geometry and Topology",
+      "Modelling and Simulation",
+      "Computer Graphics and Computer-Aided Design"
+    ],
+    "articleTypes": [
+      "Lecture Article",
+      "Research Paper",
+      "VSI: YGMOD_STAG 2025"
+    ],
+    "scope": "Graphical Models (GMOD) is internationally recognized as a highly rated, top-tier journal and is focused on the creation, geometric processing, animation, and visualization of graphical and geometric models and on their applications in engineering, science, culture, and entertainment. GMOD provides its readers with thoroughly reviewed and carefully selected papers that disseminate exciting innovations, that teach rigorous theoretical foundations, that propose robust and efficient solutions, or that describe ambitious systems or applications in a variety of topics. We invite papers in five categories: 1) research (contributions of novel theoretical or practical approaches or solutions), 2) survey (opinionated views of the state-of-the-art and challenges in a specific topic), 3) system (the architecture and implementation details of innovative architecture for a complete system that supports model/animation design, acquisition, analysis, visualization), 4) application (description of a novel application of know techniques and evaluation of its impact), or 5) lecture (an elegant and inspiring perspective on previously published results that clarifies them and teaches them in a new way). GMOD offers its authors an accelerated review, feedback from experts in the field, immediate online publication of accepted papers, no restriction on color and length (when justified by the content), and broad promotion of published papers. A prestigious group of editors selected from among the premier international researchers in their fields oversees the review process. Because the timely publication of research results is important for the careers of our authors and for the vitality of the field, GMOD is putting in place its R3 (Rapid Response Review) system, which strives to provide authors with a preliminary decision within an average of one month after submission . The following are examples of topics typically covered in GMOD : Shape processing : Shape analysis and understanding. Bounding volumes and geometric proxies. Correspondence, registration, matching, and retrieval. Detection of ridges, features, patterns, and symmetries. Measures of volume, compactness, or convexity. Morphological operations (offsetting, rounding, tightening). Segmentation. Similarity measures, comparison, variability statistics. Machine Learning : Deep neural models. Learning, Genetic and Evolutionary Algorithms. Optimization. Deep Generative Models. Reinforcement Learning. Deep Shape Analysis, Processing, and Generation. Point clouds : Analysis. Segmentation, Reconstruction, Interpolation. Multi-resolution. Rendering. Segmentation. Separation. Curves : Parametric. Implicit. Fitting. Smoothing, Subdivision. Constant length. Extraction. Segmentation. Matching. Comparison. Averaging. Curves on surfaces. Rounding, Offsetting, Regularity. Model abstractions : Skeletons. Animation and Skinning. Medial axis or Curve skeleton. Model representations. Perceptual models. Meshes : Compact data structures. Feature extraction and replication. Feature exaggeration. Levels of Detail. Simplification. Shape measures. Parameterization. Re-sampling. Smoothing. Subdivision. Volume/area preservation. Feature sharpening. Surfaces : Implicit. Parametric. Curvature. Hole filling. Geodesics. Intersection. Interpolating. Reconstruction. Sampling. Solids : Boolean operations. Boundary representations. CSG. BSP. Non-manifold models. Inhomogeneous models. Non-manifold models and complexes. Offsets. Repair. Rounding and smoothing. Sweeps. Volumes : Matching. Isosurface extraction. Rendering. (Images/Video techniques only in support of 3D modeling) Reconstruction : From Drawings, Images, Videos, Point Clouds, and Skeletons. Procedural models : User driven. Patterns. Textures. Control. Design : Constraint-based. Feature-based. Variational. Direct manipulation. Haptics. Multimodal interfaces. Multiuser interfaces. Pen-based. Motion : Rigid, affine, steady. Analysis. Capture. Pattern extraction. Synthesis. Constrained. Blending. Deformation : Capture/acquisition. Direct manipulation. Free-form. Image/volume warping. Interpolating meshes. Preservation of local details. Animation : Design. Evaluation. Behavioral. Retargeting. Data-driven. Humans. Animals. Face. Hand. Gate. Swimming. Constrained. Optimization. Reinforcement learning. Simulation : Collision and friction. Articulated and flexible shapes. Physically based behavior. Cloth. Crowds and flocks. Deposition, erosion, and biological growth. Fluid. Hair. Viscoelastic deformations. Sound. Hardware Acceleration : Collision and visibility queries. Frame buffer algorithms. GPUs and parallelization. Model Acquisition and Scanning. Model Dissemination : Shared models. Collaborative access. Geometry compression. Progressive/selective refinements. Streaming scenes and animations. Watermarking. Data bases. Application : Manufacturing. Robotics. Architecture and urban simulation. Medicine. Biology. Natural phenomena. Cinema. Videogames. Education. Cultural Heritage. Typography. Scientific Computing.",
+    "editorInChief": "Bedrich Benes",
+    "goldOpenAccessFee": 2330,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15240703.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 4,
+    "title": "Operations Research Letters",
+    "sourceUrl": "https://www.sciencedirect.com/journal/operations-research-letters/publish/guide-for-authors",
+    "submissionLink": "https://submit.elsevier.com/ORL",
+    "guideForAuthors": "https://www.sciencedirect.com/journal/operations-research-letters/publish/guide-for-authors",
+    "acronym": "OPERES",
+    "issn": "0167-6377",
+    "publishingModel": "HYBRID",
+    "openAccessType": "HYBRID",
+    "impactFactor": 0.9,
+    "citeScore": 2,
+    "decisionDays": 15,
+    "acceptanceDays": 5,
+    "subjectAreas": [
+      "Modelling and Simulation",
+      "Discrete Mathematics and Combinatorics",
+      "Statistics, Probability and Uncertainty",
+      "Management Science and Operations Research"
+    ],
+    "articleTypes": [
+      "Short communication",
+      "VSI: ICSP 2025"
+    ],
+    "scope": "Operations Research Letters (ORL) is committed to the rapid review and fast publication of short articles on all aspects of operations research and analytics. ORL welcomes pure methodological papers and applied papers with firm methodological grounding. All articles are restricted to at most eight journal pages, with the option to relegate proofs and additional material to an online appendix. The main criteria for the papers to be published are quality, originality, relevance, and clarity. The journal&#39;s traditional strength is in methodology, including theory, modelling, algorithms, and computational studies. Please find below a full description of the areas covered by the journal. Area Editors Approximation Algorithms for Combinatorial Optimization Problems Area Editor: Leah Epstein Associate Editors: M. Chrobak, K. Elbassioni, M. Feldman, J. Hurink, N. Olver, J. Sgall, J. Verschae The area covers all issues relevant to the development of efficient approximate solutions to computationally difficult problems. This includes worst case analysis or competitive analysis of approximation algorithms, and complexity results. Submissions can be articles consisting of theoretical work in the area, or articles combining significant theoretical contributions of mathematical flavor with computational investigations of heuristic approaches. Articles in the area of discrete optimization that do not belong to the scope of other areas may be submitted to this area as well. Computational Social Science Area Editor: Vianney Perchet Associate Editors: A. Drutsa, P. Mertikopoulos, R. Smorodinsky This area publishes papers focusing on data-driven procedures, either from a theoretical or an applied perspective, in operation research, games, economics and other social science. The scope includes: sample/computational complexity of mechanisms, learning in games/OR/social science, empirical solutions with AI algorithms (such as, but not limited to, deep learning techniques) of complex problems, etc. Continuous Optimization Area Editor: Hector Ramirez Associate Editors: M.F. Anjos, L.M. Briceno, D. Dadush, G. Eichfelder, D. Jiang, D. Orban, F. Schoen Papers in all fields of continuous optimization that are relevant to operations research are welcome. These areas include, but are not restricted to, linear programming, nonlinear programming (constrained or unconstrained, convex or nonconvex, smooth or nonsmooth, finite or infinite-dimensional), complementarity problems, variational inequalities, bilevel programming, and mathematical programs with equilibrium constraints. Financial Engineering Area Editor: Ning Cai Associate Editors: X. He, D. Mitchell Financial engineering utilizes methodologies of optimization, simulation, decision analysis and stochastic control to analyse the effectiveness and efficiency of financial markets. This area is interested in papers that innovate in terms of methods or that develop new models which guide financial practices. Examples include but are not limited to Fintech, financial networks, market microstructure, derivative pricing and hedging, credit and systemic risk, energy markets, portfolio selection. Game Theory Area Editor: Tristan Tomala Associate Editors: S. Beal, V. Ihele, D.W.K. Yeung, G. Zaccour This area publishes papers which use game theory to analyze operations research models or make theoretical contributions to the theory of games. The scope includes (but is not limited to): cooperative and non-cooperative games, dynamic games, mechanism and market design, algorithmic game theory, games on networks, games of incomplete information. Graphs &amp; Networks Area Editor: Gianpaolo Oriolo Associate Editors: F. Bonomo, Y. Faenza, Z. Friggstad, L. Sanita The area seeks papers that apply, in original and insightful ways, discrete mathematics to advance the theory and practice of operations research, as well as those reporting theoretical or algorithmic advances for the area. Of particular, but not exclusive, interest are papers devoted to novel applications, telecommunications and transportation networks, graphs and web models and algorithms. Inventory and Supply Chain Optimization Area Editor: Sean Zhou Associate Editors: H. Abouee Mehrizi, A. Burnetas, X. Gong, Q. Li, J. Yang The area welcomes innovative papers focused on inventory control and supply management. Examples of topics include, but are not limited to, optimal sourcing, inventory and assortment selection, pricing and inventory optimization, capacity planning, multi-item/echelon systems, algorithms and bounds, near-optimal or asymptotic optimal solutions, and incentive design. Mixed Integer Optimization Area Editor: Marc Pfetsch Associate Editors: R. Fukasawa, L. Liberti, J.P. Vielma, G. Zambelli All submissions advancing the theory and practice of mixed integer (linear or nonlinear) programming like novel techniques and algorithmic approaches in convex relaxations, branch and cut, polyhedral combinatorics and theory driven heuristics are welcome. Case studies may be considered if they contribute to the general methodology. Operations Management Area Editor: Mahesh Nagarajan Associate Editors: L. Chu, Y. Ding, N. Golrezaei, T. Huh, D. Saban, C. Shi, L. Zhu The OM department aims to publish short, focused high quality research in the area of operations management, broadly the field of operations research applied to management problems. We welcome papers that use a wide variety of methodologies, both descriptive as well as prescriptive in nature including optimization, applied probability, simulation, and game theory. Scheduling Area Editor: Marc Uetz Associate Editors: B. Moseley, E. Pesch, R. Van Stee We seek original and significant contributions to the analysis and solution of sequencing and scheduling problems. This includes structural and algorithmic results, in particular optimization, approximation and online algorithms, as well as game theoretic modeling. All results are welcome as long as the relevance of a problem and significance of the contribution is made compellingly clear. Stochastic Models and Data Science Area Editor: Henry Lam Associate Editors: H. Bastani, J. Dong, K. Murthy, I. Ryzhov, Y. Zhou The area seeks papers broadly on the interplay between operations research and machine learning and statistics where stochastic variability and uncertainty play a crucial role. The area values both papers that develop or utilize stochastic analysis and computation in data science problems, including but not limited to reinforcement learning, stochastic iterative algorithms for model estimation or training, probabilistic analysis of statistical and machine learning tools, sampling and Monte Carlo methods, and also papers that integrate learning or statistical techniques into stochastic modeling to enhance prediction or decision-making for a wide variety of systems. Stochastic Networks and Queues Area Editor: Harsha Honnappa Associate Editors: R. Roet-Green, E. Ozkan, W. Wang, Y. Zhao The area seeks papers that contribute to the modeling, analysis or innovative application of stochastic networks or queues. Work submitted should propose original models and develop novel analytical or computational methods more than incremental extensions. Examples of relevant application areas include but are not limited to supply chain management, manufacturing, financial engineering, healthcare, revenue management, service operations, telecommunications, sharing economy, online markets and public sector operations research. Application-oriented papers should demonstrate direct practical impact and have a strong methodological component as well. Stochastic Optimization and Machine Learning Area Editor: Angelos Georghiou Associate Editors: M. Bodur, M. Claus, E. Feinberg, P. Vayanos The Stochastic Optimization and Machine Learning area of Operations Research Letters solicits original articles that generate novel insights into problems that arise in optimization under uncertainty and in machine learning. The focus is broad and encompasses, among others, stochastic (dynamic) programming, (distributionally) robust optimization, data-driven optimization as well as the interface of machine learning with traditional areas of operations research. Successful submissions in this area are expected to make a clear and meaningful academic contribution, which may be through the study of new problems, models, solution techniques, performance analysis and convincing and reproducible numerical evaluations.",
+    "editorInChief": "Wolfram Wiesemann",
+    "goldOpenAccessFee": 2940,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01676377.jpg",
+    "hasAgreements": false
+  },
+  {
+    "provider": "elsevier",
+    "rank": 5,
+    "title": "International Journal of Electrical Power & Energy Systems",
+    "sourceUrl": "https://submit.elsevier.com/IJEPES",
+    "submissionLink": "https://submit.elsevier.com/IJEPES",
+    "guideForAuthors": null,
+    "acronym": "JEPE",
+    "issn": "0142-0615",
+    "publishingModel": "FULL",
+    "openAccessType": "FULL",
+    "impactFactor": 5,
+    "citeScore": 13,
+    "decisionDays": 11,
+    "acceptanceDays": 10,
+    "subjectAreas": [
+      "Computational Theory and Mathematics",
+      "Artificial Intelligence",
+      "Electrical and Electronic Engineering",
+      "Energy Engineering and Power Technology",
+      "Computer Networks and Communications"
+    ],
+    "articleTypes": [
+      "Research paper",
+      "Review article",
+      "Short communication",
+      "VSI: Converter-Dominated Grids_Research Article",
+      "VSI: RE Capacity Enhancement_Research paper",
+      "VSI: Risk-Aware Decisions in Renew Energy_Research paper",
+      "VSI:Intelligent Protection_Research Paper",
+      "VSI: Converter-Dominated Grids_Review Article",
+      "VSI: RE Capacity Enhancement_Review paper",
+      "VSI: Risk-Aware Decisions in Renew Energy_Review article",
+      "VSI:Intelligent Protection_Review paper"
+    ],
+    "scope": "The International Journal of Electrical Power &amp; Energy Systems (IJEPES) publishes high-quality and original research that advances the modelling, analysis, planning, operation, control, optimization, protection, and cyber-physical integration of contemporary and future electrical power and energy systems. The journal focuses on transmission and distribution networks, AC/DC hybrid grids, power electronics applications, distributed and autonomous energy systems, renewable energy integration, electrification technologies, and the computational and data-driven tools that enable secure, reliable, resilient, flexible, and sustainable power networks. IJEPES publishes original papers, short contributions as well as selected review articles by invitation and/or approval of the Editor-in-Chief. IJEPES encourages publication of themed special issues. Proposals for review articles and special issues are welcome for consideration by the Editor-in-Chief. The following list of topics is not intended to be exhaustive, but rather to indicate topics that fall within the journal purview: 1. Power System Stability, Dynamics, and Control Small-signal and transient stability Advanced control methods for transmission and distribution grids Wide-area monitoring, protection, and control Oscillation analysis and damping control Power system dynamics and simulations, including electro-magnetic transients (EMT) and electro-mechanical transients Technologies for real-time dynamic security assessment, situational awareness, prevention of power system blackouts and approaches for power system restoration Modeling and mitigation of new dynamics introduced by inverter-based resources 2. Power System Planning Long-term and mid-term power system planning Resource adequacy and generation expansion planning Transmission and distribution expansion planning Stochastic, robust, and chance-constrained planning methods Planning under high uncertainty (e.g., renewables, extreme events) Integrated system planning 3. Power System Operation and Electricity Markets Economic dispatch, unit commitment, and optimal power flow Real-time and day-ahead system operations Ancillary services, market design, and pricing mechanisms Market-based integration of renewables and storage Operational reliability, security assessment, and risk-based operation Economics of distributed energy resources and system flexibility Demand response and market participation mechanisms 4. Smart Grids, Microgrids, DERs Grid Integration and Cyber-Physical Power System Security Smart grid architecture and control Microgrid modeling, optimization, control, and protection Integration and coordination of DERs (PV, storage, EVs, flexible loads) Active distribution networks and virtual power plants Advanced distribution management systems New concepts of self-healing and resilient power systems Demand-side management and demand response programs Advanced metering, communication infrastructures, and Information and Communication Technology (ICT) integration Cyber-physical energy system modeling, security and resilience 5. Renewable Energy Grid Integration Grid integration of large-scale wind, solar, and hybrid renewable energy resources Grid-forming and grid-following inverter technologies Forecasting techniques for variable renewable energy resources Stability and control challenges due to high renewable penetration Harmonics and power quality issues and solution methods Hybrid renewable–storage systems Grid enhancing technologies 6. Power System Protection Protection of transmission and distribution systems Protection coordination in networks with high DER penetration System Integrity Protection Schemes (SIPS) - special protection schemes and remedial action schemes Protection challenges with inverter-based resources Adaptive and data-driven protection schemes Fault detection, diagnosis, and location 7. Power Electronics Applications in Power Systems HVDC and FACTS devices for grid integration Grid-interactive converters and controls AC/DC hybrid grids and supergrids Power-electronics-dominated power system characteristics Stability and control of converter-dominated power systems 8. Data Analytics and AI/Machine Learning for Power Systems Electric grid foundation models and applications Machine learning for system security and stability assessment, prediction, and control Physics-informed machine learning and scientific machine learning for grids Big Data analytics for grid sensing, PMU/AMI data, and event classification Digital twins for transmission, distribution, and microgrids Reinforcement learning for control, dispatch, and DER coordination Probabilistic and statistical learning for uncertainty quantification Machine learning-based cyber-physical security and anomaly detection Scalable computational methods and high-performance computing for power system analytics 9. Modeling and Reliability of Future Energy Systems Integrated energy systems Reliability assessment, probabilistic modeling, and risk analysis Resilience modeling for extreme weather and contingency scenarios Electrification impacts on future grid topology and demand Planning and control of distributed and grid-scale energy storage Multi-energy system modeling and sector coupling The mission is to provide a leading international platform for disseminating innovative research, theoretical developments, computational methods, and engineering technologies that shape the future of electric power systems. The journal promotes interdisciplinary work spanning power engineering, optimization, data science, AI, power electronics, cyber-physical systems, and energy economics to support secure, reliable, resilient, flexible, and sustainable electricity infrastructures worldwide. This journal welcomes contributions that support and advance the UN&#39;s sustainable development goals , in particular SDG 7 (Affordable and clean energy). Hints: The journal focuses on system-level challenges not individual component levels. Some out-of-scope paper examples are listed here but this is far from complete: Topics dealing with solar PV, solar generations, wind generation, energy storage at the component level are out of scopes. Their integration and interactions with power systems are within the scope. Techno-Economic analysis is out of scope and better suited for Applied Energy or Energy Conversion and Management. Papers focuses only at local building level, EVs or EV chargers, and local DERs without considering the interactions with power systems are out-of-scope. Local renewable energy system design and optimization are out-of-scope. They are better suited for Applied Energy or Energy Conversion and Management. Energy conversion and generation are out-of-scope but good for Applied Energy or Energy Conversion and Management. Mechanical components and systems are out-of-scope.",
+    "editorInChief": "Junbo Zhao",
+    "goldOpenAccessFee": 4190,
+    "goldOpenAccessCurrency": "USD",
+    "coverImage": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01420615.jpg",
+    "hasAgreements": false
+  }
+]

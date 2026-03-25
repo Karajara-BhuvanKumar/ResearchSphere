@@ -1,0 +1,32 @@
+{
+  "query": "machine learning",
+  "provider": "both",
+  "runDir": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-59-30-789Z-both-machine-learning",
+  "results": [
+    {
+      "provider": "springer",
+      "finalUrl": "https://link.springer.com/journals/journal-finder",
+      "recommendationCount": 20,
+      "networkCaptureCount": 1,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-59-30-789Z-both-machine-learning\\springer-journals.json"
+    },
+    {
+      "provider": "elsevier",
+      "finalUrl": "https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&sortBy=default&sortOrder=desc&query=machine+learning&mode=search&ecrId=&agreementsFilter=all-journals",
+      "recommendationCount": 40,
+      "networkCaptureCount": 1,
+      "outputFile": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-59-30-789Z-both-machine-learning\\elsevier-journals.json"
+    }
+  ],
+  "normalized": {
+    "query": "machine learning",
+    "springerCount": 20,
+    "elsevierCount": 40,
+    "mergedCount": 60,
+    "files": {
+      "springer": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-59-30-789Z-both-machine-learning\\springer-journals.json",
+      "elsevier": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-59-30-789Z-both-machine-learning\\elsevier-journals.json",
+      "merged": "D:\\researchsphere\\researchsphere-hub\\server\\data\\journal-finder-probe\\2026-03-19T15-59-30-789Z-both-machine-learning\\journals-merged.json"
+    }
+  }
+}

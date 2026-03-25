@@ -1,0 +1,3065 @@
+[
+  {
+    "url": "https://authorhub.elsevier.com/api/v1/journals/keywords-search",
+    "status": 200,
+    "json": {
+      "results": [
+        {
+          "ranking": 1,
+          "title": "Computer Vision and Image Understanding",
+          "acronym": "YCVIU",
+          "issn": "1077-3142",
+          "subjectAreas": [
+            "Electrical and Electronic Engineering",
+            "Computer Vision and Pattern Recognition",
+            "Signal Processing"
+          ],
+          "articleTypes": [
+            "Research paper",
+            "VSI: YCVIU_MF-DISM"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/10773142.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/CVIU",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7.1
+            },
+            "impactFactor": {
+              "value": 3.5
+            },
+            "timeToFirstDecision": {
+              "value": 7
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p>The central focus of this journal is the <b>computer analysis</b> of <b>pictorial information</b>. <i>Computer Vision and Image Understanding</i> publishes papers covering all aspects of <b>image analysis</b> from the low-level, iconic processes of early vision to the high-level, symbolic processes of recognition and interpretation. A wide range of topics in the <b>image understanding</b> area is covered, including papers offering insights that differ from predominant views.</p><p>Research Areas Include:</p><ul><li><p>Theory </p></li><li><p>Early vision </p></li><li><p>Data structures and representations </p></li><li><p>Shape </p></li><li><p>Range </p></li><li><p>Motion </p></li><li><p>Matching and recognition </p></li><li><p>Architecture and languages </p></li><li><p>Vision systems</p></li></ul><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Hedvig Kjellstrom | Niculae Sebe",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              },
+              {
+                "name": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2330,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 2,
+          "title": "Image and Vision Computing",
+          "acronym": "IMAVIS",
+          "issn": "0262-8856",
+          "subjectAreas": [
+            "Signal Processing",
+            "Electrical and Electronic Engineering",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "articleTypes": [
+            "Editors Choice Article (invited authors)",
+            "Full Length Article",
+            "Opinion Papers",
+            "State-of-the-art papers",
+            "Survey",
+            "Review Article",
+            "VSI: Security-AI"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/02628856.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/IMAVIS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/image-and-vision-computing/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7.1
+            },
+            "impactFactor": {
+              "value": 4.2
+            },
+            "timeToFirstDecision": {
+              "value": 16
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p><i>Image and Vision Computing</i> has as a primary aim the provision of an effective medium of interchange for the results of high quality theoretical and applied research fundamental to all aspects of <b>image interpretation</b> and <b>computer vision</b>. The journal publishes work that proposes new image interpretation and computer vision methodology or addresses the application of such methods to real world scenes. It seeks to strengthen a deeper understanding in the discipline by encouraging the quantitative comparison and performance evaluation of the proposed methodology. The coverage includes: image interpretation, scene modelling, object recognition and tracking, shape analysis, monitoring and surveillance, active vision and robotic systems, SLAM, biologically-inspired computer vision, motion analysis, stereo vision, document image understanding, character and handwritten text recognition, face and gesture recognition, biometrics, vision-based human-computer interaction, human activity and behavior understanding, data fusion from multiple sensor inputs, image databases.</p><p>In addition to regular manuscripts, <i>Image and Vision Computing</i> Journal solicits manuscripts for the Opinions Column, aimed at initiating a free forum for vision researchers to express their opinions on past, current, or future successes and challenges in research and the community.</p><p>An opinion paper should be succinct and focused on a particular topic. Addressing multiple related topics is also possible if this helps making the point. While posing questions helps raising awareness about certain issues, ideally, an opinion paper should also suggest a concrete direction how to address the issues. Topics of interest include, but are not limited to:</p><ul><li><p>Comments on success and challenges in a (sub-) field of computer vision,</p></li><li><p>Remarks on new frontiers in computer vision</p></li><li><p>Observations on current practices and trends in research, and suggestions for overcoming unsatisfying aspects</p></li><li><p>Observations on current practices and trends in the community regarding, e.g., reviewing process, organizing conferences, how journals are run, and suggestions for overcoming unsatisfying aspects</p></li><li><p>Reviews of early seminal work that may have fallen out of fashion</p></li><li><p>Summaries of the evolution of one&#39;s line of research</p></li><li><p>Recommendations for educating new generations of vision researchers.</p></li></ul><p>The format of an opinion paper should comply with the existing formatting guidelines for the <i>Image and Vision Computing</i> Journal <a href=\"https://www.editorialmanager.com/IMAVIS/default.aspx\">submissions</a>, and should not exceed 2 pages.</p><p>Months of publication: January/February, March, April, May, June, July/August, September, October, November and December.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Wang | Nappi",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              },
+              {
+                "name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+                "tier": 3
+              },
+              {
+                "name": "OPTICS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2240,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 3,
+          "title": "Computer Aided Geometric Design",
+          "acronym": "COMAID",
+          "issn": "0167-8396",
+          "subjectAreas": [
+            "Modelling and Simulation",
+            "Computer Graphics and Computer-Aided Design",
+            "Geometry and Topology"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "GMP_fast track",
+            "Survey Paper",
+            "Short Communication",
+            "VSI: COMAID_GMP 2026",
+            "VSI: SIAM-GD-25"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01678396.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/CAGD",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/computer-aided-geometric-design/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 2.6
+            },
+            "impactFactor": {
+              "value": 1.7
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 5
+            }
+          },
+          "scope": "<p>The journal <i>Computer Aided Geometric Design</i> is for researchers, scholars, and software developers dealing with <b>mathematical</b> and <b>computational</b> methods for the description of <b>geometric objects</b> as they arise in areas ranging from CAD/CAM to robotics and scientific visualization. The journal publishes original research papers, survey papers and with quick editorial decisions short communications of at most 3 pages. The primary objects of interest are <b>curves</b>, <b>surfaces</b>, and <b>volumes</b> such as splines (NURBS), <b>meshes</b>, <b>subdivision surfaces</b> as well as <b>algorithms</b> to generate, analyze, and manipulate them. This journal will report on new developments in CAGD and its applications, including but not restricted to the following:</p><ul><li><p>Mathematical and Geometric Foundations</p></li><li><p>Curve, Surface, and Volume generation</p></li><li><p>CAGD applications in Numerical Analysis, Computational Geometry, Computer Graphics, or Computer Vision</p></li><li><p>Industrial, medical, and scientific applications</p></li></ul><p>The aim is to collect and disseminate information on <b>computer aided design</b> in one journal. To provide the user community with methods and algorithms for representing curves and surfaces. To illustrate <b>computer aided geometric design</b> by means of interesting applications. To combine curve and surface methods with computer graphics. To explain scientific phenomena by means of computer graphics. To concentrate on the interaction between theory and application. To expose unsolved problems of the practice. To develop new methods in <b>computer aided geometry</b>.</p><p><a href=\"https://www.journals.elsevier.com/software-impacts\">Software Impacts</a></p><p>We invite you to convert your open source software into an additional journal publication in Software Impacts, a multi-disciplinary open access journal. Software Impacts provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through <a href=\"https://www.elsevier.com/authors/author-resources/research-elements/software-articles/original-software-publications\">Original Software Publications (OSP)</a> which describe the application of the software to research and the published outputs.</p><p>For more information contact us at: <a href=\"mailto:software.impacts@elsevier.com\">software.impacts@elsevier.com</a></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Farouki | Polthier",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "tier": 4
+              },
+              {
+                "name": "MATHEMATICS, APPLIED",
+                "tier": 4
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 4,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2780,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 4,
+          "title": "Design Science Vision",
+          "acronym": "DSVIS",
+          "issn": "2950-2624",
+          "subjectAreas": [
+            "Human Factors and Ergonomics",
+            "Neuroscience (General)",
+            "Computer Science (General)",
+            "Arts and Humanities (General)"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Review",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29502624.jpg",
+          "links": {
+            "submission": "https://www2.cloud.editorialmanager.com/dsv/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p><i>Design Science Vision (DSV) </i>is an interdisciplinary research journal that publishes high-quality papers focused on the built environment and its design interventions. The journal welcomes cross-disciplinary research bridges the gap between built environment design and fields such as data science, decision science, computational science and cognitive science. Priority is given to studies offering innovative solutions and fundamental insights into urbanization and the future of human living spaces. </p><p><i>DSV </i>provides both readers and authors with high visibility, emphasising interdisciplinary communication and ensuring accessibility to a broad readership. The journal maintains high standards in copy editing and production, rigorous peer review and rapid publication, as well as operates independently of academic societies and other vested interests.</p><p>In addition to primary research,<i> DSV </i>publishes reviews, perspectives, communications and editorials. Through this approach, the journal aims to boost interdisciplinary research collaborations between scholars in architecture and related fields, serving as an international academic communication platform.</p><p>Topics covered include, but are not limited to, the following themes:</p><ol><li><p>Decision science research providing fundamental insights and advanced technological solutions for high-quality buildings, sites, and urban spaces, including sustainable place-making, programming, as well as carbon-net-zero neighborhoods.</p></li><li><p>Computational science research providing advanced algorithms to engage in design intervention and its iterations, especially focusing on the use of artificial intelligence in the built environment related studies and practice.</p></li><li><p>Cognitive science research providing fundamental insights and advanced technologies in human behaviours and cognition in built environment, including life spaces from urban to rural, from polar to extraterrestrial, from real to virtual.</p></li><li><p>Data science research providing possible explanation to the mechanism of regional/urban systems and urban dynamics, including governance, policymaking, and coordinated regional development related to the built environment.</p></li></ol><p><a href=\"https://www.keaipublishing.com/en/journals/design-science-vision/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 500,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 5,
+          "title": "Pattern Recognition",
+          "acronym": "PR",
+          "issn": "0031-3203",
+          "subjectAreas": [
+            "Signal Processing",
+            "Computer Vision and Pattern Recognition",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Survey/Review paper",
+            "VSI: PR_Adaptive and Scalable Vision Models",
+            "VSI: PR_Anomaly Detection, Reasoning, and Recovery",
+            "VSI: PR_Biomedical Data",
+            "VSI: PR_Evaluate4Science",
+            "VSI: PR_Evolving Multi-View Learning",
+            "VSI: PR_FM & Prompting",
+            "VSI: PR_Heterogeneous Data Fusion",
+            "VSI: PR_Multimodal Perception and Pattern Recognition",
+            "VSI: PR_Security and Trustworthiness",
+            "VSI: PR_Spatial Embodied Intelligence"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00313203.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/PR/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/pattern-recognition/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 15.8
+            },
+            "impactFactor": {
+              "value": 7.6
+            },
+            "timeToFirstDecision": {
+              "value": 37
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p><i>Pattern Recognition</i> is a mature but exciting and fast developing field, which underpins developments in cognate fields such as computer vision, image processing, text and document analysis and neural networks. It is closely akin to machine learning, and also finds applications in fast emerging areas such as biometrics, bioinformatics, multimedia data analysis and most recently data science. The journal <i>Pattern Recognition</i> was established some 50 years ago, as the field emerged in the early years of computer science. Over the intervening years it has expanded considerably.</p><p>The journal accepts papers making original contributions to the theory, methodology and application of pattern recognition in any area, provided that the context of the work is both clearly explained and grounded in the pattern recognition literature. Papers whos primary concern falls outside the pattern recognition domain and which report routine applications of it using existing or well known methods, should be directed elsewhere. The publication policy is to publish (1) new original articles that have been appropriately reviewed by competent scientific people, (2) reviews of developments in the field, and (3) pedagogical papers covering specific areas of interest in pattern recognition. Various special issues will be organized from time to time on current topics of interest to Pattern Recognition. Submitted papers should be single column, double spaced, no less than 20 and no more than 35 (40 for a review) pages long, with numbered pages.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Zoran Duric | Petia Radeva",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 1
+              },
+              {
+                "name": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2800,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 6,
+          "title": "Journal of Visual Communication and Image Representation",
+          "acronym": "YJVCI",
+          "issn": "1047-3203",
+          "subjectAreas": [
+            "Electrical and Electronic Engineering",
+            "Computer Vision and Pattern Recognition",
+            "Signal Processing"
+          ],
+          "articleTypes": [
+            "Research paper",
+            "Review article",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/10473203.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/JVCI",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6
+            },
+            "impactFactor": {
+              "value": 3.1
+            },
+            "timeToFirstDecision": {
+              "value": 15
+            },
+            "timeToAcceptance": {
+              "value": 9
+            }
+          },
+          "scope": "<p>The <i>Journal of Visual Communication and Image Representation</i> publishes papers on state-of-the-art <b>visual communication</b> and <b>image representation</b>, with emphasis on novel <b>technologies</b> and theoretical work in this multidisciplinary area of pure and applied research. The field of visual communication and image representation is considered in its broadest sense and covers both digital and analog aspects as well as processing and communication in biological visual systems.</p><p>Research Areas include:</p><ul><li><p>Image analysis and synthesis</p></li><li><p>Mathematical morphology</p></li><li><p>Computer vision</p></li><li><p>Image understanding and scene analysis</p></li><li><p>Video understanding</p></li><li><p>RGB-D and 3D processing</p></li><li><p>Deep learning for visual signal processing</p></li><li><p>Deterministic and stochastic image modeling</p></li><li><p>Visual data reduction and compression</p></li><li><p>Image coding and video communication</p></li><li><p>Virtual and augmented reality for visual communication</p></li><li><p>Privacy-Enhancing technologies for images and videos</p></li><li><p>Data hiding, perceptual hashing, fingerprinting for images and videos</p></li><li><p>Image and video forensics and counterforensics</p></li><li><p>Biological and medical imaging</p></li><li><p>Early processing in biological visual systems</p></li><li><p>Psychophysical analysis of visual perception</p></li><li><p>Remote sensing</p></li></ul>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Junsong Yuan",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 4
+              },
+              {
+                "name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "tier": 4
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 4,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2510,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 7,
+          "title": "Artificial Intelligence",
+          "acronym": "ARTINT",
+          "issn": "0004-3702",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Computer Vision and Pattern Recognition",
+            "Engineering (General)",
+            "Computational Theory and Mathematics"
+          ],
+          "articleTypes": [
+            "Awards Track Invited Papers",
+            "Competition Section",
+            "Full Length Article",
+            "Position Paper",
+            "Research Field Review",
+            "Research Note"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00043702.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/artint/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 15
+            },
+            "impactFactor": {
+              "value": 4.6
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>The journal of <i>Artificial Intelligence (AIJ)</i> welcomes papers on broad aspects of AI that constitute advances in the overall field including, but not limited to, cognition and AI, automated reasoning and inference, case-based reasoning, commonsense reasoning, computer vision, constraint processing, ethical AI, heuristic search, human interfaces, intelligent robotics, knowledge representation, machine learning, multi-agent systems, natural language processing, planning and action, and reasoning under uncertainty. The journal reports results achieved in addition to proposals for new ways of looking at AI problems, both of which must include demonstrations of value and effectiveness.</p><p>Papers describing applications of AI are also welcome, but the focus should be on how new and novel AI methods advance performance in application areas, rather than a presentation of yet another application of conventional AI methods. Papers on applications should describe a principled solution, emphasize its novelty, and present an indepth evaluation of the AI techniques being exploited.</p><p>Apart from regular papers, the journal also accepts Research Notes, Research Field Reviews, Position Papers, and Book Reviews (see details below). The journal will also consider summary papers that describe challenges and competitions from various areas of AI. Such papers should motivate and describe the competition design as well as report and interpret competition results, with an emphasis on insights that are of value beyond the competition (series) itself.</p><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Sylvie Thiebaux | Michael Wooldridge",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 4050,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 8,
+          "title": "Medical Image Analysis",
+          "acronym": "MEDIMA",
+          "issn": "1361-8415",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Biomedical Engineering",
+            "Computer Graphics and Computer-Aided Design",
+            "Computer Vision and Pattern Recognition",
+            "Radiology and Imaging"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Survey",
+            "Challenge Report",
+            "VSI: Foundation Models for Computational Pathology-Invitation Only",
+            "VSI: VITM_GE Invitation Only",
+            "VSI:MICCAI 2025 Special Issue"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/13618415.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/media/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/medical-image-analysis/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 26.6
+            },
+            "impactFactor": {
+              "value": 11.8
+            },
+            "timeToFirstDecision": {
+              "value": 7
+            },
+            "timeToAcceptance": {
+              "value": 12
+            }
+          },
+          "scope": "<p>An official journal of the <a href=\"http://www.miccai.org\">MICCAI</a> Society</p><p><i>Medical Image Analysis</i> provides a forum for the dissemination of new research results in the field of <b>medical</b> and <b>biological image analysis</b>, with special emphasis on efforts related to the applications of <b>computer vision</b>, <b>virtual reality</b> and <b>robotics</b> to <b>biomedical imaging</b> problems. The journal publishes the highest quality, original papers that contribute to the basic science of processing, analysing and utilizing medical and biological images for these purposes. The journal is interested in approaches that utilize biomedical image datasets at all spatial scales, ranging from molecular/cellular imaging to tissue/organ imaging. While not limited to these alone, the typical biomedical image datasets of interest include those acquired from:</p><ul><li><p>Magnetic resonance</p></li><li><p>Ultrasound</p></li><li><p>Computed tomography</p></li><li><p>Nuclear medicine</p></li><li><p>X-ray</p></li><li><p>Optical and Confocal Microscopy</p></li><li><p>Video and range data images</p></li></ul><p>The types of papers accepted include those that cover the development and implementation of algorithms and strategies based on the use of various models (geometrical, statistical, physical, functional, etc.) to solve the following types of problems, using biomedical image datasets: representation of pictorial data, visualization, feature extraction, segmentation, inter-study and inter-subject registration, longitudinal / temporal studies, image-guided surgery and intervention, texture, shape and motion measurements, spectral analysis, digital anatomical atlases, statistical shape analysis, computational anatomy (modelling normal anatomy and its variations), computational physiology (modelling organs and living systems for image analysis, simulation and training), virtual and augmented reality for therapy planning and guidance, telemedicine with medical images, telepresence in medicine, telesurgery and image-guided medical robots, etc.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Nicholas Ayache | James Duncan",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 1
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 1
+              },
+              {
+                "name": "ENGINEERING, BIOMEDICAL",
+                "tier": 1
+              },
+              {
+                "name": "RADIOLOGY, NUCLEAR MEDICINE & MEDICAL IMAGING",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Medicine",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 4470,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 9,
+          "title": "Journal of Information and Intelligence",
+          "acronym": "JIIXD",
+          "issn": "2949-7159",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Signal Processing",
+            "Artificial Intelligence",
+            "Information Systems",
+            "Computer Networks and Communications",
+            "Electrical and Electronic Engineering",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "Short Survey",
+            "VSI: AI-NTN",
+            "VSI: AI-RAN",
+            "VSI: AI-generated Content",
+            "VSI: FA for 6G",
+            "VSI: I-CSC (Special Issue - Full Length Article)",
+            "VSI: Physical AI",
+            "VSI: S&PinAI (Special Issue - Full Length Article)",
+            "VSI: SAGIN",
+            "VSI: I-CSC (Special Issue - Review)"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29497159.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/intecom/default1.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-information-and-intelligence/publish/guide-for-authors"
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 10
+            },
+            "timeToAcceptance": {
+              "value": 13
+            }
+          },
+          "scope": "<p>The <i>Journal of Information and Intelligence </i>is committed to publishing rigorously peer-reviewed, high-quality original research papers, review articles, and perspective articles in the fields of information and intelligence. The journal welcomes contributions on both fundamental and applied research, and particularly encourages interdisciplinary work that bridges the two aspects. It aims to provide a unique platform that promotes scholarly development and academic exchange, serving researchers across academia, industry, and government worldwide.</p><p>Topics of interest encompass all areas of information and intelligence, including but not limited to: </p><ul><li><p>Artificial Intelligence</p></li><li><p>Big Data Technologies and Applications</p></li><li><p>Coding and Information Theory</p></li><li><p>Collaborative Intelligent Systems and Agent Models</p></li><li><p>Communications and Networking</p></li><li><p>Computer Networks</p></li><li><p>Computer Vision, Image Processing, Object Detection, and Pattern Recognition</p></li><li><p>Computing Paradigms and Systems</p></li><li><p>Cryptography, Security, Trust, Privacy, and Blockchain</p></li><li><p>Digital Twin and Cyber-Physical Systems</p></li><li><p>Hardware and Integrated Circuits</p></li><li><p>Human-Computer Interaction</p></li><li><p>Information Graph Theory</p></li><li><p>Information Metasurfaces and Reconfigurable Intelligent Surfaces</p></li><li><p>Information in Social Networks</p></li><li><p>Information Sensing and Signal Processing</p></li><li><p>Integration of Communication, Sensing, and Computing</p></li><li><p>Internet of Things</p></li><li><p>Machine Learning Theories, Technologies, and Applications</p></li><li><p>Mobile Data Analytics and Data Mining</p></li><li><p>Neural Networks and Large AI Models</p></li><li><p>Quantum Communications, Computing, and Networking</p></li><li><p>Semantic Communications</p></li><li><p>Specific Applications of Information and Intelligence System such as in Healthcare, Logistics, Transportation, Industrial 4.0, and Education</p></li><li><p>Wireless and Mobile Networks, Wireless Technologies</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/journal-of-information-and-intelligence/editorial-board/\">Editorial Board</a> </p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 1000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 10,
+          "title": "Pattern Recognition Letters",
+          "acronym": "PATREC",
+          "issn": "0167-8655",
+          "subjectAreas": [
+            "Computer Vision and Pattern Recognition",
+            "Signal Processing",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Regular Article",
+            "SS: ICPRS 2025",
+            "SS: SIBGRAPI 2025",
+            "Survey papers by IAPR fellows",
+            "Commentary",
+            "Note",
+            "VSI: PATREC_EMDF-RCP"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01678655.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/PRLETTERS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.5
+            },
+            "impactFactor": {
+              "value": 3.3
+            },
+            "timeToFirstDecision": {
+              "value": 17
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p>An official publication of the <a href=\"http://www.iapr.org/\">International Association for Pattern Recognition</a></p><p><i>Pattern Recognition Letters</i> aims at rapid publication of concise articles of a broad interest in <b>pattern recognition</b>. <br/> Subject areas include all the current fields of interest represented by the Technical Committees of the <a href=\"http://www.iapr.org/\">International Association of Pattern Recognition</a>, and other developing themes involving learning and recognition. Examples include:</p><p>• Statistical, structural, syntactic pattern recognition; <br/> • Neural networks, machine learning, data mining; <br/> • Discrete geometry, algebraic, graph-based techniques for pattern recognition; <br/> • Signal analysis, image coding and processing, shape and texture analysis; <br/> • Computer vision, robotics, remote sensing; <br/> • Document processing, text and graphics recognition, digital libraries; <br/> • Speech recognition, music analysis, multimedia systems; <br/> • Natural language analysis, information retrieval; <br/> • Biometrics, biomedical pattern analysis and information systems; <br/> • Special hardware architectures, software packages for pattern recognition.</p><p>We invite contributions as research reports or commentaries.</p><p>Research reports should be concise summaries of methodological inventions and findings, with strong potential of wide applications. <br/> Alternatively, they can describe significant and novel applications of an established technique that are of high reference value to the same application area and other similar areas.</p><p>Commentaries can be lecture notes, subject reviews, reports on a conference, or debates on critical issues that are of wide interests.</p><p>To serve the interests of a diverse readership, the introduction should provide a concise summary of the background of the work in an accepted terminology in pattern recognition, state the unique contributions, and discuss broader impacts of the work outside the immediate subject area. All contributions are reviewed on the basis of scientific merits and breadth of potential interests.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "De Marsico | Liu | Lu",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2380,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 11,
+          "title": "Internet of Things and Cyber-Physical Systems",
+          "acronym": "IOTCPS",
+          "issn": "2667-3452",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Computer Networks and Communications",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Perspectives",
+            "Short Communication",
+            "Technical Notes",
+            "VSI: AI-WSN",
+            "VSI: CBD2024",
+            "VSI: DL-IoTCPS",
+            "VSI: Soft Computing for IoT and CPS",
+            "VSI: Trust Explain AI IoT"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26673452.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/IOTCPS",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 37.8
+            },
+            "timeToFirstDecision": {
+              "value": 8
+            },
+            "timeToAcceptance": {
+              "value": 12
+            }
+          },
+          "scope": "<p>Internet of Things and Cyber-Physical Systems publishes rigorously peer-reviewed, high quality original articles and authoritative reviews that focus on Internet of Things and Cyber-Physical Systems. All articles are published fully Open Access on ScienceDirect.</p><p>The journal welcomes research articles, review papers, perspectives, short communications and technical notes on all aspects of artificial intelligence and its applications. Conference papers may be accepted if they have been substantially extended. Special issues of the journal that focus on a particular aspect of the field are also occasionally published. Special areas of interest include but are not limited to:</p><ul><li><p>Artificial Intelligence for IoT and CPS</p></li><li><p>Big Data Analytics and Applications</p></li><li><p>Blockchain and Web3 Technologies and Applications</p></li><li><p>Communications and Networking for IoT and CPS</p></li><li><p>Computer Vision and Image Processing Based on Vision Sensors</p></li><li><p>Cyber-Physical Systems</p></li><li><p>Digital Twins, Cyber Twins, Web Twins</p></li><li><p>Edge Computing and Cloud Computing</p></li><li><p>Emerging Technologies Based on IoT and CPS</p></li><li><p>Industrial Information</p></li><li><p>Industrial Internet and Industry 4.0</p></li><li><p>Internet of Things and Internet of Vehicles</p></li><li><p>Intelligent Transportation Systems and Vehicular Networks</p></li><li><p>Machine to Machine</p></li><li><p>Multimedia and Imaging in Industry</p></li><li><p>Pervasive and Ubiquitous Computing</p></li><li><p>Trust, Security and Privacy Mechanism for IoT and CPS</p></li><li><p>Services, Applications and Standards for IoT and CPS</p></li><li><p>Sensors and Devices for IoT and CPS</p></li><li><p>Virtual Reality, Augmented Reality and Mixed Reality in Industry</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/internet-of-things-and-cyber-physical-systems/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 12,
+          "title": "Virtual Reality & Intelligent Hardware",
+          "acronym": "VRIH",
+          "issn": "2096-5796",
+          "subjectAreas": [
+            "Hardware and Architecture",
+            "Computer Science (General)",
+            "Artificial Intelligence",
+            "Human-Computer Interaction"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Review",
+            "Research Highlight",
+            "Short Communication",
+            "SI: 3D Content Generation for VR",
+            "SI: Efficient World Model",
+            "SI: Embodied Intelligence: Bridging Disciplines through System Integration",
+            "SI: ICXR2025",
+            "SI: Immersive and intelligent hardware",
+            "SI: VR Medical Diagnosis and Intervention"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/20965796.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/vrih/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/virtual-reality-and-intelligent-hardware/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.4
+            },
+            "acceptanceRate": {
+              "value": 7
+            },
+            "timeToFirstDecision": {
+              "value": 7
+            },
+            "timeToAcceptance": {
+              "value": 190
+            }
+          },
+          "scope": "<p><i>Virtual Reality &amp; Intelligent Hardware (VRIH)</i> is an open access journal that aims to showcase and promote distinguished research in the field of virtual reality and intelligent hardware. It provides a global publishing and academic exchange platform for researchers, professionals and industry practitioners. The journal offers high-quality single-blind peer review and is published bimonthly in English. VRIH has been indexing by ESCI, EI, Scopus, DBLP, DOAJ. <br/> Submissions are welcome on a variety of topics - specific areas of interest include, but are not limited to:</p><ul><li><p>5G and VR/AR/MR</p></li><li><p>Artificial intelligence for VR/AR/MR</p></li><li><p>Audio interfaces, sound rendering and auditory perception</p></li><li><p>Brain interface</p></li><li><p>Computer graphics techniques</p></li><li><p>Computer vision techniques</p></li><li><p>Content creation, authoring and management</p></li><li><p>Conversational and speech interfaces</p></li><li><p>Crowd simulation</p></li><li><p>Display technologies</p></li><li><p>Embodied agents, virtual humans and (self-)avatars</p></li><li><p>Haptic and tactile interfaces, wearable haptics, passive haptics, pseudo haptics</p></li><li><p>Human augmentations</p></li><li><p>Human-computer interaction for VR/AR/MR</p></li><li><p>Human factors and ergonomics</p></li><li><p>Image analysis and video processing</p></li><li><p>Immersive analytics and visualization techniques</p></li><li><p>Input devices</p></li><li><p>Locomotion and navigation</p></li><li><p>Machine learning and deep learning</p></li><li><p>Mediated and diminished reality</p></li><li><p>Medical simulation and navigation</p></li><li><p>Modeling and simulation</p></li><li><p>Multi-user and distributed systems</p></li><li><p>Multimodal capturing and reconstruction</p></li><li><p>Multimodal/cross-modal interaction and perception</p></li><li><p>Multisensory rendering, registration, and synchronization</p></li><li><p>Perception and cognition</p></li><li><p>Presence, body ownership, and agency</p></li><li><p>Scene description and management issues</p></li><li><p>Sensor fusion</p></li><li><p>Software architectures, toolkits, and engineering</p></li><li><p>Storytelling</p></li><li><p>Teleoperation and telepresence</p></li><li><p>Touch, tangible and gesture interfaces</p></li><li><p>Tracking and sensing</p></li><li><p>Usage research, evaluation methods and empirical studies</p></li><li><p>VR/AR/MR applications</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/virtual-reality-and-intelligent-hardware/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 13,
+          "title": "Array",
+          "acronym": "ARRAY",
+          "issn": "2590-0056",
+          "subjectAreas": [
+            "Electrical and Electronic Engineering",
+            "Computer Science (General)"
+          ],
+          "articleTypes": [
+            "Regular Paper: Research Paper",
+            "Technical Note: Opinion Paper",
+            "Regular Paper: Review Article",
+            "Technical Note: Short Communication",
+            "VSI: ARRAY_InSeTMA"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/25900056.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ARRAY/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/array/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.3
+            },
+            "impactFactor": {
+              "value": 4.5
+            },
+            "timeToFirstDecision": {
+              "value": 9
+            },
+            "timeToAcceptance": {
+              "value": 6
+            }
+          },
+          "scope": "<p>Opening Up Computer Science</p><p><i>Array</i> is an international open access multidisciplinary journal encompassing a broad spectrum of topics in computer science, including</p><ul><li><p>Artificial Intelligence, Machine Learning and Robotics</p></li><li><p>Computer Systems and Architecture</p></li><li><p>Computer Vision, Speech and Pattern Recognition</p></li><li><p>Control &amp; Signal Processing</p></li><li><p>Cyber Security</p></li><li><p>Data, Knowledge and Intelligent Systems</p></li><li><p>Industrial Engineering</p></li><li><p>Interdisciplinary Applications</p></li><li><p>Medical Informatics and Biomedical Engineering</p></li><li><p>Microelectronics and Hardware</p></li><li><p>Multimedia and HCI</p></li><li><p>Networks and Communications</p></li><li><p>Operational Research and Decision Systems</p></li><li><p>Scientific Computing</p></li><li><p>Software Engineering</p></li><li><p>Theoretical Computer Science</p></li></ul><p>Submissions must be novel, technically sound, and clearly presented. <i>Array</i> accepts both technical notes (technical notes are limited to a maximum of 10 pages in the standard Elsevier format) and regular papers. In addition to research papers presenting new results, review articles as well as discussion and opinion papers are also welcome.</p><p>Papers meeting journal criteria will undergo a single-blind review process, utilizing a minimum of two (2) external referees. Our dedicated expert editorial team, together with an editorial board of hundreds of active researchers from all areas of computer science, ensure that papers move through to publication as fast as possible without compromising on the quality of the process.</p><p>The journal audience comprises academia, industry, and practitioners. Authors are strongly encouraged to make their datasets publicly accessible via a repository of their choosing.</p><p><b>Software publication</b></p><p>We invite you to convert your open source software into an additional journal publication in <a href=\"https://www.journals.elsevier.com/software-impacts\"><i>Software Impacts</i></a>, a multi-disciplinary open access journal. <i>Software Impacts</i> provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs.</p><p>For more information contact us at: <a href=\"mailto:software.impacts@elsevier.com\">software.impacts@elsevier.com</a></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Guangzhi Qu | Prof. Dr. Po Yang",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "tier": 4
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 4,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2250,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 14,
+          "title": "Computerized Medical Imaging and Graphics",
+          "acronym": "CMIG",
+          "issn": "0895-6111",
+          "subjectAreas": [
+            "Radiology and Imaging",
+            "Computer Science Applications"
+          ],
+          "articleTypes": [
+            "Research paper",
+            "Review article",
+            "Short Editorial Review",
+            "VSI: Data fusion in healthcare"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/08956111.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/cmig/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/computerized-medical-imaging-and-graphics/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.9
+            },
+            "impactFactor": {
+              "value": 4.9
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p><b>Computerized Medical Imaging and Graphics </b>publishes pioneering research addressing complex computational and visualization challenges in medical imaging, including machine learning, computer vision, foundation models, generative AI and simulation, medical robotics, agentic AI, virtual and augmented reality, and quantum computing—fields that are transforming medical imaging and biomedical data science. The journal emphasizes algorithmic advances, novel methodologies and clinically oriented applications that drive disease screening, early detection, precision diagnosis, therapeutic intervention, prevention, monitoring, and telemedicine. Serving as a leading interdisciplinary platform for computing researchers, imaging scientists, engineers, and physicians, CMIG highlights AI-enabled imaging solutions that bridge methodological innovation with clinical translation.</p><p>We welcome contributions on AI-driven and emerging computational methods for image acquisition, reconstruction, visualization, analysis, and interpretation, with particular focus on deep learning, generative AI, and agentic AI that enhance diagnostic accuracy, improve therapeutic efficacy, and enable precision medicine and minimally invasive interventions. Topics of interest include novel imaging and visualization techniques; AI and machine learning; augmented and virtual reality for surgery and therapy; computer-aided diagnosis; robotic and image-guided intervention; biomedical data fusion and visualization; autonomous agents; mobile and tele-imaging; and integration of imaging with genomic, transcriptomic, proteomic, video, and audio data.</p><p>The journal covers a wide spectrum of modalities—MRI, CT, ultrasound, nuclear medicine, X-ray, microwave, endoscopy, digital pathology, optical and multiphoton microscopy, spatial omics, video, and sensory imaging—along with the convergence of imaging and non-imaging biomedical datasets to accelerate digital health and precision medicine.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Stephen Wong | Xiaoyin Xu",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "ENGINEERING, BIOMEDICAL",
+                "tier": 2
+              },
+              {
+                "name": "RADIOLOGY, NUCLEAR MEDICINE & MEDICAL IMAGING",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Medicine",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3190,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 15,
+          "title": "Engineering Science and Technology, an International Journal",
+          "acronym": "JESTCH",
+          "issn": "2215-0986",
+          "subjectAreas": [
+            "Engineering (General)",
+            "Materials Science (General)",
+            "Computer Science (General)"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication",
+            "VSI: JESTCH_SWEDES 2025_FLA",
+            "VSI: Manufacturing Processes and Machine Tools - Research Article",
+            "VSI: JESTCH_SWEDES 2025_REV",
+            "VSI: Manufacturing Processes and Machine Tools - Review Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22150986.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/JESTCH",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/engineering-science-and-technology-an-international-journal/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 11.3
+            },
+            "impactFactor": {
+              "value": 5.4
+            },
+            "acceptanceRate": {
+              "value": 10
+            },
+            "timeToFirstDecision": {
+              "value": 9
+            }
+          },
+          "scope": "<p>Peer Review under responsibility of Karabuk University</p><p><i>Engineering Science and Technology, an International Journal</i> (JESTECH) (formerly Technology), a peer-reviewed monthly engineering journal, publishes both theoretical and experimental high quality papers of permanent interest, not previously published in journals, in the field of engineering and applied science which aims to promote the theory and practice of technology and engineering. In addition to peer-reviewed original research papers, the Editorial Board welcomes original research reports, state-of-the-art reviews and communications in the broadly defined field of engineering science and technology.</p><p>The scope of JESTECH includes a wide spectrum of subjects including</p><p><b>Electrical/Electronics and Computer Engineering</b> (Biomedical Engineering and Instrumentation; Coding, Cryptography, and Information Protection; Communications, Networks, Mobile Computing and Distributed Systems; Compilers and Operating Systems; Computer Architecture, Parallel Processing, and Dependability; Computer Vision and Robotics; Control Theory; Electromagnetic Waves, Microwave Techniques and Antennas; Embedded Systems; Integrated Circuits, VLSI Design, Testing, and CAD; Microelectromechanical Systems; Microelectronics, and Electronic Devices and Circuits; Power, Energy and Energy Conversion Systems; Signal, Image, and Speech Processing)</p><p><b>Mechanical and Civil Engineering</b> (Automotive Technologies; Biomechanics; Construction Materials; Design and Manufacturing; Dynamics and Control; Energy Generation, Utilization, Conversion, and Storage; Fluid Mechanics and Hydraulics; Heat and Mass Transfer; Micro-Nano Sciences; Renewable and Sustainable Energy Technologies; Robotics and Mechatronics; Solid Mechanics and Structure; Thermal Sciences)</p><p><b>Metallurgical and Materials Engineering</b> (Advanced Materials Science; Biomaterials; Ceramic and Inorgnanic Materials; Electronic-Magnetic Materials; Energy and Environment; Materials Characterizastion; Metallurgy; Polymers and Nanocomposites)</p><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Prof. Dr. Ilker Turker",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "ENGINEERING, MULTIDISCIPLINARY",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Engineering",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 16,
+          "title": "Chip",
+          "acronym": "CHIP",
+          "issn": "2709-4723",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Information Systems"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Review",
+            "VSI: Het-Integ. Photon Chips - Research Article",
+            "VSI: Het-Integ. Photon Chips - Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27094723.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/CHIP",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7
+            },
+            "impactFactor": {
+              "value": 7.1
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p>An official journal of <a href=\"https://en.sjtu.edu.cn/\">Shanghai Jiao Tong University</a>.</p><p><b><i>Chip</i></b> is an international journal that publishes innovative research in the emerging field of integrated chips that feature revolutionary information technology.</p><p><b><i>Chip</i></b> will bridge the boundaries between theory and technology and form the aggregation effect of chip research. It aims to become a competitive top journal with strong international recognition and will serve as a platform for graduate students, professionals, and the engineering industry to jointly boost the cutting-edge information sciences and technologies.</p><p>The journal focuses on the rapid development and potential application of new-generation information technologies. These include but are not limited to the following fields:</p><p>•Quantum information: quantum algorithm, quantum machine learning, analog quantum computing, quantum circuits, quantum annealing•New types of Non-von Neumann computing and post-Moore devices: photonic computing, neuromorphic computing, other promising classical (not quantum) computing technologies•Internet of things and edge computing: advanced sensors, wireless signal transmission, low-power computing, energy harvesting, biomedical systems•Big Data and artificial intelligence: innovative hardware and architecture for data mining, information retrieval, machine learning, natural language processing, computer vision, robotics•Interdisciplinary area related to chip issues: new chip materials, new device manufacturing techniques, algorithm and architecture of chips.</p><p>The Print ISSN of the journal is 2709-4723.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Jun-Fa Mao",
+          "goldOpenAccessFee": {
+            "value": 2000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 17,
+          "title": "Information Sciences",
+          "acronym": "INS",
+          "issn": "0020-0255",
+          "subjectAreas": [
+            "Information Systems and Management",
+            "Computer Science Applications",
+            "Statistics and Probability",
+            "Information Systems",
+            "Statistics, Probability and Uncertainty",
+            "Artificial Intelligence",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Full length article",
+            "Note",
+            "Short Communication",
+            "VSI: Graph solutions for AI",
+            "VSI: LLMs-Empowered Security"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00200255.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/INS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/information-sciences/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 14.4
+            },
+            "impactFactor": {
+              "value": 6.8
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 5
+            }
+          },
+          "scope": "<p>Informatics and Computer Science Intelligent Systems Applications <br/> An International Journal</p><p><i>Information Sciences</i> will publish original, innovative and creative research results. A smaller number of timely tutorial and surveying contributions will be published from time to time.</p><p>The journal is designed to serve researchers, developers, managers, strategic planners, graduate students and others interested in state-of-the art research activities in <b>information</b>, <b>knowledge engineering</b> and <b>intelligent systems</b>. Readers are assumed to have a common interest in <b>information science</b>, but with diverse backgrounds in fields such as engineering, mathematics, statistics, physics, computer science, cell biology, molecular biology, management science, cognitive science, neurobiology, behavioural sciences and biochemistry.</p><p>The journal publishes high-quality, refereed articles. It emphasizes a balanced coverage of both theory and practice. It fully acknowledges and vividly promotes a breadth of the discipline of Informations Sciences.</p><p>Topics include:</p><p>Foundations of Information Science: <br/> Information Theory, Mathematical Linguistics, Automata Theory, Cognitive Science, Theories of Qualitative Behaviour, Artificial Intelligence, Computational Intelligence, Soft Computing, Semiotics, Computational Biology and Bio-informatics.</p><p>Implementations and Information Technology: <br/> Intelligent Systems, Genetic Algorithms and Modelling, Fuzzy Logic and Approximate Reasoning, Artificial Neural Networks, Expert and Decision Support Systems, Learning and Evolutionary Computing, Expert and Decision Support Systems, Learning and Evolutionary Computing, Biometrics, Moleculoid Nanocomputing, Self-adaptation and Self-organisational Systems, Data Engineering, Data Fusion, Information and Knowledge, Adaptive ad Supervisory Control, Discrete Event Systems, Symbolic / Numeric and Statistical Techniques, Perceptions and Pattern Recognition, Design of Algorithms, Software Design, Computer Systems and Architecture Evaluations and Tools, Human-Computer Interface, Computer Communication Networks and Modelling and Computing with Words</p><p>Applications: <br/> Manufacturing, Automation and Mobile Robots, Virtual Reality, Image Processing and Computer Vision Systems, Photonics Networks, Genomics and Bioinformatics, Brain Mapping, Language and Search Engine Design, User-friendly Man Machine Interface, Data Compression and Text Abstraction and Summarization, Virtual Reality, Finance and Economics Modelling and Optimisation</p><p>Executive Editors-in-Chief can be reached at the following: </p><p>Prof. Dr. Tofigh TA Allahviranloo- <a href=\"mailto:tofigh.allahviranloo@istinye.edu.tr\">tofigh.allahviranloo@istinye.edu.tr</a></p><p>Professor Sabrina S. Senatore- <a href=\"mailto:ssenatore@unisa.it\">ssenatore@unisa.it</a></p><p>Professor Zheng Z. Yan- <a href=\"mailto:zhengyan.pz@gmail.com\">zhengyan.pz@gmail.com</a></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Tofigh Allahviranloo | Sabrina Senatore | Zheng Yan",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3040,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 18,
+          "title": "Intelligent Sports and Health",
+          "acronym": "ISH",
+          "issn": "3050-5445",
+          "subjectAreas": [
+            "Orthopedics, Sports Medicine and Rehabilitation",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "Case Report",
+            "Perspective Paper"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30505445.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ish/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "acceptanceRate": {
+              "value": 48
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            }
+          },
+          "scope": "<p><i>Intelligent Sports and Health</i> (ISH) a peer-reviewed interdisciplinary journal dedicated to advancing cross-innovations in the fields of sports, medicine, and engineering. The journal aims to promote high-level athletic performance and physical and mental health through the publication of foundational theories and applied research, including original research papers, review articles, and case studies. ISH focuses primarily on research in areas such as computer vision, sports intelligent equipment, sports big data, sports physiology and biochemistry, and cognitive neuroscience. With a meticulously curated editorial board that integrates multiple disciplines, the journal upholds high academic standards and integrity in order to provide an academic communication platform for interdisciplinary research in the fields of sports, medicine, and engineering.</p><p>This journal contains three sections:</p><p>Section A (Intelligent Sports): <br/>This section focuses on the cutting-edge research of artificial intelligence technology in the field of sports and exercise science. It explores the application of technologies such as big data analysis and computer vision in optimizing athletic performance and competitive abilities. This includes areas such as sports performance analysis, biomechanical analysis and motion capture, personalized training and rehabilitation prescription design, motion skill learning and control, and assessment of sports injury risks.</p><p>Section B (Intelligent Health): <br/>This section focuses on the cutting-edge research of artificial intelligence technology in the field of human health: utilizing intelligent computing and big data algorithms for biology of sport; data-driven prediction of injuries and decision support systems for rehabilitation; research on the application of artificial intelligence in healthcare; gathering and analyzing physiological data through intelligent devices, improving early disease prediction and prevention with AI technology, personalized health management, and self-regulation.</p><p>Section C (Intelligent Sport Equipment and Monitoring): <br/>This section focuses on the cutting-edge research regarding intelligent materials and equipment in the fields of athletic performance and healthcare environments. For instance, it explores the utilization of robotics technology, intelligent devices, and exoskeletons in rehabilitation and assistive training; the assessment of psychological states based on electroencephalogram and eye-tracking; the application of brain-computer interface technology in the analysis of exercise psychology; gait recognition and performance diagnosis using sensor devices, along with motion tracking and analysis via wearable devices; and intelligent devices and infrastructure for athletic training and coaching technologies, among others.</p><p><a href=\"https://www.keaipublishing.com/en/journals/intelligent-sports-and-health/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 19,
+          "title": "Displays",
+          "acronym": "DISPLA",
+          "issn": "0141-9382",
+          "subjectAreas": [
+            "Industrial and Manufacturing Engineering",
+            "Surfaces, Coatings and Films",
+            "Electrical and Electronic Engineering",
+            "Human-Computer Interaction",
+            "Human Factors and Ergonomics",
+            "Hardware and Architecture"
+          ],
+          "articleTypes": [
+            "Full length article",
+            "Review article",
+            "Short communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01419382.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/DISPLA",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/displays/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.1
+            },
+            "impactFactor": {
+              "value": 3.4
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p><b><i>Displays</i></b> is a peer reviewed international journal accepting technical, original research papers and tutorial papers dealing with display technologies and applications. The journal welcomes submissions in a wide range of display-related topics, including <b>display technologies</b>, materials, components, methods and systems, <b>display-human interaction</b>, processing and analysis of visual signals, and visual perception. The journal aims to provide a platform for the publication of top quality display-related research works with both <b>academic and industrial</b> appeal.</p><p>Our dedicated editorial team will try their best to ensure a rapid reviewing process. The journal covers topics include, but not limited to, the following fields:</p><p>Display-human Interaction</p><p>• Visual signal processing and computer vision (CV) <br/> • Display-human/user interface design and analysis <br/> • Image/video quality assessment (IQA/VQA) and quality of experience (QoE) <br/> • Visual performance measurement and assessment <br/> • Visual perception and its cortical representation <br/> • Human factors and ergonomics for displays</p><p>Display Technology</p><p>• Emissive/non-emissive displays <br/> • Flexible displays and E-papers <br/> • Materials/components and drive-electronics for displays <br/> • 3D displays and virtual/augmented/mixed reality (VR/AR/MR) <br/> • Auditory and tactile displays <br/> • Computational displays</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Guangtao Zhai",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+                "tier": 3
+              },
+              {
+                "name": "INSTRUMENTS & INSTRUMENTATION",
+                "tier": 2
+              },
+              {
+                "name": "OPTICS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2470,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 20,
+          "title": "Cognitive Robotics",
+          "acronym": "COGR",
+          "issn": "2667-2413",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Engineering (General)",
+            "Computer Science (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review",
+            "Short Communication",
+            "SI: CCNCR",
+            "SI: CSR",
+            "SI: Deep Learning for High-Density Critical Environments",
+            "SI: ECER",
+            "SI: EHR",
+            "SI: HCI",
+            "SI: HMI",
+            "SI: HRC",
+            "SI: Intelligent Techniques for Cognitive Robotics",
+            "SI: NCSA"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26672413.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/cogrob",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 18.9
+            },
+            "acceptanceRate": {
+              "value": 15
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>The increasing computational power of computers has significantly expanded the possibility of using artificial intelligence (AI) in various fields. There has been a transformation in the industry motivated by the natural ease of interface between humans and computers, and the promise of spectacular improvements in human capabilities. In the past two decades, a large number of AI systems have been developed in areas like speech recognition, image processing, computer vision, data mining, machine learning, software development, and robotics. In particular, there has been a significant surge in the application of AI in robotics. </p><p>The growing need to automate daily tasks combined with new robotic technologies are driving the development of human-friendly robots. Intelligent robots with human-like intelligence and cognitive capabilities perform tasks in environments such as homes, public facilities and industrial plants. Robots are being used in tasks that are difficult for humans, like retrieving items from underground caves, retrieving bodies from destroyed buildings, and rescuing people in hazardous situations.</p><p>Journal of Cognitive Robotics (COGR) provides rapid publication of topical research on implementations of AI techniques in all areas related to robotics. Please submit your article at: <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.keaipublishing.com%2Fjournals%2Fcognitive-robotics&data=05%7C02%7Cyuki.yu%40elsevier.com%7C8b1ba1ecaac949c6747908dda3324b9d%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638846158596934415%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ttw1OKrNndOG59stmMOIr%2Bpa%2BVxptvlTbCO0D9K8C1M%3D&reserved=0\">Cognitive Robotics (keaipublishing.com)</a></p><p>The journal also publishes special sections covering specific related topics. Proposals for special sections should be emailed to editor-in-chief: </p><p>Dr. Huimin Lu (<a href=\"mailto:dr.huimin.lu@ieee.org\">dr.huimin.lu@ieee.org</a>)</p><p><a href=\"https://www.keaipublishing.com/en/journals/cognitive-robotics/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 21,
+          "title": "International Journal of Approximate Reasoning",
+          "acronym": "IJA",
+          "issn": "0888-613X",
+          "subjectAreas": [
+            "Statistics, Probability and Uncertainty",
+            "Computer Science Applications",
+            "Statistics and Probability",
+            "Information Systems and Management",
+            "Artificial Intelligence",
+            "Electrical and Electronic Engineering",
+            "Information Systems"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "VSI: CONCEPTS 2026",
+            "VSI: ECSQARU 2025",
+            "VSI: ISIPTA 2025",
+            "VSI: selected papers from SCAN"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/0888613X.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/IJA",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/international-journal-of-approximate-reasoning/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.2
+            },
+            "impactFactor": {
+              "value": 3
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 6
+            }
+          },
+          "scope": "<p>Uncertainty in Intelligent Systems</p><p>The <i>International Journal of Approximate Reasoning</i> is intended to serve as a forum for the treatment of <b>imprecision</b> and <b>uncertainty</b> in <b>Artificial</b> and <b>Computational Intelligence</b>, covering both the foundations of uncertainty theories, and the design of intelligent systems for scientific and engineering applications. It publishes high-quality research papers describing theoretical developments or innovative applications, as well as review articles on topics of general interest.</p><p>Relevant topics include, but are not limited to, probabilistic <b>reasoning</b> and Bayesian networks, imprecise probabilities, random sets, belief functions (Dempster-Shafer theory), possibility theory, fuzzy sets, rough sets, decision theory, non-additive measures and integrals, qualitative reasoning about uncertainty, comparative probability orderings, game-theoretic probability, default reasoning, nonstandard logics, argumentation systems, inconsistency tolerant reasoning, elicitation techniques, philosophical foundations and psychological models of uncertain reasoning.</p><p>Domains of application for <b>uncertain reasoning systems</b> include risk analysis and assessment, information retrieval and database design, information fusion, machine learning, data and web mining, computer vision, image and signal processing, intelligent data analysis, statistics, multi-agent systems, etc.</p><p>The journal is affiliated with the <a href=\"http://www.sipta.org/\">Society for Imprecise Probability: Theories and Applications (SIPTA)</a>, and <a href=\"http://www.bfasociety.org/\">Beliefs functions and Applications Society (BFAS)</a>.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Thierry Denoeux",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3190,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 22,
+          "title": "Computers and Electronics in Agriculture",
+          "acronym": "COMPAG",
+          "issn": "0168-1699",
+          "subjectAreas": [
+            "Agronomy and Crop Science",
+            "Computer Science Applications",
+            "Forestry",
+            "Veterinary Science"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Invited Review Article",
+            "Review Article",
+            "Application note",
+            "VSI: Agricultural Robotics_Research article",
+            "VSI: Food Security and Food Affordability_Research Paper",
+            "VSI: Foundation Models in Agriculture_Research article",
+            "VSI: Generative AI_Research",
+            "VSI: Wearable Sensors_Research article",
+            "VSI: Agricultural Robotics_Review article",
+            "VSI: Food Security and Food Affordability_Review Paper",
+            "VSI: Foundation Models in Agriculture_Review article",
+            "VSI: Generative AI_Review",
+            "VSI: Wearable Sensors_Review article",
+            "VSI: Food Security and Food Affordability_Short communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01681699.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/compag/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/computers-and-electronics-in-agriculture/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 15.1
+            },
+            "impactFactor": {
+              "value": 8.9
+            },
+            "acceptanceRate": {
+              "value": 15
+            },
+            "timeToFirstDecision": {
+              "value": 15
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p><i>Computers and Electronics in Agriculture</i> provides international coverage of advances in the development and application of <b>computer</b> hardware, software, <b>electronic instrumentation</b>, and <b>control systems</b> for solving problems in <b>agriculture</b>, including agronomy, horticulture (in both its food and amenity aspects), forestry, aquaculture, and animal/livestock farming. Its new companion journal, <a href=\"https://www.journals.elsevier.com/smart-agricultural-technology\">Smart Agricultural Technology</a> provides continuity for smart application being applied in production agriculture.</p><p>The journal publishes original papers, reviews, and applications notes on topics pertaining to advances in the use of computers or electronics in plant or animal agricultural production, including agricultural soils, water, pests, controlled environments, structures, and wastes, as well as the plants and animals themselves. On-farm, post-harvest operations considered part of agriculture (such as drying, storage, logistics, production assessment, trimming and separation of plant and animal material) are also covered. Relevant areas of technology include artificial intelligence, sensors, machine vision, robotics, networking, and simulation modelling.</p><p>When determining the suitability of submitted manuscripts for publication, particular emphasis is placed on novelty and innovation, and the degree to which a manuscript advances the state of the art for computers/electronics in agriculture. Applying existing technology to a particular crop for the first time does not qualify as an <i>innovation</i> in computers/electronics for this journal. Research applying off-the-shelf hardware or software, without augmenting such technology with investigator-developed tools, innovations, or unique approaches, should be submitted to its companion journal, S<a href=\"https://www.journals.elsevier.com/smart-agricultural-technology\">mart Agricultural Technology</a>, whose scope includes applied technology. Manuscripts that apply computers/electronics in an ancillary fashion or focus objectives and conclusions primarily on the application sciences (e.g., entomology, agronomy, engineering, economics, horticulture) should be submitted to one of those respective science journals.</p><p>The journal recognizes that the use of previously published data sets (either alpha-numeric, quantitative, or imagery) can be extremely beneficial as researchers develop and prototype new machine learning or machine vision algorithms with potential application to agriculture. However, the journal views this prototyping work as preliminary in nature, and prospective authors should, prior to submitting such work to this journal, generate a more scientifically rigorous data set, collected by the authors under controlled and reported experimental conditions.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor Longsheng Fu | Professor Manoj Karkee | Prof. Dr. Francesco Marinello | Assoc. Professor Tomás Norton",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "AGRICULTURE, MULTIDISCIPLINARY",
+                "tier": 1
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Agricultural and Forestry Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3730,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 23,
+          "title": "Artificial Intelligence in Agriculture",
+          "acronym": "AIIA",
+          "issn": "2589-7217",
+          "subjectAreas": [
+            "Computer Vision and Pattern Recognition",
+            "Artificial Intelligence",
+            "Agricultural and Biological Sciences (General)"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication",
+            "Technical Note",
+            "VSI: ST-BIGDATA"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/25897217.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AIA/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 23
+            },
+            "impactFactor": {
+              "value": 12.4
+            },
+            "timeToFirstDecision": {
+              "value": 12
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>Artificial Intelligence (AI) techniques are widely used to solve a variety of problems and to optimize the production and operation processes in the fields of agriculture, food and bio-system engineering.</p><p><i>Artificial Intelligence in Agriculture</i> is an Open Access journal, publishing original research, reviews and perspectives on the theory and practice of artificial intelligence (AI) in agriculture, food and bio-system engineering and related areas. <i>Artificial Intelligence in Agriculture</i> serves as an interdisciplinary forum to share ideas and solutions related to artificial intelligence and applications in agriculture. The journal welcomes both fundamental science and applied research describing the practical applications of AI methods in the fields of agriculture, food - and bio-system engineering and related areas.</p><p>Topics of interest to the journal include, but are not limited to:</p><ul><li><p>AI-based decision support systems</p></li><li><p>AI-based precision agriculture</p></li><li><p>Smart sensors and Internet of Things</p></li><li><p>Agricultural robotics and automation equipment</p></li><li><p>Agricultural knowledge-based systems</p></li><li><p>Computational intelligence in agriculture, food and bio-systems</p></li><li><p>AI in agricultural optimization management</p></li><li><p>Intelligent interfaces and human-machine interaction</p></li><li><p>Machine vision and image/signal processing</p></li><li><p>Machine learning and pattern recognition</p></li><li><p>Neural networks, fuzzy systems, neuro-fuzzy systems</p></li><li><p>Systems modeling and analysis</p></li><li><p>Intelligent systems for animal feeding</p></li><li><p>Expert systems in agriculture</p></li><li><p>Crop Phenotyping and analysis</p></li><li><p>Remote sensing in agriculture</p></li><li><p>AI technology in aquiculture</p></li><li><p>AI in food engineering and cold chain logistics</p></li><li><p>Big Data and Cloud Computing</p></li><li><p>Automatic navigation and self-driving technology</p></li><li><p>Precision agricultural aviation</p></li><li><p>Distributed ledger technology (Blockchain)</p></li></ul><p>The journal welcomes original research articles, review articles, perspective papers and short communications. The journal&#39;s editorial leadership welcome suggestions and proposals for special issues.</p><p><a href=\"https://www.keaipublishing.com/en/journals/artificial-intelligence-in-agriculture/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 1100,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 24,
+          "title": "Fuzzy Sets and Systems",
+          "acronym": "FSS",
+          "issn": "0165-0114",
+          "subjectAreas": [
+            "Information Systems and Management",
+            "Statistics, Probability and Uncertainty",
+            "Electrical and Electronic Engineering",
+            "Statistics and Probability",
+            "Artificial Intelligence",
+            "Computer Vision and Pattern Recognition",
+            "Computer Science Applications"
+          ],
+          "articleTypes": [
+            "Full Length Article (FLA)",
+            "Review Article (REV)",
+            "Short Communication (SCO)",
+            "VSI: 60th anniv. of fuzzy sets",
+            "VSI: Fuzzy Indices - Research article",
+            "VSI: Fuzzy Indices - Review article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01650114.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/FSS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/fuzzy-sets-and-systems/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.1
+            },
+            "impactFactor": {
+              "value": 2.7
+            },
+            "timeToFirstDecision": {
+              "value": 10
+            },
+            "timeToAcceptance": {
+              "value": 6
+            }
+          },
+          "scope": "<p>An International Journal in Information Science and Engineering <br/> Official Publication of the International Fuzzy Systems Association (IFSA)</p><p>Since its launching in 1978, the journal <i>Fuzzy Sets and Systems</i> has been devoted to the international advancement of the theory and application of <b>fuzzy sets</b> and <b>systems</b>. The theory of fuzzy sets now encompasses a well organized corpus of basic notions including (and not restricted to) aggregation operations, a generalized theory of relations, specific measures of information content, a calculus of fuzzy numbers. Fuzzy sets are also the cornerstone of a non-additive uncertainty theory, namely possibility theory, and of a versatile tool for both linguistic and numerical modeling: fuzzy rule-based systems. Numerous works now combine fuzzy concepts with other scientific disciplines as well as modern technologies.</p><p>In mathematics fuzzy sets have triggered new research topics in connection with category theory, topology, algebra, analysis. Fuzzy sets are also part of a recent trend in the study of generalized measures and integrals, and are combined with statistical methods. Furthermore, fuzzy sets have strong logical underpinnings in the tradition of many-valued logics.</p><p>Fuzzy set-based techniques are also an important ingredient in the development of <b>information technologies</b>. In the field of information processing fuzzy sets are important in clustering, data analysis and data fusion, pattern recognition and computer vision. Fuzzy rule-based modeling has been combined with other techniques such as neural nets and evolutionary computing and applied to systems and control engineering, with applications to robotics, complex process control and supervision. In thefield of information systems, fuzzy sets play a role in the development of intelligent and flexible manBmachine interfaces and the storage of imprecise linguistic information. In Artificial Intelligence various forms of knowledge representation and automated reasoning frameworks benefit from fuzzy set-based techniques, for instance in interpolative reasoning, non-monotonic reasoning, diagnosis, logic programming, constraint-directed reasoning, etc. Fuzzy expert systems have been devised for fault diagnosis,and also in medical science. In decision and organization sciences, fuzzy sets has had a great impact in preference modeling and multicriteria evaluation, and has helped bringing optimization techniques closer to the users needs. Applications can be found in many areas such as management, production research, and finance. Moreover concepts and methods of fuzzy set theory have attracted scientists in many other disciplines pertaining to human-oriented studies such as cognitive psychology and some aspects of social sciences.</p><p>The scope of the journal <i>Fuzzy Sets and Systems</i> has expanded so as to account for all facets of the field while emphasizing its specificity as bridging the gap between the flexibility of human representations and the precision and clarity of mathematical or computerized representations, be they numerical or symbolic.</p><p>The journal welcomes original and significant contributions in the area of Fuzzy Sets whether on empirical or mathematical foundations, or their applications to any domain of information technology, and more generally to any field of investigation where fuzzy sets are relevant. Applied papers demonstrating the usefulness of <b>fuzzy methodology</b> in practical problems are particularly welcome. <i>Fuzzy Sets and Systems</i> publishes high-quality research articles, surveys as well as case studies. Separate sections are Recent Literature, and the Bulletin, which offers research reports, book reviews and conference announcements and various news items. Invited review articles on topics of general interest are included and special issues are published regularly.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Couso | De Baets | Godo",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "tier": 2
+              },
+              {
+                "name": "MATHEMATICS, APPLIED",
+                "tier": 1
+              },
+              {
+                "name": "STATISTICS & PROBABILITY",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Mathematics",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2720,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 25,
+          "title": "Machine Learning with Applications",
+          "acronym": "MLWA",
+          "issn": "2666-8270",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Management Science and Operations Research",
+            "Artificial Intelligence",
+            "Decision Sciences (General)"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26668270.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/mlwa/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "impactFactor": {
+              "value": 4.9
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p><i>Machine Learning with Applications</i> (MLWA) is a peer reviewed, open access journal focused on research related to <b>machine learning</b>. The journal encompasses all aspects of research and development in ML, including but not limited to data mining, computer vision, natural language processing (NLP), intelligent systems, neural networks, AI-based software engineering, bioinformatics and their applications in the areas of engineering, medicine, biology, education, business and social sciences. It covers a broad spectrum of applications in the community, from <b>industry</b>, <b>government</b>, and <b>academia</b>.</p><p>The journal publishes research results in addition to new approaches to ML, with a focus on value and effectiveness. Application papers should demonstrate how ML can be used to solve important practical problems. Research methodology papers should demonstrate an improvement to the way in which existing ML research is conducted.</p><p>Submissions must be novel, technically sound, and clearly presented. MLWA accepts both regular papers and technical notes (technical notes are limited to a maximum of 10 pages). In addition, survey articles and discussion papers on ML are welcome.</p><p>Submissions meeting journal criteria will undergo a single-blind review process, utilizing a minimum of two (2) external referees. Our dedicated editorial team, together with active researchers from all areas of ML, ensure that papers move through the evaluation and review as fast as possible without compromising on the quality of the process.</p><p>The journal audience comprises academia, industry, and practitioners. Authors are strongly encouraged to make their datasets publicly accessible via a repository of their choosing. Please see our Guide for Authors for information on article submission. If you require any further information or help, please visit our <a href=\"https://service.elsevier.com/app/home/supporthub/publishing\">Support Center</a>.</p><p>We invite you to convert your open source software into an additional journal publication in <a href=\"https://www.journals.elsevier.com/software-impacts\"><i>Software Impacts</i></a>, a multi-disciplinary open access journal. <i>Software Impacts</i> provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs.</p><p>For more information contact us at: <a href=\"mailto:software.impacts@elsevier.com\">software.impacts@elsevier.com</a></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Prof. Dr. Binshan Lin",
+          "goldOpenAccessFee": {
+            "value": 2460,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 26,
+          "title": "Intelligent Systems with Applications",
+          "acronym": "ISWA",
+          "issn": "2667-3053",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Computer Networks and Communications",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Discussion",
+            "Full length article",
+            "Review article",
+            "Short communication",
+            "Short review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26673053.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/iswa/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/intelligent-systems-with-applications/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 8.3
+            },
+            "impactFactor": {
+              "value": 4.3
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p><i>Intelligent Systems with Applications</i> (ISWA) is a peer reviewed open-access journal which focuses on the achievements of <b>research and applications</b> related to <b>intelligent systems</b> (IS). IS can be applied to all aspects of human enterprize, such as business &amp; finance, manufacturing &amp; supply chains, agriculture, transportation, engineering, medicine and health, education, entertainment, culture, travel, media, the Internet, etc. ISWA covers a broad spectrum of applications in the community, including <b>industry</b>, <b>government</b>, and <b>academia</b>.</p><p>The journal aims to publish papers dealing with, but not limited to, the following research fields: <br/> Knowledge Representation and Reasoning, Machine Learning (ML) and Neural Computing, Evolutionary Computation, Fuzzy Systems, Intelligent Information Processing, Intelligent Control and Robotics, Multi-agent Systems and Programming.</p><p>The journal welcomes submissions of IS-applications in various areas: <br/> Intelligent Cities, Industries, Consuming, Medical Treatment and Health, Agriculture, Business and Finance, Internet of Things (IoT). Research addressing IS-applications in other fields is also encouraged.</p><p>Submissions must be novel, technically sound, and clearly presented. ISWA accepts both regular papers and survey articles. Submissions meeting journal criteria will undergo a single-blind review process, utilizing a minimum of two (2) external referees. Our dedicated editorial team, together with active researchers from related fields, will ensure that papers move through the evaluation and review as rapidly as possible without compromising on the quality of the process.</p><p>The journal audience comprises academia, industry, and practitioners. Authors are strongly encouraged to make their datasets and software publicly accessible via a repository of their choosing. Please see our Guide for Authors for information on article submission. If you require any further information or help, please visit our <a href=\"https://service.elsevier.com/app/home/supporthub/publishing\">Support Center</a>.</p><p><b>Software Publication</b></p><p>We invite you to convert your open source software into an additional journal publication in <a href=\"https://www.journals.elsevier.com/software-impacts\"><i>Software Impacts</i></a>, a multi-disciplinary open access journal. <i>Software Impacts</i> provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs.</p><p>For more information contact us at: <a href=\"http://www.elsevier.com/mailto:software.impacts@elsevier.com\">software.impacts@elsevier.com</a></p><p><b>Focal points include, but are not limited to innovative applications of:</b></p><p><b>Basic Theory</b></p><ul><li><p>Knowledge Representation and Reasoning</p></li><li><p>Machine Learning (ML) and Neural Computing</p></li><li><p>Evolutionary Computation</p></li><li><p>Fuzzy Systems</p></li></ul><p><b>Intelligent Methodology</b></p><ul><li><p>Intelligent Information Processing (Video, Image, Audio, Language and other Multi-modal Information)</p><ul><li><p>Data Ming and Knowledge Discovery</p></li><li><p>Pattern Recognition (PR) and Computer Vision (CV)</p></li><li><p>Audio Signal Processing</p></li><li><p>Natural Language Processing (NLP)</p></li></ul></li><li><p>Intelligent Control and Robotics</p></li><li><p>Multi-agent Systems and Programming</p></li></ul><p><b>Intelligent Applications</b></p><ul><li><p>Intelligent Cities</p><ul><li><p>Intelligent Transportation</p></li><li><p>Intelligent Systems for Security and Management</p></li></ul></li><li><p>Intelligent Systems for Industry</p><ul><li><p>Intelligent Supply Chain</p></li><li><p>Unmanned factory and flexible manufacturing</p></li><li><p>Unmanned Warehouse</p></li><li><p>Service Robot</p></li></ul></li><li><p>Intelligent Systems for Consuming</p><ul><li><p>Intelligent Hardware and Smart Wearable Devices</p></li><li><p>Intelligent Furniture</p></li><li><p>New Retails</p></li><li><p>Unmanned Driving and Autonomous Systems</p></li></ul></li><li><p>Intelligent Systems for Medical Treatment and Health</p></li><li><p>Intelligent Systems for Agriculture</p></li><li><p>Intelligent Systems for Business and Finance</p></li><li><p>Internet of Things and its Applications</p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Hua Xu",
+          "goldOpenAccessFee": {
+            "value": 2300,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 27,
+          "title": "Journal of Information Security and Applications",
+          "acronym": "JISA",
+          "issn": "2214-2126",
+          "subjectAreas": [
+            "Library and Information Sciences",
+            "Information Systems",
+            "Computer Science Applications",
+            "Computer Networks and Communications"
+          ],
+          "articleTypes": [
+            "Full Length Article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22142126.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/JISAS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-information-security-and-applications/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10
+            },
+            "impactFactor": {
+              "value": 3.7
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 15
+            }
+          },
+          "scope": "<p><i>Journal of Information Security and Applications</i> (JISA) focuses on the original research and practice-driven applications with relevance to <b>information security</b> and <b>applications</b>. <i>JISA</i> provides a common linkage between a vibrant scientific and research community and industry professionals by offering a clear view on modern problems and challenges in information security, as well as identifying promising scientific and &quot;best-practice&quot; solutions. <i>JISA</i> issues offer a balance between original research work and innovative industrial approaches by internationally renowned information security experts and researchers.</p><p>The international editorial board of <i>JISA</i> and its guest editors are committed to the highest scientific standards by implementing a strict peer-review policy for submitted articles. It will also regularly invite the best papers from renowned information security venues for publication in <i>JISA</i>.</p><p><i>JISA</i> issues are published quarterly with a strong emphasis for details and technical contributions, covering a wide range of advanced and latest information security topics, including new and emerging research directions and scientific vision while keeping the readers informed of the state-of-the-art security techniques, technologies and applications.</p><p>Current <i>JISA</i> topics</p><ul><li><p><b>Authentication</b> and <b>access control</b></p></li><li><p><b>Anonymity</b> and <b>privacy</b></p></li><li><p><b>Cryptographic protection</b></p></li><li><p><b>Digital forensics</b></p></li><li><p><b>Human factors</b> in security</p></li><li><p><b>Multimedia security</b></p></li><li><p><b>Network</b> and <b>mobile security</b></p></li><li><p><b>Security management</b> and <b>policies</b></p></li><li><p><b>Hardware</b> and <b>physical security</b></p></li></ul>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Ho",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2970,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 28,
+          "title": "IFAC Journal of Systems and Control",
+          "acronym": "IFACSC",
+          "issn": "2468-6018",
+          "subjectAreas": [
+            "Information Systems",
+            "Control and Systems Engineering"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Short Communication",
+            "VSI: Engineering Diabetes Tech EGE: José-Luis Díez",
+            "VSI: J3C 2025 EGE: Mike Barth"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/24686018.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/IFACSC",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/ifac-journal-of-systems-and-control/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 3.6
+            },
+            "impactFactor": {
+              "value": 1.8
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 6
+            }
+          },
+          "scope": "<p><i>IFAC Journal of Systems &amp; Control</i> publishes significant, previously unpublished, and high-quality research papers containing generalizable, extensible and transferable innovations across all aspects of the field of control and automation.</p><p>The Journal has considerable interest in multi-, cross-, and trans- disciplinary research from control and systems theory to their application, including articles where the novelty is in the linkages between and across fields. These works need not be novel in a single focus area, but show significant impact and novelty in the combination and extension across multiple areas. They often explore new areas of theory and/or (especially) application at the boundary of systems and control enabling new viewpoints, insight, high/new impact, and/or techniques.</p><p>A major requirement for publication is for articles to clearly state:</p><p>• <b>Novelty and Context</b>: The novelty of the article and/or its novel elements relative to a large field of work and/or its disciplines of application. </p><p><br/> • <b>Impact and Insight</b>: The potential impact and insight created by the work in the relevant fields </p><p><br/> • <b>Validation</b>: The clear validation of their results in comparison to other results in the field, and/or experimental test results by the authors and/or other works.</p><p>Papers should clearly express all these aspects in (each/all of) the Introduction, Methods, Results, Discussion, and Conclusions sections of the article.</p><p>Further, the journal <b>requires papers be in a standard format structure</b> of major sections in the order: <b>Abstract</b> – <b>Introduction – Methods – Results – Discussion – Conclusions – References</b>, and no other structure.</p><p>The journal accepts papers across the entire breadth and depth of both theory and application of control systems and system identification, as defined by <a href=\"https://tc.ifac-control.org/\">IFAC Technical Committees</a> and listed below:</p><p>• Systems and Signals, Dynamic Systems Modelling, and System Identification <br/> • Design Methods in Linear, Nonlinear, Optimal, Robust, Decentralised, and Distributed Control <br/> • AI / Machine Learning, Computer Systems, Cognition, and Communication Systems <br/> • Mechatronics, Robotics, Human-Machine Systems and Interfaces, and Sensors/Actuators <br/> • Cyber-Physical Manufacturing and Human Systems <br/> • Power Systems and Distribution, Process Control <br/> • Transportation, Aerospace, and Vehicle Systems <br/> • Biomedical, Biological, and Ecological Systems <br/> • Social Systems, Control Education, Economic and Financial Systems</p><p>In addition, the Journal strongly encourages &quot;vision papers&quot; about <a href=\"https://tc.ifac-control.org/\">IFAC Clusters and Technical Committee (CC/TC)</a> areas, as well as the organization of special issues from IFAC Technical Committee organised symposiums. Finally, the Journal will also invite special issues and reviews in areas of special interest.</p><p>Authors are strongly encouraged to provide attachments of data files, computer programs, and other links as part of the electronic environment of the papers, but not part of the reviewed work.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor J. Geoffrey Chase",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "AUTOMATION & CONTROL SYSTEMS",
+                "tier": 4
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 4,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3090,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 29,
+          "title": "Information Processing in Agriculture",
+          "acronym": "INPA",
+          "issn": "2214-3173",
+          "subjectAreas": [
+            "Forestry",
+            "Agricultural and Biological Sciences (General)",
+            "Animal Science and Zoology"
+          ],
+          "articleTypes": [
+            "Full length article",
+            "Review article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22143173.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ipa/",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/information-processing-in-agriculture/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 20.4
+            },
+            "impactFactor": {
+              "value": 7.4
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>The Journal of the China Agricultural University</p><p><i>Information Processing in Agriculture (IPA)</i> was established in 2013 to encourage the development of science and technology related to information processing in agriculture, through the following aims: <br/> • Promote the use of knowledge and methods from information processing technologies in agriculture; <br/> • Report on experiences and publications of institutes, universities, and government, as well as profitable technologies for agriculture; <br/> • Provide a platform and opportunities for exchanging knowledge, strategies, and experiences among information processing researchers worldwide; <br/> • Promote and encourage interactions among agriculture scientists, meteorologists, biologists (pathologists/entomologists), information technology professionals, and other stakeholders to develop and implement methods, techniques, and tools related to information processing technology in agriculture; <br/> • Create and promote expert groups for the development of agro-meteorological databases, crop and livestock modeling, and applications for the development of crop performance-based decision support systems.</p><p><b>Topics of interest include, but are not limited to, the following aspects:</b> <br/> • Smart sensors, biosensors and bioelectronics, material and molecular innovations for chemical and biological sensing, sensors, and automation and control systems for agriculture; <br/> • Wireless sensor networks, 4G, NB-IOT, and 5G applications in agriculture; <br/> • Remote sensing and discrete element modeling (DEM) applications in agriculture; <br/> • Simulation, optimization, modeling, and automated control; <br/> • Decision support systems, intelligent systems, and artificial intelligence; <br/> • Machine vision, computer vision, image processing and automation, and imaging technologies for high-throughput phenotyping <br/> • Advances in spectroscopy and hyperspectral properties of biological products; <br/> • Advanced computational approaches for solving agricultural and biological engineering problems; <br/> • Computational fluid dynamics (CFD) applications in agriculture; <br/> • Inspection and traceability for food quality; <br/> • Precision agriculture, intelligent instruments, robotics, and co-robotics for agriculture; <br/> • Internet of things, cloud computing, and precision farming; <br/> • Big data, data mining, and data analysis for agricultural applications; <br/> • Unmanned aerial vehicles (UAVs) for sensing, imaging, and agricultural aquacultural applications.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Daoliang Li",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "AGRICULTURE, MULTIDISCIPLINARY",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Agricultural and Forestry Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 30,
+          "title": "Journal of Infrastructure Intelligence and Resilience",
+          "acronym": "IINTEL",
+          "issn": "2772-9915",
+          "subjectAreas": [
+            "Civil and Structural Engineering",
+            "Engineering (General)",
+            "Safety, Risk, Reliability and Quality"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27729915.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/jiir/default1.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-infrastructure-intelligence-and-resilience/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 4.9
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i>Journal of Infrastructure Intelligence and Resilience</i> is an International journal aiming to provide a major publication channel for researchers on the latest global research results regarding &quot;Infrastructure Intelligence and Resilience&quot; and to establish an international academic platform to integrate the emerging smart and artificial intelligence (AI) technologies to the civil infrastructural systems for the enhancement of their safety, functionality, resilience, and sustainability against natural and men-made hazard and disaster; as well as ensuring the designed infrastructure that is economically, socially, environmentally, and institutionally sustainable.</p><p><b>Main contents and key topics:</b></p><ol><li><p>Smart Structure Technology: smart construction materials, smart sensors, structural health monitoring, smart NDT, diagnosis and prognosis, structural control, smart retrofit, smart control devices and systems, and design of smart structural systems.</p></li><li><p>Artificial Intelligence: deep learning, big data, smart diagnosis, computer vision, cloud computing, internet of things, virtual reality, robotics, drone, construction automation, intelligent building, smart city, and intelligent civil infrastructural systems.</p></li><li><p>Resilience and Sustainability: safety and reliability, functionality, structural and community resilience, sustainability, civil infrastructural systems, life-cycle assessment, socio-economic and environmental impacts, natural and men-made hazards, disaster mitigation, risk management, policy making, and mega city projects.</p></li></ol>",
+          "openAccessType": "FULL",
+          "editorInChief": "Yaozhi Luo",
+          "goldOpenAccessFee": {
+            "value": 1600,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 31,
+          "title": "Food Physics",
+          "acronym": "FOODP",
+          "issn": "2950-0699",
+          "subjectAreas": [
+            "Physics and Astronomy (General)",
+            "Spectroscopy",
+            "Food Science",
+            "Engineering (General)"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29500699.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/foodp/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 2.8
+            },
+            "acceptanceRate": {
+              "value": 20
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 2
+            }
+          },
+          "scope": "<p><i><b>Food Physics</b></i> mainly publishes papers on the food physical processing technologies and physical characteristics of food.</p><p>Key coverage areas/topics include (but not limited to): <br/></p><ul><li><p>Food processing technologies based on non-thermal physics, such as ultrasonics, pulsed electric/magnetic field, plasma, laser, ultraviolet, ultra-high pressure, pulsed light, irradiation, supercritical or subcritical fluid.</p></li><li><p>Food processing technologies based on thermal physics, such as microwave, infrared, radio frequency, and ohmic.</p></li><li><p>Rapid detection of food quality and its processing parameters based on physics, such as computer vision, electronic nose, electronic tongue, near-infrared spectrum, Raman spectrum, ultrasonics, nuclear magnetic resonance, and biosensor.</p></li><li><p>The application of physics in food manufacturing, such as extraction, enzymolysis, fermentation, mutagenesis, aging, emulsification, sterilization, embedding, baking, 3D-printing, extrusion, and membrane separation.</p></li><li><p>The application of physics in agri-product processing, such as cleaning, peeling, enzyme inactivation, drying, sterilization, pickling, quick freezing, and thawing.</p></li><li><p>Physical characteristics of food, such as mechanical properties, optical properties, thermal properties, and electromagnetic properties. Physics of nano particles in foods</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/food-physics/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 32,
+          "title": "Neurocomputing",
+          "acronym": "NEUCOM",
+          "issn": "0925-2312",
+          "subjectAreas": [
+            "Neuroscience (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Regular article",
+            "Replication study",
+            "Tutorial/case study",
+            "Survey/review study",
+            "Software publication",
+            "VSI: Dr. Alexander Poznyak 80th birthday",
+            "VSI: Neural Dynamics",
+            "VSI: Positive Noise Learning"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09252312.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/NEUCOM",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/neurocomputing/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 13.6
+            },
+            "impactFactor": {
+              "value": 6.5
+            },
+            "timeToFirstDecision": {
+              "value": 8
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>Neurocomputing publishes articles describing recent fundamental contributions in the field of neurocomputing. Neurocomputing theory, practice and applications are the essential topics being covered.</p><p>NEW! Neurocomputing&#39;s Software Track allows you to expose your complete Software work to the community through a novel Publication format: the Original Software Publication</p><p><i>Overview:</i></p><p>Neurocomputing welcomes theoretical contributions aimed at winning further understanding of neural networks and learning systems, including, but not restricted to, architectures, learning methods, analysis of network dynamics, theories of learning, self-organization, biological neural network modelling, sensorimotor transformations and interdisciplinary topics with artificial intelligence, artificial life, cognitive science, computational learning theory, fuzzy logic, genetic algorithms, information theory, machine learning, neurobiology and pattern recognition.</p><p>Neurocomputing covers practical aspects with contributions on advances in hardware and software development environments for neurocomputing, including, but not restricted to, simulation software environments, emulation hardware architectures, models of concurrent computation, neurocomputers, and neurochips (digital, analog, optical, and biodevices).</p><p>Neurocomputing reports on applications in different fields, including, but not restricted to, signal processing, speech processing, image processing, computer vision, control, robotics, optimization, scheduling, resource allocation and financial forecasting.</p><p><i>Types of publications:</i></p><p>Neurocomputing publishes reviews of literature about neurocomputing and affine fields.</p><p>Neurocomputing reports on meetings, including, but not restricted to, conferences, workshops and seminars.</p><p>NEW! The Neurocomputing Software Track</p><p>Neurocomputing Software Track publishes a new format, the Original Software Publication (OSP) to disseminate exiting and useful software in the areas of neural networks and learning systems, including, but not restricted to, architectures, learning methods, analysis of network dynamics, theories of learning, self-organization, biological neural network modelling, sensorimotor transformations and interdisciplinary topics with artificial intelligence, artificial life, cognitive science, computational learning theory, fuzzy logic, genetic algorithms, information theory, machine learning, neurobiology and pattern recognition. We encourage high-quality original software submissions which contain non-trivial contributions in the above areas related to the implementations of algorithms, toolboxes, and real systems. The software must adhere to a recognized legal license, such as <a href=\"https://www.elsevier.com/about/content-innovation/original-software-publications\">OSI approved licenses</a>.</p><p>Importantly, the software will be a full peer reviewed publication that is able to capture your software updates once they are released. To fully acknowledge the author&#39;s/developers work your software will be fully citable as an Original Software Publication, archived and indexed and available as a complete online &quot;body of work&quot; for other researchers and practitioners to discover.</p><p>See the detailed Submission instructions, and more information about the process for academically publishing your Software: <a href=\"https://www.elsevier.com/about/content-innovation/original-software-publications\">here</a></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Zidong Wang",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2930,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 33,
+          "title": "Knowledge-Based Systems",
+          "acronym": "KNOSYS",
+          "issn": "0950-7051",
+          "subjectAreas": [
+            "Control and Optimization",
+            "Control and Systems Engineering",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09507051.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/knosys/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/knowledge-based-systems/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 15
+            },
+            "impactFactor": {
+              "value": 7.6
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p><i>Knowledge-based Systems</i> is an international and interdisciplinary journal in the field of artificial intelligence. The journal will publish original, innovative and creative research results in the field, and is designed to focus on research in knowledge-based and other artificial intelligence techniques-based systems with the following objectives and capabilities: to support human prediction and decision-making through data science and computation techniques; to provide a balanced coverage of both theory and practical study in the field; and to encourage new development and implementation of knowledge-based intelligence models, methods, systems, and software tools, with applications in business, government, education, engineering and healthcare.</p><p>This journal&#39;s current leading topics are but not limited to:</p><ul><li><p>Machine learning theory, methodology and algorithms</p></li><li><p>Data science theory, methodologies and techniques</p></li><li><p>Knowledge presentation and engineering</p></li><li><p>Recommender systems and E-service personalization</p></li><li><p>Intelligent decision support systems, prediction systems and warning systems</p></li><li><p>Computational Intelligence systems</p></li><li><p>Data-driven optimization</p></li><li><p>Cognitive interaction and brain–computer interface</p></li><li><p>Knowledge-based computer vision techniques</p></li></ul><p><b>Special Issue Instructions</b></p><p><i>Knowledge-based Systems (KBS)</i>, an international and interdisciplinary peer-reviewed academic journal in the field of artificial intelligence, welcomes the submission of special issues on timely topics within the scope of the journal. The main objectives of the journal to organize special issues are to bring together state-of-the-art and high-quality research works, to promote key advances in the science and applications in the important field of knowledge-based systems, and to drive emerging research topics and establish flagships in the field.</p><p><b>How to submit your Special Issue proposal:</b></p><ul><li><p>Check the <a href=\"https://www.elsevier.com/__data/promis_misc/knosys_selection_criteria_for_a_special_issue_proposal.pdf\">selection criteria</a> below for a KBS special issue to make sure your proposal is relevant to the journal,</p></li><li><p>Write your special issue proposal in the <a href=\"https://www.elsevier.com/__data/promis_misc/knosys_structure_of_a_special_issue_proposal.pdf\">structure</a> given below,</p></li><li><p>Submit the special issue proposal to the Editor-in-Chief (EiC),</p></li><li><p>The EiC and KBS special issue assessment panel will then review your proposal and reply with their decision.</p></li></ul><p><b>Guest Editors&#39; Duty and Special Issue Process:</b></p><p>After a special issue proposal is accepted by the journal, a call for papers can be formally distributed. All the papers submitted to the special issue will undergo a peer review process. Guest Editors will manage the process and ensure that the reviewing standards for <i>Knowledge-Based Systems</i> regular issues are maintained. A Managing Guest Editor, who will be responsible for distributing submissions to the other Guest Editors, will need to be nominated. After the Guest Editors make recommendations on each paper in the special issue, the EiC will make the final decisions of acceptance for publication. After all papers to be included in the Special Issue are accepted, the Guest Editors will be responsible for either preparing an Editorial (1–2 pages in length) or writing a field survey (5–10 pages in length), which will incorporate the selected papers and related literature relevant to the topic of the special issue.</p><p><b>Software Publication</b></p><p>We invite you to convert your open source software into an additional journal publication in <a href=\"https://www.journals.elsevier.com/software-impacts\"><i>Software Impacts</i></a>, a multi-disciplinary open access journal. <i>Software Impacts</i> provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs.</p><p>For more information contact us at: <a href=\"mailto:software.impacts@elsevier.com\">software.impacts@elsevier.com</a></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor Jie Lu",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3350,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 34,
+          "title": "Visual Informatics",
+          "acronym": "VISINF",
+          "issn": "2468-502X",
+          "subjectAreas": [
+            "Computer Graphics and Computer-Aided Design",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "articleTypes": [
+            "Research article",
+            "Review article",
+            "Short communication",
+            "Case report",
+            "Data article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/2468502X.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/VISINF",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/visual-informatics/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 8.1
+            },
+            "impactFactor": {
+              "value": 3.9
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i><b>Visual Informatics</b></i> is a peer-reviewed online journal published on the platform of Elsevier. It is dedicated to the <b>development and application of theories, algorithms and technologies associated with visual data acquisition, analysis, synthesis, perception, enhancement and applications.</b> Suggested topics include but are not limited to:</p><ul><li><p>Visual data acquisition and modelling</p></li><li><p>Visualization and visual analysis</p></li><li><p>Expressive rendering</p></li><li><p>Augmented reality</p></li><li><p>Natural interface based on visual perception</p></li></ul><p>The journal accepts surveys, original research articles, invited papers, special issues and excellent papers recommended by some related conferences. During the first few years, it will be published quarterly with open access.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Prof. Dr. Hans-Peter Seidel | Prof. Dr. Kun Zhou",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 1700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 35,
+          "title": "Artificial Intelligence in Geosciences",
+          "acronym": "AIIG",
+          "issn": "2666-5441",
+          "subjectAreas": [
+            "Computers in Earth Sciences",
+            "Artificial Intelligence",
+            "Computer Science Applications"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26665441.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AIIG/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/artificial-intelligence-in-geosciences/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.2
+            },
+            "impactFactor": {
+              "value": 4.2
+            },
+            "acceptanceRate": {
+              "value": 22
+            },
+            "timeToFirstDecision": {
+              "value": 13
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>Artificial intelligence (AI) is one of the fastest growing disciplines in electronic information technology. Along with diversified data, AI-enabled technologies such as image processing, smart sensors, and intelligent inversion, are being tested by researchers in a wide variety of geosciences domains. These technologies have the potential to help geosciences move from qualitative to quantitative analysis. We believe that taking an interdisciplinary approach will deliver benefits to both geosciences and AI.</p><p><i>Artificial Intelligence in Geosciences</i> is an open access journal providing an interdisciplinary forum where ideas and solutions related to artificial intelligence and its applications in geosciences can be shared and discussed. To support this discussion, we encourage authors to open source their code, data, and the labels used in AI.</p><p>We welcome both fundamental science and applied research describing the practical applications of AI methods in the fields of geology, rock physics, seismicity, hydrology, ecology, marine geosciences, planetary science, environment, volcanology, oceanography, remote sensing and GIS, and related areas.</p><p>Submissions to <i>Artificial Intelligence in Geosciences</i> may take the form of original research articles, review articles, perspective papers, or short communications, and a variety of topics will be considered. These include, but are not limited to:</p><ul><li><p>AI-based decision support systems</p></li><li><p>AI-based precision geosciences</p></li><li><p>Smart sensors and the Internet of Things</p></li><li><p>Geosciences robotics and automation equipment</p></li><li><p>Geosciences knowledge-based systems</p></li><li><p>Computational intelligence in geosciences</p></li><li><p>AI in geosciences optimization management</p></li><li><p>Intelligent interfaces and human-machine interaction</p></li><li><p>Machine vision and image/signal processing</p></li><li><p>Machine learning and pattern recognition</p></li><li><p>Neural networks, fuzzy systems, neuro-fuzzy systems</p></li><li><p>Systems modeling and analysis</p></li><li><p>Expert systems in geosciences</p></li><li><p>Big data and cloud computing in geosciences</p></li><li><p>Automatic navigation and self-driving technology</p></li><li><p>High Performance Computing in the context of Machine Learning</p></li></ul><p><i>Artificial Intelligence in Geosciences</i> also welcomes suggestions and proposals for special issues.</p><p><a href=\"https://www.keaipublishing.com/en/journals/artificial-intelligence-in-geosciences/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "Geosciences, Multidisciplinary",
+                "tier": 4
+              }
+            ],
+            "majorRanking": {
+              "name": "GeoSciences",
+              "tier": 4,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 36,
+          "title": "Information Fusion",
+          "acronym": "INFFUS",
+          "issn": "1566-2535",
+          "subjectAreas": [
+            "Engineering (General)",
+            "Signal Processing",
+            "Information Systems",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "articleTypes": [
+            "Editors own manuscript",
+            "Opinion paper",
+            "Research paper",
+            "Survey",
+            "VSI: Low-quality Data: Foundation Models"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15662535.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/INFFUS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/information-fusion/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 24.1
+            },
+            "impactFactor": {
+              "value": 15.5
+            }
+          },
+          "scope": "<p>An International Journal on Multi-Sensor, Multi-Source Information Fusion</p><p>The journal is intended to present within a single forum all of the developments in the field of <b>multi-sensor</b>, <b>multi-source</b>, <b>multi-process information fusion</b> and thereby promote the synergism among the many disciplines that are contributing to its growth. The journal is the premier vehicle for disseminating information on all aspects of research and development in the field of information fusion. Articles are expected to emphasize one or more of the three facets: <b>architectures</b>, <b>algorithms</b>, and <b>applications</b>. Papers dealing with fundamental theoretical analyses as well as those demonstrating their application to real-world problems will be welcome. The journal publishes original papers, letters to the <a href=\"https://www.journals.elsevier.com/information-fusion/editorial-board/\">Editors</a> and from time to time invited review articles, in all areas related to the information fusion arena including, but not limited to, the following suggested topics:</p><ul><li><p>Data/Image, Feature, Decision, and Multilevel Fusion </p></li><li><p>Multi-classifier/Decision Systems </p></li><li><p>Multi-Look Temporal Fusion </p></li><li><p>Multi-Sensor, Multi-Source Fusion System Architectures </p></li><li><p>Distributed and Wireless Sensor Networks </p></li><li><p>Higher Level Fusion Topics Including Situation Awareness And Management </p></li><li><p>Multi-Sensor Management and Real-Time Applications</p></li><li><p>Adaptive And Self-Improving Fusion System Architectures </p></li><li><p>Active, Passive, And Mixed Sensor Suites </p></li><li><p>Multi-Sensor And Distributed Sensor System Design </p></li><li><p>Fusion Learning In Imperfect, Imprecise And Incomplete Environments</p></li><li><p>Intelligent Techniques For Fusion Processing </p></li><li><p>Fusion System Design And Algorithmic Issues </p></li><li><p>Fusion System Computational Resources and Demands Optimization </p></li><li><p>Special Purpose Hardware Dedicated To Fusion Applications </p></li><li><p>Mining Remotely Sensed Multi-Spectral/Hyper-Spectral Image Data Bases </p></li><li><p>Information Fusion Applications in Intrusion Detection, Network Security, Information Security and Assurance arena </p></li><li><p>Applications such as Robotics, Space, Bio-medical, Transportation, Economics, and Financial Information Systems </p></li><li><p>Real-World Issues such as Computational Demands, Real-Time Constraints in the context of Fusion systems.</p></li></ul><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Salvador García-Lopez | Jiayi Ma",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 1
+              },
+              {
+                "name": "COMPUTER SCIENCE, THEORY & METHODS",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 4500,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 37,
+          "title": "Advances in Ophthalmology Practice and Research",
+          "acronym": "AOPR",
+          "issn": "2667-3762",
+          "subjectAreas": [
+            "Ophthalmology"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Meta-analysis",
+            "Review",
+            "Short Communication",
+            "Meeting reports"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26673762.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AOPR/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/advances-in-ophthalmology-practice-and-research/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 4.3
+            },
+            "impactFactor": {
+              "value": 3.4
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 1
+            }
+          },
+          "scope": "<p><i>Advances in Ophthalmology Practice and Research (AOPR)</i> is an English scientific, online, peer-reviewed, international and fully open-access journal. The Journal will publish clinical and basic research articles in various subspecialties of ophthalmology and related interdisciplinary and translational medicine fields, reporting advanced eye-related technologies. It aims to provide an academic communication platform for ophthalmic clinicians and scientists to promote the development of ophthalmology-related scientific research, to promote the progress of clinical diagnosis and treatment technology in ophthalmology, and ultimately contribute to the improvement of overall health.</p><p>Our broad scope ensures that the research published in this journal reaches the widest possible audience with an interest in Ophthalmology and related fields. The journal will publish a variety of article types, including original research, review articles, short communications, practice guidelines, opinions, editorials, comments, correspondence, and meeting reports. AOPR intends to cover the topics of interest that include, but are not limited to the following:</p><ul><li><p>Clinical research on novel diagnostic techniques, treatment methods and new drugs for ocular diseases.</p></li><li><p>New clinical findings of eye and ocular diseases, rare or unique ocular disorders, epidemiology of ocular diseases.</p></li><li><p>Interdisciplinary research on eye, vision science and clinical application of ophthalmology, such as materials science, computer technology, biomechanics, etc.</p></li><li><p>Translational Research on diagnosis and treatment of eye diseases.</p></li><li><p>Advanced basic research in ocular diseases, eye function and visual science.</p></li></ul><p>An official journal of <a href=\"https://www.zju.edu.cn/english/2018/0522/c19973a812987/page.htm\">the Second Affiliated Hospital of Zhejiang University, School of Medicine</a> and the <a href=\"http://www.zju.edu.cn/english/\">Zhejiang University Press.</a></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Richard Abbott | Ke Yao",
+          "goldOpenAccessFee": {
+            "value": 1600,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 38,
+          "title": "Applied Soft Computing",
+          "acronym": "ASOC",
+          "issn": "1568-4946",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Computer Science Applications"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Invited Conference Paper",
+            "Review Article",
+            "Letter",
+            "VSI:ASOC_ABC_20",
+            "VSI:ASOC_ILAA"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15684946.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/ASOC",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/applied-soft-computing/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 14.5
+            },
+            "impactFactor": {
+              "value": 6.6
+            }
+          },
+          "scope": "<p>The Official Journal of the World Federation on Soft Computing (WFSC) <a href=\"http://www.softcomputing.org\">http://www.softcomputing.org</a></p><p><i>Applied Soft Computing</i> is an international journal promoting an integrated view of <b>soft computing</b> to solve real life problems. Soft computing is a collection of methodologies, which aim to exploit tolerance for imprecision, uncertainty and partial truth to achieve tractability, robustness and low solution cost. The focus is to publish the highest quality research in application, advance and convergence of the areas of <b>Fuzzy Logic</b>, <b>Neural Networks</b>, <b>Evolutionary Computing</b>, <b>Swarm Intelligence</b> and other similar techniques to address real world complexities.</p><p><i>Applied Soft Computing</i> is a rolling publication: articles are published as soon as the <a href=\"https://www.sciencedirect.com/journal/applied-soft-computing/about/editorial-board\">editor-in-chief</a> has accepted them. Therefore, the web site will continuously be updated with new articles and the publication time will be short.</p><p>Major Topics:</p><p>The scope of this journal covers the following soft computing and related techniques, interactions between several soft computing techniques, and their industrial applications:</p><ul><li><p>Evolutionary Computing</p></li><li><p>Fuzzy Computing</p></li><li><p>Hybrid Methods</p></li><li><p>Immunological Computing</p></li><li><p>Neuro Computing</p></li><li><p>Swarm Intelligence</p></li><li><p>Machine and Deep Learning</p></li><li><p>Rough Sets</p></li></ul><p>The application areas of interest include but are not limited to applications of soft computing to:</p><ul><li><p>Agricultural Machinery, Smart Farming</p></li><li><p>Autonomous Reasoning</p></li><li><p>Big Data, IoT, Edge Computing</p></li><li><p>Combinatorial Optimization</p></li><li><p>Data Mining</p></li><li><p>Decision Support</p></li><li><p>Engineering Design Optimization</p></li><li><p>Fault Diagnosis</p></li><li><p>Finance</p></li><li><p>Human-Machine Interface</p></li><li><p>Intelligent Agents</p></li><li><p>Manufacturing Systems</p></li><li><p>Power Electronics</p></li><li><p>Multi-objective Optimization</p></li><li><p>Power and Energy</p></li><li><p>Process and System Control</p></li><li><p>Robotics</p></li><li><p>Security</p></li><li><p>Sensor Systems</p></li><li><p>Signal or Image Processing</p></li><li><p>Software Engineering</p></li><li><p>Supply Chain Economy</p></li><li><p>System Identification and Modelling</p></li><li><p>Telecommunications</p></li><li><p>Time Series Prediction</p></li><li><p>Extended Reality, Metaverse, Digital Twins</p></li><li><p>Vision or Pattern Recognition</p></li></ul><p>Authors are welcome to submit <b>letters</b> promoting original soft computing research to <i>Applied Soft Computing&#39;s</i> open access companion title, <a href=\"https://www.sciencedirect.com/journal/systems-and-soft-computing\">Systems and Soft Computing</a>.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Mario Köppen",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3560,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 39,
+          "title": "Journal of Automation and Intelligence",
+          "acronym": "JAI",
+          "issn": "2949-8554",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Control and Systems Engineering"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29498554.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/JOAI/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/journal-of-automation-and-intelligence/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 4.4
+            },
+            "acceptanceRate": {
+              "value": 12
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 5
+            }
+          },
+          "scope": "<p>Artificial intelligence (AI) is almost everywhere due to the rapid development of modern technology and popularity of intelligent devices. While control theory and machine learning techniques as two enabling technologies have shown enormous power in their own right, a rapprochement of them is required to handle nonlinearity, uncertainty and scalability induced by high complexity of modern systems, huge quantity of real-time data, and large scale of agent networks.</p><p>Journal of Automation and Intelligence (JAI) aims to provide a platform for researchers and practitioners from both academia and industry to exchange their ideas and present new developments across multiple disciplines relevant to automation and artificial intelligence with particular attention to machine learning.</p><p>The JAI welcomes original high-quality contributions associated with automation and artificial intelligence. Potential areas of interest include but are not limited to:</p><p>1): theory and applications of control, decision-making, and machine learning</p><p>2): cognition, reasoning, large language models and multi-agent systems</p><p>3): AI driven autonomous systems, computation and vision</p><p><a href=\"https://www.keaipublishing.com/en/journals/journal-of-automation-and-intelligence/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 40,
+          "title": "Signal Processing: Image Communication",
+          "acronym": "IMAGE",
+          "issn": "0923-5965",
+          "subjectAreas": [
+            "Computer Vision and Pattern Recognition",
+            "Signal Processing",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Short Communication",
+            "Perspective article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09235965.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/image/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/signal-processing-image-communication/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.2
+            },
+            "impactFactor": {
+              "value": 2.7
+            },
+            "acceptanceRate": {
+              "value": 9
+            },
+            "timeToFirstDecision": {
+              "value": 15
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>Theory, Techniques &amp; Applications <br/> A publication of the <a href=\"http://www.eurasip.org/\">European Association for Signal Processing (EURASIP)</a></p><p><i>Signal Processing: Image Communication</i> is an international journal for the development of the theory and practice of <b>image communication</b>. Its primary objectives are the following:</p><p>To present a forum for the advancement of theory and practice of image communication.</p><p>To stimulate cross-fertilization between areas similar in nature which have traditionally been separated, for example, various aspects of <b>visual communications</b> and <b>information systems</b>.</p><p>To contribute to a rapid information exchange between the industrial and academic environments.</p><p>The editorial policy and the technical content of the journal are the responsibility of the Editor-in-Chief, the Area <a href=\"https://www.journals.elsevier.com/signal-processing-image-communication/editorial-board/\">Editors</a> and the Advisory Editors. The Journal is self-supporting from subscription income and contains a minimum amount of advertisements. Advertisements are subject to the prior approval of the Editor-in-Chief. The journal welcomes contributions from every country in the world.</p><p><i>Signal Processing: Image Communication</i> publishes articles relating to aspects of the design, implementation and use of <b>image communication systems</b>. The journal features original research work, tutorial and review articles, and accounts of practical developments.</p><p>Subjects of interest include: </p><ul><li><p>Multimedia coding, 3D and multi-view compression for human and machine consumption</p></li><li><p>3D and multi-view representations, multimedia pre/post processing, video restoration and super-resolution, video synthesis</p></li><li><p>Peer-to-peer video networking, wireless video broadcasting and communication, visual surveillance, video processing for automation and remote operation, architectures for image/video processing and communication</p></li><li><p>Interactive visual communication, Virtual Reality (VR), Augmented Reality (AR) and eXtended Reality (XR) systems, point cloud processing and compression, light field capture and rendering, immersive media technologies, real-time 3D environment reconstruction</p></li><li><p>Multimedia quality assessment and measures, models for QoS and QoE</p></li><li><p>Multi-camera video analysis, motion analysis, content-based media indexing and retrieval, semantics, face and gesture processing</p></li></ul><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Federica Battisti",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2590,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        }
+      ],
+      "filterHistograms": {
+        "impactFactor": [
+          0,
+          2,
+          2,
+          8,
+          7,
+          3,
+          3,
+          4,
+          2,
+          0,
+          4
+        ],
+        "citeScore": [
+          0,
+          0,
+          2,
+          1,
+          3,
+          0,
+          6,
+          3,
+          4,
+          3,
+          19
+        ],
+        "publicationTime": [
+          1,
+          2,
+          0,
+          7,
+          3,
+          4,
+          6,
+          7,
+          2,
+          4,
+          2,
+          3,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "timeToFirstDecision": [
+          4,
+          6,
+          5,
+          2,
+          3,
+          3,
+          4,
+          4,
+          2,
+          2,
+          0,
+          1,
+          2,
+          0,
+          3,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "totalResults": 46,
+      "institute": {
+        "name": null,
+        "hasAgreements": false
+      }
+    }
+  }
+]

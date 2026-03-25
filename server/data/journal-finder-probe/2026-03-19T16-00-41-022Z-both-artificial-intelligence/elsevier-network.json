@@ -1,0 +1,2609 @@
+[
+  {
+    "url": "https://authorhub.elsevier.com/api/v1/journals/keywords-search",
+    "status": 200,
+    "json": {
+      "results": [
+        {
+          "ranking": 1,
+          "title": "Artificial Intelligence in Agriculture",
+          "acronym": "AIIA",
+          "issn": "2589-7217",
+          "subjectAreas": [
+            "Computer Vision and Pattern Recognition",
+            "Artificial Intelligence",
+            "Agricultural and Biological Sciences (General)"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication",
+            "Technical Note",
+            "VSI: ST-BIGDATA"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/25897217.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AIA/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 23
+            },
+            "impactFactor": {
+              "value": 12.4
+            },
+            "timeToFirstDecision": {
+              "value": 12
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>Artificial Intelligence (AI) techniques are widely used to solve a variety of problems and to optimize the production and operation processes in the fields of agriculture, food and bio-system engineering.</p><p><i>Artificial Intelligence in Agriculture</i> is an Open Access journal, publishing original research, reviews and perspectives on the theory and practice of artificial intelligence (AI) in agriculture, food and bio-system engineering and related areas. <i>Artificial Intelligence in Agriculture</i> serves as an interdisciplinary forum to share ideas and solutions related to artificial intelligence and applications in agriculture. The journal welcomes both fundamental science and applied research describing the practical applications of AI methods in the fields of agriculture, food - and bio-system engineering and related areas.</p><p>Topics of interest to the journal include, but are not limited to:</p><ul><li><p>AI-based decision support systems</p></li><li><p>AI-based precision agriculture</p></li><li><p>Smart sensors and Internet of Things</p></li><li><p>Agricultural robotics and automation equipment</p></li><li><p>Agricultural knowledge-based systems</p></li><li><p>Computational intelligence in agriculture, food and bio-systems</p></li><li><p>AI in agricultural optimization management</p></li><li><p>Intelligent interfaces and human-machine interaction</p></li><li><p>Machine vision and image/signal processing</p></li><li><p>Machine learning and pattern recognition</p></li><li><p>Neural networks, fuzzy systems, neuro-fuzzy systems</p></li><li><p>Systems modeling and analysis</p></li><li><p>Intelligent systems for animal feeding</p></li><li><p>Expert systems in agriculture</p></li><li><p>Crop Phenotyping and analysis</p></li><li><p>Remote sensing in agriculture</p></li><li><p>AI technology in aquiculture</p></li><li><p>AI in food engineering and cold chain logistics</p></li><li><p>Big Data and Cloud Computing</p></li><li><p>Automatic navigation and self-driving technology</p></li><li><p>Precision agricultural aviation</p></li><li><p>Distributed ledger technology (Blockchain)</p></li></ul><p>The journal welcomes original research articles, review articles, perspective papers and short communications. The journal&#39;s editorial leadership welcome suggestions and proposals for special issues.</p><p><a href=\"https://www.keaipublishing.com/en/journals/artificial-intelligence-in-agriculture/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 1100,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 2,
+          "title": "Artificial Intelligence in Geosciences",
+          "acronym": "AIIG",
+          "issn": "2666-5441",
+          "subjectAreas": [
+            "Computers in Earth Sciences",
+            "Artificial Intelligence",
+            "Computer Science Applications"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26665441.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AIIG/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/artificial-intelligence-in-geosciences/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.2
+            },
+            "impactFactor": {
+              "value": 4.2
+            },
+            "acceptanceRate": {
+              "value": 22
+            },
+            "timeToFirstDecision": {
+              "value": 13
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>Artificial intelligence (AI) is one of the fastest growing disciplines in electronic information technology. Along with diversified data, AI-enabled technologies such as image processing, smart sensors, and intelligent inversion, are being tested by researchers in a wide variety of geosciences domains. These technologies have the potential to help geosciences move from qualitative to quantitative analysis. We believe that taking an interdisciplinary approach will deliver benefits to both geosciences and AI.</p><p><i>Artificial Intelligence in Geosciences</i> is an open access journal providing an interdisciplinary forum where ideas and solutions related to artificial intelligence and its applications in geosciences can be shared and discussed. To support this discussion, we encourage authors to open source their code, data, and the labels used in AI.</p><p>We welcome both fundamental science and applied research describing the practical applications of AI methods in the fields of geology, rock physics, seismicity, hydrology, ecology, marine geosciences, planetary science, environment, volcanology, oceanography, remote sensing and GIS, and related areas.</p><p>Submissions to <i>Artificial Intelligence in Geosciences</i> may take the form of original research articles, review articles, perspective papers, or short communications, and a variety of topics will be considered. These include, but are not limited to:</p><ul><li><p>AI-based decision support systems</p></li><li><p>AI-based precision geosciences</p></li><li><p>Smart sensors and the Internet of Things</p></li><li><p>Geosciences robotics and automation equipment</p></li><li><p>Geosciences knowledge-based systems</p></li><li><p>Computational intelligence in geosciences</p></li><li><p>AI in geosciences optimization management</p></li><li><p>Intelligent interfaces and human-machine interaction</p></li><li><p>Machine vision and image/signal processing</p></li><li><p>Machine learning and pattern recognition</p></li><li><p>Neural networks, fuzzy systems, neuro-fuzzy systems</p></li><li><p>Systems modeling and analysis</p></li><li><p>Expert systems in geosciences</p></li><li><p>Big data and cloud computing in geosciences</p></li><li><p>Automatic navigation and self-driving technology</p></li><li><p>High Performance Computing in the context of Machine Learning</p></li></ul><p><i>Artificial Intelligence in Geosciences</i> also welcomes suggestions and proposals for special issues.</p><p><a href=\"https://www.keaipublishing.com/en/journals/artificial-intelligence-in-geosciences/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "Geosciences, Multidisciplinary",
+                "tier": 4
+              }
+            ],
+            "majorRanking": {
+              "name": "GeoSciences",
+              "tier": 4,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 3,
+          "title": "Design and Artificial Intelligence",
+          "acronym": "DAAI",
+          "issn": "3050-7413",
+          "subjectAreas": [
+            "Human-Computer Interaction",
+            "Arts and Humanities (General)",
+            "Artificial Intelligence",
+            "Computer Science (General)"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Review",
+            "Short Communication",
+            "Short Survey",
+            "Data",
+            "Micro Article",
+            "Protocol",
+            "Original software publication",
+            "Video Article",
+            "Replication Study",
+            "SI:Agentic AI:Research Article",
+            "SI:Agentic AI:Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30507413.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/daai/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p><b>Aims and scope</b></p><p><i>Design and Artificial Intelligence</i> (<i>DAAI</i>) is a peer-reviewed international journal dedicated to advancing interdisciplinary research at the intersection of design and artificial intelligence (AI). The goal of <i>DAAI</i> is to serve as a leading platform of scholarly exchange and innovation in the integration of design and artificial intelligence through a multidisciplinary approach.</p><p>The journal aims to:</p><ul><li><p>facilitate research that bridges the gap between the design and artificial intelligence; </p></li><li><p>promote the development and application of innovative AI technologies and methodologies in design contexts;</p></li><li><p>explore the implications of AI on new design theories, practices and education; </p></li><li><p>investigate human-computer (AI) interaction paradigms emerging from the integration of AI in design processes; and </p></li><li><p>encourage critical discourse on the ethical, social, and cultural impacts of AI-driven design. </p></li></ul><p><b>Scope </b></p><p><i>DAAI</i> welcomes original research articles, review papers, case studies and theoretical frameworks that contribute to the advancement of knowledge in this rapidly evolving field. The journal seeks submissions from researchers, practitioners and educators working in areas including, but not limited to, artificial intelligence, design theory and practice, and human-computer interaction. </p><p><b>Artificial intelligence</b></p><ul><li><p>AI algorithms and models for design</p></li><li><p>AI tools and applications in design </p></li><li><p>Empirical studies of AI technologies and systems </p></li></ul><p><b>Design theory and practice (with AI)</b></p><ul><li><p>Design theories and methodologies </p></li><li><p>Social and cultural perspectives of design </p></li><li><p>User research, prototyping, and evaluation methods </p></li></ul><p><b>Human-Computer (AI) Interaction</b></p><ul><li><p>HCI Theories, methods, techniques, and applications</p></li><li><p>Human-AI interaction </p></li><li><p>Computational interaction</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/design-and-artificial-intelligence/editorial-board/\">Editorial Board </a></p><p></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 4,
+          "title": "Artificial Intelligence in Medicine",
+          "acronym": "ARTMED",
+          "issn": "0933-3657",
+          "subjectAreas": [
+            "Medicine and Dentistry (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Historical perspectives",
+            "Original research contributions",
+            "PhD projects",
+            "Position papers",
+            "Book reviews",
+            "Methodological Reviews/Surveys",
+            "VSI: AIIM for IEEE CBMS 2025 (FLA)",
+            "VSI: TKD from PhysioNet (FLA)",
+            "VSI: TKD from PhysioNet (REV)"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09333657.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AIIM/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 12.2
+            },
+            "impactFactor": {
+              "value": 6.2
+            },
+            "timeToFirstDecision": {
+              "value": 12
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p><i>Artificial Intelligence in Medicine</i> publishes original articles from a wide variety of interdisciplinary perspectives concerning the theory and practice of <b>artificial intelligence</b> (AI) in <b>medicine</b>, <b>medically-oriented human biology</b>, and <b>health care</b>.</p><p><b>Artificial intelligence in medicine</b> may be characterized as the scientific discipline pertaining to research studies, projects, and applications that aim at supporting decision-based medical tasks through knowledge- and/or data-intensive computer-based solutions that ultimately support and improve the performance of a human care provider.</p><p><i>Artificial Intelligence in Medicine</i> considers for publication manuscripts that have both:</p><p>• <b>Potential high impact in some medical or healthcare domain;</b> <br/> • <b>Strong novelty of method and theory related to AI and computer science techniques.</b></p><p><i>Artificial Intelligence in Medicine</i> papers must refer to real-world medical domains, considered and discussed at the proper depth, from both the technical and the medical points of view. <b>The inclusion of a clinical assessment</b> of the usefulness and potential impact of the submitted work <b>is strongly recommended.</b></p><p><i>Artificial Intelligence in Medicine</i> is looking for novelty in the methodological and/or theoretical content of submitted papers. Such kind of novelty has to be mainly acknowledged in the area of AI and Computer Science. <b>Methodological papers</b> deal with the proposal of some strategy and related methods to solve some scientific issues in specific domains. They must show, usually through an experimental evaluation, how the proposed methodology can be applied to medicine, medically-oriented human biology, and health care, respectively. They have also to provide a comparison with other proposals, and explicitly discuss elements of novelty. <b>Theoretical papers</b> focus on more fundamental, general and formal topics of AI and must show the novel expected effects of the proposed solution in some medical or healthcare field.</p><p>Following the information explosion brought by the diffusion of Internet, social networks, cloud computing, and big-data platforms, Artificial Intelligence in Medicine has broadened its perspective. Particular attention is given to novel research work pertaining to:</p><ul><li><p>AI-based clinical decision making;</p></li><li><p>Medical knowledge engineering;</p></li><li><p>Knowledge-based and agent-based systems;</p></li><li><p>Computational intelligence in bio- and clinical medicine;</p></li><li><p>Intelligent and process-aware information systems in healthcare and medicine;</p></li><li><p>Natural language processing in medicine;</p></li><li><p>Data analytics and mining for biomedical decision support;</p></li><li><p>New computational platforms and models for biomedicine;</p></li><li><p>Intelligent exploitation of heterogeneous data sources aimed at supporting decision-based and data-intensive clinical tasks;</p></li><li><p>Intelligent devices and instruments;</p></li><li><p>Automated reasoning and meta-reasoning in medicine;</p></li><li><p>Machine learning in medicine, medically-oriented human biology, and healthcare;</p></li><li><p>AI and data science in medicine, medically-oriented human biology, and healthcare;</p></li><li><p>AI-based modeling and management of healthcare pathways and clinical guidelines;</p></li><li><p>Models and systems for AI-based population health;</p></li><li><p>AI in medical and healthcare education;</p></li><li><p>Methodological, philosophical, ethical, and social issues of AI in healthcare, medically-oriented human biology, and medicine.</p></li></ul><p>If you are considering submitting to <i>Artificial Intelligence in Medicine</i>, make sure that your paper meets the quality requirements mentioned above. English exposition must also be clear and revised with due care. Authors are kindly requested to revise their manuscripts with the help of co-authors that are fluent in English or language editing services before submitting their contribution. Papers written in poor English are likely to be rejected.</p><p>The mere application of well-known or already published algorithms and techniques to medical data is not regarded as original research work of interest for <i>Artificial Intelligence in Medicine</i>, but it may be suitable for other venues.</p><p><i>Artificial Intelligence in Medicine</i> features the following kinds of papers:</p><ul><li><p><b>Original research contributions:</b> Theoretical and/or methodological papers about novel approaches;</p></li><li><p><b>Methodological reviews/surveys:</b> Papers that collect, classify, describe, and critically analyze research designs, methods and procedures;</p></li><li><p><b>Position papers:</b> Papers that gather, describe, and analyze the scientific challenges of a specific field, founding them on the related literature;</p></li><li><p><b>Editorials:</b> Editors will occasionally publish editorials;</p></li><li><p><b>Guest editorials:</b> Editors can invite guest editors of special issues to publish editorials. Unsolicited editorials will not be considered;</p></li><li><p><b>Letters to the editor:</b> Letters from readers shortly discussing and commenting on a topic of interest, for example based on recently published articles in the journal <i>Artificial Intelligence in Medicine</i>;</p></li><li><p><b>Book reviews:</b> A critical review of recently published books;</p></li><li><p><b>Erratum:</b> Some specific corrections to results previously published in the journal <i>Artificial Intelligence in Medicine</i>;</p></li><li><p><b>Historical perspectives:</b> Papers that describe and critically review some specific aspects in the history of scientific contributions and applications;</p></li><li><p><b>In memoriam:</b> Papers describing the life and the main scientific contributions of scientists passed away, having had an important role in the area of artificial intelligence in medicine;</p></li><li><p><b>PhD projects:</b> Early publications about more recent research trends, having the goal of allowing PhD candidates to explain their PhD research project and to share it with other scientists interested in the topic. Such type of papers should focus on the overall goals and approaches of PhD research projects, without considering in detail the specific scientific results obtained, which would be the focus of other research articles.</p></li></ul><p><b>Special Issues</b> are regularly published and included among regular issues. <i>Artificial Intelligence in Medicine</i> special issues deal with current theoretical/methodological research or convincing applications related to AI in medicine. Special Issues are managed by one or more guest editors who are outstanding experts on the selected topic.Special Issues of <i>Artificial Intelligence in Medicine</i> are directly proposed to potential guest editors by the Editor in Chief, also according to suggestions from the editorial board members.&quot;External&quot; proposals of Special Issues will no longer be considered.</p><p><i>Artificial Intelligence in Medicine</i> does not publish conference volumes or conference papers. However, selected and high-quality research results presented earlier at conferences may be published in <i>Artificial Intelligence in Medicine</i>, in the form of a thoroughly revised (rephrased) and extended (including new research results) original research paper.</p><p>Information for authors and further details about the editorial process can be found in the <i>Guide for Authors</i> section of the <i>Artificial Intelligence in Medicine</i> web page.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Carlo Combi",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, BIOMEDICAL",
+                "tier": 2
+              },
+              {
+                "name": "MEDICAL INFORMATICS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Medicine",
+              "tier": 2,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3310,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 5,
+          "title": "Artificial Intelligence",
+          "acronym": "ARTINT",
+          "issn": "0004-3702",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Computer Vision and Pattern Recognition",
+            "Engineering (General)",
+            "Computational Theory and Mathematics"
+          ],
+          "articleTypes": [
+            "Awards Track Invited Papers",
+            "Competition Section",
+            "Full Length Article",
+            "Position Paper",
+            "Research Field Review",
+            "Research Note"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00043702.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/artint/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 15
+            },
+            "impactFactor": {
+              "value": 4.6
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>The journal of <i>Artificial Intelligence (AIJ)</i> welcomes papers on broad aspects of AI that constitute advances in the overall field including, but not limited to, cognition and AI, automated reasoning and inference, case-based reasoning, commonsense reasoning, computer vision, constraint processing, ethical AI, heuristic search, human interfaces, intelligent robotics, knowledge representation, machine learning, multi-agent systems, natural language processing, planning and action, and reasoning under uncertainty. The journal reports results achieved in addition to proposals for new ways of looking at AI problems, both of which must include demonstrations of value and effectiveness.</p><p>Papers describing applications of AI are also welcome, but the focus should be on how new and novel AI methods advance performance in application areas, rather than a presentation of yet another application of conventional AI methods. Papers on applications should describe a principled solution, emphasize its novelty, and present an indepth evaluation of the AI techniques being exploited.</p><p>Apart from regular papers, the journal also accepts Research Notes, Research Field Reviews, Position Papers, and Book Reviews (see details below). The journal will also consider summary papers that describe challenges and competitions from various areas of AI. Such papers should motivate and describe the competition design as well as report and interpret competition results, with an emphasis on insights that are of value beyond the competition (series) itself.</p><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Sylvie Thiebaux | Michael Wooldridge",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 4050,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 6,
+          "title": "Artificial Intelligence Chemistry",
+          "acronym": "AICHEM",
+          "issn": "2949-7477",
+          "subjectAreas": [
+            "Chemistry (General)"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "VSI: AI Molecular Insight",
+            "VSI: AI Molecular Optimization",
+            "VSI: AI Molecular Simulations",
+            "VSI: AI-Spectroscopy",
+            "VSI: ML & Computational Chemistry",
+            "VSI: ML Food Understanding",
+            "VSI: Smart sensors",
+            "VSI: AI Molecular Insight - Review",
+            "VSI: AI Molecular Optimization - Review",
+            "VSI: AI Molecular Simulations - Review",
+            "VSI: ML Food Understanding - Review",
+            "VSI: Smart sensors - Review",
+            "VSI: AI Molecular Insight - Short Communication",
+            "VSI: ML Food Understanding - Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29497477.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/aichem/default1.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/artificial-intelligence-chemistry/publish/guide-for-authors"
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 9
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>The journal will broadly cover all areas of chemistry where artificial intelligence (AI) and machine learning approaches are used. While studies in more traditional sub-disciplines of chemist will certainly be considered, we would welcome and encourage submissions of work that could potentially stimulate interdisciplinary interests involving AI. All submissions must provide a significant contribution to our understanding of contemporary and future AI theory, AI methods, and/or AI applications in chemistry, medicine, biology, and materials science. Studies conducted at all spatial and temporal scales will be considered. We will be open to submissions on all relevant topics and but particularly interested in the following areas of research: Quantum chemical methods combining artificial intelligence (AI) and big data techniques; AI oriented calculations and data system; Construction of AI models; AI assisted materials design; AI assisted structure-activity relationship; Machine learning protocols and application in chemistry; Multi-scale modelling method development; Intelligent spectrum analysis based on AI; Application of AI in complex chemical systems; Application of AI in organic chemistry; Application of AI in drug discovery; Application of AI in identification of sprout compounds and targets; Development of AI software and hardware; Research on the integrating experimental and theory; AI-based spectroscopic analysis and monitoring. The forms of articles to be accepted include reviews, research articles, correspondence letters, news items, etc.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Jun Jiang | Alessandro Pandini",
+          "goldOpenAccessFee": {
+            "value": 1510,
+            "currency": "USD",
+            "discountedValue": 0,
+            "discountExpiryDate": "2026-12-31"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 7,
+          "title": "Artificial Intelligence for Transportation",
+          "acronym": "AIT",
+          "issn": "3050-8606",
+          "subjectAreas": [
+            "Transportation"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30508606.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/AIT",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p> <b><i>Artificial Intelligence for Transportation</i></b> is a peer-reviewed journal dedicated to advancing the integration of machine learning (ML) and artificial intelligence (AI) into the field of transportation. The journal focuses on innovative research that leverages AI and ML to address critical challenges in understanding, designing, planning, operating, and managing sustainable, safe, and efficient multimodal transportation systems.</p><p>Emphasizing the development of AI-empowered solutions, the journal seeks contributions that enhance transportation system performance in terms of safety, efficiency, reliability, equity, accessibility, and environmental sustainability. Interdisciplinary research is highly encouraged, particularly work that integrates cutting-edge AI technologies, such as deep learning, reinforcement learning, large language models, with conventional methodologies, e.g. operations research, probabilistic modeling, etc., to tackle complex transportation challenges.</p><p><i>Artificial Intelligence for Transportation</i> strongly supports open science initiatives, promoting the publication of reproducible research and the sharing of large-scale datasets through online repositories. The journal places special emphasis on studies demonstrating the scalability and transferability of AI-empowered solutions across diverse transportation contexts and geographies.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Yinhai Wang | Hai Yang | Yafeng Yin",
+          "goldOpenAccessFee": {
+            "value": 3000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 8,
+          "title": "Artificial Intelligence in Emergency Medicine",
+          "acronym": "AIEMED",
+          "issn": "3051-2883",
+          "subjectAreas": [
+            "Emergency Medicine",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Protocol",
+            "Scoping Review",
+            "Systematic Review",
+            "Short Communication",
+            "Case Report",
+            "VSI: Generative AI Models in Emergency Medicine- Research article",
+            "VSI: Generative AI Models in Emergency Medicine- Review",
+            "VSI: Generative AI Models in Emergency Medicine- Short communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30512883.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/aiemed/Default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p>Artificial Intelligence in Emergency Medicine (AIEM) is a gold open access, peer-reviewed journal dedicated to advancing the science, practice, and impact of artificial intelligence (AI) across the entire spectrum of emergency medicine. The journal welcomes high-quality, original research, reviews, technical innovations, perspectives, and case reports from all regions and disciplines.</p><p>AIEM provides a comprehensive forum for clinicians, researchers, informaticians, engineers, policymakers, and industry leaders to share knowledge, foster collaboration, and accelerate the responsible adoption of AI in emergency medicine and acute care settings globally.</p><p>It is important to note that any submission to AIEM will only be considered if the work is relevant to <i>both </i>emergency medicine and AI, which we define as follows.</p><p><b><i>Emergency medicine</i></b><b>: </b>Emergency Medicine is a primary specialty focused on the prevention, diagnosis, and management of urgent and emergency conditions affecting patients of all ages with diverse and undifferentiated disorders. It involves timely triage, resuscitation, telemedicine, and coordinated care both in and out of hospital settings until patient stabilization or transfer. </p><p><b><i>Artificial intelligence</i></b><b>:</b> The development and application of computational systems that emulate aspects of human cognition and decision-making, underpinned by heuristics, statistical modelling, traditional machine learning or deep learning approaches.</p><p>The journal’s scope includes, but is not limited to, the areas listed below.</p><p>1. Clinical Applications and Patient Care</p><ul><li><p>AI-powered diagnostics, triage, and risk stratification for all emergency conditions, including trauma, cardiovascular events, neurological emergencies, sepsis, and more.</p></li><li><p>Real-time clinical decision support systems, including imaging, point-of-care, and wearable sensor applications.</p></li><li><p>AI-enabled remote monitoring, telehealth, and prehospital care solutions.</p></li><li><p>Innovations in pediatric, geriatric, and special populations’ emergency care using AI.</p></li></ul><p>2. Operations, Systems, and Resource Management</p><ul><li><p>AI-driven workflow optimization, patient flow, and throughput in emergency departments and prehospital settings.</p></li><li><p>Predictive analytics for surge management, disaster response, mass casualty incidents, and public health emergencies.</p></li><li><p>Integration of AI with electronic health records, hospital information systems, and regional/national emergency care networks.</p></li></ul><p>3. Data Science, Informatics, and Computational Methods</p><ul><li><p>Big data analytics, natural language processing, and deep learning for emergency medicine.</p></li><li><p>Data sharing, data privacy, interoperability, and multi-center collaborative research using AI.</p></li><li><p>Data curation and annotation, data quality and standardization within the context of acute care environments.</p></li><li><p>Human-in-the-loop workflows, and human-machine collaborative approaches.</p></li></ul><p>4. Education, Training, and Workforce Development</p><ul><li><p>AI-enhanced education, simulation, and competency assessment for emergency clinicians, nurses, and allied health professionals.</p></li><li><p>Integration of AI with extended reality (XR) technologies—including virtual, augmented, and mixed reality—to provide immersive training, team-based simulations, and scenario-based learning in emergency medicine.</p></li><li><p>Training curricula and resources on AI literacy for the emergency medicine workforce.</p></li><li><p>Strategies to bridge the gap between AI research and clinical adoption.</p></li></ul><p>5. Policy, Ethics, Equity, and Global Perspectives</p><ul><li><p>Legal, ethical, and regulatory issues in the implementation and governance of AI in emergency medicine.</p></li><li><p>Addressing bias, fairness, transparency, and explainability of AI systems.</p></li><li><p>Global health applications, and reducing disparities in emergency care delivery using AI.</p></li><li><p>Potential risks and harms of applying AI in emergency medicine.</p></li></ul><p>6. Technology, Innovation, and Translational Science</p><ul><li><p>Emerging AI technologies, sensors, robotics, and novel devices for acute care.</p></li><li><p>Translational research from bench to bedside, including pilot studies, clinical trials, and real-world implementations.</p></li><li><p>Partnerships between academia, industry, and healthcare systems to advance innovation.</p></li></ul><p>7. Case Studies, Quality Improvement, and Implementation Science</p><ul><li><p>Reports on successful implementation, challenges, failures, and lessons learned from deploying AI in emergency settings.</p></li><li><p>Impact studies on patient outcomes, safety, quality, and operational efficiency.</p></li></ul><p>AIEM seeks to become the premier international open access platform for knowledge exchange at the intersection of AI and emergency medicine. By embracing a broad, interdisciplinary scope, the journal aims to accelerate scientific progress, inform best practices, and shape the future of emergency care worldwide.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Koenraad Monsieurs | Riza Theresa Batista-Navarro",
+          "goldOpenAccessFee": {
+            "value": 2500,
+            "currency": "USD",
+            "discountedValue": 0,
+            "discountExpiryDate": "2027-08-31"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 9,
+          "title": "Engineering Applications of Artificial Intelligence",
+          "acronym": "EAAI",
+          "issn": "0952-1976",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Control and Systems Engineering",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Research paper",
+            "Tutorial article",
+            "Short Communication",
+            "Case Report",
+            "Survey Paper",
+            "VSI: AI in Control EGE: Seán McLoone",
+            "VSI: Data & AI-CBMS EGE: Jinjun Xu",
+            "VSI: Human-AI collaboration (Research Paper): Madjid Tavana",
+            "VSI: Human-AI collaboration (Review Paper): Madjid Tavana"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09521976.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/EAAI/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.5
+            },
+            "impactFactor": {
+              "value": 8
+            },
+            "timeToFirstDecision": {
+              "value": 27
+            },
+            "timeToAcceptance": {
+              "value": 11
+            }
+          },
+          "scope": "<p>A journal of IFAC, The <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ifac-control.org%2F&data=05%7C02%7Ce.moise%40elsevier.com%7C2b2df1796a8141034f6a08ddea235c2c%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638924159818714199%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=9v%2BrLINz4wq6DpXiBpSvRws1Au1Ef4sEYT2IgaiCdl4%3D&reserved=0\">International Federation of Automatic Control</a>. </p><p><b>Artificial Intelligence</b> (AI) is playing a major role in the fourth industrial revolution, and we are seeing a lot of evolution in various machine learning methodologies. <b>AI techniques</b> are widely used by the practicing engineer to solve a whole range of hitherto intractable problems. <i>Engineering Applications of Artificial Intelligence</i> provides an international forum for rapid publication of work describing the practical application of <b>AI methods</b> in all branches of <b>engineering</b>. Submitted papers should report novel aspects of AI used for a real-world engineering application and also validated using public data sets for easy replicability of the research results.</p><p>Focal points of the journal include, but are not limited to, innovative applications of:</p><ul><li><p>Internet–of–things and cyber-physical systems</p></li><li><p>Intelligent transportation systems &amp; smart vehicles</p></li><li><p>Big data analytics, understanding complex networks</p></li><li><p>Neural networks, fuzzy systems, neuro-fuzzy systems</p></li><li><p>Deep learning and real-world applications</p></li><li><p>Self-organizing, emerging or bio-inspired system</p></li><li><p>Global optimization, Meta-heuristics and their applications: Evolutionary Algorithms, swarm intelligence, nature and biologically inspired meta-heuristics, etc.</p></li><li><p>Architectures, algorithms and techniques for distributed AI systems, including multi-agent based control and holonic control</p></li><li><p>Decision-support systems</p></li><li><p>Aspects of reasoning: abductive, case-based, model-based, non-monotonic, incomplete, progressive and approximate reasoning</p></li><li><p>Applications of chaos theory and fractals</p></li><li><p>Real-time intelligent automation, and their associated supporting methodologies and techniques, including control theory and industrial informatics</p></li><li><p>Knowledge processing, knowledge elicitation and acquisition, knowledge representation, knowledge compaction, knowledge bases, expert systems</p></li><li><p>Perception, e.g. image processing, pattern recognition, vision systems, tactile systems, speech recognition and synthesis</p></li><li><p>Aspects of software engineering, e.g. intelligent programming environments, verification and validation of AI-based software, software and hardware architectures for the real-time use of AI techniques, safety and reliability</p></li><li><p>Intelligent fault detection, fault analysis, diagnostics and monitoring</p></li><li><p>Industrial experiences in the application of the above techniques, e.g. case studies or benchmarking exercises</p></li><li><p>Robotics</p></li></ul><p><b>Papers which do not respect the four following conditions will be desk-rejected without being sent for peer review:</b></p><ul><li><p>Papers on new metaphor-based metaheuristics are very rarely accepted by <i>Engineering Applications of Artificial Intelligence </i>(please see further details in the ‘Article types’ section of the Guide for Authors)</p></li><li><p>The abstract should clearly specify which is the contribution in AI, and which is the application in engineering</p></li><li><p>The use of undefined acronyms in the title and in the abstract is forbidden</p></li><li><p>The papers must be formatted in single-column format</p></li></ul><p>For more details on the International Federation of Automatic Control (IFAC), visit their <a href=\"https://nam11.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.ifac-control.org%2F&data=05%7C02%7Ce.moise%40elsevier.com%7C2b2df1796a8141034f6a08ddea235c2c%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638924159818740993%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=r32PaxY5U1OTO8KlimHEu0HUC5HJEifRlWWhiSStNt8%3D&reserved=0\">home page</a>.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Prof. Patrick Siarry",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "AUTOMATION & CONTROL SYSTEMS",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, MULTIDISCIPLINARY",
+                "tier": 1
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3040,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 10,
+          "title": "European Journal of Radiology Artificial Intelligence",
+          "acronym": "EJRAI",
+          "issn": "3050-5771",
+          "subjectAreas": [
+            "Radiology and Imaging"
+          ],
+          "articleTypes": [
+            "Dataset Article",
+            "Full Length Article",
+            "Educational Article",
+            "Opinion Paper",
+            "Review",
+            "Short Communication",
+            "VSI: Mastering AI in Radiology (Research Article)"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30505771.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ejrai/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p><i>European Journal of Radiology # Artificial Intelligence</i> is a leading scientific journal on advances of artificial intelligence in clinical radiology. It aims to a global audience and by communicating state-of-the-art information on imaging developments in the field.</p><p>\r<i>European Journal of Radiology # Artificial Intelligence</i> aims to promote efficient, appropriate, and evidence-based imaging practices for the benefit of patients worldwide.</p><p>\r<i>European Journal of Radiology # Artificial Intelligence</i> has a special focus on meaningful applications of Artificial Intelligence in clinical radiology. Its audience includes clinicians and technicians at all levels of training.</p><p><b>Your Paper Your Way</b>\r<br/>We now differentiate between the requirements for new and revised submissions. You may choose to submit your manuscript as a single Word or PDF file to be used in the refereeing process. For your initial submission the manuscript format of European Journal of Radiology Artificial Intelligence is preferred but not required. Only when your paper is at the revision stage, will you be requested to put your paper in to a &#39;correct format&#39; for acceptance and provide the items required for the publication of your article.\r<br/></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Pascal A. T. Baltzer | Professor Matthias Dietzel",
+          "goldOpenAccessFee": {
+            "value": 2900,
+            "currency": "USD",
+            "discountedValue": 0,
+            "discountExpiryDate": "2026-09-30"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 11,
+          "title": "Biomimetic Intelligence and Robotics",
+          "acronym": "BIROB",
+          "issn": "2667-3797",
+          "subjectAreas": [
+            "Engineering (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Full length Article",
+            "Review",
+            "Short Communication",
+            "VSI: Morphology-Rich Bio-Robotics_Research article",
+            "VSI: Morphology-Rich Bio-Robotics_Review",
+            "VSI: Morphology-Rich Bio-Robotics_Short"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26673797.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/birob/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/biomimetic-intelligence-and-robotics/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7.3
+            },
+            "impactFactor": {
+              "value": 5.4
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 18
+            }
+          },
+          "scope": "<p>An official Journal of the <a href=\"https://en.sdu.edu.cn/\">Shandong University</a></p><p>To promote advances and original contributions to robotics, biomimetics and artificial intelligence, <i>Biomimetic Intelligence and Robotics</i> (BIROB) provides a platform and forum for the exchange and communication of the most innovative and exciting new discoveries and impactful applications in the fields of biomimetic intelligence and robotics.</p><p><i>Biomimetic Intelligence and Robotics</i> (BIROB) publishes original, high-quality, peer-reviewed theoretical and applied research achievements and review articles in the fields of robotics, biomimetics, artificial intelligence, and the innovative integration of them.</p><p>Topics covered by the journal include but are not limited to: autonomous systems, biomimetic actuators, biomimetic and bio-inspired design, biomimetic materials, biomimetics and artificial intelligence, exoskeletons, field robotics, human-robot interaction, humanoids, industrial robotics, kinematics and dynamics, machine learning, material sciences, medical robotics and technology, motion planning and control, micro and nano robotics, multirobot systems, sensors and bionic sensing, service robotics, and soft robotics.</p><p></p><p><b>P-ISSN: </b><b>2097-0242</b></p>",
+          "openAccessType": "SUBSIDISED",
+          "editorInChief": "Dr. Max Q.-H. Meng",
+          "goldOpenAccessFee": {
+            "value": 1800,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 12,
+          "title": "Computers and Education: Artificial Intelligence",
+          "acronym": "CAEAI",
+          "issn": "2666-920X",
+          "subjectAreas": [
+            "Education"
+          ],
+          "articleTypes": [
+            "Position Paper",
+            "Research Paper",
+            "Review",
+            "VSI: Agentic AI"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/2666920X.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/CAEAI/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 28.7
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p><i><b>Computers &amp; Education: Artificial Intelligence</b></i> aims at affording a world-wide platform for researchers, developers, and educators to present their research studies, exchange new ideas, and demonstrate novel systems and pedagogical innovations on the research topics in relation to applications of artificial intelligence (AI) in education and AI education. A sister journal to <a href=\"https://www.journals.elsevier.com/computers-and-education\">Computers &amp; Education</a>, CAEAI is an open access and peer reviewed journal, which welcomes empirical, review, and position papers from the following areas.</p><ul><li><p>AI-assisted tutoring for decision-making</p></li><li><p>AI-based multimedia data analytics in classroom or school settings</p></li><li><p>AI-enabled learning environment</p></li><li><p>designing educational technologies in the age of AI</p></li><li><p>ethical issues and problems raised by AI applications in education</p></li><li><p>how to apply AI techniques and models in analyzing the educational data</p></li><li><p>how to develop AI-based e-learning systems</p></li><li><p>innovative strategies and systems for AI education</p></li><li><p>intelligent tutoring and learning systems</p></li><li><p>learning behavioral and cognitive analysis for intelligent systems</p></li><li><p>learning emotion detection using AI</p></li><li><p>learning emotion and classroom dialogue analysis using AI</p></li><li><p>personalized and intelligent educational systems</p></li><li><p>pedagogical innovations for AI teaching and learning</p></li><li><p>research trends in AI for education research</p></li></ul>",
+          "openAccessType": "FULL",
+          "editorInChief": "Dragan Gasevic | Haoran Xie | Gwo-Jen Hwang | Benjamin Wah",
+          "goldOpenAccessFee": {
+            "value": 2940,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 13,
+          "title": "Journal of Automation and Intelligence",
+          "acronym": "JAI",
+          "issn": "2949-8554",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Control and Systems Engineering"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29498554.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/JOAI/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/journal-of-automation-and-intelligence/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 4.4
+            },
+            "acceptanceRate": {
+              "value": 12
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 5
+            }
+          },
+          "scope": "<p>Artificial intelligence (AI) is almost everywhere due to the rapid development of modern technology and popularity of intelligent devices. While control theory and machine learning techniques as two enabling technologies have shown enormous power in their own right, a rapprochement of them is required to handle nonlinearity, uncertainty and scalability induced by high complexity of modern systems, huge quantity of real-time data, and large scale of agent networks.</p><p>Journal of Automation and Intelligence (JAI) aims to provide a platform for researchers and practitioners from both academia and industry to exchange their ideas and present new developments across multiple disciplines relevant to automation and artificial intelligence with particular attention to machine learning.</p><p>The JAI welcomes original high-quality contributions associated with automation and artificial intelligence. Potential areas of interest include but are not limited to:</p><p>1): theory and applications of control, decision-making, and machine learning</p><p>2): cognition, reasoning, large language models and multi-agent systems</p><p>3): AI driven autonomous systems, computation and vision</p><p><a href=\"https://www.keaipublishing.com/en/journals/journal-of-automation-and-intelligence/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 14,
+          "title": "Artificial Intelligence in the Life Sciences",
+          "acronym": "AILSCI",
+          "issn": "2667-3185",
+          "subjectAreas": [
+            "Veterinary Science and Veterinary Medicine (General)",
+            "Drug Discovery",
+            "Pharmacology",
+            "Health Informatics",
+            "Biochemistry, Genetics and Molecular Biology (General)",
+            "Computer Science Applications"
+          ],
+          "articleTypes": [
+            "Original Research",
+            "Review",
+            "Conceptual Analysis",
+            "Short Communication",
+            "Perspective",
+            "Viewpoint",
+            "Methods & Protocols"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26673185.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ailsci/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.6
+            },
+            "impactFactor": {
+              "value": 5.4
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 6
+            }
+          },
+          "scope": "<p>AILSCI provides a forum for theoretical and methodological advances and practical applications of Artificial Intelligence (AI) in the broader life science area including:</p><ul><li><p>Molecular, structural, and cell biology</p></li><li><p>Systems and disease biology</p></li><li><p>Bioinformatics and cheminformatics</p></li><li><p>Medicinal chemistry and chemical biology</p></li><li><p>Drug discovery and design</p></li><li><p>Medical research exploring new opportunities for therapy</p></li></ul><p>Publications are required to contain substantial AI and life science contents and must be novel and of high scientific quality. Particularly encouraged are contributions reporting:</p><ul><li><p>Development of new AI methods for life science research including machine learning, explainable AI, generative approaches, foundation models, or agentic AI systems </p></li><li><p>Adaptation of AI concepts from computer science for life science applications</p></li><li><p>Interdisciplinary approaches interfacing AI with experimental research including agentic and robotic platforms </p></li></ul><p>Not considered are manuscripts on topics falling outside the scope of AILSCI such as:</p><ul><li><p>Clinical diagnostic studies (such as medical image analysis in clinical practice)</p></li><li><p>Retrospective COVID-19 studies and predictions of disease outbreaks or pandemics</p></li><li><p>Investigations of plant or animal diseases </p></li><li><p>Studies reporting increasingly complex AI models for machine learning applications without demonstrating significant advances compared to simpler standard models </p></li><li><p>Applications of existing bio- and cheminformatics and molecular modeling methods that do not provide novel findings of high interest</p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Jürgen Bajorath",
+          "goldOpenAccessFee": {
+            "value": 2070,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 15,
+          "title": "Intelligence-Based Medicine",
+          "acronym": "IBMED",
+          "issn": "2666-5212",
+          "subjectAreas": [
+            "Health Informatics"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Position paper",
+            "Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26665212.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ibmed/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 2.9
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i>Intelligence-Based Medicine</i> is a new open access journal that aims to create meaningful <b>synergy</b> between practicing clinicians and others (computer scientists, data scientists, engineers, cognitive scientists, entrepreneurs, etc) in deploying methods of <b>artificial intelligence</b> and human cognition in the practice of medicine and the delivery of healthcare. The topics encompass new dimensions of medicine and healthcare relevant to artificial intelligence (including but not limited to medical imaging, decision support, precision medicine, robotic process automation, etc) as well as relevant topics that focus on intelligence in medicine and healthcare (such as virtual and augmented reality, blockchain, 3D printing, wearable technology and embedded AI, ethics and bias, etc). The primary focus of the journal is on the <b>clinical perspective</b> and <b>translation of emerging technologies into care practices and patient benefits.</b></p><p>The journal is intended for all clinicians as well as bioinformaticians and data scientists with artificial intelligence and data science interests and backgrounds. The journal welcomes research from all medical domains, with special focus on current AI-focused fields (such as oncology, radiology, surgery, genomic medicine, pathology, epidemiology, neurology, cardiology and critical care medicine). We welcome original research articles, review articles as well as reviews of hot topics, opinions and case reports.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Anthony C. Chang",
+          "goldOpenAccessFee": {
+            "value": 2550,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 16,
+          "title": "International Journal of Artificial Intelligence in Education",
+          "acronym": "IJAIED",
+          "issn": "1560-4292",
+          "subjectAreas": [
+            "Education"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Review Article",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15604292.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ijaie/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p> The International Journal of Artificial Intelligence in Education (IJAIED) publishes papers concerned with the application of AI to education. It aims to help the development of principles for the design of computer-based learning systems. Its premise is that such principles involve the modeling and representation of relevant aspects of knowledge, before implementation or during execution, and hence require the application of AI techniques and concepts. </p><p>Coverage extends to agent-based learning environments, architectures for AIED systems, bayesian and statistical methods, cognitive tools for learning, computer-assisted language learning, distributed learning environments, educational robotics, human factors and interface design, intelligent agents on the internet, natural language interfaces for instructional systems, real-world applications of AIED systems, tools for administration and curriculum integration, and more.</p><p>The International Journal of Artificial Intelligence in Education is published in conjunction with the International Artificial Intelligence in Education Society (IAIED).</p><p>IJAIED has a very broad notion of the scope of AI and of a &#39;computer-based learning system&#39;, as indicated by the following list of topics considered to be within the scope of IJAIED:</p><ul><li><p>adaptive and intelligent multimedia and hypermedia systems</p></li><li><p>agent-based learning environments</p></li><li><p>AIED and teacher education</p></li><li><p>architectures for AIED systems</p></li><li><p>assessment and testing of learning outcomes</p></li><li><p>authoring systems and shells for AIED systems</p></li><li><p>bayesian and statistical methods</p></li><li><p>case-based systems</p></li><li><p>cognitive development</p></li><li><p>cognitive models of problem-solving</p></li><li><p>cognitive tools for learning</p></li><li><p>computer-assisted language learning</p></li><li><p>computer-supported collaborative learning</p></li><li><p>dialogue (argumentation, explanation, negotiation, etc.)</p></li><li><p>discovery environments and microworlds</p></li><li><p>distributed learning environments</p></li><li><p>educational robotics</p></li><li><p>embedded training systems</p></li><li><p>empirical studies to inform the design of learning environments</p></li><li><p>environments to support the learning of programming</p></li><li><p>evaluation of AIED systems</p></li><li><p>formal models of components of AIED systems</p></li><li><p>help and advice systems</p></li><li><p>human factors and interface design</p></li><li><p>instructional design principles</p></li><li><p>instructional planning</p></li><li><p>intelligent agents on the internet</p></li><li><p>intelligent courseware for computer-based training</p></li><li><p>intelligent tutoring systems</p></li><li><p>knowledge and skill acquisition</p></li><li><p>knowledge representation for instruction</p></li><li><p>modelling metacognitive skills</p></li><li><p>modelling pedagogical interactions</p></li><li><p>motivation</p></li><li><p>natural language interfaces for instructional systems</p></li><li><p>networked learning and teaching systems</p></li><li><p>neural models applied to AIED systems</p></li><li><p>performance support systems</p></li><li><p>practical, real-world applications of AIED systems</p></li><li><p>qualitative reasoning in simulations</p></li><li><p>situated learning and cognitive apprenticeship</p></li><li><p>social and cultural aspects of learning</p></li><li><p>student modelling and cognitive diagnosis</p></li><li><p>support for knowledge building communities</p></li><li><p>support for networked communication</p></li><li><p>theories of learning and conceptual change</p></li><li><p>tools for administration and curriculum integration</p></li><li><p>tools for the guided exploration of information resources</p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Vincent Aleven | Cristina Conati | Marcus Specht",
+          "goldOpenAccessFee": {
+            "value": 3680,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 17,
+          "title": "Journal of Information and Intelligence",
+          "acronym": "JIIXD",
+          "issn": "2949-7159",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Signal Processing",
+            "Artificial Intelligence",
+            "Information Systems",
+            "Computer Networks and Communications",
+            "Electrical and Electronic Engineering",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "Short Survey",
+            "VSI: AI-NTN",
+            "VSI: AI-RAN",
+            "VSI: AI-generated Content",
+            "VSI: FA for 6G",
+            "VSI: I-CSC (Special Issue - Full Length Article)",
+            "VSI: Physical AI",
+            "VSI: S&PinAI (Special Issue - Full Length Article)",
+            "VSI: SAGIN",
+            "VSI: I-CSC (Special Issue - Review)"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29497159.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/intecom/default1.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-information-and-intelligence/publish/guide-for-authors"
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 10
+            },
+            "timeToAcceptance": {
+              "value": 13
+            }
+          },
+          "scope": "<p>The <i>Journal of Information and Intelligence </i>is committed to publishing rigorously peer-reviewed, high-quality original research papers, review articles, and perspective articles in the fields of information and intelligence. The journal welcomes contributions on both fundamental and applied research, and particularly encourages interdisciplinary work that bridges the two aspects. It aims to provide a unique platform that promotes scholarly development and academic exchange, serving researchers across academia, industry, and government worldwide.</p><p>Topics of interest encompass all areas of information and intelligence, including but not limited to: </p><ul><li><p>Artificial Intelligence</p></li><li><p>Big Data Technologies and Applications</p></li><li><p>Coding and Information Theory</p></li><li><p>Collaborative Intelligent Systems and Agent Models</p></li><li><p>Communications and Networking</p></li><li><p>Computer Networks</p></li><li><p>Computer Vision, Image Processing, Object Detection, and Pattern Recognition</p></li><li><p>Computing Paradigms and Systems</p></li><li><p>Cryptography, Security, Trust, Privacy, and Blockchain</p></li><li><p>Digital Twin and Cyber-Physical Systems</p></li><li><p>Hardware and Integrated Circuits</p></li><li><p>Human-Computer Interaction</p></li><li><p>Information Graph Theory</p></li><li><p>Information Metasurfaces and Reconfigurable Intelligent Surfaces</p></li><li><p>Information in Social Networks</p></li><li><p>Information Sensing and Signal Processing</p></li><li><p>Integration of Communication, Sensing, and Computing</p></li><li><p>Internet of Things</p></li><li><p>Machine Learning Theories, Technologies, and Applications</p></li><li><p>Mobile Data Analytics and Data Mining</p></li><li><p>Neural Networks and Large AI Models</p></li><li><p>Quantum Communications, Computing, and Networking</p></li><li><p>Semantic Communications</p></li><li><p>Specific Applications of Information and Intelligence System such as in Healthcare, Logistics, Transportation, Industrial 4.0, and Education</p></li><li><p>Wireless and Mobile Networks, Wireless Technologies</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/journal-of-information-and-intelligence/editorial-board/\">Editorial Board</a> </p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 1000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 18,
+          "title": "Journal of Infrastructure Intelligence and Resilience",
+          "acronym": "IINTEL",
+          "issn": "2772-9915",
+          "subjectAreas": [
+            "Civil and Structural Engineering",
+            "Engineering (General)",
+            "Safety, Risk, Reliability and Quality"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27729915.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/jiir/default1.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-infrastructure-intelligence-and-resilience/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 4.9
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i>Journal of Infrastructure Intelligence and Resilience</i> is an International journal aiming to provide a major publication channel for researchers on the latest global research results regarding &quot;Infrastructure Intelligence and Resilience&quot; and to establish an international academic platform to integrate the emerging smart and artificial intelligence (AI) technologies to the civil infrastructural systems for the enhancement of their safety, functionality, resilience, and sustainability against natural and men-made hazard and disaster; as well as ensuring the designed infrastructure that is economically, socially, environmentally, and institutionally sustainable.</p><p><b>Main contents and key topics:</b></p><ol><li><p>Smart Structure Technology: smart construction materials, smart sensors, structural health monitoring, smart NDT, diagnosis and prognosis, structural control, smart retrofit, smart control devices and systems, and design of smart structural systems.</p></li><li><p>Artificial Intelligence: deep learning, big data, smart diagnosis, computer vision, cloud computing, internet of things, virtual reality, robotics, drone, construction automation, intelligent building, smart city, and intelligent civil infrastructural systems.</p></li><li><p>Resilience and Sustainability: safety and reliability, functionality, structural and community resilience, sustainability, civil infrastructural systems, life-cycle assessment, socio-economic and environmental impacts, natural and men-made hazards, disaster mitigation, risk management, policy making, and mega city projects.</p></li></ol>",
+          "openAccessType": "FULL",
+          "editorInChief": "Yaozhi Luo",
+          "goldOpenAccessFee": {
+            "value": 1600,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 19,
+          "title": "Natural Language Processing Journal",
+          "acronym": "NLP",
+          "issn": "2949-7191",
+          "subjectAreas": [
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Replication Studies",
+            "Review",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29497191.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/NLP",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/natural-language-processing-journal/publish/guide-for-authors"
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 10
+            },
+            "timeToAcceptance": {
+              "value": 5
+            }
+          },
+          "scope": "<p>The Open Access Natural Language Processing Journal aims to advance modern understanding and practice of trustworthy, interpretable, explainable human-centered and hybrid Artificial Intelligence as it relates to all aspects of human language. The NLP journal affords a world-wide platform for academics and practitioners to present their latest theoretical, practical, and methodological research concerning the development and application of trustworthy AI to analyze, process, or model human language across various multimodal contexts, domains, and intelligent systems, including hybrid AI , Human AI interaction and Social systems. The NLP journal welcomes original research papers, review papers, position papers, tutorial and best practice papers. Special Issues proposals on specific current topics are welcomed. To foster trust, transparency, and reproducibility in AI research the NLP journal promotes open and FAIR data and software sharing practices. Furthermore the NLP journal specifically invites researchers to submit scientific replication studies for review and publication.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Xiaohui Tao | Haoran Xie",
+          "goldOpenAccessFee": {
+            "value": 1830,
+            "currency": "USD",
+            "discountedValue": 915,
+            "discountExpiryDate": "2026-12-31"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 20,
+          "title": "Neurocomputing",
+          "acronym": "NEUCOM",
+          "issn": "0925-2312",
+          "subjectAreas": [
+            "Neuroscience (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Regular article",
+            "Replication study",
+            "Tutorial/case study",
+            "Survey/review study",
+            "Software publication",
+            "VSI: Dr. Alexander Poznyak 80th birthday",
+            "VSI: Neural Dynamics",
+            "VSI: Positive Noise Learning"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09252312.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/NEUCOM",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/neurocomputing/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 13.6
+            },
+            "impactFactor": {
+              "value": 6.5
+            },
+            "timeToFirstDecision": {
+              "value": 8
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>Neurocomputing publishes articles describing recent fundamental contributions in the field of neurocomputing. Neurocomputing theory, practice and applications are the essential topics being covered.</p><p>NEW! Neurocomputing&#39;s Software Track allows you to expose your complete Software work to the community through a novel Publication format: the Original Software Publication</p><p><i>Overview:</i></p><p>Neurocomputing welcomes theoretical contributions aimed at winning further understanding of neural networks and learning systems, including, but not restricted to, architectures, learning methods, analysis of network dynamics, theories of learning, self-organization, biological neural network modelling, sensorimotor transformations and interdisciplinary topics with artificial intelligence, artificial life, cognitive science, computational learning theory, fuzzy logic, genetic algorithms, information theory, machine learning, neurobiology and pattern recognition.</p><p>Neurocomputing covers practical aspects with contributions on advances in hardware and software development environments for neurocomputing, including, but not restricted to, simulation software environments, emulation hardware architectures, models of concurrent computation, neurocomputers, and neurochips (digital, analog, optical, and biodevices).</p><p>Neurocomputing reports on applications in different fields, including, but not restricted to, signal processing, speech processing, image processing, computer vision, control, robotics, optimization, scheduling, resource allocation and financial forecasting.</p><p><i>Types of publications:</i></p><p>Neurocomputing publishes reviews of literature about neurocomputing and affine fields.</p><p>Neurocomputing reports on meetings, including, but not restricted to, conferences, workshops and seminars.</p><p>NEW! The Neurocomputing Software Track</p><p>Neurocomputing Software Track publishes a new format, the Original Software Publication (OSP) to disseminate exiting and useful software in the areas of neural networks and learning systems, including, but not restricted to, architectures, learning methods, analysis of network dynamics, theories of learning, self-organization, biological neural network modelling, sensorimotor transformations and interdisciplinary topics with artificial intelligence, artificial life, cognitive science, computational learning theory, fuzzy logic, genetic algorithms, information theory, machine learning, neurobiology and pattern recognition. We encourage high-quality original software submissions which contain non-trivial contributions in the above areas related to the implementations of algorithms, toolboxes, and real systems. The software must adhere to a recognized legal license, such as <a href=\"https://www.elsevier.com/about/content-innovation/original-software-publications\">OSI approved licenses</a>.</p><p>Importantly, the software will be a full peer reviewed publication that is able to capture your software updates once they are released. To fully acknowledge the author&#39;s/developers work your software will be fully citable as an Original Software Publication, archived and indexed and available as a complete online &quot;body of work&quot; for other researchers and practitioners to discover.</p><p>See the detailed Submission instructions, and more information about the process for academically publishing your Software: <a href=\"https://www.elsevier.com/about/content-innovation/original-software-publications\">here</a></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Zidong Wang",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2930,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 21,
+          "title": "Intelligent Sports and Health",
+          "acronym": "ISH",
+          "issn": "3050-5445",
+          "subjectAreas": [
+            "Orthopedics, Sports Medicine and Rehabilitation",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "Case Report",
+            "Perspective Paper"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30505445.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ish/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "acceptanceRate": {
+              "value": 48
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            }
+          },
+          "scope": "<p><i>Intelligent Sports and Health</i> (ISH) a peer-reviewed interdisciplinary journal dedicated to advancing cross-innovations in the fields of sports, medicine, and engineering. The journal aims to promote high-level athletic performance and physical and mental health through the publication of foundational theories and applied research, including original research papers, review articles, and case studies. ISH focuses primarily on research in areas such as computer vision, sports intelligent equipment, sports big data, sports physiology and biochemistry, and cognitive neuroscience. With a meticulously curated editorial board that integrates multiple disciplines, the journal upholds high academic standards and integrity in order to provide an academic communication platform for interdisciplinary research in the fields of sports, medicine, and engineering.</p><p>This journal contains three sections:</p><p>Section A (Intelligent Sports): <br/>This section focuses on the cutting-edge research of artificial intelligence technology in the field of sports and exercise science. It explores the application of technologies such as big data analysis and computer vision in optimizing athletic performance and competitive abilities. This includes areas such as sports performance analysis, biomechanical analysis and motion capture, personalized training and rehabilitation prescription design, motion skill learning and control, and assessment of sports injury risks.</p><p>Section B (Intelligent Health): <br/>This section focuses on the cutting-edge research of artificial intelligence technology in the field of human health: utilizing intelligent computing and big data algorithms for biology of sport; data-driven prediction of injuries and decision support systems for rehabilitation; research on the application of artificial intelligence in healthcare; gathering and analyzing physiological data through intelligent devices, improving early disease prediction and prevention with AI technology, personalized health management, and self-regulation.</p><p>Section C (Intelligent Sport Equipment and Monitoring): <br/>This section focuses on the cutting-edge research regarding intelligent materials and equipment in the fields of athletic performance and healthcare environments. For instance, it explores the utilization of robotics technology, intelligent devices, and exoskeletons in rehabilitation and assistive training; the assessment of psychological states based on electroencephalogram and eye-tracking; the application of brain-computer interface technology in the analysis of exercise psychology; gait recognition and performance diagnosis using sensor devices, along with motion tracking and analysis via wearable devices; and intelligent devices and infrastructure for athletic training and coaching technologies, among others.</p><p><a href=\"https://www.keaipublishing.com/en/journals/intelligent-sports-and-health/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 22,
+          "title": "Cognitive Systems Research",
+          "acronym": "COGSYS",
+          "issn": "1389-0417",
+          "subjectAreas": [
+            "Experimental and Cognitive Psychology",
+            "Cognitive Neuroscience",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review",
+            "VSI: EA",
+            "VSI: M&M",
+            "VSI: Machines in Thought"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/13890417.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/cogsys/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/cognitive-systems-research/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 6.1
+            },
+            "impactFactor": {
+              "value": 2.4
+            },
+            "timeToFirstDecision": {
+              "value": 12
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>Cognitive Systems Research is dedicated to the study of human-level cognition. As such, it welcomes papers which advance the understanding, design and applications of cognitive and intelligent systems, both natural and artificial.</p><p>The journal brings together a broad community studying cognition in its many facets in vivo and in silico, across the developmental spectrum, focusing on individual capacities or on entire architectures. It aims to foster debate and integrate ideas, concepts, constructs, theories, models and techniques from across different disciplines and different perspectives on human-level cognition. The scope of interest includes the study of cognitive capacities and architectures - both brain-inspired and non-brain-inspired - and the application of cognitive systems to real-world problems as far as it offers insights relevant for the understanding of cognition.</p><p>Cognitive Systems Research therefore welcomes mature and cutting-edge research approaching cognition from a systems-oriented perspective, both theoretical and empirically-informed, in the form of original manuscripts, short communications, opinion articles, systematic reviews, and topical survey articles from the fields of Cognitive Science (including Philosophy of Cognitive Science), Artificial Intelligence/Computer Science, Cognitive Robotics, Developmental Science, Psychology, and Neuroscience and Neuromorphic Engineering. Empirical studies will be considered if they are supplemented by theoretical analyses and contributions to theory development and/or computational modelling studies. Note that the journal does not publish clinical and medical papers. We also do not publish pure machine learning papers, e.g. studies proposing variants of classifiers or pure algorithmic improvements that bear no connection to cognitive systems research in the sense above.</p><p>Additionally, Cognitive Systems Research plays a special role in fostering and promoting the &#39;BICA Challenge&#39; to create a real-life computational equivalent of the human mind by devoting two special issues to BICA AI (Brain-Inspired Cognitive Architectures for Artificial Intelligence) related topics each year.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Serge Thill",
+          "goldOpenAccessFee": {
+            "value": 2880,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 23,
+          "title": "AI Open",
+          "acronym": "AIOPEN",
+          "issn": "2666-6510",
+          "subjectAreas": [
+            "Software",
+            "Artificial Intelligence",
+            "Computer Science Applications",
+            "Computer Science (General)"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26666510.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/aiopen/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/ai-open/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 32.8
+            },
+            "impactFactor": {
+              "value": 14.8
+            },
+            "timeToFirstDecision": {
+              "value": 14
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p><i>AI Open</i> is a freely accessible platform to share actionable knowledge and forward-thinking perspectives on the theory of artificial intelligence and its applications. The journal welcomes research articles, review papers, perspectives, short communications and technical notes on all aspects of artificial intelligence and its applications.</p><p>Topics covered include, but are not limited to:</p><ul><li><p>Deep learning and representation learning</p></li><li><p>Graph theory and graph mining</p></li><li><p>Constraints, satisfiability, and search</p></li><li><p>Knowledge representation, reasoning, and logic</p></li><li><p>Machine learning and data mining</p></li><li><p>Knowledge graph and applications</p></li><li><p>Agent-based and multi-agent systems</p></li><li><p>Web and knowledge-based information systems</p></li><li><p>Natural language processing</p></li><li><p>Image processing and analysis</p></li><li><p>Uncertainty</p></li><li><p>Brain-based Learning</p></li><li><p>Implicit Cognition and Learning</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/ai-open/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 900,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 24,
+          "title": "Knowledge-Based Systems",
+          "acronym": "KNOSYS",
+          "issn": "0950-7051",
+          "subjectAreas": [
+            "Control and Optimization",
+            "Control and Systems Engineering",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09507051.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/knosys/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/knowledge-based-systems/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 15
+            },
+            "impactFactor": {
+              "value": 7.6
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p><i>Knowledge-based Systems</i> is an international and interdisciplinary journal in the field of artificial intelligence. The journal will publish original, innovative and creative research results in the field, and is designed to focus on research in knowledge-based and other artificial intelligence techniques-based systems with the following objectives and capabilities: to support human prediction and decision-making through data science and computation techniques; to provide a balanced coverage of both theory and practical study in the field; and to encourage new development and implementation of knowledge-based intelligence models, methods, systems, and software tools, with applications in business, government, education, engineering and healthcare.</p><p>This journal&#39;s current leading topics are but not limited to:</p><ul><li><p>Machine learning theory, methodology and algorithms</p></li><li><p>Data science theory, methodologies and techniques</p></li><li><p>Knowledge presentation and engineering</p></li><li><p>Recommender systems and E-service personalization</p></li><li><p>Intelligent decision support systems, prediction systems and warning systems</p></li><li><p>Computational Intelligence systems</p></li><li><p>Data-driven optimization</p></li><li><p>Cognitive interaction and brain–computer interface</p></li><li><p>Knowledge-based computer vision techniques</p></li></ul><p><b>Special Issue Instructions</b></p><p><i>Knowledge-based Systems (KBS)</i>, an international and interdisciplinary peer-reviewed academic journal in the field of artificial intelligence, welcomes the submission of special issues on timely topics within the scope of the journal. The main objectives of the journal to organize special issues are to bring together state-of-the-art and high-quality research works, to promote key advances in the science and applications in the important field of knowledge-based systems, and to drive emerging research topics and establish flagships in the field.</p><p><b>How to submit your Special Issue proposal:</b></p><ul><li><p>Check the <a href=\"https://www.elsevier.com/__data/promis_misc/knosys_selection_criteria_for_a_special_issue_proposal.pdf\">selection criteria</a> below for a KBS special issue to make sure your proposal is relevant to the journal,</p></li><li><p>Write your special issue proposal in the <a href=\"https://www.elsevier.com/__data/promis_misc/knosys_structure_of_a_special_issue_proposal.pdf\">structure</a> given below,</p></li><li><p>Submit the special issue proposal to the Editor-in-Chief (EiC),</p></li><li><p>The EiC and KBS special issue assessment panel will then review your proposal and reply with their decision.</p></li></ul><p><b>Guest Editors&#39; Duty and Special Issue Process:</b></p><p>After a special issue proposal is accepted by the journal, a call for papers can be formally distributed. All the papers submitted to the special issue will undergo a peer review process. Guest Editors will manage the process and ensure that the reviewing standards for <i>Knowledge-Based Systems</i> regular issues are maintained. A Managing Guest Editor, who will be responsible for distributing submissions to the other Guest Editors, will need to be nominated. After the Guest Editors make recommendations on each paper in the special issue, the EiC will make the final decisions of acceptance for publication. After all papers to be included in the Special Issue are accepted, the Guest Editors will be responsible for either preparing an Editorial (1–2 pages in length) or writing a field survey (5–10 pages in length), which will incorporate the selected papers and related literature relevant to the topic of the special issue.</p><p><b>Software Publication</b></p><p>We invite you to convert your open source software into an additional journal publication in <a href=\"https://www.journals.elsevier.com/software-impacts\"><i>Software Impacts</i></a>, a multi-disciplinary open access journal. <i>Software Impacts</i> provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs.</p><p>For more information contact us at: <a href=\"mailto:software.impacts@elsevier.com\">software.impacts@elsevier.com</a></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Professor Jie Lu",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 1,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3350,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 25,
+          "title": "Smart Civil Infrastructures",
+          "acronym": "SCI",
+          "issn": "3117-5260",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Civil and Structural Engineering"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review Article",
+            "Short Communication",
+            "Case Report",
+            "Data"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31175260.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/sci/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p>This journal is dedicated to advancing the digitalization, informationization, and smartization of civil engineering. It focuses on innovations and breakthroughs in the implementation of emerging technologies, such as smart sensing, the Internet of Things, big data, cloud computing, and artificial intelligence, in major infrastructure projects including long-span bridges, high-rise buildings, large-scale stadiums, deep and long tunnels, major energy facilities, and complex lifeline systems. The journal welcomes submissions of various types, including reviews, research articles, technical notes, data papers, and engineering case studies.</p><p>This journal welcomes manuscripts with potential topics including, but not limited to:</p><ul><li><p>Smart Materials and Equipment</p></li><li><p>Smart Survey and Design</p></li><li><p>Smart Construction and Monitoring</p></li><li><p>Smart Operation and Maintenance</p></li><li><p>Smart Demolition and Recycling</p></li><li><p>Smart Applications in Civil Engineering</p></li></ul><p></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 26,
+          "title": "Neural Networks",
+          "acronym": "NN",
+          "issn": "0893-6080",
+          "subjectAreas": [
+            "Neuroscience (General)",
+            "Engineering (General)",
+            "Artificial Intelligence",
+            "Control and Optimization"
+          ],
+          "articleTypes": [
+            "Article",
+            "Review",
+            "Neural Networks Letters"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/08936080.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/NEUNET",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/neural-networks/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.6
+            },
+            "impactFactor": {
+              "value": 6.3
+            },
+            "timeToFirstDecision": {
+              "value": 9
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>The journal <i>Neural Networks</i> provides a forum for developing and nurturing an international community of scholars and practitioners who are interested in all aspects of <b>neural networks</b>, including <b>deep learning</b> and related approaches to artificial intelligence and machine learning.</p><p><i>Neural Networks </i>welcomes submissions that contribute to the full range of neural networks research, from cognitive modeling and computational neuroscience, through deep learning algorithms and mathematical analyses, to engineering and technological applications of systems that significantly use neural network concepts and learning techniques. This uniquely broad range facilitates the cross-fertilization of ideas between biological and technological studies, and helps to foster the development of the interdisciplinary community that is interested in biologically-inspired artificial intelligence. Accordingly, the <i>Neural Networks</i> editorial board represents experts in fields including psychology, neurobiology, computer science, engineering, mathematics, and physics. On the other hand, neural networks should be central to submissions. The journal publishes articles, letters, and reviews/tutorials, as well as letters to the editor, editorials, and current events. Articles are published in one of five sections: learning systems, cognitive science, neuroscience, mathematical and computational analysis, engineering and applications.</p><p><i>Neural Networks</i> is the archival journal of three of the oldest and most prominent neural network societies: the<a href=\"https://www.inns.org/\"> International Neural Network Society</a> (INNS), the <a href=\"https://www.apnns.org/\">Asia-Pacific Neural Network Society</a> (APNNS), and the <a href=\"https://jnns.org/en/\">Japanese Neural Network Society </a>(JNNS). A subscription to the journal is included with membership in each of these societies.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Taro Toyoizumi",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              },
+              {
+                "name": "NEUROSCIENCES",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2950,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 27,
+          "title": "Intelligent Pharmacy",
+          "acronym": "IPHA",
+          "issn": "2949-866X",
+          "subjectAreas": [
+            "Pharmacology, Toxicology and Pharmaceutics (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/2949866X.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ipha/default2.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/intelligent-pharmacy/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 2.7
+            },
+            "acceptanceRate": {
+              "value": 11
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p><i>Intelligent Pharmacy</i> is a peer-reviewed, fully open access journal. It is dedicated to publishing high-quality papers that describe the most significant and cutting-edge research in all areas of pharmacy, with a particular focus on artificial intelligence, big data and information technology.</p><p><i>Intelligent Pharmacy</i> publishes original research papers, reviews, short communications and perspective papers. We welcome manuscripts across disciplines on topics such as:</p><ul><li><p>Novel drug research &amp; development</p></li><li><p>Clinical pharmacy</p></li><li><p>Drug design</p></li><li><p>Drug screening</p></li><li><p>Data mining</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/intelligent-pharmacy/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 1200,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 28,
+          "title": "International Journal of Cognitive Computing in Engineering",
+          "acronym": "IJCCE",
+          "issn": "2666-3074",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Computer Science (General)",
+            "Information Systems"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "SI: AI for Cognitive Computing",
+            "SI: GCCCEA",
+            "SI: IoT-5G",
+            "SI:CCIMP",
+            "SI:IDMSCEP"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26663074.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ijcce/Default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/international-journal-of-cognitive-computing-in-engineering/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 19.8
+            },
+            "acceptanceRate": {
+              "value": 14
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>Cognitive computing is the creation of self-learning systems that use data mining, pattern recognition and natural language processing (NLP) to solve complicated problems without constant human oversight. It is a field that is highly transdisciplinary in nature, combining ideas, principles and methods of psychology, computer and internet technologies, linguistics, philosophy, neuroscience, etc.</p><p>The goal of the <i>International Journal of Cognitive Computing in Engineering</i> is to explore how these data science technologies and new cognitive methods can be integrated to address real world engineering problems and challenges. For example, the journal welcomes submissions that look at the opportunities offered by combining existing data technologies with the knowledge of experts in the field and artificial intelligence. One of the benefits of cognitive computing is that it offers new analytics opportunities: the journal also welcomes designs for cognitive embedded data technologies that can process and analyse the large amount of data generated and aid decision-making.</p><p>Submissions on a variety of cognitive computing-related topics will be considered.</p><p><a href=\"https://www.keaipublishing.com/en/journals/international-journal-of-cognitive-computing-in-engineering/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 29,
+          "title": "Intelligent Oncology",
+          "acronym": "INTONC",
+          "issn": "2950-2616",
+          "subjectAreas": [
+            "Cancer Research",
+            "Drug Discovery",
+            "Artificial Intelligence",
+            "Oncology"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29502616.jpg",
+          "links": {
+            "submission": "https://www2.cloud.editorialmanager.com/intonc/default2.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/intelligent-oncology/guide-for-authors"
+          },
+          "insights": {
+            "acceptanceRate": {
+              "value": 46
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 9
+            }
+          },
+          "scope": "<p><i>Intelligent Oncology</i> is an interdisciplinary academic journal focused on the intersection of medicine and engineering, with a core emphasis on artificial intelligence (AI) in oncology. Our journal is dedicated to publishing research articles, review articles, short communications, technical notes, correspondence, discussions, editorials, guidelines and consensus, patent reports and conference reports. By curating the most significant advancements in this multidisciplinary domain, we strive to foster both theoretical and applied research in the integration of clinical oncology, information science, biology, radiology, pathology and other relevant disciplines.</p><p>Subjects considered for publication include, but are not limited to: <br/></p><ul><li><p>Artificial intelligent technologies in oncology</p></li><li><p>AI-assisted applications in clinical oncology</p></li><li><p>Innovative algorithms and medical interpretability</p></li><li><p>AI-driven oncological drug discovery and development</p></li><li><p>AI-guided clinical trials in oncology</p></li><li><p>Digital and computational pathology</p></li><li><p>Cancer imaging processing</p></li><li><p>AI in laboratory medicine</p></li><li><p>AI-driven radiation oncology</p></li><li><p>Robotic automation processing and surgery</p></li><li><p>AI-assisted rehabilitation</p></li><li><p>Guidelines and consensus for AI applications</p></li><li><p>AI-assisted bio-informatics and bio-statistics</p></li><li><p>Big data science in oncology</p></li><li><p>AI-guided cancer biology</p></li><li><p>AI in cancer epidemiology</p></li><li><p>Patient privacy and data security</p></li><li><p>Public data sharing</p></li></ul><p>By consolidating the most significant advancements in this multidisciplinary field, our journal serves as a communication platform, fostering collaborations among established and young investigators of oncology, pathology, radiology, cancer biology, drug discovery, and computer and data sciences. We strive to bridge the gap between these disciplines and facilitate the exchange of knowledge, ultimately driving innovation in the field of intelligent oncology.</p><p><a href=\"https://www.keaipublishing.com/en/journals/intelligent-oncology/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 30,
+          "title": "Advanced Bionics",
+          "acronym": "ABS",
+          "issn": "2950-3876",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Biomaterials",
+            "Engineering (General)",
+            "Surfaces, Coatings and Films"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29503876.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ABS/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/advanced-bionics/guide-for-authors"
+          },
+          "insights": {
+            "acceptanceRate": {
+              "value": 46
+            },
+            "timeToFirstDecision": {
+              "value": 11
+            }
+          },
+          "scope": "<p><i>Advanced Bionics (ABS)</i> is an international peer-reviewed, open access journal that publishes original research papers, reviews, letters, editorials, highlights, perspectives, comments and news.</p><p><i>ABS</i> focuses on the study of novel principles and functions observed in biological systems, as well as the application of this knowledge to address real-world scientific challenges.</p><p><i>ABS</i> aims to lead advancements in fundamental bionic research, pushing the boundaries of novel bionic investigations and fostering disruptive technologies within the field. Submissions to the journal are expected to provide fresh insights, possess scientific impact and a high level of quality, as well as contribute to shaping the future of bionic research.</p><p>As an interdisciplinary journal, ABS covers a wide array of topics, including but not limited to:</p><p>(1) Bionic Robotics, Electronics, and Intelligent Devices <br/> (2) Bio-inspired Artificial Intelligence <br/> (3) Biomechanics and Bionic Healthcare Engineering <br/> (4) Bio-inspired Functional Surfaces/Interfaces <br/> (5) Bio-inspired Functional Materials and Biosensors <br/> (6) Bio-inspired Energy System <br/> (7) Bio-manufacturing and Bionic Manufacturing <br/> (8) Bio-inspired structures and design</p><p><a href=\"https://www.keaipublishing.com/en/journals/advanced-bionics/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 31,
+          "title": "Cognitive Robotics",
+          "acronym": "COGR",
+          "issn": "2667-2413",
+          "subjectAreas": [
+            "Control and Systems Engineering",
+            "Engineering (General)",
+            "Computer Science (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review",
+            "Short Communication",
+            "SI: CCNCR",
+            "SI: CSR",
+            "SI: Deep Learning for High-Density Critical Environments",
+            "SI: ECER",
+            "SI: EHR",
+            "SI: HCI",
+            "SI: HMI",
+            "SI: HRC",
+            "SI: Intelligent Techniques for Cognitive Robotics",
+            "SI: NCSA"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26672413.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/cogrob",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 18.9
+            },
+            "acceptanceRate": {
+              "value": 15
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p>The increasing computational power of computers has significantly expanded the possibility of using artificial intelligence (AI) in various fields. There has been a transformation in the industry motivated by the natural ease of interface between humans and computers, and the promise of spectacular improvements in human capabilities. In the past two decades, a large number of AI systems have been developed in areas like speech recognition, image processing, computer vision, data mining, machine learning, software development, and robotics. In particular, there has been a significant surge in the application of AI in robotics. </p><p>The growing need to automate daily tasks combined with new robotic technologies are driving the development of human-friendly robots. Intelligent robots with human-like intelligence and cognitive capabilities perform tasks in environments such as homes, public facilities and industrial plants. Robots are being used in tasks that are difficult for humans, like retrieving items from underground caves, retrieving bodies from destroyed buildings, and rescuing people in hazardous situations.</p><p>Journal of Cognitive Robotics (COGR) provides rapid publication of topical research on implementations of AI techniques in all areas related to robotics. Please submit your article at: <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.keaipublishing.com%2Fjournals%2Fcognitive-robotics&data=05%7C02%7Cyuki.yu%40elsevier.com%7C8b1ba1ecaac949c6747908dda3324b9d%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638846158596934415%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ttw1OKrNndOG59stmMOIr%2Bpa%2BVxptvlTbCO0D9K8C1M%3D&reserved=0\">Cognitive Robotics (keaipublishing.com)</a></p><p>The journal also publishes special sections covering specific related topics. Proposals for special sections should be emailed to editor-in-chief: </p><p>Dr. Huimin Lu (<a href=\"mailto:dr.huimin.lu@ieee.org\">dr.huimin.lu@ieee.org</a>)</p><p><a href=\"https://www.keaipublishing.com/en/journals/cognitive-robotics/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 32,
+          "title": "Molecular and Digital Medicine",
+          "acronym": "MDMED",
+          "issn": "3117-7026",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Health Informatics",
+            "Molecular Medicine",
+            "Biotechnology"
+          ],
+          "articleTypes": [
+            "Consensus and Guideline",
+            "Methodologies",
+            "Original Research",
+            "Perspectives & Opinions",
+            "Review Articles",
+            "Systematic Reviews",
+            "Brief Communications",
+            "Meeting Reports",
+            "Clinical Reports",
+            "Data Notes"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31177026.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/mdmed/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p> <i>Molecular and Digital Medicine</i> is a pioneering, multidisciplinary, open-access journal dedicated to advancing research at the dynamic convergence of molecular biology, digital technologies, and biomedical engineering. The journal aims to publish high-quality, peer-reviewed research that explores the innovative integration of molecular science with digital health tools and engineering solutions, with the ultimate goal of revolutionizing personalized medicine, diagnostics, and therapeutic interventions.</p><p>Our scope encompasses the full spectrum of research at this pivotal intersection. This includes foundational and applied research in <b>Molecular and Nanoscale Medicine</b>, such as molecular diagnostics, biomarkers, omics sciences, precision medicine, nanomedicine, gene editing, and biomaterials. A core focus is also on <b>Digital Health Technologies</b>, including artificial intelligence (AI) and machine learning, digital therapeutics, wearable devices, biosensors, and health informatics.</p><p>A distinctive priority is the <b>Integration and Convergence</b> of these fields, covering areas like digital biomarkers, AI-driven multi-omics analysis, engineered diagnostic devices, smart theranostic platforms, and digital tools for clinical trials. The journal strongly emphasizes <b>Clinical Applications and Translational Medicine</b>, welcoming work that bridges these discoveries into clinical practice, develops personalized strategies and devices, and addresses the associated ethical, regulatory, and security challenges.</p><p><i>Molecular and Digital Medicine</i> seeks to foster essential collaborations across disciplines, including molecular biology, bioinformatics, clinical medicine, biomedical engineering, and digital health, to catalyse the development of innovative, end-to-end solutions that improve patient care, healthcare delivery, and global health outcomes.</p><p><a href=\"https://www.keaipublishing.com/en/journals/molecular-and-digital-medicine/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 33,
+          "title": "Climate Smart Agriculture",
+          "acronym": "CSAG",
+          "issn": "2950-4090",
+          "subjectAreas": [
+            "Soil Science",
+            "Agricultural and Biological Sciences (General)",
+            "Agronomy and Crop Science"
+          ],
+          "articleTypes": [
+            "Regular Article",
+            "Review",
+            "Short Communication",
+            "Mini Review",
+            "Perspective",
+            "VSI:[Climate-Smart Forestry] Original Research Article",
+            "[VSI: ACSA] - Original Research Article",
+            "[VSI: Novel Fertilizers & GHG] Original Research Articles",
+            "VSI:[Climate-Smart Forestry] Review Article",
+            "[VSI: ACSA] - Review Article",
+            "[VSI: Novel Fertilizers & GHG] Review Articles"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29504090.jpg",
+          "links": {
+            "submission": "https://www2.cloud.editorialmanager.com/csag/default2.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/climate-smart-agriculture/publish/guide-for-authors"
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 1
+            }
+          },
+          "scope": "<ul><li><p><i>Climate Smart Agriculture</i> provides a platform for communicating advances in fundamental and applied research on climate combat in agriculture especially for climate-vulnerable regions such as Africa and Asia. The journal publishes original research articles, reviews, short communications, perspectives and comments, with an emphasis on, but not restricted to the following:</p></li><li><p><b>Greenhouse gas emission mitigation in agriculture</b><br/>Nitrogen cycling and N2O emission mitigation in agroecosystems; CH4 emission mitigation in agroecosystems; Agricultural input reduction for decreasing indirect carbon footprint; Artificial intelligence application for greenhouse gas emission mitigation in agriculture. </p></li><li><p><b>Carbon capture and sequestration in agroecosystems</b><br/>Carbon cycling in agroecosystems; Carbon capture in agroforestry; Agri-soil carbon sequestration; Artificial intelligence application for fostering carbon sink in agriculture.</p></li><li><p><b>Impacts of climate change on agriculture</b><br/>Impacts of climate warming, elevated CO2 and related extreme events on agriculture and related eco-environment; Feedbacks of agroecosystems to climate change; Artificial intelligence application for assessing and predicting impacts of climate change on agriculture.</p></li><li><p><b>Adaption to climate change in agriculture</b><br/>Monitoring and early warning of agricultural climate change; Adaption to climate change and related extreme events in agriculture; Artificial intelligence application for sustaining agriculture to combat climate change.<br/></p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Scott X. Chang | Zhanxiang Sun | Weiping Hao",
+          "goldOpenAccessFee": {
+            "value": 1900,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 34,
+          "title": "Intelligent Climate and Eco-Environment",
+          "acronym": "ICEE",
+          "issn": "3051-2530",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Computers in Earth Sciences",
+            "Environmental Science (General)"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "Data"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30512530.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/icee/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p>Intelligent Climate and Eco-Environment publishes high-impact research at the nexus of climate science, environmental systems, health, and artificial intelligence. We seek to accelerate understanding and actionable insights into how atmospheric, terrestrial, and aquatic processes interact and their health effects under climate change, and how novel data-driven methods—from machine learning to hybrid numerical–statistical models—can improve prediction, attribution, mitigation and adaptation.</p><p><b>Aims</b></p><p>Integrate Disciplines: Provide a forum where climate science, environmental geoscience and eco-health converge with AI and data science.</p><p>Advance Methods: Showcase cutting-edge modeling approaches (e.g. deep learning, hybrid simulation, receptor analysis) and methodological innovations.</p><p>Drive Applications: Translate research into tools for policy, risk assessment, early-warning and sustainable management of air, water, soil and ecosystems.</p><p>Foster Collaboration: Build a global community of researchers, practitioners and stakeholders across academia, government and industry.</p><p><b>Scope</b></p><p>We publish original research, reviews and perspectives in, but not limited to, the following areas:</p><ol><li><p>Climate Intelligence &amp; Attribution: AI-enhanced seasonal to decadal forecasting; Attribution of extreme events and compound hazards; Data assimilation and bias correction in Earth system models</p></li><li><p>Environmental Geoscience Modeling: Numerical simulation of atmosphere–hydrosphere–biosphere interactions; Receptor/source-apportionment models for air, water and soil pollutants; Hybrid/statistical emulators and surrogate modeling for large-scale systems</p></li><li><p>Eco-Environmental Health: Exposure assessment and epidemiological modeling for air pollution and climate stressors; AI-driven toxicity prediction and risk mapping; Urban resilience: heat islands, flooding and public health analytics</p></li><li><p>Observations &amp; Data Integration: Remote sensing, IoT sensor networks and citizen science data streams; Large-scale data fusion, quality control and uncertainty quantification; Spatiotemporal pattern detection and anomaly identification</p></li><li><p>Mitigation, Adaptation &amp; Policy: Intelligent decision-support systems for emission reduction and resource management; Scenario analysis and policy optimization under uncertainty; Socio-economic impact modeling and stakeholder engagement</p></li></ol><p><a href=\"https://www.keaipublishing.com/en/journals/intelligent-climate-and-eco-environment/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 35,
+          "title": "Innovative Practice in Breast Health",
+          "acronym": "IBREH",
+          "issn": "2950-2128",
+          "subjectAreas": [
+            "Health Informatics",
+            "Public Health and Health Policy",
+            "Obstetrics, Gynecology and Women's Health",
+            "Biomedical Engineering",
+            "Oncology"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29502128.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ibreh/default2.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/innovative-practice-in-breast-health/publish/guide-for-authors"
+          },
+          "insights": {},
+          "scope": "<p>The aim of <i>Innovative Practice in Breast-Health</i> is to provide a platform for the sharing of new knowledge and research related to evaluation of <b>applications of new technologies</b> in the field of <b>breast diseases</b>. The journal seeks to promote the development and understanding of the latest advances in artificial intelligence, data science and data omics, telemedicine, image-assisted surgery, connected objects and telemedicine, prediction, personalized medicine and simulation in the field of breast cancer and other breast pathologies.</p><p>This journal will publish high quality peer-reviewed original research, review articles, editorials, case reports (proof of concept of innovative applications of artificial intelligence-related technologies), and perspectives that encompass the evaluation and application of innovative technologies in the treatment, prevention, diagnosis and management of breast pathologies.</p><p><i>Innovative Practice in Breast-Health</i> welcomes research from all relevant disciplines, provided that it involves artificial intelligence-related technologies and breast diseases, including but not limited to <b>surgery, imaging, medical oncology, radiation oncology, pathology, genetics, epidemiology, public health, nursing and allied health sciences, psychology, sociology, education, economic and health policy and management</b>.</p><p>The scope of the journal includes but is not limited to:</p><ul><li><p><b>Clinical trials and translational research</b> regarding artificial intelligence-related technologies and breast pathologies</p></li><li><p><b>Artificial intelligence</b> and its application to data science, data omics, telemedicine and breast pathologies</p></li><li><p><b>Algorithms</b> for analyzing large-scale data sets for breast cancer diagnosis, prognosis and treatment; and also patient experience and patient-related outcomes</p></li><li><p><b>Machine learning</b> and <b>deep learning</b> approaches for breast imaging and surgery</p></li><li><p><b>Telemedicine</b> and <b>telehealth applications</b> for the management and screening of breast cancer and breast diseases</p></li><li><p><b>Big data</b> and data omics applications in breast cancer research, diagnosis and treatment</p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Carole M. Mathelin",
+          "goldOpenAccessFee": {
+            "value": 2950,
+            "currency": "USD",
+            "discountedValue": 0,
+            "discountExpiryDate": "2026-12-31"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 36,
+          "title": "Thoracic Radiology",
+          "acronym": "THR",
+          "issn": "3117-5724",
+          "subjectAreas": [
+            "Cardiology and Cardiovascular Medicine",
+            "Radiology and Imaging",
+            "Pulmonary and Respiratory Medicine",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Original Software Publication",
+            "Research Article",
+            "Data Article",
+            "Protocol",
+            "Replication Studies",
+            "Review Article",
+            "Correspondence",
+            "Micro Article",
+            "Practice Guidelines",
+            "Short Communication",
+            "Video Article",
+            "Case Report"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31175724.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/thorad/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p> <i>Thoracic Radiology</i> is a high-quality, peer-reviewed, open access journal, which aims to provide a platform for scientists, researchers, and physicians to share their findings, disseminate cutting-edge developments in imaging technologies, artificial intelligence applications, and translational research, bridge the gap between imaging science and patient care, and facilitate the translation of novel imaging technologies into clinical practice.</p><p>We promote and disseminate high-quality Original Articles, Reviews, Meta-Analysis, Short Communications, Case Reports, Commentaries, Images in Radiology, Editorials, Guideline and Consensus and Perspective. </p><p>The preference will be given to the articles based on Pulmonary Imaging, Cardiovascular and Thoracic Vascular Imaging, Breast, Chest Wall, Mediastinal, and other Thoracic Glandular Imaging, AI and Machine Learning in Thoracic Imaging, Multimodal and Translational Research and Clinical Applications and Guidelines.</p><p><a href=\"https://www.keaipublishing.com/en/journals/thoracic-radiology/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 37,
+          "title": "Intelligent Geoengineering ",
+          "acronym": "IGE",
+          "issn": "3050-6190",
+          "subjectAreas": [
+            "Civil and Structural Engineering",
+            "Geotechnical Engineering and Engineering Geology",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "VSI: Robust Inference"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30506190.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/igeo/default2.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>&quot;Intelligent Geoengineering&quot; aims to be a leading platform for distributing advanced research at the intersection of geotechnical engineering and intelligent technologies. The journal focuses on fostering innovation by integrating Artificial Intelligence (AI), big data analytics, and the Internet of Things (IoT) into geotechnical practices, promoting sustainable and eco-friendly methodologies. It encourages submissions that advance theoretical knowledge and demonstrate practical solutions to geoengineering problems, promoting interdisciplinary collaboration to enhance the global impact of its publications. The journal fosters community engagement, providing a vibrant platform for exchanging ideas and discussing the incorporation of emerging technologies in geotechnical engineering. The journal also aims to establish a dynamic forum where geotechnical researchers, practitioners, and policymakers can exchange ideas and discuss innovative practices on the integration of emerging technologies.</p><ul><li><p>Topics of particular interest include, but are not limited to:</p></li><li><p>IoT and smart sensors for geotechnical monitoring and testing.</p></li><li><p>Big data and AI applications in georisk analysis and decision-making.</p></li><li><p>Machine learning for soil and rock behavior prediction.</p></li><li><p>Innovative forecasting and early warning for geotechnical stability.</p></li><li><p>Eco-friendly geomaterials and geotechnologies.</p></li><li><p>Climate change impacts and mitigation in geoengineering.</p></li><li><p>Case studies on intelligent geoengineering</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/intelligent-geoengineering/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 38,
+          "title": "Egyptian Informatics Journal",
+          "acronym": "EIJ",
+          "issn": "1110-8665",
+          "subjectAreas": [
+            "Computer Science (General)"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/11108665.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/EGIJ",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/egyptian-informatics-journal/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 11.8
+            },
+            "impactFactor": {
+              "value": 4.3
+            },
+            "acceptanceRate": {
+              "value": 15
+            }
+          },
+          "scope": "<p>Peer Review under the responsibility of the Faculty of Computers and Artificial Intelligence, Cairo University</p><p><i>The Egyptian Informatics Journal</i> is published by the Faculty of Computers and Artificial Intelligence, Cairo University. This Journal provides a forum for the state-of-the-art research and development in the fields of computing, including computer sciences, information technologies, information systems, operations research and decision support. Innovative and not-previously-published work in subjects covered by the Journal is encouraged to be submitted, whether from academic, research or commercial sources.</p><p>For queries related to the journal, please contact <a href=\"mailto:m.essmael@fci-cu.edu.eg\">m.essmael@fci-cu.edu.eg</a></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Mahmoud Ahmed Ismail Shoman",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              },
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 1200,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 39,
+          "title": "Meta-Radiology",
+          "acronym": "METRAD",
+          "issn": "2950-1628",
+          "subjectAreas": [
+            "Radiology and Imaging",
+            "Computer Graphics and Computer-Aided Design",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29501628.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/metrad/default2.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/meta-radiology/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.2
+            },
+            "acceptanceRate": {
+              "value": 26
+            },
+            "timeToFirstDecision": {
+              "value": 5
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p>Meta-Radiology is an interdisciplinary journal that provides a forum for the dissemination of new research results in the field of radiology. The typical medical images of interest include those acquired from: magnetic resonance, ultrasound, computed tomography, nuclear medicine, and X-ray.</p><p>The types of papers of interest include those that use different modality medical images to perform the following types of clinical and basic science investigations:</p><p><i><b>Clinical radiology</b></i> : detection, diagnosis, efficacy prediction, prognosis prediction, etc.</p><p><i><b>Artificial intelligence in radiology</b></i> : segmentation, visualization, feature extraction, image generation, computer-aided diagnosis, computer-aided detection, NLP in radiology, etc.</p><p><i><b>Molecular imaging</b></i> : utilization of molecular imaging (i.e. nuclear imaging, autoradiography and pathology, MRI, ultrasound imaging, radiomics/genomics etc.) to investigate questions related to cell biology, molecular biology and diagnostic imaging.</p><p><i><b>New medical imaging technology</b></i> : image acquisition, image postprocessing, fast imaging, automatic scanning, etc.</p><p><i><b>Interventional radiology</b></i> : interventional biopsy, intervention therapy, interventional diagnosis, new interventional techniques, such as ultrasound guided interventional techniques, MR guided interventional techniques, etc.</p><p><i><b>Radiation</b></i> : molecular and cellular radiation biology, radiation physics, radiation technology, and clinical oncology radiation treatment, etc.</p><p><i><b>Other interdisciplinary radiology</b></i> : medical physics, neuroscience and neuroimaging, radiochemistry, radiobiology, radiogenetics, radiotoxicology, etc.</p><p><a href=\"https://www.keaipublishing.com/en/journals/meta-radiology/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 0,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 40,
+          "title": "Electronic Commerce Research and Applications",
+          "acronym": "ELERAP",
+          "issn": "1567-4223",
+          "subjectAreas": [
+            "Management Science and Operations Research",
+            "Marketing",
+            "Computer Science Applications",
+            "Information Systems and Management",
+            "Artificial Intelligence",
+            "Computer Networks and Communications",
+            "Management of Technology and Innovation"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "VSI: Emerging Technology and Innovation in Q-Commerce"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15674223.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ECRA/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/electronic-commerce-research-and-applications/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.9
+            },
+            "impactFactor": {
+              "value": 6.3
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 4
+            }
+          },
+          "scope": "<p><i>Electronic Commerce Research and Applications</i> aims to create and disseminate enduring knowledge for the fast-changing <b>e-commerce</b> environment. A major dilemma in e-commerce research is how to achieve a balance between the currency and the life span of knowledge.</p><p><i>Electronic Commerce Research and Applications</i> will contribute to the establishment of a research community to create the knowledge, technology, theory, and applications for the development of <b>electronic commerce</b>. This is targeted at the intersection of technological potential and business aims.</p><p>E-commerce is a multi-disciplinary area, which should be developed in co-operation with existing fields such as Information Systems and Technology; Computing and Informatics; Marketing, Finance and Supply Chain Management; Business Strategy and Management; Artificial Intelligence/Machine Learning; Data Science and Business Data Analytics; Public Policy; and Legal Studies. We will solicit papers on current technologies from these areas, as well as publish papers on completely new topics. We also seek proposals for special issues on new topics in e-commerce that will create new directions for research.</p><p>Electronic Commerce Research and Applications is inviting submission of articles, including but not limited to the following topics:Agent-based commerce; electronic auctions; e-business models; B2C and B2B EC; consumer behavior; customer relationship management and data mining; recommender systems; Internet search engines and Web mining; big data analytics; social media and commerce analytics; responsible and trustworthy artificial intelligence; pricing and marketing; digital economy and digital transformation; e-government, public policy and digital divide issues; electronic payment systems; sharing economy; (IT and e-services; exchanges and electronic marketplaces;) e-commerce in supply chain and inventory management; legal issues in e-commerce; (industry studies and case analysis;) economic and management science modeling; organizational and theory-building research; empirical studies of e-commerce problems; behavioral studies of e-commerce issues; protocols, technology and process standards for e-commerce; (transformation of industries;) security and trust; credit card and smart card applications; mobile-commerce and ubiquitous computing; inter-organizational systems in e-commerce; emerging technologies and technological innovation.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Christopher Yang",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "BUSINESS",
+                "tier": 3
+              },
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 2
+              },
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Management Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3440,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        }
+      ],
+      "filterHistograms": {
+        "impactFactor": [
+          1,
+          12,
+          20,
+          19,
+          27,
+          23,
+          15,
+          14,
+          9,
+          4,
+          15
+        ],
+        "citeScore": [
+          1,
+          5,
+          10,
+          7,
+          12,
+          15,
+          17,
+          11,
+          11,
+          16,
+          82
+        ],
+        "publicationTime": [
+          7,
+          37,
+          27,
+          28,
+          10,
+          13,
+          12,
+          13,
+          13,
+          10,
+          9,
+          7,
+          4,
+          2,
+          2,
+          1,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          3,
+          1,
+          3,
+          1,
+          0,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "timeToFirstDecision": [
+          21,
+          18,
+          36,
+          27,
+          19,
+          17,
+          15,
+          5,
+          12,
+          10,
+          7,
+          7,
+          5,
+          3,
+          3,
+          2,
+          2,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          2,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "totalResults": 266,
+      "institute": {
+        "name": null,
+        "hasAgreements": false
+      }
+    }
+  }
+]

@@ -1,0 +1,1648 @@
+[
+  {
+    "url": "https://authorhub.elsevier.com/api/v1/journals/keywords-search",
+    "status": 200,
+    "json": {
+      "results": [
+        {
+          "ranking": 1,
+          "title": "Natural Language Processing Journal",
+          "acronym": "NLP",
+          "issn": "2949-7191",
+          "subjectAreas": [
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Replication Studies",
+            "Review",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29497191.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/NLP",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/natural-language-processing-journal/publish/guide-for-authors"
+          },
+          "insights": {
+            "timeToFirstDecision": {
+              "value": 10
+            },
+            "timeToAcceptance": {
+              "value": 5
+            }
+          },
+          "scope": "<p>The Open Access Natural Language Processing Journal aims to advance modern understanding and practice of trustworthy, interpretable, explainable human-centered and hybrid Artificial Intelligence as it relates to all aspects of human language. The NLP journal affords a world-wide platform for academics and practitioners to present their latest theoretical, practical, and methodological research concerning the development and application of trustworthy AI to analyze, process, or model human language across various multimodal contexts, domains, and intelligent systems, including hybrid AI , Human AI interaction and Social systems. The NLP journal welcomes original research papers, review papers, position papers, tutorial and best practice papers. Special Issues proposals on specific current topics are welcomed. To foster trust, transparency, and reproducibility in AI research the NLP journal promotes open and FAIR data and software sharing practices. Furthermore the NLP journal specifically invites researchers to submit scientific replication studies for review and publication.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Xiaohui Tao | Haoran Xie",
+          "goldOpenAccessFee": {
+            "value": 1830,
+            "currency": "USD",
+            "discountedValue": 915,
+            "discountExpiryDate": "2026-12-31"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 2,
+          "title": "Computer Speech and Language",
+          "acronym": "YCSLA",
+          "issn": "0885-2308",
+          "subjectAreas": [
+            "Signal Processing",
+            "Experimental and Cognitive Psychology",
+            "Linguistics and Language",
+            "Electrical and Electronic Engineering",
+            "Language and Linguistics"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "VSI: Security and Privacy in Speech Communication",
+            "VSI: Speech Eval & Synthesis"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/08852308.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ycsla/",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/computer-speech-and-language/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 12
+            },
+            "impactFactor": {
+              "value": 3.4
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 12
+            }
+          },
+          "scope": "<p>An official publication of the International Speech Communication Association (ISCA)</p><p>Computer Speech &amp; Language publishes reports of original research related to the analysis, recognition, understanding, production, synthesis, coding and mining of speech and spoken language, including spoken language dialogue systems and speech-based interaction with ‘intelligent’ artefacts, and their wide-ranging applications.</p><p>The journal provides a focus for this work, and encourages an interdisciplinary approach to speech and spoken language research and technology. Thus contributions from all of the related fields are welcomed in the form of reports of theoretical or experimental studies, reviews, and pertaining to models and their implementation, or reports of fundamental research leading to the improvement of such models.</p><p>Research Areas Include</p><ul><li><p>Algorithms and models for speech recognition and synthesis</p></li><li><p>Natural language processing for speech understanding and generation</p></li><li><p>Computational models of spoken language discourse and dialogue</p></li><li><p>Speech and spoken-language inclusive multimodal approaches and systems</p></li><li><p>Information retrieval, extraction and summarization of spoken language media</p></li><li><p>Speaker and spoken language recognition</p></li><li><p>Computational models of speech production and perception</p></li><li><p>Signal processing for speech analysis, enhancement and transformation</p></li><li><p>Evaluation of speech-based interactive systems</p></li><li><p>Applications of speech and spoken language technologies</p></li></ul><p>Note that we are no longer accepting submissions devoted to pure Natural Language Processing NLP (i.e. all new manuscripts must address some aspect of spoken language processing).</p><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Moore",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3600,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 3,
+          "title": "Library & Information Science Research",
+          "acronym": "LIBINF",
+          "issn": "0740-8188",
+          "subjectAreas": [
+            "Library and Information Sciences"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review article",
+            "VSI: Difficult Conversations"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/07408188.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/LIBINF",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/library-and-information-science-research/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 5.3
+            },
+            "impactFactor": {
+              "value": 2.3
+            },
+            "timeToFirstDecision": {
+              "value": 9
+            },
+            "timeToAcceptance": {
+              "value": 13
+            }
+          },
+          "scope": "<p><i>Library &amp; Information Science Research</i>, a cross-disciplinary and refereed journal, focuses on the research process in <b>library</b> and <b>information science</b>, especially demonstrations of innovative methods and theoretical frameworks or unusual extensions or applications of well-known methods and tools. Library &amp; Information Science Research publishes research articles primarily from a social science perspective.</p><p>LISR does not normally publish technical information science studies (e.g., algorithmic methods related to information retrieval or natural language processing) or most bibliometric studies, as these would find greater readership in the many fine journals covering these areas.</p><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "June Abbas",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "INFORMATION SCIENCE & LIBRARY SCIENCE",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Management Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3450,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 4,
+          "title": "Pattern Recognition Letters",
+          "acronym": "PATREC",
+          "issn": "0167-8655",
+          "subjectAreas": [
+            "Computer Vision and Pattern Recognition",
+            "Signal Processing",
+            "Electrical and Electronic Engineering"
+          ],
+          "articleTypes": [
+            "Regular Article",
+            "SS: ICPRS 2025",
+            "SS: SIBGRAPI 2025",
+            "Survey papers by IAPR fellows",
+            "Commentary",
+            "Note",
+            "VSI: PATREC_EMDF-RCP"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01678655.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/PRLETTERS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 9.5
+            },
+            "impactFactor": {
+              "value": 3.3
+            },
+            "timeToFirstDecision": {
+              "value": 17
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p>An official publication of the <a href=\"http://www.iapr.org/\">International Association for Pattern Recognition</a></p><p><i>Pattern Recognition Letters</i> aims at rapid publication of concise articles of a broad interest in <b>pattern recognition</b>. <br/> Subject areas include all the current fields of interest represented by the Technical Committees of the <a href=\"http://www.iapr.org/\">International Association of Pattern Recognition</a>, and other developing themes involving learning and recognition. Examples include:</p><p>• Statistical, structural, syntactic pattern recognition; <br/> • Neural networks, machine learning, data mining; <br/> • Discrete geometry, algebraic, graph-based techniques for pattern recognition; <br/> • Signal analysis, image coding and processing, shape and texture analysis; <br/> • Computer vision, robotics, remote sensing; <br/> • Document processing, text and graphics recognition, digital libraries; <br/> • Speech recognition, music analysis, multimedia systems; <br/> • Natural language analysis, information retrieval; <br/> • Biometrics, biomedical pattern analysis and information systems; <br/> • Special hardware architectures, software packages for pattern recognition.</p><p>We invite contributions as research reports or commentaries.</p><p>Research reports should be concise summaries of methodological inventions and findings, with strong potential of wide applications. <br/> Alternatively, they can describe significant and novel applications of an established technique that are of high reference value to the same application area and other similar areas.</p><p>Commentaries can be lecture notes, subject reviews, reports on a conference, or debates on critical issues that are of wide interests.</p><p>To serve the interests of a diverse readership, the introduction should provide a concise summary of the background of the work in an accepted terminology in pattern recognition, state the unique contributions, and discuss broader impacts of the work outside the immediate subject area. All contributions are reviewed on the basis of scientific merits and breadth of potential interests.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "De Marsico | Liu | Lu",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 3,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 2380,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 5,
+          "title": "AI Open",
+          "acronym": "AIOPEN",
+          "issn": "2666-6510",
+          "subjectAreas": [
+            "Software",
+            "Artificial Intelligence",
+            "Computer Science Applications",
+            "Computer Science (General)"
+          ],
+          "articleTypes": [],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26666510.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/aiopen/default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/ai-open/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 32.8
+            },
+            "impactFactor": {
+              "value": 14.8
+            },
+            "timeToFirstDecision": {
+              "value": 14
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p><i>AI Open</i> is a freely accessible platform to share actionable knowledge and forward-thinking perspectives on the theory of artificial intelligence and its applications. The journal welcomes research articles, review papers, perspectives, short communications and technical notes on all aspects of artificial intelligence and its applications.</p><p>Topics covered include, but are not limited to:</p><ul><li><p>Deep learning and representation learning</p></li><li><p>Graph theory and graph mining</p></li><li><p>Constraints, satisfiability, and search</p></li><li><p>Knowledge representation, reasoning, and logic</p></li><li><p>Machine learning and data mining</p></li><li><p>Knowledge graph and applications</p></li><li><p>Agent-based and multi-agent systems</p></li><li><p>Web and knowledge-based information systems</p></li><li><p>Natural language processing</p></li><li><p>Image processing and analysis</p></li><li><p>Uncertainty</p></li><li><p>Brain-based Learning</p></li><li><p>Implicit Cognition and Learning</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/ai-open/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 900,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 6,
+          "title": "Artificial Intelligence",
+          "acronym": "ARTINT",
+          "issn": "0004-3702",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Computer Vision and Pattern Recognition",
+            "Engineering (General)",
+            "Computational Theory and Mathematics"
+          ],
+          "articleTypes": [
+            "Awards Track Invited Papers",
+            "Competition Section",
+            "Full Length Article",
+            "Position Paper",
+            "Research Field Review",
+            "Research Note"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00043702.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/artint/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 15
+            },
+            "impactFactor": {
+              "value": 4.6
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>The journal of <i>Artificial Intelligence (AIJ)</i> welcomes papers on broad aspects of AI that constitute advances in the overall field including, but not limited to, cognition and AI, automated reasoning and inference, case-based reasoning, commonsense reasoning, computer vision, constraint processing, ethical AI, heuristic search, human interfaces, intelligent robotics, knowledge representation, machine learning, multi-agent systems, natural language processing, planning and action, and reasoning under uncertainty. The journal reports results achieved in addition to proposals for new ways of looking at AI problems, both of which must include demonstrations of value and effectiveness.</p><p>Papers describing applications of AI are also welcome, but the focus should be on how new and novel AI methods advance performance in application areas, rather than a presentation of yet another application of conventional AI methods. Papers on applications should describe a principled solution, emphasize its novelty, and present an indepth evaluation of the AI techniques being exploited.</p><p>Apart from regular papers, the journal also accepts Research Notes, Research Field Reviews, Position Papers, and Book Reviews (see details below). The journal will also consider summary papers that describe challenges and competitions from various areas of AI. Such papers should motivate and describe the competition design as well as report and interpret competition results, with an emphasis on insights that are of value beyond the competition (series) itself.</p><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Sylvie Thiebaux | Michael Wooldridge",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Computer Science",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 4050,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 7,
+          "title": "International Journal of Cognitive Computing in Engineering",
+          "acronym": "IJCCE",
+          "issn": "2666-3074",
+          "subjectAreas": [
+            "Artificial Intelligence",
+            "Computer Science (General)",
+            "Information Systems"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review",
+            "Short Communication",
+            "SI: AI for Cognitive Computing",
+            "SI: GCCCEA",
+            "SI: IoT-5G",
+            "SI:CCIMP",
+            "SI:IDMSCEP"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26663074.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/ijcce/Default.aspx",
+            "guideForAuthors": "https://www.keaipublishing.com/en/journals/international-journal-of-cognitive-computing-in-engineering/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 19.8
+            },
+            "acceptanceRate": {
+              "value": 14
+            },
+            "timeToFirstDecision": {
+              "value": 4
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>Cognitive computing is the creation of self-learning systems that use data mining, pattern recognition and natural language processing (NLP) to solve complicated problems without constant human oversight. It is a field that is highly transdisciplinary in nature, combining ideas, principles and methods of psychology, computer and internet technologies, linguistics, philosophy, neuroscience, etc.</p><p>The goal of the <i>International Journal of Cognitive Computing in Engineering</i> is to explore how these data science technologies and new cognitive methods can be integrated to address real world engineering problems and challenges. For example, the journal welcomes submissions that look at the opportunities offered by combining existing data technologies with the knowledge of experts in the field and artificial intelligence. One of the benefits of cognitive computing is that it offers new analytics opportunities: the journal also welcomes designs for cognitive embedded data technologies that can process and analyse the large amount of data generated and aid decision-making.</p><p>Submissions on a variety of cognitive computing-related topics will be considered.</p><p><a href=\"https://www.keaipublishing.com/en/journals/international-journal-of-cognitive-computing-in-engineering/editorial-board/\">Editorial Board</a></p>",
+          "openAccessType": "SUBSIDISED",
+          "goldOpenAccessFee": {
+            "value": 700,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 8,
+          "title": "Chip",
+          "acronym": "CHIP",
+          "issn": "2709-4723",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Information Systems"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Review",
+            "VSI: Het-Integ. Photon Chips - Research Article",
+            "VSI: Het-Integ. Photon Chips - Review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27094723.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/CHIP",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7
+            },
+            "impactFactor": {
+              "value": 7.1
+            },
+            "timeToFirstDecision": {
+              "value": 3
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p>An official journal of <a href=\"https://en.sjtu.edu.cn/\">Shanghai Jiao Tong University</a>.</p><p><b><i>Chip</i></b> is an international journal that publishes innovative research in the emerging field of integrated chips that feature revolutionary information technology.</p><p><b><i>Chip</i></b> will bridge the boundaries between theory and technology and form the aggregation effect of chip research. It aims to become a competitive top journal with strong international recognition and will serve as a platform for graduate students, professionals, and the engineering industry to jointly boost the cutting-edge information sciences and technologies.</p><p>The journal focuses on the rapid development and potential application of new-generation information technologies. These include but are not limited to the following fields:</p><p>•Quantum information: quantum algorithm, quantum machine learning, analog quantum computing, quantum circuits, quantum annealing•New types of Non-von Neumann computing and post-Moore devices: photonic computing, neuromorphic computing, other promising classical (not quantum) computing technologies•Internet of things and edge computing: advanced sensors, wireless signal transmission, low-power computing, energy harvesting, biomedical systems•Big Data and artificial intelligence: innovative hardware and architecture for data mining, information retrieval, machine learning, natural language processing, computer vision, robotics•Interdisciplinary area related to chip issues: new chip materials, new device manufacturing techniques, algorithm and architecture of chips.</p><p>The Print ISSN of the journal is 2709-4723.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Professor Jun-Fa Mao",
+          "goldOpenAccessFee": {
+            "value": 2000,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 9,
+          "title": "BioSystems",
+          "acronym": "BIO",
+          "issn": "0303-2647",
+          "subjectAreas": [
+            "Ecology, Evolution, Behavior and Systematics",
+            "Drug Discovery",
+            "Biotechnology",
+            "Modelling and Simulation"
+          ],
+          "articleTypes": [
+            "Full Length Article",
+            "Review Article",
+            "Hypothesis",
+            "Perspectives",
+            "Short communication",
+            "VSI: Design in Nature_Research-Article",
+            "VSI: Neural Coding 2025- Full length article",
+            "VSI: Quantum Biology - Full length article",
+            "VSI: Design in Nature_Review-Article",
+            "VSI: Neural Coding 2025 - Review article",
+            "VSI: Oxford2026Conference",
+            "VSI: Quantum Biology - Review article"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03032647.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/BIOSYS",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/biosystems/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 4
+            },
+            "impactFactor": {
+              "value": 1.9
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p><i>BioSystems </i>encourages theoretical, computational, and experimental articles that link <b>biology</b>, <b>evolutionary concepts</b>, and the <b>information sciences</b>. The journal is dedicated to publishing research on self-organizing information systems—with the goal of obtaining a better understanding of the origins of biochemical, genetic, epigenetic, physiological, cognitive, linguistic, sociocultural, and biological organization and evolution.</p><p>The scope of the journal encompasses the fundamental nature of <b>biological information </b>and <b>(self)-organization</b>. This includes quantum phenomena in information transfer, natural computing, biological coding systems, biological complexity, theoretical biology, artificial life, computational modeling of complex biological systems, evolutionary models of computation, application of biological principles to the design of novel computing systems, and the use of biomolecular materials to synthesize artificial systems that capture essential principles of natural biological information processing.<br/><br/>The journal does <i>not </i>publish purely medical, computational, or ecological research, unless it is clearly linked to the basic and conceptual aspects of biological organization.</p><p>The editors encourage articles that deal, in particular, with the following topics:</p><ul><li><p>Biological computation</p></li><li><p>Molecular recognition</p></li><li><p>Physical foundations of biology</p></li><li><p>Quantum phenomena in biological systems</p></li><li><p>Cellular control</p></li><li><p>Neuromolecular computing</p></li><li><p>Biological coding systems</p></li><li><p>Molecular computing processes</p></li><li><p>Self-organizing and self-replicating systems</p></li><li><p>Origin of the genetic code</p></li><li><p>Origins and evolution of genomes</p></li><li><p>Stochastic evolutionary algorithms</p></li><li><p>Origins and evolution of mind and language</p></li><li><p>Ecological evolutionary developmental biology</p></li><li><p>Reticulate evolution (symbiosis, symbiogenesis, lateral gene transfer)</p></li><li><p>Simulation of genetic and ecological systems</p></li><li><p>Applications (neural nets, machine learning, robotics)</p></li><li><p>History and philosophy of science</p></li></ul><p>In addition, the editors encourage the following types of papers for submission: </p><ul><li><p>Papers that extract novel biological insights from multidimensional data, using AI-driven language models</p></li><li><p>Biological hypothesis papers producing new insights based on a body of pre-existing empirical research</p></li><li><p>Perspectives papers intended to stimulate scientific discussions and provide guidelines for future directions<br/></p></li></ul><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Abir Igamberdiev",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "BIOLOGY",
+                "tier": 4
+              },
+              {
+                "name": "MATHEMATICAL & COMPUTATIONAL BIOLOGY",
+                "tier": 4
+              }
+            ],
+            "majorRanking": {
+              "name": "Biology",
+              "tier": 4,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3050,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 10,
+          "title": "Intelligent Systems with Applications",
+          "acronym": "ISWA",
+          "issn": "2667-3053",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Computer Networks and Communications",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Discussion",
+            "Full length article",
+            "Review article",
+            "Short communication",
+            "Short review"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26673053.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/iswa/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/intelligent-systems-with-applications/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 8.3
+            },
+            "impactFactor": {
+              "value": 4.3
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p><i>Intelligent Systems with Applications</i> (ISWA) is a peer reviewed open-access journal which focuses on the achievements of <b>research and applications</b> related to <b>intelligent systems</b> (IS). IS can be applied to all aspects of human enterprize, such as business &amp; finance, manufacturing &amp; supply chains, agriculture, transportation, engineering, medicine and health, education, entertainment, culture, travel, media, the Internet, etc. ISWA covers a broad spectrum of applications in the community, including <b>industry</b>, <b>government</b>, and <b>academia</b>.</p><p>The journal aims to publish papers dealing with, but not limited to, the following research fields: <br/> Knowledge Representation and Reasoning, Machine Learning (ML) and Neural Computing, Evolutionary Computation, Fuzzy Systems, Intelligent Information Processing, Intelligent Control and Robotics, Multi-agent Systems and Programming.</p><p>The journal welcomes submissions of IS-applications in various areas: <br/> Intelligent Cities, Industries, Consuming, Medical Treatment and Health, Agriculture, Business and Finance, Internet of Things (IoT). Research addressing IS-applications in other fields is also encouraged.</p><p>Submissions must be novel, technically sound, and clearly presented. ISWA accepts both regular papers and survey articles. Submissions meeting journal criteria will undergo a single-blind review process, utilizing a minimum of two (2) external referees. Our dedicated editorial team, together with active researchers from related fields, will ensure that papers move through the evaluation and review as rapidly as possible without compromising on the quality of the process.</p><p>The journal audience comprises academia, industry, and practitioners. Authors are strongly encouraged to make their datasets and software publicly accessible via a repository of their choosing. Please see our Guide for Authors for information on article submission. If you require any further information or help, please visit our <a href=\"https://service.elsevier.com/app/home/supporthub/publishing\">Support Center</a>.</p><p><b>Software Publication</b></p><p>We invite you to convert your open source software into an additional journal publication in <a href=\"https://www.journals.elsevier.com/software-impacts\"><i>Software Impacts</i></a>, a multi-disciplinary open access journal. <i>Software Impacts</i> provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs.</p><p>For more information contact us at: <a href=\"http://www.elsevier.com/mailto:software.impacts@elsevier.com\">software.impacts@elsevier.com</a></p><p><b>Focal points include, but are not limited to innovative applications of:</b></p><p><b>Basic Theory</b></p><ul><li><p>Knowledge Representation and Reasoning</p></li><li><p>Machine Learning (ML) and Neural Computing</p></li><li><p>Evolutionary Computation</p></li><li><p>Fuzzy Systems</p></li></ul><p><b>Intelligent Methodology</b></p><ul><li><p>Intelligent Information Processing (Video, Image, Audio, Language and other Multi-modal Information)</p><ul><li><p>Data Ming and Knowledge Discovery</p></li><li><p>Pattern Recognition (PR) and Computer Vision (CV)</p></li><li><p>Audio Signal Processing</p></li><li><p>Natural Language Processing (NLP)</p></li></ul></li><li><p>Intelligent Control and Robotics</p></li><li><p>Multi-agent Systems and Programming</p></li></ul><p><b>Intelligent Applications</b></p><ul><li><p>Intelligent Cities</p><ul><li><p>Intelligent Transportation</p></li><li><p>Intelligent Systems for Security and Management</p></li></ul></li><li><p>Intelligent Systems for Industry</p><ul><li><p>Intelligent Supply Chain</p></li><li><p>Unmanned factory and flexible manufacturing</p></li><li><p>Unmanned Warehouse</p></li><li><p>Service Robot</p></li></ul></li><li><p>Intelligent Systems for Consuming</p><ul><li><p>Intelligent Hardware and Smart Wearable Devices</p></li><li><p>Intelligent Furniture</p></li><li><p>New Retails</p></li><li><p>Unmanned Driving and Autonomous Systems</p></li></ul></li><li><p>Intelligent Systems for Medical Treatment and Health</p></li><li><p>Intelligent Systems for Agriculture</p></li><li><p>Intelligent Systems for Business and Finance</p></li><li><p>Internet of Things and its Applications</p></li></ul><p></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Hua Xu",
+          "goldOpenAccessFee": {
+            "value": 2300,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 11,
+          "title": "Machine Learning with Applications",
+          "acronym": "MLWA",
+          "issn": "2666-8270",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Management Science and Operations Research",
+            "Artificial Intelligence",
+            "Decision Sciences (General)"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26668270.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/mlwa/default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "impactFactor": {
+              "value": 4.9
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p><i>Machine Learning with Applications</i> (MLWA) is a peer reviewed, open access journal focused on research related to <b>machine learning</b>. The journal encompasses all aspects of research and development in ML, including but not limited to data mining, computer vision, natural language processing (NLP), intelligent systems, neural networks, AI-based software engineering, bioinformatics and their applications in the areas of engineering, medicine, biology, education, business and social sciences. It covers a broad spectrum of applications in the community, from <b>industry</b>, <b>government</b>, and <b>academia</b>.</p><p>The journal publishes research results in addition to new approaches to ML, with a focus on value and effectiveness. Application papers should demonstrate how ML can be used to solve important practical problems. Research methodology papers should demonstrate an improvement to the way in which existing ML research is conducted.</p><p>Submissions must be novel, technically sound, and clearly presented. MLWA accepts both regular papers and technical notes (technical notes are limited to a maximum of 10 pages). In addition, survey articles and discussion papers on ML are welcome.</p><p>Submissions meeting journal criteria will undergo a single-blind review process, utilizing a minimum of two (2) external referees. Our dedicated editorial team, together with active researchers from all areas of ML, ensure that papers move through the evaluation and review as fast as possible without compromising on the quality of the process.</p><p>The journal audience comprises academia, industry, and practitioners. Authors are strongly encouraged to make their datasets publicly accessible via a repository of their choosing. Please see our Guide for Authors for information on article submission. If you require any further information or help, please visit our <a href=\"https://service.elsevier.com/app/home/supporthub/publishing\">Support Center</a>.</p><p>We invite you to convert your open source software into an additional journal publication in <a href=\"https://www.journals.elsevier.com/software-impacts\"><i>Software Impacts</i></a>, a multi-disciplinary open access journal. <i>Software Impacts</i> provides a scholarly reference to software that has been used to address a research challenge. The journal disseminates impactful and re-usable scientific software through Original Software Publications which describe the application of the software to research and the published outputs.</p><p>For more information contact us at: <a href=\"mailto:software.impacts@elsevier.com\">software.impacts@elsevier.com</a></p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Prof. Dr. Binshan Lin",
+          "goldOpenAccessFee": {
+            "value": 2460,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 12,
+          "title": "World Patent Information",
+          "acronym": "WPI",
+          "issn": "0172-2190",
+          "subjectAreas": [
+            "Law",
+            "Process Chemistry and Technology",
+            "Computer Science Applications",
+            "Bioengineering",
+            "Renewable Energy, Sustainability and the Environment",
+            "Energy Engineering and Power Technology",
+            "Mechanical Engineering",
+            "Industrial and Manufacturing Engineering",
+            "Library and Information Sciences",
+            "Fuel Technology",
+            "Management of Technology and Innovation"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication",
+            "VSI: LLM/GenAI/Agentic AI for IP analytics and strategy",
+            "VSI: AI/ML IP data analytics for innovation",
+            "VSI: GTM 2025's Special Issue"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01722190.jpg",
+          "links": {
+            "submission": "https://submit.elsevier.com/WPI",
+            "guideForAuthors": null
+          },
+          "insights": {
+            "citeScore": {
+              "value": 3.7
+            },
+            "impactFactor": {
+              "value": 1.9
+            },
+            "timeToFirstDecision": {
+              "value": 6
+            },
+            "timeToAcceptance": {
+              "value": 10
+            }
+          },
+          "scope": "<p>The journal for intellectual property information and its retrieval, documentation, classification, search, analysis and IP managementWorld Patent Information aims to encompass the world of IP information; and focus the journal towards IPRs for industrially applicable innovations; and their management, analysis; big data analysis; policy; education. IPRs - patents, utility models; copyright, trademarks, registered design; design rights; trade secrets; database rights; traditional knowledge; indigenous knowledge; geographical indications may all be considered.</p><p>World Patent Information publishes articles regarding best practice in legal and commercial patent search and analysis; articles which focus on particular types of search such as freedom to operate, FTO, clearance, state of the art, invalidity, validity, prior art, technical, landscaping, scouting, forecasting, patentability, decision searching, competitive intelligence using patent information. We are also interested in articles researching into meta data relating to IPRs such as legal status data for IPR; classifications and bibliographic data. We are interested in IP documentation, search, documentation, classification and IP information news from IP Offices.</p><p>Always welcome are reviews of state of the art in a particular industry, reviews of patent, and other IP and scientific and technical databases, search and analysis for IP purposes.</p><p>Research and review articles on information related to non- patent IPRs , trademarks, trade names, brands, designs, copyright, trade secrets, traditional knowledge, semiconductor rights, database rights, where these have impact for the technological innovation space. Best practice search and review articles, on sources of data. IP management information issues, inventions harvesting, IP services and intermediates and use of text mining and data mining for IP interests. Information retrieval (IR) relating to all aspects of IP published information not only text but also document specific, e.g. bibliographic, name, geographic; multi-lingual search, image search, tables, other non-text; text mining, Natural Language Processing (NLP); Information Extraction from patents e.g. – mathematical formulae, chemical, biological, plant, related data; Machine Translation, Machine learning, automated intelligence focused towards improving IP search and analysis; System Evaluation and Benchmarking, Data collections for IR experiments; Best practice for IP; IP management of Patents, Trademarks,. designs, know-how, copyright, trade secrets; organization of IP tasks in companies and research institutions; Innovation management -impact of patent and IP management; information management for IP best practice, TRIZ and its implementation for innovation processes; Technology management –characteristics and dynamics of technologies in IP perspective, IP portfolio benchmarking, valuation, geographic, expiries, technological, Advanced analysis –market, corporate, policy level, statistical analysis, Business methods patenting, Standards - standard essential patents – patent pools.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Amy Trappey",
+          "goldOpenAccessFee": {
+            "value": 2810,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 13,
+          "title": "Journal of Biomedical Informatics",
+          "acronym": "YJBIN",
+          "issn": "1532-0464",
+          "subjectAreas": [
+            "Computer Science Applications",
+            "Health Informatics",
+            "Medicine and Dentistry (General)"
+          ],
+          "articleTypes": [
+            "Original Research",
+            "Methodological Review",
+            "Special Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/15320464.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/jbi/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-biomedical-informatics/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 10.2
+            },
+            "impactFactor": {
+              "value": 4.5
+            },
+            "timeToFirstDecision": {
+              "value": 2
+            },
+            "timeToAcceptance": {
+              "value": 8
+            }
+          },
+          "scope": "<p>Endorsed by the <a href=\"https://amia.org/\">American Medical Informatics Association</a></p><p>The <i>Journal of Biomedical Informatics</i> (JBI) is the premier methodology journal in the field of <a href=\"https://academic.oup.com/jamia/article/19/6/931/729127\">biomedical informatics</a>. JBI publishes research on new methodologies and techniques that have general applicability and form the basis for the evolving science of biomedical informatics. Papers should focus on a real-world biomedical or clinical problem, develop a novel approach to address the problem, and evaluate its appropriateness in comparison to the current state-of-the-art (SoA) methods. Involvement of healthcare professionals in motivating the work and evaluation of results is expected.</p><p><b>Focus Areas and Topics of Interest</b></p><p>JBI seeks to publish papers that make a conceptual contribution to the field, typically by describing an <i>innovation in methodology</i> or technique or by discussing substantive generalizable lessons that have been learned in the context of an informatics project. When a methodological contribution has a theoretical basis, that theory is an appropriate emphasis for papers as well. Research papers may also present a novel &quot;method of methods&quot; explaining how to apply the existing methods to a space of biomedical problems that share unique characteristics influencing the choice of methods.</p><p>JBI publishes papers on a wide range of informatics topics. However, across these topics, papers must build on deep understanding and utilization of medical domain knowledge and should consider pragmatic translation for clinical care or applications. Topics of interest include (but are not limited to) clinical decision support, patient safety, natural language processing, artificial intelligence and machine learning, knowledge representation for healthcare, translational bioinformatics, clinical research informatics, and clinical informatics. Additional considerations for papers in the areas of translational bioinformatics, machine learning, security and privacy are provided below. Irrespective of the topic, papers must focus on novel informatics methods and its comparison to the current approaches.</p><p>Manuscripts can be submitted in the following categories: original research, methodological review, commentaries, special communication, letters to the editor, book reviews, and editorials (see additional details on each of these categories below). Given the international readership of JBI, country-specific health systems or approaches will be considered only if they offer generalizable lessons that are relevant to the broader readership, regardless of their country, language, culture, or health system.</p><p>Specific considerations for manuscripts in certain topical areas have also been provided in recent editorials.</p><p>If you are considering an article with a focus on <b><i>translational bioinformatics</i></b> , please read this <a href=\"https://www.sciencedirect.com/science/article/pii/S1532046409000306\">editorial</a>. Biologic discoveries based on the use of routine informatics techniques may be important biologic contributions, but are not suitable for JBI. In addition, please note that JBI publishes bioinformatics papers only if they deal with issues in translational (human) science (e.g., translational bioinformatics papers).</p><p>If you are considering an article describing a new <b><i>machine learning</i></b> approach, please read this <a href=\"https://doi.org/10.1016/j.jbi.2022.104003\">editorial</a>. Machine learning papers would be considered only if the methods that are introduced demonstrate substantial novelty and advancement beyond the current SoA and their evaluation is sound and includes an assessment of the potential of the method to be used in clinical practice. For example, submissions reporting publishing marginally SoA findings without an in-depth analysis or discussion of how the methods are potentially generalizable (or applicable in a wider setting) would not be considered. Novel and important clinical problems addressed by existing machine learning methods may warrant Special Communication papers if their discussion includes novel insights or lessons learned for future research in such domains.</p><p>Authors considering an article on <b><i>biomedical privacy and security</i></b>, please read this <a href=\"https://www.sciencedirect.com/science/article/pii/S1532046418300923\">editorial</a>. To be considered, the privacy and security methods that are introduced should demonstrate substantial novelty and advancement beyond the SoA, should be specific to the biomedical informatics domain, and their practical application and/or likely real-world usefulness in the biomedical domain.</p><p>Please also note that papers related to <b><i>signal processing, imaging, medical devices, or communication networks</i></b> are generally considered outside the scope of the journal. To be considered, such papers must introduce novel informatics methods that build on deep understanding and utilization of medical domain knowledge and should be translatable into applications. Papers on such topics should focus on information processing and management or knowledge-based approaches.</p><p>Please also consult the <a href=\"https://www.sciencedirect.com/science/article/pii/S153204642100037X\">editorial</a> that explains where to direct Artificial Intelligence in Medicine-related manuscripts for peer review and possible publication, considering the different scope of the three Elsevier medical informatics journals: JBI, Artificial Intelligence in Medicine, and Intelligence-based Medicine.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Mor Peleg",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+                "tier": 3
+              },
+              {
+                "name": "MEDICAL INFORMATICS",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Medicine",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3530,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 14,
+          "title": "Artificial Intelligence in Emergency Medicine",
+          "acronym": "AIEMED",
+          "issn": "3051-2883",
+          "subjectAreas": [
+            "Emergency Medicine",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Research Article",
+            "Protocol",
+            "Scoping Review",
+            "Systematic Review",
+            "Short Communication",
+            "Case Report",
+            "VSI: Generative AI Models in Emergency Medicine- Research article",
+            "VSI: Generative AI Models in Emergency Medicine- Review",
+            "VSI: Generative AI Models in Emergency Medicine- Short communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30512883.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/aiemed/Default.aspx",
+            "guideForAuthors": null
+          },
+          "insights": {},
+          "scope": "<p>Artificial Intelligence in Emergency Medicine (AIEM) is a gold open access, peer-reviewed journal dedicated to advancing the science, practice, and impact of artificial intelligence (AI) across the entire spectrum of emergency medicine. The journal welcomes high-quality, original research, reviews, technical innovations, perspectives, and case reports from all regions and disciplines.</p><p>AIEM provides a comprehensive forum for clinicians, researchers, informaticians, engineers, policymakers, and industry leaders to share knowledge, foster collaboration, and accelerate the responsible adoption of AI in emergency medicine and acute care settings globally.</p><p>It is important to note that any submission to AIEM will only be considered if the work is relevant to <i>both </i>emergency medicine and AI, which we define as follows.</p><p><b><i>Emergency medicine</i></b><b>: </b>Emergency Medicine is a primary specialty focused on the prevention, diagnosis, and management of urgent and emergency conditions affecting patients of all ages with diverse and undifferentiated disorders. It involves timely triage, resuscitation, telemedicine, and coordinated care both in and out of hospital settings until patient stabilization or transfer. </p><p><b><i>Artificial intelligence</i></b><b>:</b> The development and application of computational systems that emulate aspects of human cognition and decision-making, underpinned by heuristics, statistical modelling, traditional machine learning or deep learning approaches.</p><p>The journal’s scope includes, but is not limited to, the areas listed below.</p><p>1. Clinical Applications and Patient Care</p><ul><li><p>AI-powered diagnostics, triage, and risk stratification for all emergency conditions, including trauma, cardiovascular events, neurological emergencies, sepsis, and more.</p></li><li><p>Real-time clinical decision support systems, including imaging, point-of-care, and wearable sensor applications.</p></li><li><p>AI-enabled remote monitoring, telehealth, and prehospital care solutions.</p></li><li><p>Innovations in pediatric, geriatric, and special populations’ emergency care using AI.</p></li></ul><p>2. Operations, Systems, and Resource Management</p><ul><li><p>AI-driven workflow optimization, patient flow, and throughput in emergency departments and prehospital settings.</p></li><li><p>Predictive analytics for surge management, disaster response, mass casualty incidents, and public health emergencies.</p></li><li><p>Integration of AI with electronic health records, hospital information systems, and regional/national emergency care networks.</p></li></ul><p>3. Data Science, Informatics, and Computational Methods</p><ul><li><p>Big data analytics, natural language processing, and deep learning for emergency medicine.</p></li><li><p>Data sharing, data privacy, interoperability, and multi-center collaborative research using AI.</p></li><li><p>Data curation and annotation, data quality and standardization within the context of acute care environments.</p></li><li><p>Human-in-the-loop workflows, and human-machine collaborative approaches.</p></li></ul><p>4. Education, Training, and Workforce Development</p><ul><li><p>AI-enhanced education, simulation, and competency assessment for emergency clinicians, nurses, and allied health professionals.</p></li><li><p>Integration of AI with extended reality (XR) technologies—including virtual, augmented, and mixed reality—to provide immersive training, team-based simulations, and scenario-based learning in emergency medicine.</p></li><li><p>Training curricula and resources on AI literacy for the emergency medicine workforce.</p></li><li><p>Strategies to bridge the gap between AI research and clinical adoption.</p></li></ul><p>5. Policy, Ethics, Equity, and Global Perspectives</p><ul><li><p>Legal, ethical, and regulatory issues in the implementation and governance of AI in emergency medicine.</p></li><li><p>Addressing bias, fairness, transparency, and explainability of AI systems.</p></li><li><p>Global health applications, and reducing disparities in emergency care delivery using AI.</p></li><li><p>Potential risks and harms of applying AI in emergency medicine.</p></li></ul><p>6. Technology, Innovation, and Translational Science</p><ul><li><p>Emerging AI technologies, sensors, robotics, and novel devices for acute care.</p></li><li><p>Translational research from bench to bedside, including pilot studies, clinical trials, and real-world implementations.</p></li><li><p>Partnerships between academia, industry, and healthcare systems to advance innovation.</p></li></ul><p>7. Case Studies, Quality Improvement, and Implementation Science</p><ul><li><p>Reports on successful implementation, challenges, failures, and lessons learned from deploying AI in emergency settings.</p></li><li><p>Impact studies on patient outcomes, safety, quality, and operational efficiency.</p></li></ul><p>AIEM seeks to become the premier international open access platform for knowledge exchange at the intersection of AI and emergency medicine. By embracing a broad, interdisciplinary scope, the journal aims to accelerate scientific progress, inform best practices, and shape the future of emergency care worldwide.</p>",
+          "openAccessType": "FULL",
+          "editorInChief": "Koenraad Monsieurs | Riza Theresa Batista-Navarro",
+          "goldOpenAccessFee": {
+            "value": 2500,
+            "currency": "USD",
+            "discountedValue": 0,
+            "discountExpiryDate": "2027-08-31"
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 15,
+          "title": "International Journal of Medical Informatics",
+          "acronym": "IJB",
+          "issn": "1386-5056",
+          "subjectAreas": [
+            "Information Systems",
+            "Computer Science Applications",
+            "Nursing and Health Professions (General)",
+            "Health Informatics"
+          ],
+          "articleTypes": [
+            "Research Paper",
+            "Review Article",
+            "Short Communication"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/13865056.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/IJMEDI",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 7.9
+            },
+            "impactFactor": {
+              "value": 4.1
+            },
+            "timeToFirstDecision": {
+              "value": 1
+            },
+            "timeToAcceptance": {
+              "value": 3
+            }
+          },
+          "scope": "<p>Official journal of the <a href=\"http://www.efmi.org\">European Federation for Medical Informatics (EFMI)</a> and <a href=\"https://imia-medinfo.org/wp/\">IMIA</a>.</p><p><i>International Journal of Medical Informatics</i> provides an international medium for dissemination of original results and interpretative reviews concerning the field of medical informatics. The journal emphasizes the development, use, implementation, deployment, and evaluation of information and communication technologies (ICT) in healthcare settings, including consumer health, public health, clinical care, telehealth, education, clinical research, policies, and regulations considering security, privacy, and the ethical use of ICT resources at local, national, and global levels to improve population care delivery. </p><p><br/> The scope of journal covers:</p><ul><li><p>Information systems, including national or international registration systems, hospital information systems, departmental and/or clinician’s office systems, document handling systems, clinical information systems, electronic medical record systems, personal health records, public and population health informatics, consumer health systems, digital health, digital ecosystem, terminologies and standardization, systems integration and interoperability, among other topics on the scenario of delivering patient care through information and communication technology devices. </p></li><li><p>Computer-assisted medical decision support systems that use heuristics, data structures, algorithms, and statistical methods exemplified in decision theory, protocol development, and artificial intelligence, including techniques for discovering new knowledge. Note that studies in AI will be considered if they are integrated into clinical systems or evaluate the impact caused on clinical implementations.</p></li><li><p>Educational information and communication technology-based programs pertaining to medical informatics in general, including organizational, educational framework, curriculum content, economics evaluation, social and clinical impact, ethical and cost-benefit aspects of ICT applications in health care.</p></li><li><p>Patient safety, data privacy, security and confidentiality requirements, legal regulation, policies process, system assessment, maturity models evaluation and governance for ICT. </p></li></ul><p>The journal is in the healthcare domain. As an international journal, methodology plays a crucial role in allowing researchers from different countries to acquire knowledge and benefits from the steps followed to obtain results and evidence in using ICT in healthcare delivery. Results are often not transferable, but researchers can pursue and use methods in various scenarios.</p><p>If the article is on artificial intelligence using machine learning, deep learning, natural language processing, predictive modelling and related topics, authors <b>MUST</b> add relevant information as an appendix to allow better evaluation, transparency, and reproducibility. Many studies currently use models, algorithms, and <i>in silico</i> evaluation. In this case, we recommend a practical clinical application or a test with a different dataset than the one used to design the algorithm or model – an evaluation performed with data from other facilities is recommended. In other words, the dataset must be different (origin and testing). In addition, it would be helpful for authors to highlight the study’s limitations, particularly in cases where the testing is not feasible. </p><p>Predictive modeling (based on deep learning or machine learning techniques) applied to image analysis can significantly enhance diagnostic accuracy when integrated into hospital electronic health records. IJMEDI&#39;s scope allows the acceptance of primary research articles or reviews on image analysis that have been validated on <b>external datasets</b> (different from those used for development and training) and, possibly, integrated into clinical workflow or that have developed novel approaches using multimodality data. Articles that only focus on methodological approaches, analytical frameworks, or studies reporting algorithm performance in medical image analysis without a clear clinical contribution described above are considered out of scope for IJMEDI.</p><p>Again, note that IJMEDI is not interested in the model description or the comparison of framework performance with no novelty on the method or deployment. The scope is to focus on the results of ICT in clinical practice. The IJMI is interested in robust evaluation and intervention studies in clinical practice applications. Faced with so many studies using models, algorithms, <i>in silico</i> evaluation, it is demanded a practical clinical application (different dataset for validation) with significant meaning for providers and patients. Studies on models and descriptions must be advanced and show how much the contribution is evident for international readers and researchers. Most studies only evaluated model performance, but no usability and impact evaluation. It is necessary to advance and demonstrate impact on clinical practices.</p><p>Please also consult the IJMEDI editorials which details the checklist for machine learning checklist (<a href=\"https://www.sciencedirect.com/science/article/pii/S1386505621001362?via%3Dihub\">https://www.sciencedirect.com/science/article/pii/S1386505621001362?via%3Dihub</a>) and the scope of AI for the IJMEDI journal (<a href=\"https://www.sciencedirect.com/science/article/pii/S1386505623001685\">https://www.sciencedirect.com/science/article/pii/S1386505623001685</a>). Authors may also consider other journals addressing artificial intelligence in medicine and methods (<a href=\"https://www.elsevier.com/subject/medical-informatics/journals\">Medical Informatics Journals | Elsevier</a>).</p><p>The scope does not cover bibliometric or scientometric studies or similar studies using those methods.</p><p></p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Prof. Dr. Heimar Marin",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+                "tier": 3
+              },
+              {
+                "name": "HEALTH CARE SCIENCES & SERVICES",
+                "tier": 2
+              },
+              {
+                "name": "MEDICAL INFORMATICS",
+                "tier": 3
+              }
+            ],
+            "majorRanking": {
+              "name": "Medicine",
+              "tier": 2,
+              "top": false
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3160,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        },
+        {
+          "ranking": 16,
+          "title": "Artificial Intelligence in Medicine",
+          "acronym": "ARTMED",
+          "issn": "0933-3657",
+          "subjectAreas": [
+            "Medicine and Dentistry (General)",
+            "Artificial Intelligence"
+          ],
+          "articleTypes": [
+            "Historical perspectives",
+            "Original research contributions",
+            "PhD projects",
+            "Position papers",
+            "Book reviews",
+            "Methodological Reviews/Surveys",
+            "VSI: AIIM for IEEE CBMS 2025 (FLA)",
+            "VSI: TKD from PhysioNet (FLA)",
+            "VSI: TKD from PhysioNet (REV)"
+          ],
+          "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09333657.jpg",
+          "links": {
+            "submission": "https://www.editorialmanager.com/AIIM/default.aspx",
+            "guideForAuthors": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors"
+          },
+          "insights": {
+            "citeScore": {
+              "value": 12.2
+            },
+            "impactFactor": {
+              "value": 6.2
+            },
+            "timeToFirstDecision": {
+              "value": 12
+            },
+            "timeToAcceptance": {
+              "value": 7
+            }
+          },
+          "scope": "<p><i>Artificial Intelligence in Medicine</i> publishes original articles from a wide variety of interdisciplinary perspectives concerning the theory and practice of <b>artificial intelligence</b> (AI) in <b>medicine</b>, <b>medically-oriented human biology</b>, and <b>health care</b>.</p><p><b>Artificial intelligence in medicine</b> may be characterized as the scientific discipline pertaining to research studies, projects, and applications that aim at supporting decision-based medical tasks through knowledge- and/or data-intensive computer-based solutions that ultimately support and improve the performance of a human care provider.</p><p><i>Artificial Intelligence in Medicine</i> considers for publication manuscripts that have both:</p><p>• <b>Potential high impact in some medical or healthcare domain;</b> <br/> • <b>Strong novelty of method and theory related to AI and computer science techniques.</b></p><p><i>Artificial Intelligence in Medicine</i> papers must refer to real-world medical domains, considered and discussed at the proper depth, from both the technical and the medical points of view. <b>The inclusion of a clinical assessment</b> of the usefulness and potential impact of the submitted work <b>is strongly recommended.</b></p><p><i>Artificial Intelligence in Medicine</i> is looking for novelty in the methodological and/or theoretical content of submitted papers. Such kind of novelty has to be mainly acknowledged in the area of AI and Computer Science. <b>Methodological papers</b> deal with the proposal of some strategy and related methods to solve some scientific issues in specific domains. They must show, usually through an experimental evaluation, how the proposed methodology can be applied to medicine, medically-oriented human biology, and health care, respectively. They have also to provide a comparison with other proposals, and explicitly discuss elements of novelty. <b>Theoretical papers</b> focus on more fundamental, general and formal topics of AI and must show the novel expected effects of the proposed solution in some medical or healthcare field.</p><p>Following the information explosion brought by the diffusion of Internet, social networks, cloud computing, and big-data platforms, Artificial Intelligence in Medicine has broadened its perspective. Particular attention is given to novel research work pertaining to:</p><ul><li><p>AI-based clinical decision making;</p></li><li><p>Medical knowledge engineering;</p></li><li><p>Knowledge-based and agent-based systems;</p></li><li><p>Computational intelligence in bio- and clinical medicine;</p></li><li><p>Intelligent and process-aware information systems in healthcare and medicine;</p></li><li><p>Natural language processing in medicine;</p></li><li><p>Data analytics and mining for biomedical decision support;</p></li><li><p>New computational platforms and models for biomedicine;</p></li><li><p>Intelligent exploitation of heterogeneous data sources aimed at supporting decision-based and data-intensive clinical tasks;</p></li><li><p>Intelligent devices and instruments;</p></li><li><p>Automated reasoning and meta-reasoning in medicine;</p></li><li><p>Machine learning in medicine, medically-oriented human biology, and healthcare;</p></li><li><p>AI and data science in medicine, medically-oriented human biology, and healthcare;</p></li><li><p>AI-based modeling and management of healthcare pathways and clinical guidelines;</p></li><li><p>Models and systems for AI-based population health;</p></li><li><p>AI in medical and healthcare education;</p></li><li><p>Methodological, philosophical, ethical, and social issues of AI in healthcare, medically-oriented human biology, and medicine.</p></li></ul><p>If you are considering submitting to <i>Artificial Intelligence in Medicine</i>, make sure that your paper meets the quality requirements mentioned above. English exposition must also be clear and revised with due care. Authors are kindly requested to revise their manuscripts with the help of co-authors that are fluent in English or language editing services before submitting their contribution. Papers written in poor English are likely to be rejected.</p><p>The mere application of well-known or already published algorithms and techniques to medical data is not regarded as original research work of interest for <i>Artificial Intelligence in Medicine</i>, but it may be suitable for other venues.</p><p><i>Artificial Intelligence in Medicine</i> features the following kinds of papers:</p><ul><li><p><b>Original research contributions:</b> Theoretical and/or methodological papers about novel approaches;</p></li><li><p><b>Methodological reviews/surveys:</b> Papers that collect, classify, describe, and critically analyze research designs, methods and procedures;</p></li><li><p><b>Position papers:</b> Papers that gather, describe, and analyze the scientific challenges of a specific field, founding them on the related literature;</p></li><li><p><b>Editorials:</b> Editors will occasionally publish editorials;</p></li><li><p><b>Guest editorials:</b> Editors can invite guest editors of special issues to publish editorials. Unsolicited editorials will not be considered;</p></li><li><p><b>Letters to the editor:</b> Letters from readers shortly discussing and commenting on a topic of interest, for example based on recently published articles in the journal <i>Artificial Intelligence in Medicine</i>;</p></li><li><p><b>Book reviews:</b> A critical review of recently published books;</p></li><li><p><b>Erratum:</b> Some specific corrections to results previously published in the journal <i>Artificial Intelligence in Medicine</i>;</p></li><li><p><b>Historical perspectives:</b> Papers that describe and critically review some specific aspects in the history of scientific contributions and applications;</p></li><li><p><b>In memoriam:</b> Papers describing the life and the main scientific contributions of scientists passed away, having had an important role in the area of artificial intelligence in medicine;</p></li><li><p><b>PhD projects:</b> Early publications about more recent research trends, having the goal of allowing PhD candidates to explain their PhD research project and to share it with other scientists interested in the topic. Such type of papers should focus on the overall goals and approaches of PhD research projects, without considering in detail the specific scientific results obtained, which would be the focus of other research articles.</p></li></ul><p><b>Special Issues</b> are regularly published and included among regular issues. <i>Artificial Intelligence in Medicine</i> special issues deal with current theoretical/methodological research or convincing applications related to AI in medicine. Special Issues are managed by one or more guest editors who are outstanding experts on the selected topic.Special Issues of <i>Artificial Intelligence in Medicine</i> are directly proposed to potential guest editors by the Editor in Chief, also according to suggestions from the editorial board members.&quot;External&quot; proposals of Special Issues will no longer be considered.</p><p><i>Artificial Intelligence in Medicine</i> does not publish conference volumes or conference papers. However, selected and high-quality research results presented earlier at conferences may be published in <i>Artificial Intelligence in Medicine</i>, in the form of a thoroughly revised (rephrased) and extended (including new research results) original research paper.</p><p>Information for authors and further details about the editorial process can be found in the <i>Guide for Authors</i> section of the <i>Artificial Intelligence in Medicine</i> web page.</p>",
+          "openAccessType": "HYBRID",
+          "editorInChief": "Carlo Combi",
+          "casInformation": {
+            "minorRanking": [
+              {
+                "name": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+                "tier": 2
+              },
+              {
+                "name": "ENGINEERING, BIOMEDICAL",
+                "tier": 2
+              },
+              {
+                "name": "MEDICAL INFORMATICS",
+                "tier": 2
+              }
+            ],
+            "majorRanking": {
+              "name": "Medicine",
+              "tier": 2,
+              "top": true
+            }
+          },
+          "goldOpenAccessFee": {
+            "value": 3310,
+            "currency": "USD",
+            "discountedValue": null,
+            "discountExpiryDate": null
+          },
+          "hasAgreements": false
+        }
+      ],
+      "filterHistograms": {
+        "impactFactor": [
+          0,
+          2,
+          1,
+          2,
+          5,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "citeScore": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          2,
+          1,
+          1,
+          6
+        ],
+        "publicationTime": [
+          0,
+          0,
+          3,
+          0,
+          1,
+          0,
+          3,
+          3,
+          0,
+          3,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "timeToFirstDecision": [
+          3,
+          2,
+          2,
+          1,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "totalResults": 16,
+      "institute": {
+        "name": null,
+        "hasAgreements": false
+      }
+    }
+  }
+]
