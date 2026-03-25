@@ -142,12 +142,12 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-2">
+          <div className="hidden lg:flex items-center gap-1 xl:gap-2">
             {mainNavItems.slice(0, 2).map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-5 py-2.5 rounded-md text-base font-medium transition-colors ${
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive(item.path)
                     ? "text-primary bg-primary/10"
                     : "text-foreground hover:text-primary hover:bg-muted"
@@ -162,11 +162,11 @@ const Navigation = () => {
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="ghost"
-                  className={`px-5 py-2.5 text-base font-medium hover:text-primary hover:bg-muted ${
+                  className={`px-3 py-2 h-auto text-sm font-medium hover:text-primary hover:bg-muted ${
                     isDiscoverActive ? "text-primary bg-primary/10" : ""
                   }`}
                 >
-                  Call for
+                  Discover
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </Button>
               </DropdownMenuTrigger>
@@ -191,13 +191,13 @@ const Navigation = () => {
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="ghost"
-                  className={`px-5 py-2.5 text-base font-medium hover:text-primary hover:bg-muted ${
+                  className={`px-3 py-2 h-auto text-sm font-medium hover:text-primary hover:bg-muted ${
                     isResearchOpportunitiesActive
                       ? "text-primary bg-primary/10"
                       : ""
                   }`}
                 >
-                  Research Opportunities
+                  Opportunities
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </Button>
               </DropdownMenuTrigger>
@@ -221,10 +221,10 @@ const Navigation = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-5 py-2.5 rounded-md text-base font-medium transition-colors ${
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive(item.path)
                     ? "text-primary bg-primary/10"
-                    : "text-foreground hover:text-primary hover:bg-muted"
+                    : "text-foreground hover:text-primary hover:bg-muted whitespace-nowrap"
                 }`}
               >
                 {item.name}
@@ -233,7 +233,7 @@ const Navigation = () => {
           </div>
 
           {/* Right side buttons */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3 lg:gap-4 ml-4">
             <Button
               variant="ghost"
               size="icon"
@@ -310,7 +310,7 @@ const Navigation = () => {
             ))}
 
             <div className="px-4 py-2 text-sm font-semibold text-muted-foreground">
-              Call for
+              Discover
             </div>
             {discoverItems.map((item) => (
               <Link
@@ -328,7 +328,7 @@ const Navigation = () => {
             ))}
 
             <div className="px-4 py-2 text-sm font-semibold text-muted-foreground">
-              Research Opportunities
+              Opportunities
             </div>
             {researchOpportunitiesItems.map((item) => (
               <Link
