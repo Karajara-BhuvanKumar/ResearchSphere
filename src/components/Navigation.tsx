@@ -32,8 +32,22 @@ import {
 } from "@/lib/personalization";
 import { useAuth } from "@/hooks/use-auth";
 import { useToast } from "@/hooks/use-toast";
+import { cn } from "@/lib/utils";
 
 import logo from "@/assets/logo.png";
+
+const RESEARCH_QUOTES = [
+  "Research is creating new knowledge.",
+  "Innovation distinguishes leaders from followers.",
+  "Science is the poetry of reality.",
+  "The art of discovery is the art of research.",
+  "Learning never exhausts the mind.",
+  "Everything is theoretically impossible until it is done.",
+  "Research is what I'm doing when I don't know what I'm doing.",
+  "The scientist is not a person who gives the right answers, it's the one who asks the right questions.",
+  "Discovery consists of seeing what everybody has seen and thinking what nobody has thought.",
+  "Imagination is more important than knowledge.",
+];
 
 const Navigation = () => {
   const location = useLocation();
@@ -45,6 +59,12 @@ const Navigation = () => {
   const [savedState, setSavedState] = useState<"idle" | "saved">("idle");
   const [profile, setProfile] = useState<UserPreferences>(getUserPreferences());
   const [interestsInput, setInterestsInput] = useState("");
+  const [currentQuote, setCurrentQuote] = useState("");
+
+  useEffect(() => {
+    const randomIndex = Math.floor(Math.random() * RESEARCH_QUOTES.length);
+    setCurrentQuote(RESEARCH_QUOTES[randomIndex]);
+  }, []);
 
   const handleLogout = async () => {
     const { error } = await signOut();
@@ -62,36 +82,26 @@ const Navigation = () => {
     }
   };
 
-  const mainNavItems = [
-    { name: "Home", path: "/" },
-    { name: "Finder", path: "/general-finder" },
-    { name: "Research feed", path: "/research-feed" },
-    { name: "Add paper", path: "/add-paper" },
-    // { name: "Assistant", path: "/assistant" },
-    { name: "About", path: "/about" },
-    { name: "Collaboration", path: "/research-collaboration" },
-  ];
-
-  const discoverItems = [
-    { name: "Conferences", path: "/conferences" },
-    { name: "Journals", path: "/journals" },
-    { name: "Book Chapters", path: "/book-chapters" },
-    { name: "Project Calls", path: "/project-calls" },
-  ];
-
   const researchOpportunitiesItems = [
-    { name: "PhD Programs", path: "/phd-programs" },
+    { name: "Project Call", path: "/project-calls" },
     { name: "Postdoc Positions", path: "/postdoc-positions" },
-    { name: "Internships", path: "/internships" },
+    { name: "PhD Programs", path: "/phd-programs" },
+    { name: "Research Associates", path: "/" }, // Placeholder
+  ];
+
+  const researchCollaborationsItems = [
+    { name: "Intern", path: "/internships" },
+    { name: "Projects", path: "/research-collaboration" },
+    { name: "Papers", path: "/add-paper" },
+  ];
+
+  const callForPaperItems = [
+    { name: "Journal", path: "/journals" },
+    { name: "Conferences", path: "/conferences" },
+    { name: "Chapter", path: "/book-chapters" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
-  const isDiscoverActive = discoverItems.some(
-    (item) => location.pathname === item.path,
-  );
-  const isResearchOpportunitiesActive = researchOpportunitiesItems.some(
-    (item) => location.pathname === item.path,
-  );
 
   useEffect(() => {
     if (!profileOpen) return;
@@ -127,116 +137,127 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="bg-card border-b border-border sticky top-0 z-50">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-2">
-            <img
-              src={logo}
-              alt="ResearchSphere Logo"
-              className="w-12 h-12 object-contain rounded-full"
-            />
-            <span className="text-2xl font-bold text-foreground">
+    <nav className="bg-background/90 backdrop-blur-xl border-b border-border/50 sticky top-0 z-50 w-full transition-all duration-300 shadow-lg dark:shadow-primary/5">
+      <div className="container-fluid mx-auto px-8">
+        {/* Row 1: Top Bar (Logo + Quote) */}
+        <div className="flex items-center h-16 gap-0 border-b border-border/10 py-3">
+          {/* Left: Logo */}
+          <Link to="/" className="flex items-center gap-3 group flex-shrink-0 transition-transform hover:scale-[1.02] duration-200">
+            <div className="bg-primary/10 p-2 rounded-xl group-hover:bg-primary/20 transition-all shadow-sm group-hover:shadow-md">
+              <img
+                src={logo}
+                alt="ResearchSphere Logo"
+                className="w-10 h-10 object-contain"
+              />
+            </div>
+            <span className="text-2xl font-extrabold tracking-tight bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent">
               ResearchSphere
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-2 xl:gap-4">
-            {mainNavItems.slice(0, 2).map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap ${
-                  isActive(item.path)
-                    ? "text-primary bg-primary/10"
-                    : "text-foreground hover:text-primary hover:bg-muted"
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
+          {/* Right: Full-Length Dynamic Quote Banner */}
+          <div className="hidden md:flex flex-1 justify-end items-center overflow-hidden pl-12 min-w-0">
+            <p className="text-sm italic text-muted-foreground/50 animate-in fade-in slide-in-from-right-4 duration-1000 truncate font-light tracking-wide text-right w-full">
+              &ldquo;{currentQuote}&rdquo;
+            </p>
+          </div>
+        </div>
 
-            {/* Discover Dropdown */}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button
-                  variant="ghost"
-                  className={`px-3 py-2 h-auto text-sm font-medium hover:text-primary hover:bg-muted whitespace-nowrap ${
-                    isDiscoverActive ? "text-primary bg-primary/10" : ""
-                  }`}
-                >
-                  Discover
-                  <ChevronDown className="ml-1 h-4 w-4" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="start" className="w-56">
-                {discoverItems.map((item) => (
-                  <DropdownMenuItem key={item.path} asChild>
+        {/* Row 2: Navigation Bar */}
+        <div className="flex items-center h-14 justify-between py-2">
+          {/* Navigation Menu */}
+          <div className="hidden lg:flex items-center gap-8">
+            <Link
+              to="/"
+              className={cn(
+                "px-5 py-2 text-sm font-semibold rounded-full transition-all duration-200 shadow-sm hover:shadow-md hover:scale-105 active:scale-95",
+                isActive("/") 
+                  ? "bg-gradient-to-r from-primary to-primary/80 text-primary-foreground shadow-primary/20" 
+                  : "text-foreground/70 hover:text-primary hover:bg-primary/5"
+              )}
+            >
+              Home
+            </Link>
+            <Link
+              to="/general-finder"
+              className={cn(
+                "px-2 py-1.5 text-sm font-medium transition-all duration-200 hover:text-primary hover:scale-105 whitespace-nowrap",
+                isActive("/general-finder") ? "text-primary" : "text-foreground/70"
+              )}
+            >
+              Journal Finder
+            </Link>
+
+            {/* Call for Paper Dropdown */}
+            <div className="relative group">
+              <button className="flex items-center gap-1.5 px-2 py-1.5 text-sm font-medium text-foreground/70 transition-all duration-200 group-hover:text-primary group-hover:scale-105 whitespace-nowrap">
+                Call for Paper
+                <ChevronDown className="h-4 w-4 transition-transform duration-300 group-hover:rotate-180" />
+              </button>
+              <div className="absolute left-0 top-full pt-2 w-56 opacity-0 translate-y-4 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 z-[100]">
+                <div className="bg-card/95 backdrop-blur-xl border border-border/50 shadow-2xl rounded-2xl p-2 space-y-1">
+                  {callForPaperItems.map((item) => (
                     <Link
+                      key={item.path}
                       to={item.path}
-                      className={`w-full cursor-pointer ${
-                        isActive(item.path) ? "bg-primary/10 text-primary" : ""
-                      }`}
+                      className="block px-4 py-2.5 text-sm font-medium rounded-xl transition-all duration-200 hover:bg-primary/10 hover:text-primary text-left"
                     >
                       {item.name}
                     </Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
+                  ))}
+                </div>
+              </div>
+            </div>
 
             {/* Research Opportunities Dropdown */}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button
-                  variant="ghost"
-                  className={`px-3 py-2 h-auto text-sm font-medium hover:text-primary hover:bg-muted whitespace-nowrap ${
-                    isResearchOpportunitiesActive
-                      ? "text-primary bg-primary/10"
-                      : ""
-                  }`}
-                >
-                  Opportunities
-                  <ChevronDown className="ml-1 h-4 w-4" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="start" className="w-56">
-                {researchOpportunitiesItems.map((item) => (
-                  <DropdownMenuItem key={item.path} asChild>
+            <div className="relative group">
+              <button className="flex items-center gap-1.5 px-2 py-1.5 text-sm font-medium text-foreground/70 transition-all duration-200 group-hover:text-primary group-hover:scale-105 whitespace-nowrap">
+                Research Opportunities
+                <ChevronDown className="h-4 w-4 transition-transform duration-300 group-hover:rotate-180" />
+              </button>
+              <div className="absolute left-0 top-full pt-2 w-56 opacity-0 translate-y-4 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 z-[100]">
+                <div className="bg-card/95 backdrop-blur-xl border border-border/50 shadow-2xl rounded-2xl p-2 space-y-1">
+                  {researchOpportunitiesItems.map((item) => (
                     <Link
+                      key={item.path}
                       to={item.path}
-                      className={`w-full cursor-pointer ${
-                        isActive(item.path) ? "bg-primary/10 text-primary" : ""
-                      }`}
+                      className="block px-4 py-2.5 text-sm font-medium rounded-xl transition-all duration-200 hover:bg-primary/10 hover:text-primary text-left"
                     >
                       {item.name}
                     </Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
+                  ))}
+                </div>
+              </div>
+            </div>
 
-            {mainNavItems.slice(2).map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap ${
-                  isActive(item.path)
-                    ? "text-primary bg-primary/10"
-                    : "text-foreground hover:text-primary hover:bg-muted"
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
+            {/* Research Collaborations Dropdown */}
+            <div className="relative group">
+              <button className="flex items-center gap-1.5 px-2 py-1.5 text-sm font-medium text-foreground/70 transition-all duration-200 group-hover:text-primary group-hover:scale-105 whitespace-nowrap">
+                Research Collaborations
+                <ChevronDown className="h-4 w-4 transition-transform duration-300 group-hover:rotate-180" />
+              </button>
+              <div className="absolute left-0 top-full pt-2 w-56 opacity-0 translate-y-4 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 z-[100]">
+                <div className="bg-card/95 backdrop-blur-xl border border-border/50 shadow-2xl rounded-2xl p-2 space-y-1">
+                  {researchCollaborationsItems.map((item) => (
+                    <Link
+                      key={item.path}
+                      to={item.path}
+                      className="block px-4 py-2.5 text-sm font-medium rounded-xl transition-all duration-200 hover:bg-primary/10 hover:text-primary text-left"
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
 
-          {/* Right side buttons */}
-          <div className="flex items-center gap-3 lg:gap-4 ml-4">
+          {/* Actions (Theme toggle, User, Mobile menu) */}
+          <div className="flex items-center gap-4 flex-shrink-0">
             <Button
               variant="ghost"
               size="icon"
+              className="rounded-full hover:bg-primary/10 transition-all duration-200 h-9 w-9 hover:scale-110 active:scale-90"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
               <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
@@ -247,30 +268,31 @@ const Navigation = () => {
             {user ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="icon">
+                  <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 transition-all duration-200 h-9 w-9 hover:scale-110 active:scale-90">
                     <User className="h-5 w-5" />
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end">
-                  <DropdownMenuItem onClick={() => setProfileOpen(true)}>
+                <DropdownMenuContent align="end" className="w-56 mt-2 rounded-2xl border-border/50 shadow-2xl backdrop-blur-xl">
+                  <DropdownMenuItem onClick={() => setProfileOpen(true)} className="cursor-pointer rounded-xl m-1 px-3 py-2">
                     Profile Settings
                   </DropdownMenuItem>
-                  <DropdownMenuItem onClick={handleLogout}>
+                  <DropdownMenuItem onClick={handleLogout} className="cursor-pointer text-destructive focus:text-destructive rounded-xl m-1 px-3 py-2">
                     <LogOut className="mr-2 h-4 w-4" />
                     Sign Out
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
             ) : (
-              <div className="flex items-center gap-2">
+              <div className="hidden sm:flex items-center gap-3">
                 <Link to="/login">
-                  <Button variant="ghost" size="sm">
-                    <LogIn className="mr-2 h-4 w-4" />
+                  <Button variant="ghost" size="sm" className="rounded-full hover:bg-primary/5 h-9 px-5 text-sm font-medium transition-all hover:scale-105 active:scale-95">
                     Sign In
                   </Button>
                 </Link>
                 <Link to="/signup">
-                  <Button size="sm">Sign Up</Button>
+                  <Button size="sm" className="rounded-full bg-gradient-to-r from-primary to-primary/80 shadow-lg shadow-primary/20 hover:shadow-primary/30 h-9 px-6 text-sm font-bold transition-all hover:scale-105 active:scale-95 border-none">
+                    Sign Up
+                  </Button>
                 </Link>
               </div>
             )}
@@ -279,73 +301,116 @@ const Navigation = () => {
             <Button
               variant="ghost"
               size="icon"
-              className="lg:hidden"
+              className="lg:hidden rounded-full hover:bg-primary/10 transition-all duration-200 h-9 w-9"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? (
-                <X className="h-5 w-5" />
+                <X className="h-6 w-6" />
               ) : (
-                <Menu className="h-5 w-5" />
+                <Menu className="h-6 w-6" />
               )}
             </Button>
           </div>
         </div>
 
         {/* Mobile Navigation */}
-        {mobileMenuOpen && (
-          <div className="lg:hidden py-4 space-y-2">
-            {mainNavItems.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                onClick={() => setMobileMenuOpen(false)}
-                className={`block px-4 py-2 rounded-md text-sm font-medium transition-colors ${
-                  isActive(item.path)
-                    ? "text-primary bg-primary/10"
-                    : "text-foreground hover:text-primary hover:bg-muted"
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
-
-            <div className="px-4 py-2 text-sm font-semibold text-muted-foreground">
-              Discover
+        <div className={cn(
+          "lg:hidden overflow-hidden transition-all duration-300 ease-in-out",
+          mobileMenuOpen ? "max-h-[80vh] py-6 border-t border-border" : "max-h-0"
+        )}>
+          <div className="space-y-4">
+            <Link
+              to="/"
+              onClick={() => setMobileMenuOpen(false)}
+              className={cn(
+                "block px-4 py-2 rounded-xl text-base font-medium transition-all",
+                isActive("/") ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+              )}
+            >
+              Home
+            </Link>
+            <Link
+              to="/general-finder"
+              onClick={() => setMobileMenuOpen(false)}
+              className={cn(
+                "block px-4 py-2 rounded-xl text-base font-medium transition-all",
+                isActive("/general-finder") ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+              )}
+            >
+              Journal Finder
+            </Link>
+            {/* Mobile Call for Paper Dropdown */}
+            <div className="space-y-1">
+              <div className="px-4 py-2 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                Call for Papers
+              </div>
+              {callForPaperItems.map((item) => (
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={cn(
+                    "block px-6 py-2 rounded-xl text-base font-medium transition-all",
+                    isActive(item.path) ? "bg-primary/10 text-primary" : "hover:bg-muted"
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ))}
             </div>
-            {discoverItems.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                onClick={() => setMobileMenuOpen(false)}
-                className={`block px-6 py-2 rounded-md text-sm font-medium transition-colors ${
-                  isActive(item.path)
-                    ? "text-primary bg-primary/10"
-                    : "text-foreground hover:text-primary hover:bg-muted"
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
 
-            <div className="px-4 py-2 text-sm font-semibold text-muted-foreground">
-              Opportunities
+            {/* Mobile Opportunities */}
+            <div className="space-y-1">
+              <div className="px-4 py-2 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                Research Opportunities
+              </div>
+              {researchOpportunitiesItems.map((item) => (
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={cn(
+                    "block px-6 py-2 rounded-xl text-base font-medium transition-all",
+                    isActive(item.path) ? "bg-primary/10 text-primary" : "hover:bg-muted"
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ))}
             </div>
-            {researchOpportunitiesItems.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                onClick={() => setMobileMenuOpen(false)}
-                className={`block px-6 py-2 rounded-md text-sm font-medium transition-colors ${
-                  isActive(item.path)
-                    ? "text-primary bg-primary/10"
-                    : "text-foreground hover:text-primary hover:bg-muted"
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
+
+            {/* Mobile Collaborations */}
+            <div className="space-y-1">
+              <div className="px-4 py-2 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                Research Collaborations
+              </div>
+              {researchCollaborationsItems.map((item) => (
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={cn(
+                    "block px-6 py-2 rounded-xl text-base font-medium transition-all",
+                    isActive(item.path) ? "bg-primary/10 text-primary" : "hover:bg-muted"
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </div>
+
+            {!user && (
+              <div className="grid grid-cols-2 gap-4 px-4 pt-4 border-t border-border">
+                <Link to="/login" onClick={() => setMobileMenuOpen(false)}>
+                  <Button variant="outline" className="w-full rounded-xl">Sign In</Button>
+                </Link>
+                <Link to="/signup" onClick={() => setMobileMenuOpen(false)}>
+                  <Button className="w-full rounded-xl">Sign Up</Button>
+                </Link>
+              </div>
+            )}
           </div>
-        )}
+        </div>
       </div>
 
       <Dialog open={profileOpen} onOpenChange={setProfileOpen}>

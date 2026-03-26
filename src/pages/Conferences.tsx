@@ -426,7 +426,7 @@ const Conferences = () => {
             </>
           )}
         </div>
-      </div>
+      </main>
 
       <Footer />
     </div>

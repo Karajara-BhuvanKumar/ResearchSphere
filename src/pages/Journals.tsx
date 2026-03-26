@@ -580,7 +580,7 @@ const Journals = () => {
             </>
           )}
         </div>
-      </div>
+      </main>
 
       <Footer />
     </div>

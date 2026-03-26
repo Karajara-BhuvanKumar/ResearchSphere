@@ -15,9 +15,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { submitCollaborationRequest } from "@/services/apiClient";
+import emailjs from "@emailjs/browser";
+import { cn } from "@/lib/utils";
 
 const RESEARCH_AREAS = [
   "Machine Learning",
@@ -62,7 +64,9 @@ const PROCESS_STEPS = [
 
 const Contact = () => {
   const { toast } = useToast();
+  const form = useRef<HTMLFormElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errors, setErrors] = useState<Record<string, string>>({});
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -71,44 +75,119 @@ const Contact = () => {
     projectDetails: "",
   });
 
+  const validateForm = () => {
+    const newErrors: Record<string, string> = {};
+    if (!formData.name.trim()) newErrors.name = "Full name is required";
+    if (!formData.email.trim()) {
+      newErrors.email = "Email address is required";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      newErrors.email = "Invalid email format";
+    }
+    if (!formData.institution.trim())
+      newErrors.institution = "Institution is required";
+    if (!formData.researchAreas.trim())
+      newErrors.researchAreas = "Research area is required";
+    if (!formData.projectDetails.trim())
+      newErrors.projectDetails = "Project details are required";
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    // Special handling for the 'area' and 'message' names used for EmailJS template
+    const fieldName = name === "area" ? "researchAreas" : name === "message" ? "projectDetails" : name;
+    
+    setFormData((prev) => ({ ...prev, [fieldName]: value }));
+    // Clear error when user starts typing
+    if (errors[fieldName]) {
+      setErrors((prev) => {
+        const next = { ...prev };
+        delete next[fieldName];
+        return next;
+      });
+    }
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
+    if (!form.current) return;
 
-    try {
-      await submitCollaborationRequest(formData);
+    if (!validateForm()) {
       toast({
-        title: "Request submitted",
-        description:
-          "Your collaboration request has been received. We will be in touch within 3-5 business days.",
-      });
-      setFormData({
-        name: "",
-        email: "",
-        institution: "",
-        researchAreas: "",
-        projectDetails: "",
-      });
-    } catch (error) {
-      const message =
-        error instanceof Error
-          ? error.message
-          : "Something went wrong. Please try again later.";
-      toast({
-        title: "Submission failed",
-        description: message,
+        title: "Validation error",
+        description: "Please fill in all required fields correctly.",
         variant: "destructive",
       });
-    } finally {
-      setIsSubmitting(false);
+      return;
     }
+
+    setIsSubmitting(true);
+
+    // Send admin notification
+    emailjs
+      .sendForm(
+        "service_lox8tpa",
+        "template_xgq7kzt",
+        form.current,
+        "tUm95yDD5O-q26E5Z",
+      )
+      .then(
+        async (result) => {
+          console.log("Admin email sent:", result.text);
+
+          // Send confirmation email to user
+          try {
+            await emailjs.send(
+              "service_lox8tpa",
+              "template_xgq7kzt",
+              {
+                to_email: formData.email,
+                to_name: formData.name,
+                message: `Thank you for your collaboration request, ${formData.name}! We have received your proposal and our research team will review it within 3-5 business days. We will get back to you soon.`,
+              },
+              "tUm95yDD5O-q26E5Z",
+            );
+            console.log("User confirmation email sent");
+          } catch (confirmErr) {
+            console.error("User confirmation email failed:", confirmErr);
+          }
+
+          // Also submit to our local API if needed
+          try {
+            await submitCollaborationRequest(formData);
+          } catch (apiErr) {
+            console.error("Local API submission failed:", apiErr);
+          }
+
+          toast({
+            title: "Request submitted successfully",
+            description:
+              "Your collaboration request has been sent. We will be in touch within 3-5 business days.",
+          });
+
+          setFormData({
+            name: "",
+            email: "",
+            institution: "",
+            researchAreas: "",
+            projectDetails: "",
+          });
+          setIsSubmitting(false);
+        },
+        (error) => {
+          console.log(error.text);
+          toast({
+            title: "Submission failed",
+            description: "Failed to send request. Try again.",
+            variant: "destructive",
+          });
+          setIsSubmitting(false);
+        },
+      );
   };
 
   return (
@@ -241,7 +320,11 @@ const Contact = () => {
                         required.
                       </p>
                     </div>
-                    <form onSubmit={handleSubmit} className="space-y-5">
+                    <form
+                      ref={form}
+                      onSubmit={sendEmail}
+                      className="space-y-5"
+                    >
                       <div className="grid gap-4 sm:grid-cols-2">
                         <div className="space-y-1.5">
                           <label
@@ -256,9 +339,12 @@ const Contact = () => {
                             placeholder="Dr. Jane Smith"
                             value={formData.name}
                             onChange={handleChange}
-                            className="h-11"
+                            className={cn("h-11", errors.name && "border-destructive focus-visible:ring-destructive")}
                             required
                           />
+                          {errors.name && (
+                            <p className="text-xs font-medium text-destructive mt-1">{errors.name}</p>
+                          )}
                         </div>
                         <div className="space-y-1.5">
                           <label
@@ -274,9 +360,12 @@ const Contact = () => {
                             placeholder="you@university.edu"
                             value={formData.email}
                             onChange={handleChange}
-                            className="h-11"
+                            className={cn("h-11", errors.email && "border-destructive focus-visible:ring-destructive")}
                             required
                           />
+                          {errors.email && (
+                            <p className="text-xs font-medium text-destructive mt-1">{errors.email}</p>
+                          )}
                         </div>
                       </div>
 
@@ -293,9 +382,12 @@ const Contact = () => {
                           placeholder="Your University"
                           value={formData.institution}
                           onChange={handleChange}
-                          className="h-11"
+                          className={cn("h-11", errors.institution && "border-destructive focus-visible:ring-destructive")}
                           required
                         />
+                        {errors.institution && (
+                          <p className="text-xs font-medium text-destructive mt-1">{errors.institution}</p>
+                        )}
                       </div>
 
                       <div className="space-y-1.5">
@@ -307,13 +399,16 @@ const Contact = () => {
                         </label>
                         <Input
                           id="researchAreas"
-                          name="researchAreas"
+                          name="area"
                           placeholder="e.g. Machine Learning, Computer Vision, NLP"
                           value={formData.researchAreas}
                           onChange={handleChange}
-                          className="h-11"
+                          className={cn("h-11", errors.researchAreas && "border-destructive focus-visible:ring-destructive")}
                           required
                         />
+                        {errors.researchAreas && (
+                          <p className="text-xs font-medium text-destructive mt-1">{errors.researchAreas}</p>
+                        )}
                       </div>
 
                       <div className="space-y-1.5">
@@ -325,12 +420,16 @@ const Contact = () => {
                         </label>
                         <Textarea
                           id="projectDetails"
-                          name="projectDetails"
+                          name="message"
                           placeholder="Describe your research idea, objectives, and how a collaboration could be mutually beneficial..."
                           rows={6}
                           value={formData.projectDetails}
                           onChange={handleChange}
+                          className={cn(errors.projectDetails && "border-destructive focus-visible:ring-destructive")}
                         />
+                        {errors.projectDetails && (
+                          <p className="text-xs font-medium text-destructive mt-1">{errors.projectDetails}</p>
+                        )}
                       </div>
 
                       <div className="border-t border-border pt-4">
@@ -341,7 +440,7 @@ const Contact = () => {
                             className="h-11 w-full gap-2 font-semibold"
                           >
                             {isSubmitting ? (
-                              "Submitting..."
+                              "Sending..."
                             ) : (
                               <>
                                 <Send className="h-4 w-4" />

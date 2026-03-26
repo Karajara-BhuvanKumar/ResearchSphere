@@ -988,7 +988,7 @@ const Index = () => {
             </div>
           </div>
         </section>
-      </div>
+      </main>
 
       <Footer />
       {/* <AssistantWidget /> */}
